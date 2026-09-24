@@ -44,10 +44,13 @@ Fixed shop IDs for the Store Promotion project.
 | SHOP-027 | MiraKiuStudio | https://www.etsy.com/shop/MiraKiuStudio | 4 | registered |
 | SHOP-028 | StellaGoodsGifts | https://www.etsy.com/shop/StellaGoodsGifts | 4 | registered |
 | SHOP-029 | NinaJiaStudio | https://www.etsy.com/shop/NinaJiaStudio | 4 | registered |
+| SHOP-030 | Chtte | https://www.etsy.com/shop/Chtte | 5 | registered |
 
-## Next IDs
+## Registration Status
 
-The next shop added must use `SHOP-030`.
+Initial 30-shop registry complete. Existing Shop IDs are permanent and must not be renumbered.
+
+Any future shop added must start from `SHOP-031`.
 
 ## Pending Enrichment
 
