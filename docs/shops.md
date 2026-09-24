@@ -1,0 +1,49 @@
+# Etsy Shop Registry
+
+Fixed shop IDs for the Store Promotion project.
+
+## Isolation Rules
+
+- Shop IDs are permanent and must not be renumbered.
+- Every product, social account mapping, content variant, queue item, publication record and analytics record must reference a single `shop_id`.
+- If shop ownership or mapping is uncertain, do not publish.
+- A failure, pause, review state or credential issue for one shop must not automatically affect other shops.
+- Do not infer that two shops should share social accounts, credentials, schedules or promotion rules because their products or names are similar.
+- Etsy-facing automation should be minimized; the first-stage system should primarily consume public listing data and publish outward to social platforms.
+
+## Registered Shops
+
+| Shop ID | Etsy Shop | Shop URL | Batch | Status |
+|---|---|---|---|---|
+| SHOP-001 | Parkermo | https://www.etsy.com/shop/Parkermo | 1 | registered |
+| SHOP-002 | WOGOL | https://www.etsy.com/shop/WOGOL | 1 | registered |
+| SHOP-003 | DanyHomeDesign | https://www.etsy.com/shop/DanyHomeDesign | 1 | registered |
+| SHOP-004 | ShirieHomeShow | https://www.etsy.com/shop/ShirieHomeShow | 1 | registered |
+| SHOP-005 | SobiaStudio | https://www.etsy.com/shop/SobiaStudio | 1 | registered |
+| SHOP-006 | AmyHomeCrafts | https://www.etsy.com/shop/AmyHomeCrafts | 1 | registered |
+| SHOP-007 | CustomCurtainsStudio | https://www.etsy.com/shop/CustomCurtainsStudio | 2 | registered |
+| SHOP-008 | LambertHouse | https://www.etsy.com/shop/LambertHouse | 2 | registered |
+| SHOP-009 | KoltCraftStudio | https://www.etsy.com/shop/KoltCraftStudio | 2 | registered |
+| SHOP-010 | WoodHomeLiang | https://www.etsy.com/shop/WoodHomeLiang | 2 | registered |
+| SHOP-011 | NiceCraftStudioHK | https://www.etsy.com/shop/NiceCraftStudioHK | 2 | registered |
+| SHOP-012 | GavinHome | https://www.etsy.com/shop/GavinHome | 2 | registered |
+| SHOP-013 | ChicDecorHK | https://www.etsy.com/shop/ChicDecorHK | 2 | registered |
+| SHOP-014 | FrenchStyleDecor | https://www.etsy.com/shop/FrenchStyleDecor | 2 | registered |
+
+## Next IDs
+
+The next shop added must use `SHOP-015`.
+
+## Pending Enrichment
+
+After all shops are registered, enrich each row with:
+
+- primary product category
+- secondary categories
+- estimated active listing count
+- preferred Pinterest board groups
+- Facebook Page mapping
+- Pinterest account mapping
+- publishing frequency profile
+- shop status: active / paused / review / blocked
+- notes on product overlap and brand-specific content rules
