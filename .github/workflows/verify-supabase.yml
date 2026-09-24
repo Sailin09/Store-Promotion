@@ -26,4 +26,8 @@ jobs:
             select 'shops=' || count(*) from shops;
             select 'classified=' || count(*) from shops where primary_group is not null;
             select 'products=' || count(*) from products;
+            select 'pinterest_variants=' || count(*) from content_variants where platform='pinterest';
+            select 'facebook_variants=' || count(*) from content_variants where platform='facebook';
+            select 'draft_queue=' || count(*) from publish_queue where status='draft';
+            select 'mapped_social_accounts=' || count(*) from shop_social_accounts where active=true;
           "
