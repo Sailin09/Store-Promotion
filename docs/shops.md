@@ -35,10 +35,19 @@ Fixed shop IDs for the Store Promotion project.
 | SHOP-018 | HeyDream | https://www.etsy.com/shop/HeyDream | 3 | registered |
 | SHOP-019 | KorusStore | https://www.etsy.com/shop/KorusStore | 3 | registered |
 | SHOP-020 | CellaHo | https://www.etsy.com/shop/CellaHo | 3 | registered |
+| SHOP-021 | TunaMunStudio | https://www.etsy.com/shop/TunaMunStudio | 4 | registered |
+| SHOP-022 | LoomGoStudio | https://www.etsy.com/shop/LoomGoStudio | 4 | registered |
+| SHOP-023 | HibiChStudio | https://www.etsy.com/shop/HibiChStudio | 4 | registered |
+| SHOP-024 | PearlsTreasuresArt | https://www.etsy.com/shop/PearlsTreasuresArt | 4 | registered |
+| SHOP-025 | QuGifts | https://www.etsy.com/shop/QuGifts | 4 | registered |
+| SHOP-026 | NngGoods | https://www.etsy.com/shop/NngGoods | 4 | registered |
+| SHOP-027 | MiraKiuStudio | https://www.etsy.com/shop/MiraKiuStudio | 4 | registered |
+| SHOP-028 | StellaGoodsGifts | https://www.etsy.com/shop/StellaGoodsGifts | 4 | registered |
+| SHOP-029 | NinaJiaStudio | https://www.etsy.com/shop/NinaJiaStudio | 4 | registered |
 
 ## Next IDs
 
-The next shop added must use `SHOP-021`.
+The next shop added must use `SHOP-030`.
 
 ## Pending Enrichment
 
