@@ -30,4 +30,6 @@ jobs:
             select 'facebook_variants=' || count(*) from content_variants where platform='facebook';
             select 'draft_queue=' || count(*) from publish_queue where status='draft';
             select 'mapped_social_accounts=' || count(*) from shop_social_accounts where active=true;
+            select 'pinterest_accounts=' || count(*) from social_accounts where platform='pinterest';
+            select 'pinterest_routed_queue=' || count(*) from publish_queue where platform='pinterest' and social_account_id is not null;
           "
