@@ -29,10 +29,16 @@ Fixed shop IDs for the Store Promotion project.
 | SHOP-012 | GavinHome | https://www.etsy.com/shop/GavinHome | 2 | registered |
 | SHOP-013 | ChicDecorHK | https://www.etsy.com/shop/ChicDecorHK | 2 | registered |
 | SHOP-014 | FrenchStyleDecor | https://www.etsy.com/shop/FrenchStyleDecor | 2 | registered |
+| SHOP-015 | Adamideal | https://www.etsy.com/shop/Adamideal | 3 | registered |
+| SHOP-016 | beou | https://www.etsy.com/shop/beou | 3 | registered |
+| SHOP-017 | MiawoodStudio | https://www.etsy.com/shop/MiawoodStudio | 3 | registered |
+| SHOP-018 | HeyDream | https://www.etsy.com/shop/HeyDream | 3 | registered |
+| SHOP-019 | KorusStore | https://www.etsy.com/shop/KorusStore | 3 | registered |
+| SHOP-020 | CellaHo | https://www.etsy.com/shop/CellaHo | 3 | registered |
 
 ## Next IDs
 
-The next shop added must use `SHOP-015`.
+The next shop added must use `SHOP-021`.
 
 ## Pending Enrichment
 
