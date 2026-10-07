@@ -26,7 +26,12 @@ export function makeHandler(env, fetcher=fetch) {
   const reply=(data,status=200)=>new Response(JSON.stringify(data),{status,headers:{'Content-Type':'application/json','Cache-Control':'no-store','Access-Control-Allow-Origin':ORIGIN,'Vary':'Origin','Access-Control-Allow-Headers':'content-type','Access-Control-Allow-Methods':'POST, OPTIONS'}});
   async function db(path,method='GET',data) {
     const r=await fetcher(env('SUPABASE_URL')+'/rest/v1/'+path,{method,headers:{apikey:env('SUPABASE_SERVICE_ROLE_KEY'),Authorization:'Bearer '+env('SUPABASE_SERVICE_ROLE_KEY'),'Content-Type':'application/json'},body:data===undefined?undefined:JSON.stringify(data),signal:AbortSignal.timeout(15000)});
-    if(!r.ok)throw new Error('database');
+    if(!r.ok) {
+      const detail=await r.json().catch(()=>({}));
+      const code=typeof detail.code==='string' && /^[A-Z0-9]{3,12}$/.test(detail.code) ? detail.code : 'unknown';
+      console.error('pinterest_oauth_database',r.status,code);
+      throw new Error('database');
+    }
     const text=await r.text();return text?JSON.parse(text):null;
   }
   return async req=>{
@@ -65,6 +70,6 @@ export function makeHandler(env, fetcher=fetch) {
       const ciphertext=await encrypt({...tokens,issued_at:new Date().toISOString()},env('PINTEREST_TOKEN_KEY'),pending.social_account_id);
       await db('rpc/save_pinterest_oauth_connection','POST',{p_account_id:pending.social_account_id,p_username:profile.username,p_ciphertext:ciphertext,p_scopes:tokens.scope,p_expires_at:new Date(Date.now()+tokens.expires_in*1000).toISOString()});
       return reply({username:profile.username,message:'授权连接已保存。Trial 测试权限有效；推广队列仍为草稿，尚未启用自动发布。'});
-    }catch {return reply({error:'连接未完成。请检查后台配置，重新发起授权；不要重复使用原回调链接。'},500);}
+    }catch (error) { console.error('pinterest_oauth_failure', ['InvalidCharacterError','TypeError','SyntaxError','TimeoutError','Error'].includes(error?.name) ? error.name : 'unknown'); return reply({error:'连接未完成。请检查后台配置，重新发起授权；不要重复使用原回调链接。'},500);}
   };
 }
