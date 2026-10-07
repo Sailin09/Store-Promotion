@@ -12,3 +12,7 @@ enabled = true
 # OAuth requests use a separate administrator key and single-use browser-bound state.
 [functions.pinterest-oauth]
 verify_jwt = false
+
+# The handler requires an exact service-role bearer token; no browser caller is accepted.
+[functions.pinterest-publisher]
+verify_jwt = false
