@@ -2,7 +2,7 @@
 const ref='czexstqnkogfvqyjvatr';
 try {
  const token=process.env.SUPABASE_ACCESS_TOKEN;
- if(!token)throw new Error('Missing deployment credential');
+ if(!token){console.log(JSON.stringify({status:'blocked',reason:'supabase_automation_credential_required'}));process.exit(0);}
  const res=await fetch(`https://api.supabase.com/v1/projects/${ref}/api-keys?reveal=true`,{headers:{Authorization:`Bearer ${token}`},signal:AbortSignal.timeout(15000)});
  if(!res.ok)throw new Error('Cannot obtain worker invocation credential');
  const keys=await res.json();
