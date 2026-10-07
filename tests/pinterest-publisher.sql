@@ -47,3 +47,18 @@ begin
  if not has_function_privilege('service_role','public.claim_pinterest_publish()','execute') then raise exception 'Worker RPC missing grant'; end if;
 end $$;
 rollback;
+
+begin;
+set local role service_role;
+do $$ begin
+ if public.authenticate_pinterest_publisher() is distinct from true then raise exception 'service authentication failed'; end if;
+end $$;
+set local role anon;
+do $$ begin
+ begin
+  perform public.authenticate_pinterest_publisher();
+  raise exception 'anonymous authentication unexpectedly allowed';
+ exception when insufficient_privilege then null;
+ end;
+end $$;
+rollback;

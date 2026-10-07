@@ -11,6 +11,7 @@ async function fixture(options={}){
  const cipher=await encrypt({access_token:'access-secret',refresh_token:'refresh-secret',scope:scopes},secret,'a');
  const env=n=>({SUPABASE_SERVICE_ROLE_KEY:'service-secret',SUPABASE_URL:'https://db.example',PINTEREST_TOKEN_KEY:secret,PINTEREST_APP_SECRET:'app-secret'})[n];
  const handler=makePublisher(env,async(url,init={})=>{
+  if(url.endsWith('/rpc/authenticate_pinterest_publisher'))return options.alternateService ? ok(true) : new Response('denied',{status:403});
   calls.push({url,method:init.method,body:init.body});
   if(url.endsWith('/rpc/claim_pinterest_publish'))return ok(options.gate||{status:'claimed',attempt_id:'attempt',board_id:'1234',snapshot:{...snapshot,...options.snapshot}});
   if(url.includes('/pinterest_oauth_credentials?'))return ok([{encrypted_tokens:cipher,access_expires_at:new Date(Date.now()+(options.expired?-10000:3600000)).toISOString()}]);
@@ -40,3 +41,5 @@ test('rejects wrong listings, non-Etsy links and internal image hosts',()=>{for(
 
 test('dedicated credential survives proxy Authorization rewriting',async()=>{const f=await fixture({gate:{status:'blocked'}});const r=await f.handler(new Request('https://worker',{method:'POST',headers:{Authorization:'Bearer proxy-token','x-publisher-key':'service-secret'}}));assert.equal(r.status,200);assert.equal((await r.json()).status,'blocked');});
 test('wrong dedicated credential is rejected before accessing data',async()=>{const f=await fixture();const r=await f.handler(new Request('https://worker',{method:'POST',headers:{'x-publisher-key':'wrong'}}));assert.equal(r.status,401);assert.equal(f.calls.length,0);});
+
+test('alternative project service credential must be authenticated by Data API',async()=>{const f=await fixture({alternateService:true,gate:{status:'blocked'}});const r=await f.run('Bearer alternative-project-service');assert.equal(r.status,200);assert.equal((await r.json()).status,'blocked');assert.equal(f.calls.length,1);});

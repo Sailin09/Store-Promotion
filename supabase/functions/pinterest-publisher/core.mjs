@@ -38,7 +38,17 @@ export function makePublisher(env, fetcher=fetch) {
     if(req.method!=='POST')return reply({error:'Use POST'},405);
     const key=env('SUPABASE_SERVICE_ROLE_KEY');
     const supplied=req.headers.get('x-publisher-key') ?? (req.headers.get('Authorization')||'').replace(/^Bearer /,'');
-    if(!key || !(await equal(supplied,key)))return reply({error:'Unauthorized'},401);
+    if(!key || !supplied)return reply({error:'Unauthorized'},401);
+    if(!(await equal(supplied,key))){
+      // Management API and runtime credentials may differ. Ask this project's
+      // Data API to authenticate the caller; the RPC is service_role-only.
+      try {
+        const auth=await fetcher(env('SUPABASE_URL')+'/rest/v1/rpc/authenticate_pinterest_publisher',{
+          method:'POST',headers:{apikey:supplied,Authorization:'Bearer '+supplied,'Content-Type':'application/json'},
+          body:'{}',signal:AbortSignal.timeout(10000)});
+        if(!auth.ok || await auth.json()!==true)return reply({error:'Unauthorized'},401);
+      } catch {return reply({error:'Unauthorized'},401);}
+    }
     let job, dispatched=false, knownPin;
     try {
       // One item per invocation bounds runtime and gives every item its own durable attempt.
