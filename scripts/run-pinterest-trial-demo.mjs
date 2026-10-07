@@ -12,6 +12,6 @@ try {
  const result=await fetch(`https://${ref}.supabase.co/functions/v1/pinterest-trial-demo`,{method:'POST',headers:{Authorization:`Bearer ${key}`,'x-publisher-key':key,'Content-Type':'application/json'},body:'{}',signal:AbortSignal.timeout(100000)});
  const body=await result.json();
  // Whitelist only non-sensitive outcome fields.
- console.log(JSON.stringify({status:body.status,reason:body.reason,queue_id:body.queue_id,attempt_id:body.attempt_id,pin_id:body.pin_id,url:body.url,error:body.error}));
+ console.log(JSON.stringify({status:body.status,reason:body.reason,queue_id:body.queue_id,attempt_id:body.attempt_id,pin_id:body.pin_id,url:body.url,error:body.error,diagnostic:body.diagnostic}));
  if(!result.ok)process.exitCode=1;
 } catch {console.error('Publisher invocation failed; inspect durable attempts before retrying.');process.exitCode=1;}

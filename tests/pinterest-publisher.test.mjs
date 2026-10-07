@@ -15,6 +15,8 @@ async function fixture(options={}){
   calls.push({url,method:init.method,body:init.body});
   if(options.trial) url=url.replace(/_trial$/, '');
   if(url.endsWith('/rpc/claim_pinterest_publish'))return ok(options.gate||{status:'claimed',attempt_id:'attempt',board_id:'1234',snapshot:{...snapshot,...options.snapshot}});
+  if(url.includes('/pinterest_trial_demo?'))return ok(options.reconcile?[{snapshot,board_id:'1234'}]:[]);
+  if(url.includes('/boards/1234/pins?'))return ok({items:[{id:'555',link:snapshot.link}],bookmark:options.morePages?'next':null});
   if(url.includes('/social_accounts?'))return ok([{id:'a',handle:snapshot.handle}]);
   if(url.endsWith('/boards?page_size=100'))return ok({items:[{id:'1234',name:'storage',owner:{username:snapshot.handle},privacy:'PUBLIC'}]});
   if(url.includes('/pinterest_oauth_credentials?'))return ok([{encrypted_tokens:cipher,access_expires_at:new Date(Date.now()+(options.expired?-10000:3600000)).toISOString()}]);
@@ -24,7 +26,7 @@ async function fixture(options={}){
   if(url.endsWith('/boards/1234'))return ok({id:'1234',owner:{username:snapshot.handle},privacy:options.privateBoard?'SECRET':'PUBLIC'});
   if(url.startsWith('https://i.etsystatic.com'))return new Response(null,{status:200,headers:{'Content-Type':'image/jpeg'}});
   if(url.endsWith('/rpc/dispatch_pinterest_publish'))return ok(!options.dispatchFail);
-  if(url.endsWith('/pins')){if(options.timeout)throw new Error('Timeout includes secret'); if(options.reject)return new Response('token secret',{status:429});return ok(options.malformed?{}:{id:'9876'});}
+  if(url.endsWith('/pins')){if(options.timeout)throw new Error('Timeout includes secret'); if(options.reject)return new Response(JSON.stringify({code:29,message:'Trial access is restricted. token secret'}),{status:403});return ok(options.malformed?{}:{id:'9876'});}
   if(url.endsWith('/rpc/finish_pinterest_publish')){finishes++; if(options.finishFail&&finishes===1)throw new Error('database unavailable'); return ok(null);}
   throw new Error('Unexpected endpoint '+url);
  }, options.trial?'trial':'production');
@@ -71,4 +73,18 @@ test('Trial inspection retrieves owned boards without claiming or publishing',as
  const f=await fixture({trial:true});const r=await f.handler(new Request('https://worker',{method:'POST',headers:{Authorization:'Bearer service-secret'},body:'{"action":"inspect"}'}));
  const data=await r.json();assert.equal(data.status,'inspected');assert.equal(data.boards[0].id,'1234');
  assert.equal(posts(f.calls).length,0);assert.ok(!f.calls.some(c=>c.url.includes('/rpc/claim')));
+});
+
+test('uses standard image format explicitly',()=>assert.equal(payload(snapshot,'1234').media_source.is_standard,true));
+test('rejection diagnostics expose category and numeric code, not response text',async()=>{
+ const f=await fixture({reject:true});const response=await(await f.run()).text();
+ assert.equal(JSON.parse(response).diagnostic.category,'trial_access_restriction');
+ assert.equal(JSON.parse(response).diagnostic.code,29);assert.ok(!response.includes('token secret'));
+});
+
+for(const morePages of [false,true])test('reconciliation reports matches and pagination completeness '+morePages,async()=>{
+ const f=await fixture({trial:true,reconcile:true,morePages});
+ const r=await f.handler(new Request('https://worker',{method:'POST',headers:{Authorization:'Bearer service-secret'},body:'{"action":"inspect"}'}));
+ const data=await r.json();assert.equal(data.reconciliation.complete,!morePages);
+ assert.equal(data.reconciliation.matches[0].id,'555');assert.equal(posts(f.calls).length,0);
 });

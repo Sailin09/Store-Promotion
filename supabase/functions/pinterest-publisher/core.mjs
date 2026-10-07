@@ -19,7 +19,7 @@ export function payload(snapshot, board) {
   if (!/^\d+$/.test(board) || typeof snapshot.handle !== 'string' || !snapshot.handle ||
       typeof snapshot.title !== 'string' || !snapshot.title.trim() || snapshot.title.length>100 ||
       typeof snapshot.description !== 'string' || !snapshot.description.trim() || snapshot.description.length>800) throw new Error('creative_invalid');
-  return {board_id:board,title:snapshot.title,description:snapshot.description,link:link.href,media_source:{source_type:'image_url',url:image.href}};
+  return {board_id:board,title:snapshot.title,description:snapshot.description,link:link.href,media_source:{source_type:'image_url',url:image.href,is_standard:true}};
 }
 export function makePublisher(env, fetcher=fetch, mode='production') {
   if (!['production','trial'].includes(mode)) throw new Error('invalid_mode');
@@ -51,7 +51,7 @@ export function makePublisher(env, fetcher=fetch, mode='production') {
         if(!auth.ok || await auth.json()!==true)return reply({error:'Unauthorized'},401);
       } catch {return reply({error:'Unauthorized'},401);}
     }
-    let job, dispatched=false, knownPin;
+    let job, dispatched=false, knownPin, apiDiagnostic;
     try {
       // One item per invocation bounds runtime and gives every item its own durable attempt.
       let inspect=false;
@@ -91,7 +91,18 @@ export function makePublisher(env, fetcher=fetch, mode='production') {
       if(profile.username?.toLowerCase()!==s.handle.toLowerCase())throw new Error('account_mismatch');
       if(inspect) {
         const boards=await get('/boards?page_size=100',tokens.access_token);
-        return reply({status:'inspected',handle:profile.username,boards:(boards.items||[]).filter(b=>b.owner?.username?.toLowerCase()===s.handle.toLowerCase() && b.privacy==='PUBLIC' && b.is_ads_only!==true).map(b=>({id:b.id,name:b.name})),has_more:Boolean(boards.bookmark)});
+        const demos=await db('pinterest_trial_demo?select=snapshot,board_id,started_at');
+        let reconciliation=null;
+        if(demos.length===1){
+          const demo=demos[0], matches=[];let bookmark,complete=false;
+          for(let page=0;page<10;page++){
+            const pins=await get('/boards/'+demo.board_id+'/pins?page_size=100'+(bookmark?'&bookmark='+encodeURIComponent(bookmark):''),tokens.access_token);
+            for(const pin of pins.items||[])if(typeof pin.link==='string' && pin.link.includes('/listing/'+demo.snapshot.listing_id+'/'))matches.push({id:pin.id,created_at:pin.created_at});
+            bookmark=pins.bookmark;if(!bookmark){complete=true;break;}
+          }
+          reconciliation={complete,matches};
+        }
+        return reply({status:'inspected',account_type:profile.account_type,reconciliation,handle:profile.username,boards:(boards.items||[]).filter(b=>b.owner?.username?.toLowerCase()===s.handle.toLowerCase() && b.privacy==='PUBLIC' && b.is_ads_only!==true).map(b=>({id:b.id,name:b.name})),has_more:Boolean(boards.bookmark)});
       }
       const body=payload(s,job.board_id);
       const board=await get('/boards/'+job.board_id,tokens.access_token);
@@ -103,7 +114,16 @@ export function makePublisher(env, fetcher=fetch, mode='production') {
       dispatched=true;
       // Exactly one POST. Any timeout/HTTP error/invalid response stops for reconciliation.
       const result=await fetcher(API+'/pins',{method:'POST',headers:{Authorization:'Bearer '+tokens.access_token,'Content-Type':'application/json'},body:JSON.stringify(body),signal:AbortSignal.timeout(15000)});
-      if(!result.ok)throw new Error('pin_response_'+result.status);
+      if(!result.ok){
+        try {
+          const detail=await result.json();
+          // Only known categories and numeric API codes may leave the function.
+          const message=typeof detail.message==='string'?detail.message.toLowerCase():'';
+          apiDiagnostic={code:Number.isSafeInteger(detail.code)?detail.code:null,
+            category:message.includes('trial')?'trial_access_restriction':message.includes('sandbox')?'sandbox_required':message.includes('scope')?'scope_restriction':message.includes('standard')||message.includes('simplified')?'pin_format_or_access_restriction':message.includes('non-business')?'business_account_restriction':'unclassified'};
+        } catch {}
+        throw new Error('pin_response_'+result.status);
+      }
       const pin=await result.json();
       if(typeof pin.id!=='string'||!/^\d+$/.test(pin.id))throw new Error('pin_response_invalid');
       knownPin=pin.id;
@@ -119,7 +139,7 @@ export function makePublisher(env, fetcher=fetch, mode='production') {
           if(knownPin)return reply({status:mode==='trial'?'trial_created':'published',url:'https://www.pinterest.com/pin/'+knownPin+'/'});
         } catch { /* durable attempt remains reserved; never issue a second Pin POST */ }
       }
-      return reply({status:dispatched?'reconciliation_required':'paused',attempt_id:job?.attempt_id??null,pin_id:knownPin??null,error:code},503);
+      return reply({status:dispatched?'reconciliation_required':'paused',attempt_id:job?.attempt_id??null,pin_id:knownPin??null,error:code,diagnostic:apiDiagnostic},503);
     }
   };
 }
