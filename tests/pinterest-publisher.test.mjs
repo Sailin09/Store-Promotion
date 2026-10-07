@@ -13,6 +13,7 @@ async function fixture(options={}){
  const handler=makePublisher(env,async(url,init={})=>{
   if(url.endsWith('/rpc/authenticate_pinterest_publisher'))return options.alternateService ? ok(true) : new Response('denied',{status:403});
   calls.push({url,method:init.method,body:init.body});
+  if(options.trial) url=url.replace(/_trial$/, '');
   if(url.endsWith('/rpc/claim_pinterest_publish'))return ok(options.gate||{status:'claimed',attempt_id:'attempt',board_id:'1234',snapshot:{...snapshot,...options.snapshot}});
   if(url.includes('/pinterest_oauth_credentials?'))return ok([{encrypted_tokens:cipher,access_expires_at:new Date(Date.now()+(options.expired?-10000:3600000)).toISOString()}]);
   if(url.endsWith('/oauth/token'))return ok({access_token:'new-access',refresh_token:'new-refresh',scope:scopes,expires_in:3600});
@@ -24,7 +25,7 @@ async function fixture(options={}){
   if(url.endsWith('/pins')){if(options.timeout)throw new Error('Timeout includes secret'); if(options.reject)return new Response('token secret',{status:429});return ok(options.malformed?{}:{id:'9876'});}
   if(url.endsWith('/rpc/finish_pinterest_publish')){finishes++; if(options.finishFail&&finishes===1)throw new Error('database unavailable'); return ok(null);}
   throw new Error('Unexpected endpoint '+url);
- });
+ }, options.trial?'trial':'production');
  const run=async(auth='Bearer service-secret')=>handler(new Request('https://worker',{method:'POST',headers:{Authorization:auth}}));
  return {calls,run,handler};
 }
@@ -43,3 +44,23 @@ test('dedicated credential survives proxy Authorization rewriting',async()=>{con
 test('wrong dedicated credential is rejected before accessing data',async()=>{const f=await fixture();const r=await f.handler(new Request('https://worker',{method:'POST',headers:{'x-publisher-key':'wrong'}}));assert.equal(r.status,401);assert.equal(f.calls.length,0);});
 
 test('alternative project service credential must be authenticated by Data API',async()=>{const f=await fixture({alternateService:true,gate:{status:'blocked'}});const r=await f.run('Bearer alternative-project-service');assert.equal(r.status,200);assert.equal((await r.json()).status,'blocked');assert.equal(f.calls.length,1);});
+
+test('Trial uses isolated RPCs and reports test result, never production history',async()=>{
+ const f=await fixture({trial:true});const r=await(await f.run()).json();
+ assert.equal(r.status,'trial_created');assert.equal(posts(f.calls).length,1);
+ for(const operation of ['claim','dispatch','finish'])assert.ok(f.calls.some(c=>c.url.endsWith('/rpc/'+operation+'_pinterest_publish_trial')));
+ assert.ok(!f.calls.some(c=>/rpc\/(claim|dispatch|finish)_pinterest_publish$/.test(c.url)));
+});
+test('unapproved Trial demo makes no Pinterest requests',async()=>{
+ const f=await fixture({trial:true,gate:{status:'blocked',reason:'reviewed_trial_demo_required'}});
+ assert.equal((await(await f.run()).json()).status,'blocked');assert.equal(f.calls.length,1);
+});
+test('Trial ambiguous response does not retry creation',async()=>{
+ const f=await fixture({trial:true,timeout:true});assert.equal((await f.run()).status,503);
+ assert.equal(posts(f.calls).length,1);assert.equal(JSON.parse(f.calls.at(-1).body).p_outcome,'uncertain');
+});
+test('request body cannot switch production worker into Trial mode',async()=>{
+ const f=await fixture({gate:{status:'blocked'}});
+ await f.handler(new Request('https://worker',{method:'POST',headers:{Authorization:'Bearer service-secret'},body:JSON.stringify({mode:'trial'})}));
+ assert.ok(f.calls[0].url.endsWith('/rpc/claim_pinterest_publish'));
+});

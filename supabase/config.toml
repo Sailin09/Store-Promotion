@@ -16,3 +16,6 @@ verify_jwt = false
 # The handler requires an exact service-role bearer token; no browser caller is accepted.
 [functions.pinterest-publisher]
 verify_jwt = false
+
+[functions.pinterest-trial-demo]
+verify_jwt = false

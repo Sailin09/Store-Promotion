@@ -33,3 +33,4 @@ jobs:
           psql -v ON_ERROR_STOP=1 -c 'create role anon; create role authenticated; create role service_role bypassrls;'
           for migration in supabase/migrations/*.sql; do psql -v ON_ERROR_STOP=1 -f "$migration"; done
           psql -v ON_ERROR_STOP=1 -f tests/pinterest-publisher.sql
+          psql -v ON_ERROR_STOP=1 -f tests/pinterest-trial-demo.sql

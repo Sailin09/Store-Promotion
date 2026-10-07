@@ -21,7 +21,9 @@ export function payload(snapshot, board) {
       typeof snapshot.description !== 'string' || !snapshot.description.trim() || snapshot.description.length>800) throw new Error('creative_invalid');
   return {board_id:board,title:snapshot.title,description:snapshot.description,link:link.href,media_source:{source_type:'image_url',url:image.href}};
 }
-export function makePublisher(env, fetcher=fetch) {
+export function makePublisher(env, fetcher=fetch, mode='production') {
+  if (!['production','trial'].includes(mode)) throw new Error('invalid_mode');
+  const operation = name => name+ (mode==='trial' ? '_trial' : '');
   const reply=(data,status=200)=>new Response(JSON.stringify(data),{status,headers:{'Content-Type':'application/json','Cache-Control':'no-store'}});
   async function db(path, method='GET', data) {
     const r=await fetcher(env('SUPABASE_URL')+'/rest/v1/'+path,{method,headers:{apikey:env('SUPABASE_SERVICE_ROLE_KEY'),Authorization:'Bearer '+env('SUPABASE_SERVICE_ROLE_KEY'),'Content-Type':'application/json'},body:data===undefined?undefined:JSON.stringify(data),signal:AbortSignal.timeout(10000)});
@@ -52,7 +54,7 @@ export function makePublisher(env, fetcher=fetch) {
     let job, dispatched=false, knownPin;
     try {
       // One item per invocation bounds runtime and gives every item its own durable attempt.
-      job=await rpc('claim_pinterest_publish');
+      job=await rpc(operation('claim_pinterest_publish'));
       if(job.status!=='claimed')return reply(job);
       const s=job.snapshot, body=payload(s,job.board_id);
       const creds=await db('pinterest_oauth_credentials?social_account_id=eq.'+encodeURIComponent(s.account_id)+'&select=encrypted_tokens,access_expires_at');
@@ -80,7 +82,7 @@ export function makePublisher(env, fetcher=fetch) {
       // HEAD is unauthenticated, allowlisted and cannot redirect to an internal host.
       const image=await fetcher(body.media_source.url,{method:'HEAD',redirect:'error',signal:AbortSignal.timeout(10000)});
       if(!image.ok||!/^image\//i.test(image.headers.get('Content-Type')||''))throw new Error('image_unavailable');
-      if(await rpc('dispatch_pinterest_publish',{p_attempt:job.attempt_id})!==true)throw new Error('dispatch_gate');
+      if(await rpc(operation('dispatch_pinterest_publish'),{p_attempt:job.attempt_id})!==true)throw new Error('dispatch_gate');
       dispatched=true;
       // Exactly one POST. Any timeout/HTTP error/invalid response stops for reconciliation.
       const result=await fetcher(API+'/pins',{method:'POST',headers:{Authorization:'Bearer '+tokens.access_token,'Content-Type':'application/json'},body:JSON.stringify(body),signal:AbortSignal.timeout(15000)});
@@ -88,16 +90,16 @@ export function makePublisher(env, fetcher=fetch) {
       const pin=await result.json();
       if(typeof pin.id!=='string'||!/^\d+$/.test(pin.id))throw new Error('pin_response_invalid');
       knownPin=pin.id;
-      await rpc('finish_pinterest_publish',{p_attempt:job.attempt_id,p_outcome:'published',p_pin_id:knownPin});
-      return reply({status:'published',queue_id:s.queue_id,url:'https://www.pinterest.com/pin/'+knownPin+'/'});
+      await rpc(operation('finish_pinterest_publish'),{p_attempt:job.attempt_id,p_outcome:'published',p_pin_id:knownPin});
+      return reply({status:mode==='trial'?'trial_created':'published',queue_id:s.queue_id,url:'https://www.pinterest.com/pin/'+knownPin+'/'});
     } catch(error) {
       // Only our short categorical messages are stored. Never log token or upstream bodies.
       const code=/^(credential_[a-z]+|refresh_[a-z]+|scope_missing|account_mismatch|board_mismatch_or_private|image_unavailable|dispatch_gate|listing_link|image_source|creative_invalid|pin_response_\d+|pin_response_invalid|pinterest_read_\d+|database)$/.test(error?.message)?error.message:'request_failed';
       if(job?.attempt_id){
         try {
           // If Pin creation succeeded, retry only the idempotent database finalization.
-          await rpc('finish_pinterest_publish',{p_attempt:job.attempt_id,p_outcome:knownPin?'published':dispatched?'uncertain':'failed',p_pin_id:knownPin??null,p_error:knownPin?null:code});
-          if(knownPin)return reply({status:'published',url:'https://www.pinterest.com/pin/'+knownPin+'/'});
+          await rpc(operation('finish_pinterest_publish'),{p_attempt:job.attempt_id,p_outcome:knownPin?'published':dispatched?'uncertain':'failed',p_pin_id:knownPin??null,p_error:knownPin?null:code});
+          if(knownPin)return reply({status:mode==='trial'?'trial_created':'published',url:'https://www.pinterest.com/pin/'+knownPin+'/'});
         } catch { /* durable attempt remains reserved; never issue a second Pin POST */ }
       }
       return reply({status:dispatched?'reconciliation_required':'paused',attempt_id:job?.attempt_id??null,pin_id:knownPin??null,error:code},503);

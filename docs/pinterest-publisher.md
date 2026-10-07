@@ -23,7 +23,7 @@ Only then enable settings. Existing Trial-only accounts may remain `authorized_t
 
 `Deploy Supabase Migrations` now first runs Node tests and all migrations plus queue invariant checks on disposable PostgreSQL 17. Only a passing test job can apply the migration and deploy the Edge Function.
 
-Existing GitHub production secrets: `SUPABASE_DB_URL` and `SUPABASE_ACCESS_TOKEN`. Supabase retains `PINTEREST_APP_SECRET` and `PINTEREST_TOKEN_KEY`; they are never copied to GitHub. The scheduler uses the management token to retrieve the existing service-role invocation key transiently, masks it and only invokes the fixed project function. Its handler accepts only an exact service-role bearer token. No request can provide a custom endpoint, product or token. Restrict repository/workflow editing to trusted administrators because the existing deployment secrets are privileged.
+Existing GitHub production secrets: `SUPABASE_DB_URL` and `SUPABASE_ACCESS_TOKEN`. Supabase retains `PINTEREST_APP_SECRET` and `PINTEREST_TOKEN_KEY`; they are never copied to GitHub. The scheduler uses the management token to retrieve the existing service-role invocation key transiently, masks it and only invokes the fixed project function. Its handler accepts a project service-role credential via x-publisher-key or Bearer, validating alternate service credentials through the role-restricted Data API RPC. No request can provide a custom endpoint, product or token. Restrict repository/workflow editing to trusted administrators because the existing deployment secrets are privileged.
 
 `Run Pinterest publisher` is hourly, one item per run, and supports a manual run. GitHub scheduling can be delayed and is not an exact-time guarantee. Disabled/Trial runs return `blocked` without calling Pinterest. Failed runs are failures, not successful publications.
 
@@ -34,3 +34,11 @@ Inspect `pinterest_publish_attempts` and platform records before resetting anyth
 If no Pin ID is known, locate the actual result in Pinterest or leave the item paused; there is no automatic uncertain-job replay. The initial version deliberately requires administrator reconciliation and does not delete attempts to retry. To stop new dispatches set `enabled=false`; this cannot cancel an HTTP request already dispatched.
 
 Validation: `node --test tests/*.test.mjs`; SQL tests run in CI using `tests/pinterest-publisher.sql`. No test publishes live Pins. Standard-only live publishing remains untested until account/board/review prerequisites are complete.
+
+## Isolated Trial review demo
+
+`pinterest-trial-demo` is a separate manual-only endpoint. The production endpoint cannot select this mode from request data. Both endpoints retain service-role authentication and credential/account/board/image checks. The manual `Run one Pinterest Trial demo` workflow has no schedule.
+
+Migration 015 adds a private singleton `pinterest_trial_demo` record. An administrator must first review an exact current draft snapshot and public board for the app owner's `sailing_981` account, verify the listing and image, then insert that one record. No demo is seeded by deployment. Approval expires after 24 hours; claim and dispatch recheck the snapshot and account/shop mapping. The app must remain disabled/Trial. No production queue or history is changed.
+
+Each demo record is attempted only once, including failures. Never reset it after an uncertain result without reconciling Pinterest. A real success returns `trial_created` and stores its Pin ID separately; this does not count as public promotion. No live API creation has been verified merely by passing the tests.

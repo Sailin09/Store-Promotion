@@ -36,3 +36,4 @@ jobs:
         run: |
           test -n "$SUPABASE_ACCESS_TOKEN"
           supabase functions deploy pinterest-publisher --project-ref czexstqnkogfvqyjvatr
+          supabase functions deploy pinterest-trial-demo --project-ref czexstqnkogfvqyjvatr
