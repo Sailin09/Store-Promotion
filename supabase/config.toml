@@ -8,3 +8,7 @@ major_version = 17
 
 [studio]
 enabled = true
+
+# OAuth requests use a separate administrator key and single-use browser-bound state.
+[functions.pinterest-oauth]
+verify_jwt = false
