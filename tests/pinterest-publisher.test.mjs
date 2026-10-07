@@ -15,6 +15,8 @@ async function fixture(options={}){
   calls.push({url,method:init.method,body:init.body});
   if(options.trial) url=url.replace(/_trial$/, '');
   if(url.endsWith('/rpc/claim_pinterest_publish'))return ok(options.gate||{status:'claimed',attempt_id:'attempt',board_id:'1234',snapshot:{...snapshot,...options.snapshot}});
+  if(url.includes('/social_accounts?'))return ok([{id:'a',handle:snapshot.handle}]);
+  if(url.endsWith('/boards?page_size=100'))return ok({items:[{id:'1234',name:'storage',owner:{username:snapshot.handle},privacy:'PUBLIC'}]});
   if(url.includes('/pinterest_oauth_credentials?'))return ok([{encrypted_tokens:cipher,access_expires_at:new Date(Date.now()+(options.expired?-10000:3600000)).toISOString()}]);
   if(url.endsWith('/oauth/token'))return ok({access_token:'new-access',refresh_token:'new-refresh',scope:scopes,expires_in:3600});
   if(url.endsWith('/rpc/refresh_pinterest_credential'))return ok(!options.casFail);
@@ -26,7 +28,7 @@ async function fixture(options={}){
   if(url.endsWith('/rpc/finish_pinterest_publish')){finishes++; if(options.finishFail&&finishes===1)throw new Error('database unavailable'); return ok(null);}
   throw new Error('Unexpected endpoint '+url);
  }, options.trial?'trial':'production');
- const run=async(auth='Bearer service-secret')=>handler(new Request('https://worker',{method:'POST',headers:{Authorization:auth}}));
+ const run=async(auth='Bearer service-secret')=>handler(new Request('https://worker',{method:'POST',headers:{Authorization:auth},body:'{}'}));
  return {calls,run,handler};
 }
 const posts=c=>c.filter(x=>x.url.endsWith('/pins'));
@@ -63,4 +65,10 @@ test('request body cannot switch production worker into Trial mode',async()=>{
  const f=await fixture({gate:{status:'blocked'}});
  await f.handler(new Request('https://worker',{method:'POST',headers:{Authorization:'Bearer service-secret'},body:JSON.stringify({mode:'trial'})}));
  assert.ok(f.calls[0].url.endsWith('/rpc/claim_pinterest_publish'));
+});
+
+test('Trial inspection retrieves owned boards without claiming or publishing',async()=>{
+ const f=await fixture({trial:true});const r=await f.handler(new Request('https://worker',{method:'POST',headers:{Authorization:'Bearer service-secret'},body:'{"action":"inspect"}'}));
+ const data=await r.json();assert.equal(data.status,'inspected');assert.equal(data.boards[0].id,'1234');
+ assert.equal(posts(f.calls).length,0);assert.ok(!f.calls.some(c=>c.url.includes('/rpc/claim')));
 });

@@ -54,9 +54,21 @@ export function makePublisher(env, fetcher=fetch, mode='production') {
     let job, dispatched=false, knownPin;
     try {
       // One item per invocation bounds runtime and gives every item its own durable attempt.
-      job=await rpc(operation('claim_pinterest_publish'));
-      if(job.status!=='claimed')return reply(job);
-      const s=job.snapshot, body=payload(s,job.board_id);
+      let inspect=false;
+      if(mode==='trial') {
+        const input=await req.json();
+        if(input.action && input.action!=='inspect')return reply({error:'invalid_action'},400);
+        inspect=input.action==='inspect';
+      }
+      if(inspect) {
+        const accounts=await db('social_accounts?platform=eq.pinterest&handle=eq.sailing_981&active=eq.true&select=id,handle');
+        if(accounts.length!==1)throw new Error('credential_missing');
+        job={snapshot:{account_id:accounts[0].id,handle:accounts[0].handle}};
+      } else {
+        job=await rpc(operation('claim_pinterest_publish'));
+        if(job.status!=='claimed')return reply(job);
+      }
+      const s=job.snapshot;
       const creds=await db('pinterest_oauth_credentials?social_account_id=eq.'+encodeURIComponent(s.account_id)+'&select=encrypted_tokens,access_expires_at');
       if(creds.length!==1)throw new Error('credential_missing');
       const cred=creds[0];
@@ -77,6 +89,11 @@ export function makePublisher(env, fetcher=fetch, mode='production') {
       }
       const profile=await get('/user_account',tokens.access_token);
       if(profile.username?.toLowerCase()!==s.handle.toLowerCase())throw new Error('account_mismatch');
+      if(inspect) {
+        const boards=await get('/boards?page_size=100',tokens.access_token);
+        return reply({status:'inspected',handle:profile.username,boards:(boards.items||[]).filter(b=>b.owner?.username?.toLowerCase()===s.handle.toLowerCase() && b.privacy==='PUBLIC' && b.is_ads_only!==true).map(b=>({id:b.id,name:b.name})),has_more:Boolean(boards.bookmark)});
+      }
+      const body=payload(s,job.board_id);
       const board=await get('/boards/'+job.board_id,tokens.access_token);
       if(board.id!==job.board_id || board.owner?.username?.toLowerCase()!==s.handle.toLowerCase() || board.privacy!=='PUBLIC' || board.is_ads_only===true)throw new Error('board_mismatch_or_private');
       // HEAD is unauthenticated, allowlisted and cannot redirect to an internal host.
