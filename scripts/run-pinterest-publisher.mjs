@@ -9,7 +9,7 @@ try {
  const key=keys.find(k=>k.name==='service_role')?.api_key;
  if(!key)throw new Error('Legacy service-role invocation key unavailable');
  console.log('::add-mask::'+key);
- const result=await fetch(`https://${ref}.supabase.co/functions/v1/pinterest-publisher`,{method:'POST',headers:{Authorization:`Bearer ${key}`,'Content-Type':'application/json'},body:'{}',signal:AbortSignal.timeout(100000)});
+ const result=await fetch(`https://${ref}.supabase.co/functions/v1/pinterest-publisher`,{method:'POST',headers:{Authorization:`Bearer ${key}`,'x-publisher-key':key,'Content-Type':'application/json'},body:'{}',signal:AbortSignal.timeout(100000)});
  const body=await result.json();
  // Whitelist only non-sensitive outcome fields.
  console.log(JSON.stringify({status:body.status,reason:body.reason,queue_id:body.queue_id,attempt_id:body.attempt_id,pin_id:body.pin_id,url:body.url,error:body.error}));

@@ -25,7 +25,7 @@ async function fixture(options={}){
   throw new Error('Unexpected endpoint '+url);
  });
  const run=async(auth='Bearer service-secret')=>handler(new Request('https://worker',{method:'POST',headers:{Authorization:auth}}));
- return {calls,run};
+ return {calls,run,handler};
 }
 const posts=c=>c.filter(x=>x.url.endsWith('/pins'));
 test('unauthenticated request cannot touch DB or Pinterest',async()=>{const f=await fixture();assert.equal((await f.run('Bearer bad')).status,401);assert.equal(f.calls.length,0);});
@@ -37,3 +37,6 @@ test('database recording retry does not repeat Pin creation',async()=>{const f=a
 test('refresh rotates encrypted tokens using compare-and-swap before posting',async()=>{const f=await fixture({expired:true});await f.run();const update=f.calls.find(x=>x.url.endsWith('/rpc/refresh_pinterest_credential'));const b=JSON.parse(update.body);assert.equal((await decrypt(b.p_new,secret,'a')).refresh_token,'new-refresh');assert.ok(f.calls.indexOf(update)<f.calls.indexOf(posts(f.calls)[0]));});
 test('encrypted tokens are bound to account identity',async()=>{const c=await encrypt({access_token:'x'},secret,'a');await assert.rejects(decrypt(c,secret,'b'));});
 test('rejects wrong listings, non-Etsy links and internal image hosts',()=>{for(const patch of [{link:'https://evil.test/listing/123/item'},{link:'https://www.etsy.com/listing/1234/item'},{image_url:'https://127.0.0.1/test.jpg'},{image_url:'https://i.etsystatic.com@evil.test/test.jpg'},{title:'x'.repeat(101)}])assert.throws(()=>payload({...snapshot,...patch},'1234'));});
+
+test('dedicated credential survives proxy Authorization rewriting',async()=>{const f=await fixture({gate:{status:'blocked'}});const r=await f.handler(new Request('https://worker',{method:'POST',headers:{Authorization:'Bearer proxy-token','x-publisher-key':'service-secret'}}));assert.equal(r.status,200);assert.equal((await r.json()).status,'blocked');});
+test('wrong dedicated credential is rejected before accessing data',async()=>{const f=await fixture();const r=await f.handler(new Request('https://worker',{method:'POST',headers:{'x-publisher-key':'wrong'}}));assert.equal(r.status,401);assert.equal(f.calls.length,0);});

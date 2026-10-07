@@ -37,7 +37,8 @@ export function makePublisher(env, fetcher=fetch) {
   return async req=>{
     if(req.method!=='POST')return reply({error:'Use POST'},405);
     const key=env('SUPABASE_SERVICE_ROLE_KEY');
-    if(!key || !(await equal(req.headers.get('Authorization')||'','Bearer '+key)))return reply({error:'Unauthorized'},401);
+    const supplied=req.headers.get('x-publisher-key') ?? (req.headers.get('Authorization')||'').replace(/^Bearer /,'');
+    if(!key || !(await equal(supplied,key)))return reply({error:'Unauthorized'},401);
     let job, dispatched=false, knownPin;
     try {
       // One item per invocation bounds runtime and gives every item its own durable attempt.
