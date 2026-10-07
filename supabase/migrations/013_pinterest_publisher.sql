@@ -150,3 +150,77 @@ end; $$;
 
 revoke all on function public.pinterest_publish_snapshot(uuid),public.claim_pinterest_publish(),public.dispatch_pinterest_publish(uuid),public.finish_pinterest_publish(uuid,text,text,text),public.refresh_pinterest_credential(uuid,text,text,text,timestamptz) from public,anon,authenticated;
 grant execute on function public.pinterest_publish_snapshot(uuid),public.claim_pinterest_publish(),public.dispatch_pinterest_publish(uuid),public.finish_pinterest_publish(uuid,text,text,text),public.refresh_pinterest_credential(uuid,text,text,text,timestamptz) to service_role;
+-- Queue triggers must also resolve tables safely under the publisher's empty search path.
+create or replace function public.enforce_publish_queue_shop_integrity()
+returns trigger language plpgsql set search_path='' as $$
+declare
+  p_shop uuid;
+  c_shop uuid;
+begin
+  select shop_id into p_shop from public.products where id = new.product_id;
+  select shop_id into c_shop from public.content_variants where id = new.content_variant_id;
+  if p_shop is null or c_shop is null or p_shop <> new.shop_id or c_shop <> new.shop_id then
+    raise exception 'shop isolation violation in publish_queue';
+  end if;
+  return new;
+end;
+$$;
+
+create or replace function public.block_nonactive_shop_publish()
+returns trigger language plpgsql set search_path='' as $$
+declare
+  s public.shop_status;
+begin
+  select status into s from public.shops where id = new.shop_id;
+  if s is distinct from 'active'::public.shop_status then
+    raise exception 'shop % is not active', new.shop_id;
+  end if;
+  return new;
+end;
+$$;
+
+create or replace function public.enforce_queue_account_before_activation()
+returns trigger language plpgsql set search_path='' as $$
+begin
+  if new.status in ('ready','scheduled','publishing')
+     and new.social_account_id is null then
+    raise exception 'Cannot activate queue item without social_account_id';
+  end if;
+  return new;
+end;
+$$;
+
+create or replace function public.enforce_queue_account_mapping()
+returns trigger language plpgsql set search_path='' as $$
+declare
+  acct_platform public.platform_type;
+  mapped boolean;
+begin
+  if new.social_account_id is null then
+    return new;
+  end if;
+
+  select platform into acct_platform
+  from public.social_accounts
+  where id = new.social_account_id and active = true;
+
+  if acct_platform is null or acct_platform <> new.platform then
+    raise exception 'Social account platform mismatch or inactive account';
+  end if;
+
+  select exists(
+    select 1
+    from public.shop_social_accounts ssa
+    where ssa.shop_id = new.shop_id
+      and ssa.social_account_id = new.social_account_id
+      and ssa.platform = new.platform
+      and ssa.active = true
+  ) into mapped;
+
+  if not mapped then
+    raise exception 'Social account is not mapped to this shop/platform';
+  end if;
+
+  return new;
+end;
+$$;
