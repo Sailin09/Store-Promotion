@@ -20,7 +20,7 @@ begin
  if exists(select 1 from pinterest_publish_reviews rev join reviewed_input x on rev.queue_id=x.queue_id where rev.board_id<>x.board_id or rev.snapshot<>pinterest_publish_snapshot(x.queue_id)) then raise exception 'Existing review differs'; end if;
 end $$;
 update products p set listing_status='active',last_seen_at=x.checked_at from publish_queue q join reviewed_input x on x.queue_id=q.id where p.id=q.product_id;
-update content_variants cv set status=case when x.board_id is null then 'draft' else 'ready' end,title=x.new_title,body=x.new_body,image_url=x.new_image_url from publish_queue q join reviewed_input x on x.queue_id=q.id where cv.id=q.content_variant_id;
+update content_variants cv set status=case when x.board_id is null then 'draft'::content_status else 'ready'::content_status end,title=x.new_title,body=x.new_body,image_url=x.new_image_url from publish_queue q join reviewed_input x on x.queue_id=q.id where cv.id=q.content_variant_id;
 insert into pinterest_publish_reviews(queue_id,board_id,snapshot,listing_checked_at,source_url)
 select x.queue_id,x.board_id,pinterest_publish_snapshot(x.queue_id),x.checked_at,x.source_url from reviewed_input x where x.board_id is not null on conflict(queue_id) do nothing;
 update publish_queue q set status='ready',updated_at=now() from reviewed_input x where q.id=x.queue_id and q.status='draft' and x.board_id is not null;
