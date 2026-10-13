@@ -1,3 +1,4 @@
+import { runPublisherBatch } from './publisher-batch.mjs';
 // GitHub Actions only. No credentials or Pinterest token bodies are printed.
 const ref='czexstqnkogfvqyjvatr';
 try {
@@ -9,9 +10,13 @@ try {
  const key=keys.find(k=>k.name==='service_role')?.api_key;
  if(!key)throw new Error('Legacy service-role invocation key unavailable');
  console.log('::add-mask::'+key);
- const result=await fetch(`https://${ref}.supabase.co/functions/v1/pinterest-publisher`,{method:'POST',headers:{Authorization:`Bearer ${key}`,'x-publisher-key':key,'Content-Type':'application/json'},body:'{}',signal:AbortSignal.timeout(100000)});
- const body=await result.json();
- // Whitelist only non-sensitive outcome fields.
- console.log(JSON.stringify({status:body.status,reason:body.reason,queue_id:body.queue_id,attempt_id:body.attempt_id,pin_id:body.pin_id,url:body.url,error:body.error,diagnostic:body.diagnostic}));
- if(!result.ok)process.exitCode=1;
+ const summary = await runPublisherBatch(async () => {
+  const result=await fetch(`https://${ref}.supabase.co/functions/v1/pinterest-publisher`,{method:'POST',headers:{Authorization:`Bearer ${key}`,'x-publisher-key':key,'Content-Type':'application/json'},body:'{}',signal:AbortSignal.timeout(100000)});
+  const body=await result.json();
+  // Only safe outcome fields leave this callback; credentials are never logged.
+  const outcome={status:body.status,reason:body.reason,queue_id:body.queue_id,attempt_id:body.attempt_id,pin_id:body.pin_id,url:body.url,error:body.error,diagnostic:body.diagnostic};
+  if(!result.ok) { console.log(JSON.stringify(outcome)); throw new Error('Publisher request failed'); }
+  return outcome;
+ }, outcome => console.log(JSON.stringify(outcome)));
+ console.log(JSON.stringify({batch:summary}));
 } catch {console.error('Publisher invocation failed; inspect durable attempts before retrying.');process.exitCode=1;}

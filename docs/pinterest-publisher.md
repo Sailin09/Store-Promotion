@@ -1,6 +1,6 @@
 # Pinterest publisher
 
-The hourly GitHub workflow invokes one bounded Supabase Edge Function job. The database defaults to disabled/Trial. Deployment and a green scheduled run do not mean public publishing is active.
+The hourly GitHub workflow sequentially invokes up to ten bounded Supabase Edge Function jobs. The database defaults to disabled/Trial. Deployment and a green scheduled run do not mean public publishing is active.
 
 ## What runs
 
@@ -25,7 +25,7 @@ Only then enable settings. Existing Trial-only accounts may remain `authorized_t
 
 Existing GitHub production secrets: `SUPABASE_DB_URL` and `SUPABASE_ACCESS_TOKEN`. Supabase retains `PINTEREST_APP_SECRET` and `PINTEREST_TOKEN_KEY`; they are never copied to GitHub. The scheduler uses the management token to retrieve the existing service-role invocation key transiently, masks it and only invokes the fixed project function. Its handler accepts a project service-role credential via x-publisher-key or Bearer, validating alternate service credentials through the role-restricted Data API RPC. No request can provide a custom endpoint, product or token. Restrict repository/workflow editing to trusted administrators because the existing deployment secrets are privileged.
 
-`Run Pinterest publisher` is hourly, one item per run, and supports a manual run. GitHub scheduling can be delayed and is not an exact-time guarantee. Disabled/Trial runs return `blocked` without calling Pinterest. Failed runs are failures, not successful publications.
+`Run Pinterest publisher` is configured hourly, processes up to ten eligible items sequentially per run, and supports a manual run. GitHub scheduling can be delayed and is not an exact-time guarantee. Disabled/Trial runs return `blocked` without calling Pinterest. Failed runs are failures, not successful publications.
 
 ## Reconciliation and recovery
 
@@ -42,3 +42,5 @@ Validation: `node --test tests/*.test.mjs`; SQL tests run in CI using `tests/pin
 Migration 015 adds a private singleton `pinterest_trial_demo` record. An administrator must first review an exact current draft snapshot and public board for the app owner's `sailing_981` account, verify the listing and image, then insert that one record. No demo is seeded by deployment. Approval expires after 24 hours; claim and dispatch recheck the snapshot and account/shop mapping. The app must remain disabled/Trial. No production queue or history is changed.
 
 Each demo record is attempted only once, including failures. Never reset it after an uncertain result without reconciling Pinterest. A real success returns `trial_created` and stores its Pin ID separately; this does not count as public promotion. No live API creation has been verified merely by passing the tests.
+
+The runner stops immediately on idle, blocked, or any failed/ambiguous outcome. It never retries a failed invocation. Each job rechecks the existing shop/platform daily cap and gap; batching does not increase those limits. The cap of ten jobs bounds execution even while new work arrives.
