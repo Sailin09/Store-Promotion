@@ -1,0 +1,24 @@
+{
+  "status": "inspected",
+  "http_status": 200,
+  "content_type": "application/json",
+  "account_type": "BUSINESS",
+  "reconciliation": null,
+  "handle": "cindyzhang62",
+  "boards": [
+    {
+      "id": "675399344056770476",
+      "name": "cyndizhang.com"
+    },
+    {
+      "id": "675399344056772225",
+      "name": "Decor"
+    },
+    {
+      "id": "675399344056770481",
+      "name": "mydecorshop.com"
+    }
+  ],
+  "has_more": false,
+  "run_url": "https://github.com/Sailin09/Store-Promotion/actions/runs/38341474419"
+}
