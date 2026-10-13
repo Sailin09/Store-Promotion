@@ -33,3 +33,8 @@ jobs:
             select 'pinterest_accounts=' || count(*) from social_accounts where platform='pinterest';
             select 'pinterest_routed_queue=' || count(*) from publish_queue where platform='pinterest' and social_account_id is not null;
           "
+      - name: Inspect Pinterest queue without changing data
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+        run: psql "$SUPABASE_DB_URL" -X -v ON_ERROR_STOP=1 -Atf scripts/inspect-pinterest-queue.sql
