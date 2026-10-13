@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-13T03:06:43.125935+00:00",
+  "checked_at": "2026-10-13T03:12:22.334390+00:00",
   "handle": "mydecorshop",
   "oauth_connected": true,
   "official_inspection_run": "38338881240",
@@ -9,19 +9,17 @@
     "name": "Home Decor"
   },
   "reviewed_ready_listing_ids": [
-    "1538587663",
-    "1538620317",
     "1832654442",
-    "1832656370",
-    "1839182756",
-    "1846855145",
-    "4365149143",
-    "4367385017",
     "4396132405",
     "4432320593",
-    "4356345034",
+    "4365149143",
+    "4367385017",
+    "1538620317",
     "4366040480",
-    "4442572721"
+    "4442572721",
+    "1832656370",
+    "1839182756",
+    "1846855145"
   ],
   "review_run": "38339024668",
   "unavailable_listing_ids": [
@@ -33,7 +31,7 @@
     "4416533490"
   ],
   "remaining_unreviewed_count": 0,
-  "publication_confirmed": false,
+  "publication_confirmed": true,
   "public_switch_enabled": true,
   "hourly_publisher_active": true,
   "materials_verified": 16,
@@ -44,5 +42,37 @@
     "38340005882",
     "38340009762"
   ],
-  "final_verification_run": "38340108724"
+  "final_verification_run": "38340486051",
+  "published_count": 2,
+  "ready_count": 11,
+  "publisher_run": "38340406130",
+  "publisher_commit": "c9d36223534153a39479e4cb17a40311fb1b6893",
+  "scheduled_workflow_state": "active",
+  "published_items": [
+    {
+      "queue_id": "dc598e2f-bcc6-470e-b1ee-7627cb7c4011",
+      "listing_id": "1538587663",
+      "queue_status": "published",
+      "attempt_state": "published",
+      "pin_id": "499618152434161671",
+      "error": null,
+      "history_pin_id": "499618152434161671",
+      "history_url": "https://www.pinterest.com/pin/499618152434161671/",
+      "published_at": "2026-10-13T03:10:23.50122+00:00",
+      "snapshot_matches": true
+    },
+    {
+      "queue_id": "1bc4aa5b-e7a9-4c86-95cb-5703de22be35",
+      "listing_id": "4356345034",
+      "queue_status": "published",
+      "attempt_state": "published",
+      "pin_id": "499618152434161670",
+      "error": null,
+      "history_pin_id": "499618152434161670",
+      "history_url": "https://www.pinterest.com/pin/499618152434161670/",
+      "published_at": "2026-10-13T03:10:18.257805+00:00",
+      "snapshot_matches": true
+    }
+  ],
+  "batch_limit": 10
 }

@@ -2,13 +2,13 @@
   {
     "queue_id": "dc598e2f-bcc6-470e-b1ee-7627cb7c4011",
     "listing_id": "1538587663",
-    "queue_status": "ready",
-    "attempt_state": null,
-    "pin_id": null,
+    "queue_status": "published",
+    "attempt_state": "published",
+    "pin_id": "499618152434161671",
     "error": null,
-    "history_pin_id": null,
-    "history_url": null,
-    "published_at": null,
+    "history_pin_id": "499618152434161671",
+    "history_url": "https://www.pinterest.com/pin/499618152434161671/",
+    "published_at": "2026-10-13T03:10:23.50122+00:00",
     "snapshot_matches": true
   },
   {
@@ -84,18 +84,6 @@
     "snapshot_matches": true
   },
   {
-    "queue_id": "1bc4aa5b-e7a9-4c86-95cb-5703de22be35",
-    "listing_id": "4356345034",
-    "queue_status": "ready",
-    "attempt_state": null,
-    "pin_id": null,
-    "error": null,
-    "history_pin_id": null,
-    "history_url": null,
-    "published_at": null,
-    "snapshot_matches": true
-  },
-  {
     "queue_id": "f929d511-3910-4794-bd4e-bf084c1887e2",
     "listing_id": "4366040480",
     "queue_status": "ready",
@@ -153,6 +141,18 @@
     "history_pin_id": null,
     "history_url": null,
     "published_at": null,
+    "snapshot_matches": true
+  },
+  {
+    "queue_id": "1bc4aa5b-e7a9-4c86-95cb-5703de22be35",
+    "listing_id": "4356345034",
+    "queue_status": "published",
+    "attempt_state": "published",
+    "pin_id": "499618152434161670",
+    "error": null,
+    "history_pin_id": "499618152434161670",
+    "history_url": "https://www.pinterest.com/pin/499618152434161670/",
+    "published_at": "2026-10-13T03:10:18.257805+00:00",
     "snapshot_matches": true
   }
 ]
