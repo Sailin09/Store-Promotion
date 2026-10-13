@@ -1,0 +1,13 @@
+{
+  "run": "38334029010",
+  "published_listing": "1803029273",
+  "pin_id": "863494928599092840",
+  "url": "https://www.pinterest.com/pin/863494928599092840/",
+  "published_at": "2026-10-13T01:50:35.598964+00:00",
+  "database_attempt_and_history_match": true,
+  "public_enabled": true,
+  "scheduled_workflow": "active",
+  "check_interval": "hourly",
+  "rules": "1 per shop/platform per rolling 24 hours; minimum gap 24 hours; evergreen 45 days",
+  "remaining_ready_listing": "4449956852"
+}

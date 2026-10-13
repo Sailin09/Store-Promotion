@@ -1,7 +1,7 @@
 {
   "checked_at": "2026-10-13T01:40:07Z",
   "database_check_run": "38333201660",
-  "public_publish_enabled": false,
+  "public_publish_enabled": true,
   "p2_drafts": 44,
   "pending_review_count": 0,
   "approved_review_count": 2,
@@ -52,8 +52,10 @@
       "listing_verified_at": "2026-10-13T01:47:17.563133+00:00",
       "blocking_reason": null,
       "live_evidence": "Exact Etsy listing loaded in browser; expected shop, original image and available variation selectors/Add to cart verified. No price or inventory amount copied.",
-      "queue_status": "ready",
-      "snapshot_matches": true
+      "queue_status": "published",
+      "snapshot_matches": true,
+      "pin_id": "863494928599092840",
+      "published_at": "2026-10-13T01:50:35.598964+00:00"
     }
   ],
   "approval_run": "38333812952"
