@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-13T02:55:56.095387+00:00",
+  "checked_at": "2026-10-13T03:06:43.125935+00:00",
   "handle": "mydecorshop",
   "oauth_connected": true,
   "official_inspection_run": "38338881240",
@@ -9,17 +9,40 @@
     "name": "Home Decor"
   },
   "reviewed_ready_listing_ids": [
-    "1538587663"
+    "1538587663",
+    "1538620317",
+    "1832654442",
+    "1832656370",
+    "1839182756",
+    "1846855145",
+    "4365149143",
+    "4367385017",
+    "4396132405",
+    "4432320593",
+    "4356345034",
+    "4366040480",
+    "4442572721"
   ],
   "review_run": "38339024668",
   "unavailable_listing_ids": [
     "4325858718"
   ],
   "pending_board_review_listing_ids": [
-    "4356345034"
+    "4364578832",
+    "4368683284",
+    "4416533490"
   ],
-  "remaining_unreviewed_count": 16,
+  "remaining_unreviewed_count": 0,
   "publication_confirmed": false,
   "public_switch_enabled": true,
-  "hourly_publisher_active": true
+  "hourly_publisher_active": true,
+  "materials_verified": 16,
+  "new_materials_completed": 15,
+  "review_runs": [
+    "38339024668",
+    "38339739717",
+    "38340005882",
+    "38340009762"
+  ],
+  "final_verification_run": "38340108724"
 }
