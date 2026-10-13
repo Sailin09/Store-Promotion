@@ -1,0 +1,143 @@
+{
+  "verified_materials": 8,
+  "material_file": "operations/p2-batch2-materials.json",
+  "board_id": "863494997243989843",
+  "board_name": "storage",
+  "board_check_run": "38349053287",
+  "material_save_run": "38349346613",
+  "status": "verified_complete",
+  "listing_ids": [
+    "1841132315",
+    "1826865120",
+    "4374349912",
+    "4374362269",
+    "1284508718",
+    "1781803827",
+    "1769992796",
+    "1752546922"
+  ],
+  "publisher_run": "38349409116",
+  "final_verification_run": "38349472680",
+  "published": 4,
+  "ready": 4,
+  "publications": [
+    {
+      "status": "published",
+      "queue_id": "e9eeae4f-c4ae-451c-8baa-fe8d7668b5a0",
+      "url": "https://www.pinterest.com/pin/863494928599094809/"
+    },
+    {
+      "status": "published",
+      "queue_id": "734b7b99-482b-4a1c-a405-0ac776e51929",
+      "url": "https://www.pinterest.com/pin/863494928599094812/"
+    },
+    {
+      "status": "published",
+      "queue_id": "f1f263ef-0d2d-497d-b242-d42e147cc360",
+      "url": "https://www.pinterest.com/pin/863494928599094814/"
+    },
+    {
+      "status": "published",
+      "queue_id": "2e7498ef-7c52-4f85-aa6a-528019c71fde",
+      "url": "https://www.pinterest.com/pin/863494928599094816/"
+    }
+  ],
+  "final_results": [
+    {
+      "queue_id": "e9eeae4f-c4ae-451c-8baa-fe8d7668b5a0",
+      "listing_id": "1841132315",
+      "queue_status": "published",
+      "attempt_state": "published",
+      "pin_id": "863494928599094809",
+      "error": null,
+      "history_pin_id": "863494928599094809",
+      "history_url": "https://www.pinterest.com/pin/863494928599094809/",
+      "published_at": "2026-10-13T05:02:51.639482+00:00",
+      "snapshot_matches": true
+    },
+    {
+      "queue_id": "68495c3b-f561-4927-a74f-ac59ed74b32b",
+      "listing_id": "4374362269",
+      "queue_status": "ready",
+      "attempt_state": null,
+      "pin_id": null,
+      "error": null,
+      "history_pin_id": null,
+      "history_url": null,
+      "published_at": null,
+      "snapshot_matches": true
+    },
+    {
+      "queue_id": "66418577-fb71-4073-89e3-c2d55c163d31",
+      "listing_id": "1781803827",
+      "queue_status": "ready",
+      "attempt_state": null,
+      "pin_id": null,
+      "error": null,
+      "history_pin_id": null,
+      "history_url": null,
+      "published_at": null,
+      "snapshot_matches": true
+    },
+    {
+      "queue_id": "734b7b99-482b-4a1c-a405-0ac776e51929",
+      "listing_id": "1284508718",
+      "queue_status": "published",
+      "attempt_state": "published",
+      "pin_id": "863494928599094812",
+      "error": null,
+      "history_pin_id": "863494928599094812",
+      "history_url": "https://www.pinterest.com/pin/863494928599094812/",
+      "published_at": "2026-10-13T05:02:54.135899+00:00",
+      "snapshot_matches": true
+    },
+    {
+      "queue_id": "2e7498ef-7c52-4f85-aa6a-528019c71fde",
+      "listing_id": "4374349912",
+      "queue_status": "published",
+      "attempt_state": "published",
+      "pin_id": "863494928599094816",
+      "error": null,
+      "history_pin_id": "863494928599094816",
+      "history_url": "https://www.pinterest.com/pin/863494928599094816/",
+      "published_at": "2026-10-13T05:02:58.781838+00:00",
+      "snapshot_matches": true
+    },
+    {
+      "queue_id": "2c16eb9c-f807-460e-a998-0c711674b37b",
+      "listing_id": "1826865120",
+      "queue_status": "ready",
+      "attempt_state": null,
+      "pin_id": null,
+      "error": null,
+      "history_pin_id": null,
+      "history_url": null,
+      "published_at": null,
+      "snapshot_matches": true
+    },
+    {
+      "queue_id": "6ab2b674-1d74-404a-a3c1-d0641cbea230",
+      "listing_id": "1752546922",
+      "queue_status": "ready",
+      "attempt_state": null,
+      "pin_id": null,
+      "error": null,
+      "history_pin_id": null,
+      "history_url": null,
+      "published_at": null,
+      "snapshot_matches": true
+    },
+    {
+      "queue_id": "f1f263ef-0d2d-497d-b242-d42e147cc360",
+      "listing_id": "1769992796",
+      "queue_status": "published",
+      "attempt_state": "published",
+      "pin_id": "863494928599094814",
+      "error": null,
+      "history_pin_id": "863494928599094814",
+      "history_url": "https://www.pinterest.com/pin/863494928599094814/",
+      "published_at": "2026-10-13T05:02:56.337654+00:00",
+      "snapshot_matches": true
+    }
+  ]
+}
