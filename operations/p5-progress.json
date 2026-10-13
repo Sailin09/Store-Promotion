@@ -1,0 +1,27 @@
+{
+  "account": "P5",
+  "handle": "ivy5205",
+  "oauth_connected": true,
+  "board_inspection_run": "38343224899",
+  "material_save_run": "38343585165",
+  "verified_materials": 2,
+  "reviewed_ready": 0,
+  "published": 2,
+  "publication_run": "38343677010",
+  "final_verification_run": "38343758764",
+  "scheduler_state": "active",
+  "daily_rule": "per shop/platform: at most 1 per rolling 24 hours; minimum gap 24 hours",
+  "publications": [
+    {
+      "listing_id": "4351662726",
+      "pin_id": "713820609737397709",
+      "url": "https://www.pinterest.com/pin/713820609737397709/"
+    },
+    {
+      "listing_id": "4486251915",
+      "pin_id": "713820609737397710",
+      "url": "https://www.pinterest.com/pin/713820609737397710/"
+    }
+  ],
+  "next_step": "Existing P5 drafts exhausted; verify new eligible products before adding further reviewed queue items."
+}
