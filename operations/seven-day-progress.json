@@ -1,0 +1,305 @@
+{
+  "checked_at": "2026-10-13T05:30:14.975387+00:00",
+  "new_verified": 15,
+  "added_by_account": {
+    "P1": 4,
+    "P2": 6,
+    "P3": 0,
+    "P5": 5
+  },
+  "queue_summary": {
+    "P1": {
+      "ready": 14,
+      "continuous_days_at_existing_shop_limit": 7,
+      "paused_or_failed": 0
+    },
+    "P2": {
+      "ready": 10,
+      "continuous_days_at_existing_shop_limit": 7,
+      "paused_or_failed": 0
+    },
+    "P3": {
+      "ready": 11,
+      "continuous_days_at_existing_shop_limit": 9,
+      "paused_or_failed": 0
+    },
+    "P4": {
+      "ready": 7,
+      "continuous_days_at_existing_shop_limit": 7,
+      "paused_or_failed": 0
+    },
+    "P5": {
+      "ready": 9,
+      "continuous_days_at_existing_shop_limit": 7,
+      "paused_or_failed": 0
+    }
+  },
+  "shop_coverage": [
+    {
+      "account": "P1",
+      "shop": "AmyHomeCrafts",
+      "ready": 2,
+      "published": 1,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-13T03:10:15.321321+00:00"
+    },
+    {
+      "account": "P1",
+      "shop": "beou",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null
+    },
+    {
+      "account": "P1",
+      "shop": "ChicDecorHK",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null
+    },
+    {
+      "account": "P1",
+      "shop": "Chtte",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null
+    },
+    {
+      "account": "P1",
+      "shop": "CustomCurtainsStudio",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null
+    },
+    {
+      "account": "P1",
+      "shop": "DanyHomeDesign",
+      "ready": 1,
+      "published": 1,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-13T02:54:04.362026+00:00"
+    },
+    {
+      "account": "P1",
+      "shop": "FrenchStyleDecor",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null
+    },
+    {
+      "account": "P1",
+      "shop": "GavinHome",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null
+    },
+    {
+      "account": "P1",
+      "shop": "HeyDream",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null
+    },
+    {
+      "account": "P1",
+      "shop": "KorusStore",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null
+    },
+    {
+      "account": "P1",
+      "shop": "MiraKiuStudio",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null
+    },
+    {
+      "account": "P1",
+      "shop": "NiceCraftStudioHK",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null
+    },
+    {
+      "account": "P1",
+      "shop": "Parkermo",
+      "ready": 3,
+      "published": 1,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-13T02:39:24.573147+00:00"
+    },
+    {
+      "account": "P1",
+      "shop": "ShirieHomeShow",
+      "ready": 1,
+      "published": 1,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-13T02:55:04.227007+00:00"
+    },
+    {
+      "account": "P1",
+      "shop": "SobiaStudio",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null
+    },
+    {
+      "account": "P1",
+      "shop": "StellaGoodsGifts",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null
+    },
+    {
+      "account": "P1",
+      "shop": "TunaMunStudio",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null
+    },
+    {
+      "account": "P1",
+      "shop": "WOGOL",
+      "ready": 7,
+      "published": 1,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-13T03:10:20.852538+00:00"
+    },
+    {
+      "account": "P2",
+      "shop": "Adamideal",
+      "ready": 0,
+      "published": 1,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-13T03:08:19.925295+00:00"
+    },
+    {
+      "account": "P2",
+      "shop": "HibiChStudio",
+      "ready": 1,
+      "published": 1,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-13T05:02:58.781838+00:00"
+    },
+    {
+      "account": "P2",
+      "shop": "KoltCraftStudio",
+      "ready": 7,
+      "published": 1,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-13T05:02:51.639482+00:00"
+    },
+    {
+      "account": "P2",
+      "shop": "LambertHouse",
+      "ready": 0,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-13T01:50:35.598964+00:00"
+    },
+    {
+      "account": "P2",
+      "shop": "MiawoodStudio",
+      "ready": 1,
+      "published": 1,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-13T05:02:54.135899+00:00"
+    },
+    {
+      "account": "P2",
+      "shop": "WoodHomeLiang",
+      "ready": 1,
+      "published": 1,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-13T05:02:56.337654+00:00"
+    },
+    {
+      "account": "P3",
+      "shop": "CellaHo",
+      "ready": 9,
+      "published": 1,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-13T03:10:23.50122+00:00"
+    },
+    {
+      "account": "P3",
+      "shop": "Chtte",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null
+    },
+    {
+      "account": "P3",
+      "shop": "LoomGoStudio",
+      "ready": 2,
+      "published": 1,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-13T03:10:18.257805+00:00"
+    },
+    {
+      "account": "P4",
+      "shop": "ChicDecorHK",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null
+    },
+    {
+      "account": "P4",
+      "shop": "PearlsTreasuresArt",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null
+    },
+    {
+      "account": "P4",
+      "shop": "QuGifts",
+      "ready": 7,
+      "published": 1,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-13T03:28:33.677611+00:00"
+    },
+    {
+      "account": "P5",
+      "shop": "NinaJiaStudio",
+      "ready": 7,
+      "published": 1,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-13T03:51:48.459843+00:00"
+    },
+    {
+      "account": "P5",
+      "shop": "NngGoods",
+      "ready": 2,
+      "published": 1,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-13T03:51:46.038914+00:00"
+    }
+  ],
+  "save_runs": [
+    "38351358657",
+    "38351555797"
+  ],
+  "final_check_run": "38351626985",
+  "publisher_check_run": "38351631793",
+  "publisher_result": "idle",
+  "published_this_check": 0,
+  "scheduler_state": "active",
+  "coverage_basis": "At least one mapped shop has seven or more reviewed daily slots; not every shop is replenished to seven days. No publishing limit changed."
+}
