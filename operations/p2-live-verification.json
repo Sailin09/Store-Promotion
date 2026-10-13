@@ -1,0 +1,49 @@
+{
+  "verified_at": "2026-10-13T01:47:17.563133+00:00",
+  "items": [
+    {
+      "queue_id": "69dbd819-d043-4910-a7df-379f585539e2",
+      "shop": "Adamideal",
+      "listing_id": "4449956852",
+      "source_url": "https://www.etsy.com/listing/4449956852/desktop-power-strip-organizer-box-cable",
+      "category": "Wooden Home Organization",
+      "image_url": "https://i.etsystatic.com/35172699/r/il/5f74b7/7894413148/il_794xN.7894413148_ckp1.jpg",
+      "destination_url": "https://www.etsy.com/listing/4449956852/desktop-power-strip-organizer-box-cable",
+      "title": "Desk Cable Organizer Box for a Tidy Workspace",
+      "body": "Keep desk cables together with this lidded cable organizer from Adamideal. Explore the available options and current product details in the Etsy listing.",
+      "handle": "sailing_981",
+      "mapped": true,
+      "history_count": 0,
+      "review_exists": false,
+      "board_id": "863494997243989843",
+      "board_name": "storage",
+      "board_match_reason": "Existing public storage board matches cable or wardrobe organization; no account routing change.",
+      "review_status": "live_verified_pending_database",
+      "listing_verified_at": "2026-10-13T01:47:17.563133+00:00",
+      "blocking_reason": null,
+      "live_evidence": "Exact Etsy listing loaded in browser; expected shop, original image and available variation selectors/Add to cart verified. No price or inventory amount copied."
+    },
+    {
+      "queue_id": "6344e1e9-a294-4207-b9dc-d198439d26f2",
+      "shop": "LambertHouse",
+      "listing_id": "1803029273",
+      "source_url": "https://www.etsy.com/listing/1803029273/gold-aluminum-open-ended-pants-hangers",
+      "category": "Closet Organization",
+      "image_url": "https://i.etsystatic.com/46944744/r/il/24b1c9/6362709485/il_794xN.6362709485_snh1.jpg",
+      "destination_url": "https://www.etsy.com/listing/1803029273/gold-aluminum-open-ended-pants-hangers",
+      "title": "Gold Open-Ended Hangers for Closet Organization",
+      "body": "Organize trousers and scarves with these gold-tone open-ended hangers from LambertHouse. View available options and product details in the Etsy listing.",
+      "handle": "sailing_981",
+      "mapped": true,
+      "history_count": 0,
+      "review_exists": false,
+      "board_id": "863494997243989843",
+      "board_name": "storage",
+      "board_match_reason": "Existing public storage board matches cable or wardrobe organization; no account routing change.",
+      "review_status": "live_verified_pending_database",
+      "listing_verified_at": "2026-10-13T01:47:17.563133+00:00",
+      "blocking_reason": null,
+      "live_evidence": "Exact Etsy listing loaded in browser; expected shop, original image and available variation selectors/Add to cart verified. No price or inventory amount copied."
+    }
+  ]
+}
