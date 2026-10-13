@@ -1,0 +1,20 @@
+{
+  "status": "inspected",
+  "http_status": 200,
+  "content_type": "application/json",
+  "account_type": "BUSINESS",
+  "reconciliation": null,
+  "handle": "icyndizhang",
+  "boards": [
+    {
+      "id": "801218658646993070",
+      "name": "CyndiZhangStudio"
+    }
+  ],
+  "has_more": false,
+  "evidence_run": "38336983409",
+  "verification": "Official API: owned PUBLIC non-ad boards",
+  "verified_at": "2026-10-13T02:29:28.760916+00:00",
+  "board_url": "https://www.pinterest.com/icyndizhang/cyndizhangstudio/",
+  "category_evidence": "Board UI explicitly PUBLIC, 31 existing Pins including sheer/lace curtains, cafe curtains, table linens and chair covers. Broad home-textile board; no secret boards used."
+}

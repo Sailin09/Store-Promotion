@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-10-13T02:29:28.760916+00:00",
+  "verification_run": "https://github.com/Sailin09/Store-Promotion/actions/runs/38334494627",
+  "accounts": [
+    {
+      "account": "P1",
+      "handle": "icyndizhang",
+      "oauth_connected": true,
+      "drafts": 89,
+      "drafts_with_image": 15,
+      "public_boards": 1,
+      "board_matched_candidates": 15
+    },
+    {
+      "account": "P3",
+      "handle": "mydecorshop",
+      "oauth_connected": false,
+      "drafts": 17,
+      "drafts_with_image": 0
+    },
+    {
+      "account": "P4",
+      "handle": "cindyzhang62",
+      "oauth_connected": false,
+      "drafts": 8,
+      "drafts_with_image": 0
+    },
+    {
+      "account": "P5",
+      "handle": "ivy5205",
+      "oauth_connected": false,
+      "drafts": 2,
+      "drafts_with_image": 0
+    }
+  ],
+  "next": "P1 connected and public board matched. Verify live listing availability before saving publication approval snapshots. Other accounts still require their own OAuth connections.",
+  "blocker": null
+}
