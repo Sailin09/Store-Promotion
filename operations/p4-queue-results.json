@@ -1,0 +1,50 @@
+[
+  {
+    "queue_id": "185c4958-4ecd-4bb7-9565-10af1a668d2a",
+    "listing_id": "4348907433",
+    "queue_status": "published",
+    "attempt_state": "published",
+    "pin_id": "675399275414372278",
+    "error": null,
+    "history_pin_id": "675399275414372278",
+    "history_url": "https://www.pinterest.com/pin/675399275414372278/",
+    "published_at": "2026-10-13T03:28:33.677611+00:00",
+    "snapshot_matches": true
+  },
+  {
+    "queue_id": "1e9c93be-2efd-468f-be09-55787ae47937",
+    "listing_id": "4315230146",
+    "queue_status": "ready",
+    "attempt_state": null,
+    "pin_id": null,
+    "error": null,
+    "history_pin_id": null,
+    "history_url": null,
+    "published_at": null,
+    "snapshot_matches": true
+  },
+  {
+    "queue_id": "3826b92d-1c4f-4736-a29b-918b01e32bbd",
+    "listing_id": "4359523943",
+    "queue_status": "ready",
+    "attempt_state": null,
+    "pin_id": null,
+    "error": null,
+    "history_pin_id": null,
+    "history_url": null,
+    "published_at": null,
+    "snapshot_matches": true
+  },
+  {
+    "queue_id": "e69191aa-b834-4edb-aafa-f9953bacf71c",
+    "listing_id": "4399003122",
+    "queue_status": "ready",
+    "attempt_state": null,
+    "pin_id": null,
+    "error": null,
+    "history_pin_id": null,
+    "history_url": null,
+    "published_at": null,
+    "snapshot_matches": true
+  }
+]
