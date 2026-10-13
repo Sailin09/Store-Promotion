@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-10-13T02:55:56.095387+00:00",
+  "handle": "mydecorshop",
+  "oauth_connected": true,
+  "official_inspection_run": "38338881240",
+  "owned_public_board_count": 14,
+  "matched_board": {
+    "id": "499618221101238533",
+    "name": "Home Decor"
+  },
+  "reviewed_ready_listing_ids": [
+    "1538587663"
+  ],
+  "review_run": "38339024668",
+  "unavailable_listing_ids": [
+    "4325858718"
+  ],
+  "pending_board_review_listing_ids": [
+    "4356345034"
+  ],
+  "remaining_unreviewed_count": 16,
+  "publication_confirmed": false,
+  "public_switch_enabled": true,
+  "hourly_publisher_active": true
+}
