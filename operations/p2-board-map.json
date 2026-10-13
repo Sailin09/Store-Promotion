@@ -1,8 +1,18 @@
 {
+  "status": "inspected",
+  "http_status": 200,
+  "content_type": "application/json",
+  "account_type": "BUSINESS",
+  "reconciliation": {
+    "complete": true,
+    "matches": [
+      {
+        "id": "863494928599092840",
+        "created_at": "2026-10-13T01:50:36"
+      }
+    ]
+  },
   "handle": "sailing_981",
-  "verified_at": "2026-10-13T01:33:09Z",
-  "evidence_run": "38332654119",
-  "verification": "Official API filtered owner=username and privacy=PUBLIC and not ads-only",
   "boards": [
     {
       "id": "863494997244726261",
@@ -102,19 +112,21 @@
     },
     {
       "id": "863494997243388880",
-      "name": "古代饰品"
+      "name": "\u53e4\u4ee3\u9970\u54c1"
     },
     {
       "id": "863494997243535046",
-      "name": "家居装潢"
+      "name": "\u5bb6\u5c45\u88c5\u6f62"
     },
     {
       "id": "863494997243388881",
-      "name": "现代饰品"
+      "name": "\u73b0\u4ee3\u9970\u54c1"
     },
     {
       "id": "863494997243386881",
-      "name": "设计"
+      "name": "\u8bbe\u8ba1"
     }
-  ]
+  ],
+  "has_more": false,
+  "evidence_run": "38349053287"
 }
