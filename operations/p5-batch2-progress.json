@@ -1,0 +1,48 @@
+{
+  "batch": "p5-20261013-2",
+  "verified_materials": 4,
+  "queued_ready": 4,
+  "facebook_drafts": 4,
+  "material_save_run": "38345648321",
+  "publisher_check_run": "38345726598",
+  "scheduler_state": "active",
+  "replenishment_automation": "store-promotion",
+  "replenishment_schedule": "daily 10:00 Asia/Shanghai",
+  "queue_results": [
+    {
+      "listing_id": "4585567382",
+      "queue_id": "8375f49e-3824-4ee6-b632-d9c8844fb61a",
+      "status": "ready",
+      "board_id": "713820678377803445",
+      "snapshot_matches": true
+    },
+    {
+      "listing_id": "4538093833",
+      "queue_id": "ed76f9e2-cbaa-4dce-9687-0498676d0746",
+      "status": "ready",
+      "board_id": "713820678377803412",
+      "snapshot_matches": true
+    },
+    {
+      "listing_id": "4537632729",
+      "queue_id": "f2b373db-84bd-4a5f-b7e1-5c4bb85da18f",
+      "status": "ready",
+      "board_id": "713820678377803412",
+      "snapshot_matches": true
+    },
+    {
+      "listing_id": "4585556630",
+      "queue_id": "d641e4cf-f820-4b46-9f6a-3288475e96b3",
+      "status": "ready",
+      "board_id": "713820678377803445",
+      "snapshot_matches": true
+    }
+  ],
+  "coverage": "two additional daily slots per shop; delivery subject to live publisher checks",
+  "notes": "Listing description inconsistencies excluded from copy; new products only; historical products untouched.",
+  "publisher_check_result": {
+    "status": "idle",
+    "published": 0,
+    "reason_context": "Both shops published today; next eligible window is after their 24-hour gap."
+  }
+}
