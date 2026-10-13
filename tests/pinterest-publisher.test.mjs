@@ -17,12 +17,12 @@ async function fixture(options={}){
   if(url.endsWith('/rpc/claim_pinterest_publish'))return ok(options.gate||{status:'claimed',attempt_id:'attempt',board_id:'1234',snapshot:{...snapshot,...options.snapshot}});
   if(url.includes('/pinterest_trial_demo?'))return ok(options.reconcile?[{snapshot,board_id:'1234'}]:[]);
   if(url.includes('/boards/1234/pins?'))return ok({items:[{id:'555',link:snapshot.link}],bookmark:options.morePages?'next':null});
-  if(url.includes('/social_accounts?'))return ok([{id:'a',handle:snapshot.handle}]);
-  if(url.endsWith('/boards?page_size=100'))return ok({items:[{id:'1234',name:'storage',owner:{username:snapshot.handle},privacy:'PUBLIC'}]});
+  if(url.includes('/social_accounts?'))return ok([{id:'a',handle:options.handle||snapshot.handle}]);
+  if(url.endsWith('/boards?page_size=100'))return ok({items:[{id:'1234',name:'storage',owner:{username:options.handle||snapshot.handle},privacy:'PUBLIC'}]});
   if(url.includes('/pinterest_oauth_credentials?'))return ok([{encrypted_tokens:cipher,access_expires_at:new Date(Date.now()+(options.expired?-10000:3600000)).toISOString()}]);
   if(url.endsWith('/oauth/token'))return ok({access_token:'new-access',refresh_token:'new-refresh',scope:scopes,expires_in:3600});
   if(url.endsWith('/rpc/refresh_pinterest_credential'))return ok(!options.casFail);
-  if(url.endsWith('/user_account'))return ok({username:options.wrongAccount?'other':snapshot.handle});
+  if(url.endsWith('/user_account'))return ok({username:options.wrongAccount?'other':(options.handle||snapshot.handle)});
   if(url.endsWith('/boards/1234'))return ok({id:'1234',owner:{username:snapshot.handle},privacy:options.privateBoard?'SECRET':'PUBLIC'});
   if(url.startsWith('https://i.etsystatic.com'))return new Response(null,{status:200,headers:{'Content-Type':'image/jpeg'}});
   if(url.endsWith('/rpc/dispatch_pinterest_publish'))return ok(!options.dispatchFail);
@@ -88,3 +88,14 @@ for(const morePages of [false,true])test('reconciliation reports matches and pag
  const data=await r.json();assert.equal(data.reconciliation.complete,!morePages);
  assert.equal(data.reconciliation.matches[0].id,'555');assert.equal(posts(f.calls).length,0);
 });
+
+ test('P1 inspection selects P1 and never reconciles P2 pins or publishes',async()=>{
+ const f=await fixture({trial:true,handle:'icyndizhang',reconcile:true});
+ const r=await f.handler(new Request('https://worker',{method:'POST',headers:{Authorization:'Bearer service-secret'},body:JSON.stringify({action:'inspect',handle:'icyndizhang'})}));
+ const data=await r.json();assert.equal(data.handle,'icyndizhang');assert.equal(data.boards.length,1);assert.equal(data.reconciliation,null);
+ assert.ok(f.calls.some(c=>c.url.includes('handle=eq.icyndizhang')));
+ assert.ok(!f.calls.some(c=>c.url.includes('/pins')||c.url.includes('/rpc/claim')));
+ });
+ test('inspection rejects an unregistered handle before database access',async()=>{
+ const f=await fixture({trial:true});const r=await f.handler(new Request('https://worker',{method:'POST',headers:{Authorization:'Bearer service-secret'},body:JSON.stringify({action:'inspect',handle:'unknown'})}));assert.equal(r.status,400);assert.equal(f.calls.length,0);
+ });

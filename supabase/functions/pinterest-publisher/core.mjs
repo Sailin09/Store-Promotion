@@ -54,14 +54,18 @@ export function makePublisher(env, fetcher=fetch, mode='production') {
     let job, dispatched=false, knownPin, apiDiagnostic;
     try {
       // One item per invocation bounds runtime and gives every item its own durable attempt.
-      let inspect=false;
+      let inspect=false, inspectHandle='sailing_981';
       if(mode==='trial') {
         const input=await req.json();
         if(input.action && input.action!=='inspect')return reply({error:'invalid_action'},400);
         inspect=input.action==='inspect';
+        if(inspect && input.handle!==undefined) {
+          if(!['icyndizhang','sailing_981','mydecorshop','cindyzhang62','ivy5205'].includes(input.handle))return reply({error:'invalid_account'},400);
+          inspectHandle=input.handle;
+        }
       }
       if(inspect) {
-        const accounts=await db('social_accounts?platform=eq.pinterest&handle=eq.sailing_981&active=eq.true&select=id,handle');
+        const accounts=await db('social_accounts?platform=eq.pinterest&handle=eq.'+inspectHandle+'&active=eq.true&select=id,handle');
         if(accounts.length!==1)throw new Error('credential_missing');
         job={snapshot:{account_id:accounts[0].id,handle:accounts[0].handle}};
       } else {
@@ -93,7 +97,7 @@ export function makePublisher(env, fetcher=fetch, mode='production') {
         const boards=await get('/boards?page_size=100',tokens.access_token);
         const demos=await db('pinterest_trial_demo?select=snapshot,board_id,started_at');
         let reconciliation=null;
-        if(demos.length===1){
+        if(demos.length===1 && demos[0].snapshot.handle===s.handle){
           const demo=demos[0], matches=[];let bookmark,complete=false;
           for(let page=0;page<10;page++){
             const pins=await get('/boards/'+demo.board_id+'/pins?page_size=100'+(bookmark?'&bookmark='+encodeURIComponent(bookmark):''),tokens.access_token);

@@ -1,6 +1,12 @@
 name: Inspect Pinterest Trial account
 on:
   workflow_dispatch:
+    inputs:
+      handle:
+        description: Connected Pinterest account
+        type: choice
+        default: sailing_981
+        options: [sailing_981, icyndizhang, mydecorshop, cindyzhang62, ivy5205]
 permissions:
   contents: read
 concurrency:
@@ -20,4 +26,5 @@ jobs:
           node-version: '22'
       - run: node scripts/inspect-pinterest-trial.mjs
         env:
+          PINTEREST_HANDLE: ${{ inputs.handle }}
           SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
