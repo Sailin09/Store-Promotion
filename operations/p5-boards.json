@@ -1,0 +1,47 @@
+{
+  "status": "inspected",
+  "http_status": 200,
+  "content_type": "application/json",
+  "account_type": "BUSINESS",
+  "reconciliation": null,
+  "handle": "ivy5205",
+  "boards": [
+    {
+      "id": "713820678377882682",
+      "name": "Earring"
+    },
+    {
+      "id": "713820678377803445",
+      "name": "Fashion"
+    },
+    {
+      "id": "713820678377803412",
+      "name": "Furniture"
+    },
+    {
+      "id": "713820678377803404",
+      "name": "Home decor"
+    },
+    {
+      "id": "713820678377803410",
+      "name": "Home storage"
+    },
+    {
+      "id": "713820678377803408",
+      "name": "Home textile"
+    },
+    {
+      "id": "713820678377876491",
+      "name": "Phone case"
+    },
+    {
+      "id": "713820678377809734",
+      "name": "Tableware"
+    },
+    {
+      "id": "713820678377882773",
+      "name": "\u5bb6\u5c45\u88c5\u6f62"
+    }
+  ],
+  "has_more": false
+}
