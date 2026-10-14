@@ -11,4 +11,32 @@ select json_build_object('p4_publication',json_build_object('queue_id',q.id,'lis
 select json_build_object('p5_publication',json_build_object('queue_id',q.id,'listing_id',p.etsy_listing_id,'queue_status',q.status,'attempt_state',a.state,'pin_id',a.pin_id,'error',a.error_code,'history_pin_id',h.external_post_id,'history_url',h.external_url,'published_at',h.published_at,'snapshot_matches',r.snapshot=public.pinterest_publish_snapshot(q.id))) from publish_queue q join social_accounts sa on sa.id=q.social_account_id join products p on p.id=q.product_id left join pinterest_publish_reviews r on r.queue_id=q.id left join pinterest_publish_attempts a on a.queue_id=q.id left join publish_history h on h.content_variant_id=q.content_variant_id and h.platform='pinterest' where sa.handle='ivy5205' and r.queue_id is not null;
 select json_build_object('shop_queue_coverage',json_build_object('account',a.account_name,'shop',s.shop_name,'ready',count(*) filter(where q.status in ('ready','scheduled') and r.snapshot=pinterest_publish_snapshot(q.id) and r.listing_checked_at>=now()-interval '30 days'),'published',count(*) filter(where q.status='published'),'paused_or_failed',count(*) filter(where q.status in ('paused','failed')),'latest_published_at',(select max(h.published_at) from publish_history h where h.shop_id=s.id and h.social_account_id=a.id and h.platform='pinterest'))) from publish_queue q join shops s on s.id=q.shop_id join social_accounts a on a.id=q.social_account_id left join pinterest_publish_reviews r on r.queue_id=q.id where q.platform='pinterest' and a.handle in ('icyndizhang','sailing_981','mydecorshop','cindyzhang62','ivy5205') group by a.id,a.account_name,s.id,s.shop_name order by a.account_name,s.shop_name;
 select json_build_object('p2_publication',json_build_object('queue_id',q.id,'listing_id',p.etsy_listing_id,'queue_status',q.status,'attempt_state',a.state,'pin_id',a.pin_id,'error',a.error_code,'history_pin_id',h.external_post_id,'history_url',h.external_url,'published_at',h.published_at,'snapshot_matches',r.snapshot=public.pinterest_publish_snapshot(q.id))) from publish_queue q join social_accounts sa on sa.id=q.social_account_id join products p on p.id=q.product_id left join pinterest_publish_reviews r on r.queue_id=q.id left join pinterest_publish_attempts a on a.queue_id=q.id left join publish_history h on h.content_variant_id=q.content_variant_id and h.platform='pinterest' where sa.handle='sailing_981' and r.queue_id is not null;
+
+-- Daily audit: safe metadata only; never emit credential values.
+select json_build_object('audit_time',now());
+select json_build_object('daily_history',json_build_object('account',sa.account_name,'pin_id',h.external_post_id,'url',h.external_url,'published_at',h.published_at,'status',h.publish_status))
+from publish_history h join social_accounts sa on sa.id=h.social_account_id
+where h.platform='pinterest' and h.published_at >= date_trunc('day',now() at time zone 'Asia/Shanghai') at time zone 'Asia/Shanghai' - interval '1 day'
+order by h.published_at;
+select json_build_object('open_attempt',json_build_object('account',sa.account_name,'attempt_id',a.attempt_id,'state',a.state,'error',a.error_code,'pin_id',a.pin_id))
+from pinterest_publish_attempts a join publish_queue q on q.id=a.queue_id join social_accounts sa on sa.id=q.social_account_id where a.state <> 'published';
+select json_build_object('reserve_item',json_build_object(
+'account',a.account_name,'shop',s.shop_name,'queue_id',q.id,'scheduled_at',q.scheduled_at,
+'listing_checked_at',r.listing_checked_at,'reviewed_at',r.reviewed_at,'snapshot_matches',r.snapshot=pinterest_publish_snapshot(q.id),
+'board_id',r.board_id,'max_posts_per_day',rule.max_posts_per_day,'min_gap_hours',rule.min_gap_hours,
+'latest_shop_publish',(select max(h.published_at) from publish_history h where h.shop_id=q.shop_id and h.platform=q.platform),
+'eligible_configuration',s.status='active' and p.listing_status='active' and cv.status='ready' and a.active and rule.enabled
+and a.account_status in ('authorized_trial','authorized_standard')
+and exists(select 1 from pinterest_oauth_credentials c where c.social_account_id=a.id and lower(c.pinterest_username)=lower(a.handle))
+and exists(select 1 from shop_social_accounts m where m.shop_id=q.shop_id and m.social_account_id=a.id and m.active and m.platform=q.platform)
+and not exists(select 1 from publish_history h where h.content_variant_id=q.content_variant_id)
+and not exists(select 1 from publish_history h where h.product_id=q.product_id and h.platform=q.platform and h.published_at>now()-make_interval(days=>rule.evergreen_reuse_days))
+and not exists(select 1 from pinterest_publish_attempts pa where pa.queue_id=q.id)
+and not exists(select 1 from pinterest_publish_attempts pa join publish_queue b on b.id=pa.queue_id where pa.state in ('prepared','dispatched','uncertain') and (b.shop_id=q.shop_id or b.social_account_id=a.id))))
+from publish_queue q join social_accounts a on a.id=q.social_account_id join shops s on s.id=q.shop_id
+join products p on p.id=q.product_id join content_variants cv on cv.id=q.content_variant_id
+join promotion_rules rule on rule.shop_id=q.shop_id and rule.platform=q.platform and rule.rule_name='default-organic'
+join pinterest_publish_reviews r on r.queue_id=q.id
+where q.platform='pinterest' and q.status in ('ready','scheduled') order by a.account_name,s.shop_name,q.priority,q.created_at;
+
 commit;
