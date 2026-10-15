@@ -44,3 +44,18 @@ Migration 015 adds a private singleton `pinterest_trial_demo` record. An adminis
 Each demo record is attempted only once, including failures. Never reset it after an uncertain result without reconciling Pinterest. A real success returns `trial_created` and stores its Pin ID separately; this does not count as public promotion. No live API creation has been verified merely by passing the tests.
 
 The runner stops immediately on idle, blocked, or any failed/ambiguous outcome. It never retries a failed invocation. Each job rechecks the existing shop/platform daily cap and gap; batching does not increase those limits. The cap of ten jobs bounds execution even while new work arrives.
+
+## US-market scheduling (enabled 2026-10-15)
+
+Queue claims are allowed only in Asia/Shanghai 08:00–11:00 and 21:00–23:00 (end exclusive).
+These are fixed Beijing test windows, not automatic US daylight-saving adjustments.
+They correspond to US evening and morning during daylight saving; evaluate outbound-click data before changing windows.
+All shops sharing one Pinterest account have an additional minimum two-hour gap, measured from actual publish history.
+The existing per-shop rolling 24-hour cap/minimum gap, evergreen interval, exact approvals and uncertain reservations remain enforced.
+Outside the windows the publisher returns idle/outside_publish_window without creating an attempt or editing drafts.
+No backlog burst is allowed: delayed hourly checks still honor the account gap; items wait for a later eligible window.
+An already claimed in-flight attempt may finish just after a window closes; it is never abandoned or replayed.
+The existing hourly GitHub schedule remains active, so these are eligibility windows, not exact-time guarantees.
+With two-hour account spacing these windows permit at most three claims per account per day, and scheduling delays can reduce this.
+Multiple shops therefore rotate across available slots; a per-shop daily maximum is not a promise that every shop publishes daily.
+Seven-day reserve calculations must simulate account spacing and windows as well as shop limits and review expiry.

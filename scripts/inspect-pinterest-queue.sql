@@ -14,6 +14,8 @@ select json_build_object('p2_publication',json_build_object('queue_id',q.id,'lis
 
 -- Daily audit: safe metadata only; never emit credential values.
 select json_build_object('audit_time',now());
+select json_build_object('publish_schedule',json_build_object('timezone','Asia/Shanghai','windows',json_build_array('08:00-11:00','21:00-23:00'),'account_min_gap_hours',2,'window_open',public.pinterest_publish_window_open(now())));
+select json_build_object('account_last_publish',json_build_object('account',a.account_name,'published_at',max(h.published_at))) from social_accounts a left join publish_history h on h.social_account_id=a.id and h.platform='pinterest' where a.platform='pinterest' group by a.account_name;
 select json_build_object('daily_history',json_build_object('account',sa.account_name,'pin_id',h.external_post_id,'url',h.external_url,'published_at',h.published_at,'status',h.publish_status))
 from publish_history h join social_accounts sa on sa.id=h.social_account_id
 where h.platform='pinterest' and h.published_at >= date_trunc('day',now() at time zone 'Asia/Shanghai') at time zone 'Asia/Shanghai' - interval '1 day'

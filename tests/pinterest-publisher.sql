@@ -1,5 +1,8 @@
 \set ON_ERROR_STOP on
 begin;
+-- Existing invariant fixtures must run independently of the CI wall clock.
+create or replace function public.pinterest_publish_window_open(p_at timestamptz) returns boolean
+language sql stable security invoker set search_path='' as $$ select true; $$;
 -- Uses a disposable PostgreSQL database only. All fixture writes roll back.
 do $$
 declare shop uuid; product uuid; account uuid; creative uuid; queue uuid; job jsonb; a uuid;
