@@ -1,0 +1,59 @@
+{
+  "activated_at": "2026-10-15T02:18:38.544461+00:00",
+  "commit": "c376de4c84a18f43a45922bd2de1948b5697c45c",
+  "schedule": {
+    "timezone": "Asia/Shanghai",
+    "windows": [
+      "08:00-11:00",
+      "21:00-23:00"
+    ],
+    "account_min_gap_hours": 2,
+    "window_open": true
+  },
+  "shop_min_gap_hours": 24,
+  "shop_max_posts_per_rolling_24h": 1,
+  "evergreen_days": 45,
+  "deployment_run": "38670202138",
+  "verification_run": "38670283006",
+  "publisher_run": "38670286285",
+  "publisher_result": [
+    {
+      "status": "idle"
+    },
+    {
+      "batch": {
+        "status": "idle",
+        "published": 0,
+        "jobs": 1
+      }
+    }
+  ],
+  "tests": {
+    "node_pass": 41,
+    "database_scheduling": "passed",
+    "existing_database_invariants": "passed"
+  },
+  "account_last_publish": [
+    {
+      "account": "P1",
+      "published_at": "2026-10-14T07:40:25.834371+00:00"
+    },
+    {
+      "account": "P2",
+      "published_at": "2026-10-14T07:40:18.903919+00:00"
+    },
+    {
+      "account": "P3",
+      "published_at": "2026-10-14T13:45:10.791081+00:00"
+    },
+    {
+      "account": "P4",
+      "published_at": "2026-10-14T13:45:07.88501+00:00"
+    },
+    {
+      "account": "P5",
+      "published_at": "2026-10-14T13:45:17.450589+00:00"
+    }
+  ],
+  "note": "No queue snapshots or publishing history rewritten. Hourly schedule retained; eligible claims only in fixed Beijing windows; in-flight attempts can finish after window end. Old coverage estimate predates account spacing and must be recomputed."
+}
