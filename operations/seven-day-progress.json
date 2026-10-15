@@ -352,5 +352,16 @@
     "message": "Live Chrome page returned 429 Too Many Requests. Stopped Etsy requests; cached search result not accepted as live availability. QuGifts and NinaJiaStudio web lookups also failed. No drafts or queue contents changed.",
     "retry_not_before": "2026-10-16T02:07:00.604Z"
   },
-  "report_file": "operations/daily-check-2026-10-15.json"
+  "report_file": "operations/daily-check-2026-10-15.json",
+  "schedule_change": {
+    "timezone": "Asia/Shanghai",
+    "windows": [
+      "08:00-11:00",
+      "21:00-23:00"
+    ],
+    "account_min_gap_hours": 2,
+    "window_open": true
+  },
+  "coverage_needs_recalculation": true,
+  "schedule_audit": "operations/us-scheduling-2026-10-15.json"
 }
