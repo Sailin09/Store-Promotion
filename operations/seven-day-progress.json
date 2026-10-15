@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-15T02:03:00.650Z",
+  "checked_at": "2026-10-15T02:36:14.039Z",
   "new_verified": 0,
   "added_by_account": {
     "P1": 0,
@@ -12,32 +12,92 @@
     "P1": {
       "ready": 9,
       "continuous_days_at_existing_shop_limit": 6,
+      "continuous_days_range": [
+        6,
+        7
+      ],
       "missing_account_days_to_seven": 1,
-      "paused_or_failed": 0
+      "daily_counts": [
+        1,
+        3,
+        2,
+        1,
+        1,
+        1,
+        0
+      ]
     },
     "P2": {
       "ready": 6,
       "continuous_days_at_existing_shop_limit": 6,
+      "continuous_days_range": [
+        6,
+        6
+      ],
       "missing_account_days_to_seven": 1,
-      "paused_or_failed": 0
+      "daily_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
     },
     "P3": {
       "ready": 9,
       "continuous_days_at_existing_shop_limit": 8,
+      "continuous_days_range": [
+        8,
+        8
+      ],
       "missing_account_days_to_seven": 0,
-      "paused_or_failed": 0
+      "daily_counts": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
     },
     "P4": {
       "ready": 6,
       "continuous_days_at_existing_shop_limit": 6,
+      "continuous_days_range": [
+        6,
+        6
+      ],
       "missing_account_days_to_seven": 1,
-      "paused_or_failed": 0
+      "daily_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
     },
     "P5": {
       "ready": 7,
       "continuous_days_at_existing_shop_limit": 6,
+      "continuous_days_range": [
+        6,
+        7
+      ],
       "missing_account_days_to_seven": 1,
-      "paused_or_failed": 0
+      "daily_counts": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
     }
   },
   "shop_coverage": [
@@ -331,12 +391,12 @@
     }
   ],
   "save_runs": [],
-  "final_check_run": "38668901461",
+  "final_check_run": "38671839386",
   "publisher_check_run": null,
   "publisher_result": "not manually invoked; next shop eligibility later today",
   "published_this_check": 0,
   "scheduler_state": "active",
-  "coverage_basis": "Earliest eligible per-shop slots from current queue, rolling 24-hour gap and snapshot/30-day checks. Dates in Asia/Shanghai. GitHub dispatch latency may shift actual dates; not a guarantee.",
+  "coverage_basis": "Nominal hourly :17 UTC scheduler; exact queue priority/creation order (UUID used only for equal-priority equal-created ties); fixed Beijing windows [08,11),[21,23); 2h account gap; max(24h,shop min gap); max1/shop/24h; 45d product reuse; matching source/snapshot and 30d listing/review expiry. Prediction, not guarantee; GitHub latency and per-job seconds can shift slots. Existing SQL has no deterministic tie-break for equal priority and created_at. Enumerated shop-order permutations within ties; use minimum continuous coverage among these scenarios for replenishment, disclose range. No queue priority changed.",
   "previous_material_save": {
     "checked_at": "2026-10-13T05:30:14.975387+00:00",
     "new_verified": 15,
@@ -362,6 +422,38 @@
     "account_min_gap_hours": 2,
     "window_open": true
   },
-  "coverage_needs_recalculation": true,
-  "schedule_audit": "operations/us-scheduling-2026-10-15.json"
+  "coverage_needs_recalculation": false,
+  "schedule_audit": "operations/us-scheduling-2026-10-15.json",
+  "replenishment_plan": [
+    {
+      "account": "P1",
+      "preferred_shop": "WOGOL",
+      "minimum_new_verified_items": 1
+    },
+    {
+      "account": "P2",
+      "preferred_shop": "KoltCraftStudio",
+      "minimum_new_verified_items": 1
+    },
+    {
+      "account": "P4",
+      "preferred_shop": "QuGifts",
+      "minimum_new_verified_items": 1
+    },
+    {
+      "account": "P5",
+      "preferred_shop": "NinaJiaStudio",
+      "minimum_new_verified_items": 1
+    }
+  ],
+  "projection_dates": [
+    "2026-10-15",
+    "2026-10-16",
+    "2026-10-17",
+    "2026-10-18",
+    "2026-10-19",
+    "2026-10-20",
+    "2026-10-21"
+  ],
+  "recalculation_report": "operations/seven-day-recalculation-2026-10-15.json"
 }
