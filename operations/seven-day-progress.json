@@ -1,36 +1,42 @@
 {
-  "checked_at": "2026-10-13T05:30:14.975387+00:00",
-  "new_verified": 15,
+  "checked_at": "2026-10-15T02:03:00.650Z",
+  "new_verified": 0,
   "added_by_account": {
-    "P1": 4,
-    "P2": 6,
+    "P1": 0,
+    "P2": 0,
     "P3": 0,
-    "P5": 5
+    "P4": 0,
+    "P5": 0
   },
   "queue_summary": {
     "P1": {
-      "ready": 14,
-      "continuous_days_at_existing_shop_limit": 7,
+      "ready": 9,
+      "continuous_days_at_existing_shop_limit": 6,
+      "missing_account_days_to_seven": 1,
       "paused_or_failed": 0
     },
     "P2": {
-      "ready": 10,
-      "continuous_days_at_existing_shop_limit": 7,
+      "ready": 6,
+      "continuous_days_at_existing_shop_limit": 6,
+      "missing_account_days_to_seven": 1,
       "paused_or_failed": 0
     },
     "P3": {
-      "ready": 11,
-      "continuous_days_at_existing_shop_limit": 9,
+      "ready": 9,
+      "continuous_days_at_existing_shop_limit": 8,
+      "missing_account_days_to_seven": 0,
       "paused_or_failed": 0
     },
     "P4": {
-      "ready": 7,
-      "continuous_days_at_existing_shop_limit": 7,
+      "ready": 6,
+      "continuous_days_at_existing_shop_limit": 6,
+      "missing_account_days_to_seven": 1,
       "paused_or_failed": 0
     },
     "P5": {
-      "ready": 9,
-      "continuous_days_at_existing_shop_limit": 7,
+      "ready": 7,
+      "continuous_days_at_existing_shop_limit": 6,
+      "missing_account_days_to_seven": 1,
       "paused_or_failed": 0
     }
   },
@@ -38,10 +44,11 @@
     {
       "account": "P1",
       "shop": "AmyHomeCrafts",
-      "ready": 2,
-      "published": 1,
+      "ready": 1,
+      "published": 2,
       "paused_or_failed": 0,
-      "latest_published_at": "2026-10-13T03:10:15.321321+00:00"
+      "latest_published_at": "2026-10-14T07:40:25.834371+00:00",
+      "additional_items_for_seven_daily_shop_slots": 6
     },
     {
       "account": "P1",
@@ -49,7 +56,8 @@
       "ready": 0,
       "published": 0,
       "paused_or_failed": 0,
-      "latest_published_at": null
+      "latest_published_at": null,
+      "additional_items_for_seven_daily_shop_slots": 7
     },
     {
       "account": "P1",
@@ -57,7 +65,8 @@
       "ready": 0,
       "published": 0,
       "paused_or_failed": 0,
-      "latest_published_at": null
+      "latest_published_at": null,
+      "additional_items_for_seven_daily_shop_slots": 7
     },
     {
       "account": "P1",
@@ -65,7 +74,8 @@
       "ready": 0,
       "published": 0,
       "paused_or_failed": 0,
-      "latest_published_at": null
+      "latest_published_at": null,
+      "additional_items_for_seven_daily_shop_slots": 7
     },
     {
       "account": "P1",
@@ -73,15 +83,17 @@
       "ready": 0,
       "published": 0,
       "paused_or_failed": 0,
-      "latest_published_at": null
+      "latest_published_at": null,
+      "additional_items_for_seven_daily_shop_slots": 7
     },
     {
       "account": "P1",
       "shop": "DanyHomeDesign",
-      "ready": 1,
-      "published": 1,
+      "ready": 0,
+      "published": 2,
       "paused_or_failed": 0,
-      "latest_published_at": "2026-10-13T02:54:04.362026+00:00"
+      "latest_published_at": "2026-10-14T07:40:21.430799+00:00",
+      "additional_items_for_seven_daily_shop_slots": 7
     },
     {
       "account": "P1",
@@ -89,7 +101,8 @@
       "ready": 0,
       "published": 0,
       "paused_or_failed": 0,
-      "latest_published_at": null
+      "latest_published_at": null,
+      "additional_items_for_seven_daily_shop_slots": 7
     },
     {
       "account": "P1",
@@ -97,7 +110,8 @@
       "ready": 0,
       "published": 0,
       "paused_or_failed": 0,
-      "latest_published_at": null
+      "latest_published_at": null,
+      "additional_items_for_seven_daily_shop_slots": 7
     },
     {
       "account": "P1",
@@ -105,7 +119,8 @@
       "ready": 0,
       "published": 0,
       "paused_or_failed": 0,
-      "latest_published_at": null
+      "latest_published_at": null,
+      "additional_items_for_seven_daily_shop_slots": 7
     },
     {
       "account": "P1",
@@ -113,7 +128,8 @@
       "ready": 0,
       "published": 0,
       "paused_or_failed": 0,
-      "latest_published_at": null
+      "latest_published_at": null,
+      "additional_items_for_seven_daily_shop_slots": 7
     },
     {
       "account": "P1",
@@ -121,7 +137,8 @@
       "ready": 0,
       "published": 0,
       "paused_or_failed": 0,
-      "latest_published_at": null
+      "latest_published_at": null,
+      "additional_items_for_seven_daily_shop_slots": 7
     },
     {
       "account": "P1",
@@ -129,23 +146,26 @@
       "ready": 0,
       "published": 0,
       "paused_or_failed": 0,
-      "latest_published_at": null
+      "latest_published_at": null,
+      "additional_items_for_seven_daily_shop_slots": 7
     },
     {
       "account": "P1",
       "shop": "Parkermo",
-      "ready": 3,
-      "published": 1,
+      "ready": 2,
+      "published": 2,
       "paused_or_failed": 0,
-      "latest_published_at": "2026-10-13T02:39:24.573147+00:00"
+      "latest_published_at": "2026-10-14T07:40:06.136647+00:00",
+      "additional_items_for_seven_daily_shop_slots": 5
     },
     {
       "account": "P1",
       "shop": "ShirieHomeShow",
-      "ready": 1,
-      "published": 1,
+      "ready": 0,
+      "published": 2,
       "paused_or_failed": 0,
-      "latest_published_at": "2026-10-13T02:55:04.227007+00:00"
+      "latest_published_at": "2026-10-14T07:40:24.168794+00:00",
+      "additional_items_for_seven_daily_shop_slots": 7
     },
     {
       "account": "P1",
@@ -153,7 +173,8 @@
       "ready": 0,
       "published": 0,
       "paused_or_failed": 0,
-      "latest_published_at": null
+      "latest_published_at": null,
+      "additional_items_for_seven_daily_shop_slots": 7
     },
     {
       "account": "P1",
@@ -161,7 +182,8 @@
       "ready": 0,
       "published": 0,
       "paused_or_failed": 0,
-      "latest_published_at": null
+      "latest_published_at": null,
+      "additional_items_for_seven_daily_shop_slots": 7
     },
     {
       "account": "P1",
@@ -169,15 +191,17 @@
       "ready": 0,
       "published": 0,
       "paused_or_failed": 0,
-      "latest_published_at": null
+      "latest_published_at": null,
+      "additional_items_for_seven_daily_shop_slots": 7
     },
     {
       "account": "P1",
       "shop": "WOGOL",
-      "ready": 7,
-      "published": 1,
+      "ready": 6,
+      "published": 2,
       "paused_or_failed": 0,
-      "latest_published_at": "2026-10-13T03:10:20.852538+00:00"
+      "latest_published_at": "2026-10-14T07:40:10.457801+00:00",
+      "additional_items_for_seven_daily_shop_slots": 1
     },
     {
       "account": "P2",
@@ -185,23 +209,26 @@
       "ready": 0,
       "published": 1,
       "paused_or_failed": 0,
-      "latest_published_at": "2026-10-13T03:08:19.925295+00:00"
+      "latest_published_at": "2026-10-13T03:08:19.925295+00:00",
+      "additional_items_for_seven_daily_shop_slots": 7
     },
     {
       "account": "P2",
       "shop": "HibiChStudio",
-      "ready": 1,
-      "published": 1,
+      "ready": 0,
+      "published": 2,
       "paused_or_failed": 0,
-      "latest_published_at": "2026-10-13T05:02:58.781838+00:00"
+      "latest_published_at": "2026-10-14T07:40:12.62822+00:00",
+      "additional_items_for_seven_daily_shop_slots": 7
     },
     {
       "account": "P2",
       "shop": "KoltCraftStudio",
-      "ready": 7,
-      "published": 1,
+      "ready": 6,
+      "published": 2,
       "paused_or_failed": 0,
-      "latest_published_at": "2026-10-13T05:02:51.639482+00:00"
+      "latest_published_at": "2026-10-14T07:40:18.903919+00:00",
+      "additional_items_for_seven_daily_shop_slots": 1
     },
     {
       "account": "P2",
@@ -209,31 +236,35 @@
       "ready": 0,
       "published": 2,
       "paused_or_failed": 0,
-      "latest_published_at": "2026-10-13T01:50:35.598964+00:00"
+      "latest_published_at": "2026-10-13T01:50:35.598964+00:00",
+      "additional_items_for_seven_daily_shop_slots": 7
     },
     {
       "account": "P2",
       "shop": "MiawoodStudio",
-      "ready": 1,
-      "published": 1,
+      "ready": 0,
+      "published": 2,
       "paused_or_failed": 0,
-      "latest_published_at": "2026-10-13T05:02:54.135899+00:00"
+      "latest_published_at": "2026-10-14T07:40:14.732256+00:00",
+      "additional_items_for_seven_daily_shop_slots": 7
     },
     {
       "account": "P2",
       "shop": "WoodHomeLiang",
-      "ready": 1,
-      "published": 1,
+      "ready": 0,
+      "published": 2,
       "paused_or_failed": 0,
-      "latest_published_at": "2026-10-13T05:02:56.337654+00:00"
+      "latest_published_at": "2026-10-14T07:40:16.95796+00:00",
+      "additional_items_for_seven_daily_shop_slots": 7
     },
     {
       "account": "P3",
       "shop": "CellaHo",
-      "ready": 9,
-      "published": 1,
+      "ready": 8,
+      "published": 2,
       "paused_or_failed": 0,
-      "latest_published_at": "2026-10-13T03:10:23.50122+00:00"
+      "latest_published_at": "2026-10-14T07:40:08.30273+00:00",
+      "additional_items_for_seven_daily_shop_slots": 0
     },
     {
       "account": "P3",
@@ -241,15 +272,17 @@
       "ready": 0,
       "published": 0,
       "paused_or_failed": 0,
-      "latest_published_at": null
+      "latest_published_at": null,
+      "additional_items_for_seven_daily_shop_slots": 7
     },
     {
       "account": "P3",
       "shop": "LoomGoStudio",
-      "ready": 2,
-      "published": 1,
+      "ready": 1,
+      "published": 2,
       "paused_or_failed": 0,
-      "latest_published_at": "2026-10-13T03:10:18.257805+00:00"
+      "latest_published_at": "2026-10-14T13:45:10.791081+00:00",
+      "additional_items_for_seven_daily_shop_slots": 6
     },
     {
       "account": "P4",
@@ -257,7 +290,8 @@
       "ready": 0,
       "published": 0,
       "paused_or_failed": 0,
-      "latest_published_at": null
+      "latest_published_at": null,
+      "additional_items_for_seven_daily_shop_slots": 7
     },
     {
       "account": "P4",
@@ -265,41 +299,58 @@
       "ready": 0,
       "published": 0,
       "paused_or_failed": 0,
-      "latest_published_at": null
+      "latest_published_at": null,
+      "additional_items_for_seven_daily_shop_slots": 7
     },
     {
       "account": "P4",
       "shop": "QuGifts",
-      "ready": 7,
-      "published": 1,
+      "ready": 6,
+      "published": 2,
       "paused_or_failed": 0,
-      "latest_published_at": "2026-10-13T03:28:33.677611+00:00"
+      "latest_published_at": "2026-10-14T13:45:07.88501+00:00",
+      "additional_items_for_seven_daily_shop_slots": 1
     },
     {
       "account": "P5",
       "shop": "NinaJiaStudio",
-      "ready": 7,
-      "published": 1,
+      "ready": 6,
+      "published": 2,
       "paused_or_failed": 0,
-      "latest_published_at": "2026-10-13T03:51:48.459843+00:00"
+      "latest_published_at": "2026-10-14T13:45:17.450589+00:00",
+      "additional_items_for_seven_daily_shop_slots": 1
     },
     {
       "account": "P5",
       "shop": "NngGoods",
-      "ready": 2,
-      "published": 1,
+      "ready": 1,
+      "published": 2,
       "paused_or_failed": 0,
-      "latest_published_at": "2026-10-13T03:51:46.038914+00:00"
+      "latest_published_at": "2026-10-14T13:45:13.402872+00:00",
+      "additional_items_for_seven_daily_shop_slots": 6
     }
   ],
-  "save_runs": [
-    "38351358657",
-    "38351555797"
-  ],
-  "final_check_run": "38351626985",
-  "publisher_check_run": "38351631793",
-  "publisher_result": "idle",
+  "save_runs": [],
+  "final_check_run": "38668901461",
+  "publisher_check_run": null,
+  "publisher_result": "not manually invoked; next shop eligibility later today",
   "published_this_check": 0,
   "scheduler_state": "active",
-  "coverage_basis": "At least one mapped shop has seven or more reviewed daily slots; not every shop is replenished to seven days. No publishing limit changed."
+  "coverage_basis": "Earliest eligible per-shop slots from current queue, rolling 24-hour gap and snapshot/30-day checks. Dates in Asia/Shanghai. GitHub dispatch latency may shift actual dates; not a guarantee.",
+  "previous_material_save": {
+    "checked_at": "2026-10-13T05:30:14.975387+00:00",
+    "new_verified": 15,
+    "save_runs": [
+      "38351358657",
+      "38351555797"
+    ]
+  },
+  "blocker": {
+    "type": "etsy_http_429",
+    "checked_at": "2026-10-15T02:07:00.604Z",
+    "url": "https://www.etsy.com/listing/1762833875/wide-shoulder-solid-wood-suit-hangers",
+    "message": "Live Chrome page returned 429 Too Many Requests. Stopped Etsy requests; cached search result not accepted as live availability. QuGifts and NinaJiaStudio web lookups also failed. No drafts or queue contents changed.",
+    "retry_not_before": "2026-10-16T02:07:00.604Z"
+  },
+  "report_file": "operations/daily-check-2026-10-15.json"
 }
