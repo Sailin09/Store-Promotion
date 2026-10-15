@@ -1,0 +1,1914 @@
+{
+  "checked_at": "2026-10-15T02:36:14.039Z",
+  "verification_run": "38671839386",
+  "dates": [
+    "2026-10-15",
+    "2026-10-16",
+    "2026-10-17",
+    "2026-10-18",
+    "2026-10-19",
+    "2026-10-20",
+    "2026-10-21"
+  ],
+  "accounts": {
+    "P1": {
+      "reviewed_ready": 9,
+      "continuous_days": 6,
+      "daily_counts": [
+        1,
+        3,
+        2,
+        1,
+        1,
+        1,
+        0
+      ],
+      "missing_dates": [
+        "2026-10-21"
+      ],
+      "new_materials": 0,
+      "continuous_days_range": [
+        6,
+        7
+      ],
+      "missing_account_days_to_seven": 1,
+      "tie_order_scenarios": [
+        {
+          "tie_shop_order": [
+            "WOGOL",
+            "AmyHomeCrafts",
+            "Parkermo"
+          ],
+          "continuous_days": 6,
+          "daily_counts": [
+            1,
+            3,
+            2,
+            1,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "tie_shop_order": [
+            "WOGOL",
+            "Parkermo",
+            "AmyHomeCrafts"
+          ],
+          "continuous_days": 6,
+          "daily_counts": [
+            1,
+            3,
+            2,
+            1,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "tie_shop_order": [
+            "AmyHomeCrafts",
+            "WOGOL",
+            "Parkermo"
+          ],
+          "continuous_days": 7,
+          "daily_counts": [
+            1,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "tie_shop_order": [
+            "AmyHomeCrafts",
+            "Parkermo",
+            "WOGOL"
+          ],
+          "continuous_days": 7,
+          "daily_counts": [
+            1,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "tie_shop_order": [
+            "Parkermo",
+            "AmyHomeCrafts",
+            "WOGOL"
+          ],
+          "continuous_days": 7,
+          "daily_counts": [
+            1,
+            3,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "tie_shop_order": [
+            "Parkermo",
+            "WOGOL",
+            "AmyHomeCrafts"
+          ],
+          "continuous_days": 7,
+          "daily_counts": [
+            1,
+            3,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "conservative_projected_slots": [
+        {
+          "account": "P1",
+          "shop": "WOGOL",
+          "queue_id": "0f7ac35a-fceb-401c-8669-6325eeccb1d6",
+          "projected_at": "2026-10-15T13:17:00.000Z",
+          "beijing_date": "2026-10-15"
+        },
+        {
+          "account": "P1",
+          "shop": "AmyHomeCrafts",
+          "queue_id": "0901dfc5-b941-40ea-891c-24faba899f45",
+          "projected_at": "2026-10-16T00:17:00.000Z",
+          "beijing_date": "2026-10-16"
+        },
+        {
+          "account": "P1",
+          "shop": "Parkermo",
+          "queue_id": "e0a366aa-0869-4a6b-821b-143a456fc17a",
+          "projected_at": "2026-10-16T02:17:00.000Z",
+          "beijing_date": "2026-10-16"
+        },
+        {
+          "account": "P1",
+          "shop": "WOGOL",
+          "queue_id": "693ecedd-eb24-464d-81cd-502cd3fdc5cd",
+          "projected_at": "2026-10-16T13:17:00.000Z",
+          "beijing_date": "2026-10-16"
+        },
+        {
+          "account": "P1",
+          "shop": "Parkermo",
+          "queue_id": "f8f208ed-aa70-4b17-994c-26a87f1ec16c",
+          "projected_at": "2026-10-17T02:17:00.000Z",
+          "beijing_date": "2026-10-17"
+        },
+        {
+          "account": "P1",
+          "shop": "WOGOL",
+          "queue_id": "17e38cee-9cc3-400a-a441-50a57ae71665",
+          "projected_at": "2026-10-17T13:17:00.000Z",
+          "beijing_date": "2026-10-17"
+        },
+        {
+          "account": "P1",
+          "shop": "WOGOL",
+          "queue_id": "4124e280-7c05-43b8-9d14-2c22d40111d9",
+          "projected_at": "2026-10-18T13:17:00.000Z",
+          "beijing_date": "2026-10-18"
+        },
+        {
+          "account": "P1",
+          "shop": "WOGOL",
+          "queue_id": "57c4f43b-1c54-41dc-bd12-4a893edd1983",
+          "projected_at": "2026-10-19T13:17:00.000Z",
+          "beijing_date": "2026-10-19"
+        },
+        {
+          "account": "P1",
+          "shop": "WOGOL",
+          "queue_id": "7306b610-c8db-42a8-95be-8320746c8137",
+          "projected_at": "2026-10-20T13:17:00.000Z",
+          "beijing_date": "2026-10-20"
+        }
+      ]
+    },
+    "P2": {
+      "reviewed_ready": 6,
+      "continuous_days": 6,
+      "daily_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "missing_dates": [
+        "2026-10-21"
+      ],
+      "new_materials": 0,
+      "continuous_days_range": [
+        6,
+        6
+      ],
+      "missing_account_days_to_seven": 1,
+      "tie_order_scenarios": [
+        {
+          "tie_shop_order": [
+            "KoltCraftStudio"
+          ],
+          "continuous_days": 6,
+          "daily_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ]
+        }
+      ],
+      "conservative_projected_slots": [
+        {
+          "account": "P2",
+          "shop": "KoltCraftStudio",
+          "queue_id": "17464d19-82c1-4d81-bb76-e7bfa1c85c24",
+          "projected_at": "2026-10-15T13:17:00.000Z",
+          "beijing_date": "2026-10-15"
+        },
+        {
+          "account": "P2",
+          "shop": "KoltCraftStudio",
+          "queue_id": "33d7f6e3-a7b1-414b-872c-243d2965c968",
+          "projected_at": "2026-10-16T13:17:00.000Z",
+          "beijing_date": "2026-10-16"
+        },
+        {
+          "account": "P2",
+          "shop": "KoltCraftStudio",
+          "queue_id": "5a90e25e-4131-46d8-a231-39fdcf228f71",
+          "projected_at": "2026-10-17T13:17:00.000Z",
+          "beijing_date": "2026-10-17"
+        },
+        {
+          "account": "P2",
+          "shop": "KoltCraftStudio",
+          "queue_id": "62a027c5-a941-447f-8b56-82e35c450fb9",
+          "projected_at": "2026-10-18T13:17:00.000Z",
+          "beijing_date": "2026-10-18"
+        },
+        {
+          "account": "P2",
+          "shop": "KoltCraftStudio",
+          "queue_id": "8d47313c-3ab9-48d1-a509-d078616e97a0",
+          "projected_at": "2026-10-19T13:17:00.000Z",
+          "beijing_date": "2026-10-19"
+        },
+        {
+          "account": "P2",
+          "shop": "KoltCraftStudio",
+          "queue_id": "a4b91038-c82d-4717-be59-5dfd61c1e04b",
+          "projected_at": "2026-10-20T13:17:00.000Z",
+          "beijing_date": "2026-10-20"
+        }
+      ]
+    },
+    "P3": {
+      "reviewed_ready": 9,
+      "continuous_days": 8,
+      "daily_counts": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "missing_dates": [],
+      "new_materials": 0,
+      "continuous_days_range": [
+        8,
+        8
+      ],
+      "missing_account_days_to_seven": 0,
+      "tie_order_scenarios": [
+        {
+          "tie_shop_order": [
+            "CellaHo",
+            "LoomGoStudio"
+          ],
+          "continuous_days": 8,
+          "daily_counts": [
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "tie_shop_order": [
+            "LoomGoStudio",
+            "CellaHo"
+          ],
+          "continuous_days": 8,
+          "daily_counts": [
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "conservative_projected_slots": [
+        {
+          "account": "P3",
+          "shop": "CellaHo",
+          "queue_id": "0a6c060c-911e-4f73-b04b-1921863b80bc",
+          "projected_at": "2026-10-15T13:17:00.000Z",
+          "beijing_date": "2026-10-15"
+        },
+        {
+          "account": "P3",
+          "shop": "LoomGoStudio",
+          "queue_id": "f929d511-3910-4794-bd4e-bf084c1887e2",
+          "projected_at": "2026-10-16T00:17:00.000Z",
+          "beijing_date": "2026-10-16"
+        },
+        {
+          "account": "P3",
+          "shop": "CellaHo",
+          "queue_id": "1870df94-0116-4199-81a5-a2a9555d0420",
+          "projected_at": "2026-10-16T13:17:00.000Z",
+          "beijing_date": "2026-10-16"
+        },
+        {
+          "account": "P3",
+          "shop": "CellaHo",
+          "queue_id": "1fb92561-5600-4374-ac1d-9864310ce6a3",
+          "projected_at": "2026-10-17T13:17:00.000Z",
+          "beijing_date": "2026-10-17"
+        },
+        {
+          "account": "P3",
+          "shop": "CellaHo",
+          "queue_id": "20be1fda-afe8-4629-a612-b527969dd516",
+          "projected_at": "2026-10-18T13:17:00.000Z",
+          "beijing_date": "2026-10-18"
+        },
+        {
+          "account": "P3",
+          "shop": "CellaHo",
+          "queue_id": "50994c09-7048-4a7d-bc08-2480c1b36caa",
+          "projected_at": "2026-10-19T13:17:00.000Z",
+          "beijing_date": "2026-10-19"
+        },
+        {
+          "account": "P3",
+          "shop": "CellaHo",
+          "queue_id": "5e9c3f0f-ba2f-4e3d-bfcd-1ae2a6f581c7",
+          "projected_at": "2026-10-20T13:17:00.000Z",
+          "beijing_date": "2026-10-20"
+        },
+        {
+          "account": "P3",
+          "shop": "CellaHo",
+          "queue_id": "841e9d5b-d207-417a-a0ae-d3eb246d4b8a",
+          "projected_at": "2026-10-21T13:17:00.000Z",
+          "beijing_date": "2026-10-21"
+        },
+        {
+          "account": "P3",
+          "shop": "CellaHo",
+          "queue_id": "f3e1823f-931d-422e-be5f-4ba00616a183",
+          "projected_at": "2026-10-22T13:17:00.000Z",
+          "beijing_date": "2026-10-22"
+        }
+      ]
+    },
+    "P4": {
+      "reviewed_ready": 6,
+      "continuous_days": 6,
+      "daily_counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "missing_dates": [
+        "2026-10-21"
+      ],
+      "new_materials": 0,
+      "continuous_days_range": [
+        6,
+        6
+      ],
+      "missing_account_days_to_seven": 1,
+      "tie_order_scenarios": [
+        {
+          "tie_shop_order": [
+            "QuGifts"
+          ],
+          "continuous_days": 6,
+          "daily_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ]
+        }
+      ],
+      "conservative_projected_slots": [
+        {
+          "account": "P4",
+          "shop": "QuGifts",
+          "queue_id": "3826b92d-1c4f-4736-a29b-918b01e32bbd",
+          "projected_at": "2026-10-15T14:17:00.000Z",
+          "beijing_date": "2026-10-15"
+        },
+        {
+          "account": "P4",
+          "shop": "QuGifts",
+          "queue_id": "e69191aa-b834-4edb-aafa-f9953bacf71c",
+          "projected_at": "2026-10-16T14:17:00.000Z",
+          "beijing_date": "2026-10-16"
+        },
+        {
+          "account": "P4",
+          "shop": "QuGifts",
+          "queue_id": "285fd15f-1edd-4506-9911-31b9f96c9191",
+          "projected_at": "2026-10-17T14:17:00.000Z",
+          "beijing_date": "2026-10-17"
+        },
+        {
+          "account": "P4",
+          "shop": "QuGifts",
+          "queue_id": "98c290d1-f66f-4ec6-a842-63ecc9f5570c",
+          "projected_at": "2026-10-18T14:17:00.000Z",
+          "beijing_date": "2026-10-18"
+        },
+        {
+          "account": "P4",
+          "shop": "QuGifts",
+          "queue_id": "dfdb296b-eed7-47e5-900e-891d6679c3ae",
+          "projected_at": "2026-10-19T14:17:00.000Z",
+          "beijing_date": "2026-10-19"
+        },
+        {
+          "account": "P4",
+          "shop": "QuGifts",
+          "queue_id": "fa9faabd-9b11-4594-be53-4362f9460433",
+          "projected_at": "2026-10-20T14:17:00.000Z",
+          "beijing_date": "2026-10-20"
+        }
+      ]
+    },
+    "P5": {
+      "reviewed_ready": 7,
+      "continuous_days": 6,
+      "daily_counts": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "missing_dates": [
+        "2026-10-21"
+      ],
+      "new_materials": 0,
+      "continuous_days_range": [
+        6,
+        7
+      ],
+      "missing_account_days_to_seven": 1,
+      "tie_order_scenarios": [
+        {
+          "tie_shop_order": [
+            "NinaJiaStudio",
+            "NngGoods"
+          ],
+          "continuous_days": 6,
+          "daily_counts": [
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "tie_shop_order": [
+            "NngGoods",
+            "NinaJiaStudio"
+          ],
+          "continuous_days": 7,
+          "daily_counts": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "conservative_projected_slots": [
+        {
+          "account": "P5",
+          "shop": "NinaJiaStudio",
+          "queue_id": "d641e4cf-f820-4b46-9f6a-3288475e96b3",
+          "projected_at": "2026-10-15T14:17:00.000Z",
+          "beijing_date": "2026-10-15"
+        },
+        {
+          "account": "P5",
+          "shop": "NngGoods",
+          "queue_id": "f2b373db-84bd-4a5f-b7e1-5c4bb85da18f",
+          "projected_at": "2026-10-16T00:17:00.000Z",
+          "beijing_date": "2026-10-16"
+        },
+        {
+          "account": "P5",
+          "shop": "NinaJiaStudio",
+          "queue_id": "13f1e96c-fc00-4f49-92f2-6455dc6153be",
+          "projected_at": "2026-10-16T14:17:00.000Z",
+          "beijing_date": "2026-10-16"
+        },
+        {
+          "account": "P5",
+          "shop": "NinaJiaStudio",
+          "queue_id": "60b9da12-afc9-4e21-90d6-b207705bf90a",
+          "projected_at": "2026-10-17T14:17:00.000Z",
+          "beijing_date": "2026-10-17"
+        },
+        {
+          "account": "P5",
+          "shop": "NinaJiaStudio",
+          "queue_id": "68068152-5ca2-4f12-a097-f136705b449e",
+          "projected_at": "2026-10-18T14:17:00.000Z",
+          "beijing_date": "2026-10-18"
+        },
+        {
+          "account": "P5",
+          "shop": "NinaJiaStudio",
+          "queue_id": "af1a05b1-49fc-4aa7-a036-4b606cd2359e",
+          "projected_at": "2026-10-19T14:17:00.000Z",
+          "beijing_date": "2026-10-19"
+        },
+        {
+          "account": "P5",
+          "shop": "NinaJiaStudio",
+          "queue_id": "b9371abd-b624-41fd-b312-8248ee0c71bd",
+          "projected_at": "2026-10-20T14:17:00.000Z",
+          "beijing_date": "2026-10-20"
+        }
+      ]
+    }
+  },
+  "projected_slots": [
+    {
+      "account": "P1",
+      "shop": "AmyHomeCrafts",
+      "queue_id": "0901dfc5-b941-40ea-891c-24faba899f45",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-09-24T04:51:52.170874+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T02:32:46.492+00:00",
+      "reviewed_at": "2026-10-13T02:38:37.831563+00:00",
+      "snapshot_matches": true,
+      "board_id": "801218658646993070",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T07:40:25.834371+00:00",
+      "eligible_configuration": true,
+      "listing_id": "4323894263",
+      "projected_at": "2026-10-15T13:17:00.000Z",
+      "beijing_date": "2026-10-15"
+    },
+    {
+      "account": "P3",
+      "shop": "CellaHo",
+      "queue_id": "0a6c060c-911e-4f73-b04b-1921863b80bc",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-09-24T04:51:52.170874+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T02:58:13.875+00:00",
+      "reviewed_at": "2026-10-13T03:05:43.887389+00:00",
+      "snapshot_matches": true,
+      "board_id": "499618221101238533",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T07:40:08.30273+00:00",
+      "eligible_configuration": true,
+      "listing_id": "1832656370",
+      "projected_at": "2026-10-15T13:17:00.000Z",
+      "beijing_date": "2026-10-15"
+    },
+    {
+      "account": "P2",
+      "shop": "KoltCraftStudio",
+      "queue_id": "17464d19-82c1-4d81-bb76-e7bfa1c85c24",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-10-13T05:26:28.13097+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T05:24:09.787+00:00",
+      "reviewed_at": "2026-10-13T05:26:28.13097+00:00",
+      "snapshot_matches": true,
+      "board_id": "863494997243989843",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T07:40:18.903919+00:00",
+      "eligible_configuration": true,
+      "listing_id": "4497091383",
+      "projected_at": "2026-10-15T13:17:00.000Z",
+      "beijing_date": "2026-10-15"
+    },
+    {
+      "account": "P4",
+      "shop": "QuGifts",
+      "queue_id": "3826b92d-1c4f-4736-a29b-918b01e32bbd",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-09-24T04:51:52.170874+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T03:25:26.152+00:00",
+      "reviewed_at": "2026-10-13T03:27:49.460675+00:00",
+      "snapshot_matches": true,
+      "board_id": "675399344056772225",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T13:45:07.88501+00:00",
+      "eligible_configuration": true,
+      "listing_id": "4359523943",
+      "projected_at": "2026-10-15T14:17:00.000Z",
+      "beijing_date": "2026-10-15"
+    },
+    {
+      "account": "P5",
+      "shop": "NinaJiaStudio",
+      "queue_id": "d641e4cf-f820-4b46-9f6a-3288475e96b3",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-10-13T04:16:42.180871+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T04:12:53.726+00:00",
+      "reviewed_at": "2026-10-13T04:16:42.180871+00:00",
+      "snapshot_matches": true,
+      "board_id": "713820678377803445",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T13:45:17.450589+00:00",
+      "eligible_configuration": true,
+      "listing_id": "4585556630",
+      "projected_at": "2026-10-15T14:17:00.000Z",
+      "beijing_date": "2026-10-15"
+    },
+    {
+      "account": "P1",
+      "shop": "WOGOL",
+      "queue_id": "0f7ac35a-fceb-401c-8669-6325eeccb1d6",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-09-24T04:51:52.170874+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T02:32:34.615+00:00",
+      "reviewed_at": "2026-10-13T02:38:37.831563+00:00",
+      "snapshot_matches": true,
+      "board_id": "801218658646993070",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T07:40:10.457801+00:00",
+      "eligible_configuration": true,
+      "listing_id": "4450630323",
+      "projected_at": "2026-10-16T00:17:00.000Z",
+      "beijing_date": "2026-10-16"
+    },
+    {
+      "account": "P3",
+      "shop": "LoomGoStudio",
+      "queue_id": "f929d511-3910-4794-bd4e-bf084c1887e2",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-09-24T04:51:52.170874+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T03:01:22.416+00:00",
+      "reviewed_at": "2026-10-13T03:05:21.441346+00:00",
+      "snapshot_matches": true,
+      "board_id": "499618221101238533",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T13:45:10.791081+00:00",
+      "eligible_configuration": true,
+      "listing_id": "4366040480",
+      "projected_at": "2026-10-16T00:17:00.000Z",
+      "beijing_date": "2026-10-16"
+    },
+    {
+      "account": "P5",
+      "shop": "NngGoods",
+      "queue_id": "f2b373db-84bd-4a5f-b7e1-5c4bb85da18f",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-10-13T04:16:42.180871+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T04:13:50.907+00:00",
+      "reviewed_at": "2026-10-13T04:16:42.180871+00:00",
+      "snapshot_matches": true,
+      "board_id": "713820678377803412",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T13:45:13.402872+00:00",
+      "eligible_configuration": true,
+      "listing_id": "4537632729",
+      "projected_at": "2026-10-16T00:17:00.000Z",
+      "beijing_date": "2026-10-16"
+    },
+    {
+      "account": "P1",
+      "shop": "Parkermo",
+      "queue_id": "e0a366aa-0869-4a6b-821b-143a456fc17a",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-09-24T04:51:52.170874+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T02:35:27.612+00:00",
+      "reviewed_at": "2026-10-13T02:38:37.831563+00:00",
+      "snapshot_matches": true,
+      "board_id": "801218658646993070",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T07:40:06.136647+00:00",
+      "eligible_configuration": true,
+      "listing_id": "1842796344",
+      "projected_at": "2026-10-16T02:17:00.000Z",
+      "beijing_date": "2026-10-16"
+    },
+    {
+      "account": "P3",
+      "shop": "CellaHo",
+      "queue_id": "1870df94-0116-4199-81a5-a2a9555d0420",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-09-24T04:51:52.170874+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T02:59:15.623+00:00",
+      "reviewed_at": "2026-10-13T03:02:07.588141+00:00",
+      "snapshot_matches": true,
+      "board_id": "499618221101238533",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T07:40:08.30273+00:00",
+      "eligible_configuration": true,
+      "listing_id": "4396132405",
+      "projected_at": "2026-10-16T13:17:00.000Z",
+      "beijing_date": "2026-10-16"
+    },
+    {
+      "account": "P2",
+      "shop": "KoltCraftStudio",
+      "queue_id": "33d7f6e3-a7b1-414b-872c-243d2965c968",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-10-13T05:26:28.13097+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T05:24:19.233+00:00",
+      "reviewed_at": "2026-10-13T05:26:28.13097+00:00",
+      "snapshot_matches": true,
+      "board_id": "863494997243989843",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T07:40:18.903919+00:00",
+      "eligible_configuration": true,
+      "listing_id": "4451568739",
+      "projected_at": "2026-10-16T13:17:00.000Z",
+      "beijing_date": "2026-10-16"
+    },
+    {
+      "account": "P4",
+      "shop": "QuGifts",
+      "queue_id": "e69191aa-b834-4edb-aafa-f9953bacf71c",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-09-24T04:51:52.170874+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T03:25:35.705+00:00",
+      "reviewed_at": "2026-10-13T03:27:49.460675+00:00",
+      "snapshot_matches": true,
+      "board_id": "675399344056772225",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T13:45:07.88501+00:00",
+      "eligible_configuration": true,
+      "listing_id": "4399003122",
+      "projected_at": "2026-10-16T14:17:00.000Z",
+      "beijing_date": "2026-10-16"
+    },
+    {
+      "account": "P5",
+      "shop": "NinaJiaStudio",
+      "queue_id": "13f1e96c-fc00-4f49-92f2-6455dc6153be",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-10-13T05:28:45.320052+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T05:27:07.314+00:00",
+      "reviewed_at": "2026-10-13T05:28:45.320052+00:00",
+      "snapshot_matches": true,
+      "board_id": "713820678377803445",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T13:45:17.450589+00:00",
+      "eligible_configuration": true,
+      "listing_id": "4558515139",
+      "projected_at": "2026-10-16T14:17:00.000Z",
+      "beijing_date": "2026-10-16"
+    },
+    {
+      "account": "P1",
+      "shop": "WOGOL",
+      "queue_id": "693ecedd-eb24-464d-81cd-502cd3fdc5cd",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-09-24T04:51:52.170874+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T02:32:32.991+00:00",
+      "reviewed_at": "2026-10-13T02:38:37.831563+00:00",
+      "snapshot_matches": true,
+      "board_id": "801218658646993070",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T07:40:10.457801+00:00",
+      "eligible_configuration": true,
+      "listing_id": "4448391965",
+      "projected_at": "2026-10-17T00:17:00.000Z",
+      "beijing_date": "2026-10-17"
+    },
+    {
+      "account": "P1",
+      "shop": "Parkermo",
+      "queue_id": "f8f208ed-aa70-4b17-994c-26a87f1ec16c",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-09-24T04:51:52.170874+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T02:32:11.249+00:00",
+      "reviewed_at": "2026-10-13T02:38:37.831563+00:00",
+      "snapshot_matches": true,
+      "board_id": "801218658646993070",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T07:40:06.136647+00:00",
+      "eligible_configuration": true,
+      "listing_id": "1905317635",
+      "projected_at": "2026-10-17T02:17:00.000Z",
+      "beijing_date": "2026-10-17"
+    },
+    {
+      "account": "P3",
+      "shop": "CellaHo",
+      "queue_id": "1fb92561-5600-4374-ac1d-9864310ce6a3",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-09-24T04:51:52.170874+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T02:58:43.012+00:00",
+      "reviewed_at": "2026-10-13T03:05:43.887389+00:00",
+      "snapshot_matches": true,
+      "board_id": "499618221101238533",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T07:40:08.30273+00:00",
+      "eligible_configuration": true,
+      "listing_id": "4365149143",
+      "projected_at": "2026-10-17T13:17:00.000Z",
+      "beijing_date": "2026-10-17"
+    },
+    {
+      "account": "P2",
+      "shop": "KoltCraftStudio",
+      "queue_id": "5a90e25e-4131-46d8-a231-39fdcf228f71",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-10-13T05:26:28.13097+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T05:24:38.397+00:00",
+      "reviewed_at": "2026-10-13T05:26:28.13097+00:00",
+      "snapshot_matches": true,
+      "board_id": "863494997243989843",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T07:40:18.903919+00:00",
+      "eligible_configuration": true,
+      "listing_id": "4528223141",
+      "projected_at": "2026-10-17T13:17:00.000Z",
+      "beijing_date": "2026-10-17"
+    },
+    {
+      "account": "P4",
+      "shop": "QuGifts",
+      "queue_id": "285fd15f-1edd-4506-9911-31b9f96c9191",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-10-13T05:18:10.601841+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T05:16:21.439+00:00",
+      "reviewed_at": "2026-10-13T05:18:10.601841+00:00",
+      "snapshot_matches": true,
+      "board_id": "675399344056772225",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T13:45:07.88501+00:00",
+      "eligible_configuration": true,
+      "listing_id": "1858605625",
+      "projected_at": "2026-10-17T14:17:00.000Z",
+      "beijing_date": "2026-10-17"
+    },
+    {
+      "account": "P5",
+      "shop": "NinaJiaStudio",
+      "queue_id": "60b9da12-afc9-4e21-90d6-b207705bf90a",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-10-13T05:28:45.320052+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T05:26:41.581+00:00",
+      "reviewed_at": "2026-10-13T05:28:45.320052+00:00",
+      "snapshot_matches": true,
+      "board_id": "713820678377803445",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T13:45:17.450589+00:00",
+      "eligible_configuration": true,
+      "listing_id": "4585524379",
+      "projected_at": "2026-10-17T14:17:00.000Z",
+      "beijing_date": "2026-10-17"
+    },
+    {
+      "account": "P1",
+      "shop": "WOGOL",
+      "queue_id": "17e38cee-9cc3-400a-a441-50a57ae71665",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-10-13T05:26:28.13097+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T05:23:16.199+00:00",
+      "reviewed_at": "2026-10-13T05:26:28.13097+00:00",
+      "snapshot_matches": true,
+      "board_id": "801218658646993070",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T07:40:10.457801+00:00",
+      "eligible_configuration": true,
+      "listing_id": "4556220466",
+      "projected_at": "2026-10-18T00:17:00.000Z",
+      "beijing_date": "2026-10-18"
+    },
+    {
+      "account": "P3",
+      "shop": "CellaHo",
+      "queue_id": "20be1fda-afe8-4629-a612-b527969dd516",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-09-24T04:51:52.170874+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T02:58:57.957+00:00",
+      "reviewed_at": "2026-10-13T03:05:43.887389+00:00",
+      "snapshot_matches": true,
+      "board_id": "499618221101238533",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T07:40:08.30273+00:00",
+      "eligible_configuration": true,
+      "listing_id": "4367385017",
+      "projected_at": "2026-10-18T13:17:00.000Z",
+      "beijing_date": "2026-10-18"
+    },
+    {
+      "account": "P2",
+      "shop": "KoltCraftStudio",
+      "queue_id": "62a027c5-a941-447f-8b56-82e35c450fb9",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-10-13T05:26:28.13097+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T05:23:54.416+00:00",
+      "reviewed_at": "2026-10-13T05:26:28.13097+00:00",
+      "snapshot_matches": true,
+      "board_id": "863494997243989843",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T07:40:18.903919+00:00",
+      "eligible_configuration": true,
+      "listing_id": "4511503152",
+      "projected_at": "2026-10-18T13:17:00.000Z",
+      "beijing_date": "2026-10-18"
+    },
+    {
+      "account": "P4",
+      "shop": "QuGifts",
+      "queue_id": "98c290d1-f66f-4ec6-a842-63ecc9f5570c",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-10-13T05:18:10.601841+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T05:16:39.534+00:00",
+      "reviewed_at": "2026-10-13T05:18:10.601841+00:00",
+      "snapshot_matches": true,
+      "board_id": "675399344056772225",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T13:45:07.88501+00:00",
+      "eligible_configuration": true,
+      "listing_id": "4353446272",
+      "projected_at": "2026-10-18T14:17:00.000Z",
+      "beijing_date": "2026-10-18"
+    },
+    {
+      "account": "P5",
+      "shop": "NinaJiaStudio",
+      "queue_id": "68068152-5ca2-4f12-a097-f136705b449e",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-10-13T05:28:45.320052+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T05:27:14.527+00:00",
+      "reviewed_at": "2026-10-13T05:28:45.320052+00:00",
+      "snapshot_matches": true,
+      "board_id": "713820678377803445",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T13:45:17.450589+00:00",
+      "eligible_configuration": true,
+      "listing_id": "4568703716",
+      "projected_at": "2026-10-18T14:17:00.000Z",
+      "beijing_date": "2026-10-18"
+    },
+    {
+      "account": "P1",
+      "shop": "WOGOL",
+      "queue_id": "4124e280-7c05-43b8-9d14-2c22d40111d9",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-10-13T05:26:28.13097+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T05:23:23.951+00:00",
+      "reviewed_at": "2026-10-13T05:26:28.13097+00:00",
+      "snapshot_matches": true,
+      "board_id": "801218658646993070",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T07:40:10.457801+00:00",
+      "eligible_configuration": true,
+      "listing_id": "4556660960",
+      "projected_at": "2026-10-19T00:17:00.000Z",
+      "beijing_date": "2026-10-19"
+    },
+    {
+      "account": "P3",
+      "shop": "CellaHo",
+      "queue_id": "50994c09-7048-4a7d-bc08-2480c1b36caa",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-09-24T04:51:52.170874+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T02:59:16.93+00:00",
+      "reviewed_at": "2026-10-13T03:02:07.588141+00:00",
+      "snapshot_matches": true,
+      "board_id": "499618221101238533",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T07:40:08.30273+00:00",
+      "eligible_configuration": true,
+      "listing_id": "4432320593",
+      "projected_at": "2026-10-19T13:17:00.000Z",
+      "beijing_date": "2026-10-19"
+    },
+    {
+      "account": "P2",
+      "shop": "KoltCraftStudio",
+      "queue_id": "8d47313c-3ab9-48d1-a509-d078616e97a0",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-10-13T05:26:28.13097+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T05:24:30.314+00:00",
+      "reviewed_at": "2026-10-13T05:26:28.13097+00:00",
+      "snapshot_matches": true,
+      "board_id": "863494997243989843",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T07:40:18.903919+00:00",
+      "eligible_configuration": true,
+      "listing_id": "4434422856",
+      "projected_at": "2026-10-19T13:17:00.000Z",
+      "beijing_date": "2026-10-19"
+    },
+    {
+      "account": "P4",
+      "shop": "QuGifts",
+      "queue_id": "dfdb296b-eed7-47e5-900e-891d6679c3ae",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-10-13T05:18:10.601841+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T05:15:48.219+00:00",
+      "reviewed_at": "2026-10-13T05:18:10.601841+00:00",
+      "snapshot_matches": true,
+      "board_id": "675399344056772225",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T13:45:07.88501+00:00",
+      "eligible_configuration": true,
+      "listing_id": "1843847088",
+      "projected_at": "2026-10-19T14:17:00.000Z",
+      "beijing_date": "2026-10-19"
+    },
+    {
+      "account": "P5",
+      "shop": "NinaJiaStudio",
+      "queue_id": "af1a05b1-49fc-4aa7-a036-4b606cd2359e",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-10-13T05:28:45.320052+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T05:26:33.964+00:00",
+      "reviewed_at": "2026-10-13T05:28:45.320052+00:00",
+      "snapshot_matches": true,
+      "board_id": "713820678377803445",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T13:45:17.450589+00:00",
+      "eligible_configuration": true,
+      "listing_id": "4585549341",
+      "projected_at": "2026-10-19T14:17:00.000Z",
+      "beijing_date": "2026-10-19"
+    },
+    {
+      "account": "P1",
+      "shop": "WOGOL",
+      "queue_id": "57c4f43b-1c54-41dc-bd12-4a893edd1983",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-10-13T05:26:28.13097+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T05:23:32.05+00:00",
+      "reviewed_at": "2026-10-13T05:26:28.13097+00:00",
+      "snapshot_matches": true,
+      "board_id": "801218658646993070",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T07:40:10.457801+00:00",
+      "eligible_configuration": true,
+      "listing_id": "4439603695",
+      "projected_at": "2026-10-20T00:17:00.000Z",
+      "beijing_date": "2026-10-20"
+    },
+    {
+      "account": "P3",
+      "shop": "CellaHo",
+      "queue_id": "5e9c3f0f-ba2f-4e3d-bfcd-1ae2a6f581c7",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-09-24T04:51:52.170874+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T02:58:40.719+00:00",
+      "reviewed_at": "2026-10-13T03:05:43.887389+00:00",
+      "snapshot_matches": true,
+      "board_id": "499618221101238533",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T07:40:08.30273+00:00",
+      "eligible_configuration": true,
+      "listing_id": "1846855145",
+      "projected_at": "2026-10-20T13:17:00.000Z",
+      "beijing_date": "2026-10-20"
+    },
+    {
+      "account": "P2",
+      "shop": "KoltCraftStudio",
+      "queue_id": "a4b91038-c82d-4717-be59-5dfd61c1e04b",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-10-13T05:26:28.13097+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T05:24:02.201+00:00",
+      "reviewed_at": "2026-10-13T05:26:28.13097+00:00",
+      "snapshot_matches": true,
+      "board_id": "863494997243989843",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T07:40:18.903919+00:00",
+      "eligible_configuration": true,
+      "listing_id": "4497139834",
+      "projected_at": "2026-10-20T13:17:00.000Z",
+      "beijing_date": "2026-10-20"
+    },
+    {
+      "account": "P4",
+      "shop": "QuGifts",
+      "queue_id": "fa9faabd-9b11-4594-be53-4362f9460433",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-10-13T05:18:10.601841+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T05:16:31.247+00:00",
+      "reviewed_at": "2026-10-13T05:18:10.601841+00:00",
+      "snapshot_matches": true,
+      "board_id": "675399344056772225",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T13:45:07.88501+00:00",
+      "eligible_configuration": true,
+      "listing_id": "4338894105",
+      "projected_at": "2026-10-20T14:17:00.000Z",
+      "beijing_date": "2026-10-20"
+    },
+    {
+      "account": "P5",
+      "shop": "NinaJiaStudio",
+      "queue_id": "b9371abd-b624-41fd-b312-8248ee0c71bd",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-10-13T05:28:45.320052+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T05:26:59.7+00:00",
+      "reviewed_at": "2026-10-13T05:28:45.320052+00:00",
+      "snapshot_matches": true,
+      "board_id": "713820678377803445",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T13:45:17.450589+00:00",
+      "eligible_configuration": true,
+      "listing_id": "4569933203",
+      "projected_at": "2026-10-20T14:17:00.000Z",
+      "beijing_date": "2026-10-20"
+    },
+    {
+      "account": "P1",
+      "shop": "WOGOL",
+      "queue_id": "7306b610-c8db-42a8-95be-8320746c8137",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-10-13T05:26:28.13097+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T05:23:07.945+00:00",
+      "reviewed_at": "2026-10-13T05:26:28.13097+00:00",
+      "snapshot_matches": true,
+      "board_id": "801218658646993070",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T07:40:10.457801+00:00",
+      "eligible_configuration": true,
+      "listing_id": "4556211571",
+      "projected_at": "2026-10-21T00:17:00.000Z",
+      "beijing_date": "2026-10-21"
+    },
+    {
+      "account": "P3",
+      "shop": "CellaHo",
+      "queue_id": "841e9d5b-d207-417a-a0ae-d3eb246d4b8a",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-09-24T04:51:52.170874+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T02:57:50.08+00:00",
+      "reviewed_at": "2026-10-13T03:02:07.588141+00:00",
+      "snapshot_matches": true,
+      "board_id": "499618221101238533",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T07:40:08.30273+00:00",
+      "eligible_configuration": true,
+      "listing_id": "1538620317",
+      "projected_at": "2026-10-21T13:17:00.000Z",
+      "beijing_date": "2026-10-21"
+    },
+    {
+      "account": "P3",
+      "shop": "CellaHo",
+      "queue_id": "f3e1823f-931d-422e-be5f-4ba00616a183",
+      "scheduled_at": null,
+      "priority": 100,
+      "created_at": "2026-09-24T04:51:52.170874+00:00",
+      "source_matches": true,
+      "listing_checked_at": "2026-10-13T02:57:52.02+00:00",
+      "reviewed_at": "2026-10-13T03:02:07.588141+00:00",
+      "snapshot_matches": true,
+      "board_id": "499618221101238533",
+      "max_posts_per_day": 1,
+      "min_gap_hours": 24,
+      "latest_shop_publish": "2026-10-14T07:40:08.30273+00:00",
+      "eligible_configuration": true,
+      "listing_id": "1832654442",
+      "projected_at": "2026-10-22T13:17:00.000Z",
+      "beijing_date": "2026-10-22"
+    }
+  ],
+  "unassigned_queue_ids": [],
+  "method": "Nominal hourly :17 UTC scheduler; exact queue priority/creation order (UUID used only for equal-priority equal-created ties); fixed Beijing windows [08,11),[21,23); 2h account gap; max(24h,shop min gap); max1/shop/24h; 45d product reuse; matching source/snapshot and 30d listing/review expiry. Prediction, not guarantee; GitHub latency and per-job seconds can shift slots. Existing SQL has no deterministic tie-break for equal priority and created_at. Enumerated shop-order permutations within ties; use minimum continuous coverage among these scenarios for replenishment, disclose range. No queue priority changed.",
+  "source_shop_coverage": [
+    {
+      "account": "P1",
+      "shop": "AmyHomeCrafts",
+      "ready": 1,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T07:40:25.834371+00:00"
+    },
+    {
+      "account": "P1",
+      "shop": "beou",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null
+    },
+    {
+      "account": "P1",
+      "shop": "ChicDecorHK",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null
+    },
+    {
+      "account": "P1",
+      "shop": "Chtte",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null
+    },
+    {
+      "account": "P1",
+      "shop": "CustomCurtainsStudio",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null
+    },
+    {
+      "account": "P1",
+      "shop": "DanyHomeDesign",
+      "ready": 0,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T07:40:21.430799+00:00"
+    },
+    {
+      "account": "P1",
+      "shop": "FrenchStyleDecor",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null
+    },
+    {
+      "account": "P1",
+      "shop": "GavinHome",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null
+    },
+    {
+      "account": "P1",
+      "shop": "HeyDream",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null
+    },
+    {
+      "account": "P1",
+      "shop": "KorusStore",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null
+    },
+    {
+      "account": "P1",
+      "shop": "MiraKiuStudio",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null
+    },
+    {
+      "account": "P1",
+      "shop": "NiceCraftStudioHK",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null
+    },
+    {
+      "account": "P1",
+      "shop": "Parkermo",
+      "ready": 2,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T07:40:06.136647+00:00"
+    },
+    {
+      "account": "P1",
+      "shop": "ShirieHomeShow",
+      "ready": 0,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T07:40:24.168794+00:00"
+    },
+    {
+      "account": "P1",
+      "shop": "SobiaStudio",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null
+    },
+    {
+      "account": "P1",
+      "shop": "StellaGoodsGifts",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null
+    },
+    {
+      "account": "P1",
+      "shop": "TunaMunStudio",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null
+    },
+    {
+      "account": "P1",
+      "shop": "WOGOL",
+      "ready": 6,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T07:40:10.457801+00:00"
+    },
+    {
+      "account": "P2",
+      "shop": "Adamideal",
+      "ready": 0,
+      "published": 1,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-13T03:08:19.925295+00:00"
+    },
+    {
+      "account": "P2",
+      "shop": "HibiChStudio",
+      "ready": 0,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T07:40:12.62822+00:00"
+    },
+    {
+      "account": "P2",
+      "shop": "KoltCraftStudio",
+      "ready": 6,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T07:40:18.903919+00:00"
+    },
+    {
+      "account": "P2",
+      "shop": "LambertHouse",
+      "ready": 0,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-13T01:50:35.598964+00:00"
+    },
+    {
+      "account": "P2",
+      "shop": "MiawoodStudio",
+      "ready": 0,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T07:40:14.732256+00:00"
+    },
+    {
+      "account": "P2",
+      "shop": "WoodHomeLiang",
+      "ready": 0,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T07:40:16.95796+00:00"
+    },
+    {
+      "account": "P3",
+      "shop": "CellaHo",
+      "ready": 8,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T07:40:08.30273+00:00"
+    },
+    {
+      "account": "P3",
+      "shop": "Chtte",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null
+    },
+    {
+      "account": "P3",
+      "shop": "LoomGoStudio",
+      "ready": 1,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T13:45:10.791081+00:00"
+    },
+    {
+      "account": "P4",
+      "shop": "ChicDecorHK",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null
+    },
+    {
+      "account": "P4",
+      "shop": "PearlsTreasuresArt",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null
+    },
+    {
+      "account": "P4",
+      "shop": "QuGifts",
+      "ready": 6,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T13:45:07.88501+00:00"
+    },
+    {
+      "account": "P5",
+      "shop": "NinaJiaStudio",
+      "ready": 6,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T13:45:17.450589+00:00"
+    },
+    {
+      "account": "P5",
+      "shop": "NngGoods",
+      "ready": 1,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T13:45:13.402872+00:00"
+    }
+  ],
+  "replenishment_plan": [
+    {
+      "account": "P1",
+      "preferred_shop": "WOGOL",
+      "minimum_new_verified_items": 1
+    },
+    {
+      "account": "P2",
+      "preferred_shop": "KoltCraftStudio",
+      "minimum_new_verified_items": 1
+    },
+    {
+      "account": "P4",
+      "preferred_shop": "QuGifts",
+      "minimum_new_verified_items": 1
+    },
+    {
+      "account": "P5",
+      "preferred_shop": "NinaJiaStudio",
+      "minimum_new_verified_items": 1
+    }
+  ],
+  "retry_not_before": "2026-10-16T02:07:00.604Z",
+  "blocker": "Etsy HTTP429 cooldown; do not fetch until retry_not_before, then low-frequency verify recovery. Recompute current gaps before adding content.",
+  "shop_coverage": [
+    {
+      "account": "P1",
+      "shop": "AmyHomeCrafts",
+      "ready": 1,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T07:40:25.834371+00:00",
+      "additional_items_for_seven_daily_shop_slots": 6
+    },
+    {
+      "account": "P1",
+      "shop": "beou",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null,
+      "additional_items_for_seven_daily_shop_slots": 7
+    },
+    {
+      "account": "P1",
+      "shop": "ChicDecorHK",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null,
+      "additional_items_for_seven_daily_shop_slots": 7
+    },
+    {
+      "account": "P1",
+      "shop": "Chtte",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null,
+      "additional_items_for_seven_daily_shop_slots": 7
+    },
+    {
+      "account": "P1",
+      "shop": "CustomCurtainsStudio",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null,
+      "additional_items_for_seven_daily_shop_slots": 7
+    },
+    {
+      "account": "P1",
+      "shop": "DanyHomeDesign",
+      "ready": 0,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T07:40:21.430799+00:00",
+      "additional_items_for_seven_daily_shop_slots": 7
+    },
+    {
+      "account": "P1",
+      "shop": "FrenchStyleDecor",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null,
+      "additional_items_for_seven_daily_shop_slots": 7
+    },
+    {
+      "account": "P1",
+      "shop": "GavinHome",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null,
+      "additional_items_for_seven_daily_shop_slots": 7
+    },
+    {
+      "account": "P1",
+      "shop": "HeyDream",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null,
+      "additional_items_for_seven_daily_shop_slots": 7
+    },
+    {
+      "account": "P1",
+      "shop": "KorusStore",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null,
+      "additional_items_for_seven_daily_shop_slots": 7
+    },
+    {
+      "account": "P1",
+      "shop": "MiraKiuStudio",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null,
+      "additional_items_for_seven_daily_shop_slots": 7
+    },
+    {
+      "account": "P1",
+      "shop": "NiceCraftStudioHK",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null,
+      "additional_items_for_seven_daily_shop_slots": 7
+    },
+    {
+      "account": "P1",
+      "shop": "Parkermo",
+      "ready": 2,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T07:40:06.136647+00:00",
+      "additional_items_for_seven_daily_shop_slots": 5
+    },
+    {
+      "account": "P1",
+      "shop": "ShirieHomeShow",
+      "ready": 0,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T07:40:24.168794+00:00",
+      "additional_items_for_seven_daily_shop_slots": 7
+    },
+    {
+      "account": "P1",
+      "shop": "SobiaStudio",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null,
+      "additional_items_for_seven_daily_shop_slots": 7
+    },
+    {
+      "account": "P1",
+      "shop": "StellaGoodsGifts",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null,
+      "additional_items_for_seven_daily_shop_slots": 7
+    },
+    {
+      "account": "P1",
+      "shop": "TunaMunStudio",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null,
+      "additional_items_for_seven_daily_shop_slots": 7
+    },
+    {
+      "account": "P1",
+      "shop": "WOGOL",
+      "ready": 6,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T07:40:10.457801+00:00",
+      "additional_items_for_seven_daily_shop_slots": 1
+    },
+    {
+      "account": "P2",
+      "shop": "Adamideal",
+      "ready": 0,
+      "published": 1,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-13T03:08:19.925295+00:00",
+      "additional_items_for_seven_daily_shop_slots": 7
+    },
+    {
+      "account": "P2",
+      "shop": "HibiChStudio",
+      "ready": 0,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T07:40:12.62822+00:00",
+      "additional_items_for_seven_daily_shop_slots": 7
+    },
+    {
+      "account": "P2",
+      "shop": "KoltCraftStudio",
+      "ready": 6,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T07:40:18.903919+00:00",
+      "additional_items_for_seven_daily_shop_slots": 1
+    },
+    {
+      "account": "P2",
+      "shop": "LambertHouse",
+      "ready": 0,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-13T01:50:35.598964+00:00",
+      "additional_items_for_seven_daily_shop_slots": 7
+    },
+    {
+      "account": "P2",
+      "shop": "MiawoodStudio",
+      "ready": 0,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T07:40:14.732256+00:00",
+      "additional_items_for_seven_daily_shop_slots": 7
+    },
+    {
+      "account": "P2",
+      "shop": "WoodHomeLiang",
+      "ready": 0,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T07:40:16.95796+00:00",
+      "additional_items_for_seven_daily_shop_slots": 7
+    },
+    {
+      "account": "P3",
+      "shop": "CellaHo",
+      "ready": 8,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T07:40:08.30273+00:00",
+      "additional_items_for_seven_daily_shop_slots": 0
+    },
+    {
+      "account": "P3",
+      "shop": "Chtte",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null,
+      "additional_items_for_seven_daily_shop_slots": 7
+    },
+    {
+      "account": "P3",
+      "shop": "LoomGoStudio",
+      "ready": 1,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T13:45:10.791081+00:00",
+      "additional_items_for_seven_daily_shop_slots": 6
+    },
+    {
+      "account": "P4",
+      "shop": "ChicDecorHK",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null,
+      "additional_items_for_seven_daily_shop_slots": 7
+    },
+    {
+      "account": "P4",
+      "shop": "PearlsTreasuresArt",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null,
+      "additional_items_for_seven_daily_shop_slots": 7
+    },
+    {
+      "account": "P4",
+      "shop": "QuGifts",
+      "ready": 6,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T13:45:07.88501+00:00",
+      "additional_items_for_seven_daily_shop_slots": 1
+    },
+    {
+      "account": "P5",
+      "shop": "NinaJiaStudio",
+      "ready": 6,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T13:45:17.450589+00:00",
+      "additional_items_for_seven_daily_shop_slots": 1
+    },
+    {
+      "account": "P5",
+      "shop": "NngGoods",
+      "ready": 1,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T13:45:13.402872+00:00",
+      "additional_items_for_seven_daily_shop_slots": 6
+    }
+  ]
+}
