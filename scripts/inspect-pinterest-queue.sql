@@ -23,7 +23,7 @@ order by h.published_at;
 select json_build_object('open_attempt',json_build_object('account',sa.account_name,'attempt_id',a.attempt_id,'state',a.state,'error',a.error_code,'pin_id',a.pin_id))
 from pinterest_publish_attempts a join publish_queue q on q.id=a.queue_id join social_accounts sa on sa.id=q.social_account_id where a.state <> 'published';
 select json_build_object('reserve_item',json_build_object(
-'account',a.account_name,'shop',s.shop_name,'queue_id',q.id,'scheduled_at',q.scheduled_at,
+'account',a.account_name,'shop',s.shop_name,'queue_id',q.id,'scheduled_at',q.scheduled_at,'priority',q.priority,'created_at',q.created_at,'source_matches',r.source_url=p.etsy_url,
 'listing_checked_at',r.listing_checked_at,'reviewed_at',r.reviewed_at,'snapshot_matches',r.snapshot=pinterest_publish_snapshot(q.id),
 'board_id',r.board_id,'max_posts_per_day',rule.max_posts_per_day,'min_gap_hours',rule.min_gap_hours,
 'latest_shop_publish',(select max(h.published_at) from publish_history h where h.shop_id=q.shop_id and h.platform=q.platform),
