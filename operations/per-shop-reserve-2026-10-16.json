@@ -1,0 +1,363 @@
+{
+  "checked_at": "2026-10-16T05:10:27.290839+00:00",
+  "verification_run": "https://github.com/Sailin09/Store-Promotion/actions/runs/38854371391",
+  "scope": "32 account/shop routes observed in queue; category routes remain isolated",
+  "target_definition": "7 verified unpublished items per account/shop route; stock target is not a promise of daily publication for every shop. Existing account windows and 2-hour spacing limit rotation capacity.",
+  "settings": {
+    "enabled": true,
+    "access_tier": "standard",
+    "standard_verified_at": "2026-10-10T01:45:44.447509+00:00"
+  },
+  "rules": {
+    "max_posts_per_day": 1,
+    "min_gap_hours": 24,
+    "evergreen_reuse_days": 45
+  },
+  "schedule": {
+    "timezone": "Asia/Shanghai",
+    "windows": [
+      "08:00-11:00",
+      "21:00-23:00"
+    ],
+    "account_min_gap_hours": 2,
+    "window_open": false
+  },
+  "source_status": {
+    "status": "rate_limited",
+    "checked_at": "2026-10-16T05:11:14Z",
+    "retry_not_before": "2026-10-17T05:11:14Z",
+    "listing_id": "1436043433",
+    "source_url": "https://www.etsy.com/listing/1436043433/elegant-white-lace-tablecloth-cotton",
+    "note": "First exact-listing browser request returned HTTP 429 Too Many Requests. Stopped all Etsy requests; no material or queue changes."
+  },
+  "new_materials_this_attempt": 0,
+  "summary": {
+    "routes": 32,
+    "ready": 35,
+    "gap": 189,
+    "routes_at_target": 4
+  },
+  "shops": [
+    {
+      "account": "P1",
+      "shop": "AmyHomeCrafts",
+      "ready": 0,
+      "published": 3,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-16T01:22:50.388978+00:00",
+      "target_unpublished": 7,
+      "gap": 7
+    },
+    {
+      "account": "P1",
+      "shop": "beou",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null,
+      "target_unpublished": 7,
+      "gap": 7
+    },
+    {
+      "account": "P1",
+      "shop": "ChicDecorHK",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null,
+      "target_unpublished": 7,
+      "gap": 7
+    },
+    {
+      "account": "P1",
+      "shop": "Chtte",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null,
+      "target_unpublished": 7,
+      "gap": 7
+    },
+    {
+      "account": "P1",
+      "shop": "CustomCurtainsStudio",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null,
+      "target_unpublished": 7,
+      "gap": 7
+    },
+    {
+      "account": "P1",
+      "shop": "DanyHomeDesign",
+      "ready": 0,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T07:40:21.430799+00:00",
+      "target_unpublished": 7,
+      "gap": 7
+    },
+    {
+      "account": "P1",
+      "shop": "FrenchStyleDecor",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null,
+      "target_unpublished": 7,
+      "gap": 7
+    },
+    {
+      "account": "P1",
+      "shop": "GavinHome",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null,
+      "target_unpublished": 7,
+      "gap": 7
+    },
+    {
+      "account": "P1",
+      "shop": "HeyDream",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null,
+      "target_unpublished": 7,
+      "gap": 7
+    },
+    {
+      "account": "P1",
+      "shop": "KorusStore",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null,
+      "target_unpublished": 7,
+      "gap": 7
+    },
+    {
+      "account": "P1",
+      "shop": "MiraKiuStudio",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null,
+      "target_unpublished": 7,
+      "gap": 7
+    },
+    {
+      "account": "P1",
+      "shop": "NiceCraftStudioHK",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null,
+      "target_unpublished": 7,
+      "gap": 7
+    },
+    {
+      "account": "P1",
+      "shop": "Parkermo",
+      "ready": 1,
+      "published": 3,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-15T13:27:42.147769+00:00",
+      "target_unpublished": 7,
+      "gap": 6
+    },
+    {
+      "account": "P1",
+      "shop": "ShirieHomeShow",
+      "ready": 0,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T07:40:24.168794+00:00",
+      "target_unpublished": 7,
+      "gap": 7
+    },
+    {
+      "account": "P1",
+      "shop": "SobiaStudio",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null,
+      "target_unpublished": 7,
+      "gap": 7
+    },
+    {
+      "account": "P1",
+      "shop": "StellaGoodsGifts",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null,
+      "target_unpublished": 7,
+      "gap": 7
+    },
+    {
+      "account": "P1",
+      "shop": "TunaMunStudio",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null,
+      "target_unpublished": 7,
+      "gap": 7
+    },
+    {
+      "account": "P1",
+      "shop": "WOGOL",
+      "ready": 7,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T07:40:10.457801+00:00",
+      "target_unpublished": 7,
+      "gap": 0
+    },
+    {
+      "account": "P2",
+      "shop": "Adamideal",
+      "ready": 0,
+      "published": 1,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-13T03:08:19.925295+00:00",
+      "target_unpublished": 7,
+      "gap": 7
+    },
+    {
+      "account": "P2",
+      "shop": "HibiChStudio",
+      "ready": 0,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T07:40:12.62822+00:00",
+      "target_unpublished": 7,
+      "gap": 7
+    },
+    {
+      "account": "P2",
+      "shop": "KoltCraftStudio",
+      "ready": 7,
+      "published": 3,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-15T13:27:45.474424+00:00",
+      "target_unpublished": 7,
+      "gap": 0
+    },
+    {
+      "account": "P2",
+      "shop": "LambertHouse",
+      "ready": 0,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-13T01:50:35.598964+00:00",
+      "target_unpublished": 7,
+      "gap": 7
+    },
+    {
+      "account": "P2",
+      "shop": "MiawoodStudio",
+      "ready": 0,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T07:40:14.732256+00:00",
+      "target_unpublished": 7,
+      "gap": 7
+    },
+    {
+      "account": "P2",
+      "shop": "WoodHomeLiang",
+      "ready": 0,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T07:40:16.95796+00:00",
+      "target_unpublished": 7,
+      "gap": 7
+    },
+    {
+      "account": "P3",
+      "shop": "CellaHo",
+      "ready": 7,
+      "published": 3,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-15T13:27:43.917828+00:00",
+      "target_unpublished": 7,
+      "gap": 0
+    },
+    {
+      "account": "P3",
+      "shop": "Chtte",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null,
+      "target_unpublished": 7,
+      "gap": 7
+    },
+    {
+      "account": "P3",
+      "shop": "LoomGoStudio",
+      "ready": 0,
+      "published": 3,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-16T01:22:56.632236+00:00",
+      "target_unpublished": 7,
+      "gap": 7
+    },
+    {
+      "account": "P4",
+      "shop": "ChicDecorHK",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null,
+      "target_unpublished": 7,
+      "gap": 7
+    },
+    {
+      "account": "P4",
+      "shop": "PearlsTreasuresArt",
+      "ready": 0,
+      "published": 0,
+      "paused_or_failed": 0,
+      "latest_published_at": null,
+      "target_unpublished": 7,
+      "gap": 7
+    },
+    {
+      "account": "P4",
+      "shop": "QuGifts",
+      "ready": 6,
+      "published": 3,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-16T01:22:53.898662+00:00",
+      "target_unpublished": 7,
+      "gap": 1
+    },
+    {
+      "account": "P5",
+      "shop": "NinaJiaStudio",
+      "ready": 7,
+      "published": 2,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-14T13:45:17.450589+00:00",
+      "target_unpublished": 7,
+      "gap": 0
+    },
+    {
+      "account": "P5",
+      "shop": "NngGoods",
+      "ready": 0,
+      "published": 3,
+      "paused_or_failed": 0,
+      "latest_published_at": "2026-10-16T01:22:59.278169+00:00",
+      "target_unpublished": 7,
+      "gap": 7
+    }
+  ],
+  "continuation": "After cooldown, re-audit consumption; rotate zero-stock shops across accounts, prioritize existing drafts, batches at most 10; stop source on 429. Exclude 1805037084 and unavailable 4325858718. Jewelry without a verified suitable public board remains draft."
+}
