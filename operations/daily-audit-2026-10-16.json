@@ -854,5 +854,10 @@
   "zero_publish_reason_yesterday": {
     "P4": "Previous shop publish 2026-10-14 21:45 Beijing. Oct15 21:27 dispatch was before 24h eligibility; no later in-window scheduled run. Published Oct16 09:22.",
     "P5": "Previous shop publish 2026-10-14 21:45 Beijing. Oct15 21:27 dispatch was before 24h eligibility; no later in-window scheduled run. Published Oct16 09:22."
+  },
+  "publisher_check": {
+    "run": "38839371287",
+    "result": "idle",
+    "published": 0
   }
 }
