@@ -1,40 +1,11 @@
 {
-  "checked_at": "2026-10-17T02:03:40.483338+00:00",
-  "verification_run": "38993402925",
-  "publisher_run": "38993343422",
-  "publisher_result": {
-    "published": 5,
-    "then": "idle"
-  },
+  "checked_at": "2026-10-18T02:19:48.304196+00:00",
+  "verification_run": "39089677481",
+  "publisher_runs": [
+    "39088804258",
+    "39089500291"
+  ],
   "history": [
-    {
-      "account": "P1",
-      "pin_id": "801218590009321922",
-      "url": "https://www.pinterest.com/pin/801218590009321922/",
-      "published_at": "2026-10-16T01:22:50.388978+00:00",
-      "status": "published"
-    },
-    {
-      "account": "P4",
-      "pin_id": "675399275414420610",
-      "url": "https://www.pinterest.com/pin/675399275414420610/",
-      "published_at": "2026-10-16T01:22:53.898662+00:00",
-      "status": "published"
-    },
-    {
-      "account": "P3",
-      "pin_id": "499618152434181093",
-      "url": "https://www.pinterest.com/pin/499618152434181093/",
-      "published_at": "2026-10-16T01:22:56.632236+00:00",
-      "status": "published"
-    },
-    {
-      "account": "P5",
-      "pin_id": "713820609737448645",
-      "url": "https://www.pinterest.com/pin/713820609737448645/",
-      "published_at": "2026-10-16T01:22:59.278169+00:00",
-      "status": "published"
-    },
     {
       "account": "P1",
       "pin_id": "801218590009338649",
@@ -69,267 +40,147 @@
       "url": "https://www.pinterest.com/pin/713820609737466877/",
       "published_at": "2026-10-17T02:03:00.263666+00:00",
       "status": "published"
+    },
+    {
+      "account": "P1",
+      "pin_id": "801218590009345685",
+      "url": "https://www.pinterest.com/pin/801218590009345685/",
+      "published_at": "2026-10-17T13:44:38.069788+00:00",
+      "status": "published"
+    },
+    {
+      "account": "P3",
+      "pin_id": "499618152434195900",
+      "url": "https://www.pinterest.com/pin/499618152434195900/",
+      "published_at": "2026-10-18T02:05:15.759943+00:00",
+      "status": "published"
+    },
+    {
+      "account": "P2",
+      "pin_id": "863494928599172646",
+      "url": "https://www.pinterest.com/pin/863494928599172646/",
+      "published_at": "2026-10-18T02:05:17.942729+00:00",
+      "status": "published"
+    },
+    {
+      "account": "P4",
+      "pin_id": "675399275414456187",
+      "url": "https://www.pinterest.com/pin/675399275414456187/",
+      "published_at": "2026-10-18T02:05:19.954577+00:00",
+      "status": "published"
+    },
+    {
+      "account": "P5",
+      "pin_id": "713820609737482583",
+      "url": "https://www.pinterest.com/pin/713820609737482583/",
+      "published_at": "2026-10-18T02:05:22.420266+00:00",
+      "status": "published"
+    },
+    {
+      "account": "P1",
+      "pin_id": "801218590009355005",
+      "url": "https://www.pinterest.com/pin/801218590009355005/",
+      "published_at": "2026-10-18T02:16:36.71416+00:00",
+      "status": "published"
     }
   ],
   "account_reserve": {
     "P1": {
-      "ready": 7,
-      "continuous_days_including_today": 7,
-      "new_materials": 0
+      "ready": 14,
+      "continuous_days_including_today_min": 7,
+      "continuous_days_including_today_max": 7,
+      "new_materials": 9,
+      "possible_day_masks": [
+        127
+      ]
     },
     "P2": {
-      "ready": 6,
-      "continuous_days_including_today": 7,
-      "new_materials": 0
+      "ready": 9,
+      "continuous_days_including_today_min": 7,
+      "continuous_days_including_today_max": 7,
+      "new_materials": 4,
+      "possible_day_masks": [
+        127
+      ]
     },
     "P3": {
-      "ready": 6,
-      "continuous_days_including_today": 7,
-      "new_materials": 0
+      "ready": 5,
+      "continuous_days_including_today_min": 6,
+      "continuous_days_including_today_max": 6,
+      "new_materials": 0,
+      "possible_day_masks": [
+        63
+      ]
     },
     "P4": {
       "ready": 5,
-      "continuous_days_including_today": 6,
-      "new_materials": 0
+      "continuous_days_including_today_min": 6,
+      "continuous_days_including_today_max": 6,
+      "new_materials": 1,
+      "possible_day_masks": [
+        63
+      ]
     },
     "P5": {
-      "ready": 6,
-      "continuous_days_including_today": 7,
-      "new_materials": 0
+      "ready": 7,
+      "continuous_days_including_today_min": 6,
+      "continuous_days_including_today_max": 6,
+      "new_materials": 2,
+      "possible_day_masks": [
+        63
+      ]
     }
   },
-  "projected_slots": [
-    {
-      "account": "P1",
-      "shop": "WOGOL",
-      "queue_id": "0f7ac35a-fceb-401c-8669-6325eeccb1d6",
-      "projected_at": "2026-10-17T21:17:00+08:00"
-    },
-    {
-      "account": "P2",
-      "shop": "KoltCraftStudio",
-      "queue_id": "1a1dad3b-7b9b-487f-9f78-06b3632146d7",
-      "projected_at": "2026-10-18T10:17:00+08:00"
-    },
-    {
-      "account": "P3",
-      "shop": "CellaHo",
-      "queue_id": "0a6c060c-911e-4f73-b04b-1921863b80bc",
-      "projected_at": "2026-10-18T10:17:00+08:00"
-    },
-    {
-      "account": "P4",
-      "shop": "QuGifts",
-      "queue_id": "285fd15f-1edd-4506-9911-31b9f96c9191",
-      "projected_at": "2026-10-18T10:17:00+08:00"
-    },
-    {
-      "account": "P5",
-      "shop": "NinaJiaStudio",
-      "queue_id": "13f1e96c-fc00-4f49-92f2-6455dc6153be",
-      "projected_at": "2026-10-18T10:17:00+08:00"
-    },
-    {
-      "account": "P1",
-      "shop": "WOGOL",
-      "queue_id": "5069aba6-9aa2-444e-98c8-7e71c927a367",
-      "projected_at": "2026-10-18T21:17:00+08:00"
-    },
-    {
-      "account": "P2",
-      "shop": "KoltCraftStudio",
-      "queue_id": "17464d19-82c1-4d81-bb76-e7bfa1c85c24",
-      "projected_at": "2026-10-19T10:17:00+08:00"
-    },
-    {
-      "account": "P3",
-      "shop": "CellaHo",
-      "queue_id": "1870df94-0116-4199-81a5-a2a9555d0420",
-      "projected_at": "2026-10-19T10:17:00+08:00"
-    },
-    {
-      "account": "P4",
-      "shop": "QuGifts",
-      "queue_id": "98c290d1-f66f-4ec6-a842-63ecc9f5570c",
-      "projected_at": "2026-10-19T10:17:00+08:00"
-    },
-    {
-      "account": "P5",
-      "shop": "NinaJiaStudio",
-      "queue_id": "60b9da12-afc9-4e21-90d6-b207705bf90a",
-      "projected_at": "2026-10-19T10:17:00+08:00"
-    },
-    {
-      "account": "P1",
-      "shop": "WOGOL",
-      "queue_id": "693ecedd-eb24-464d-81cd-502cd3fdc5cd",
-      "projected_at": "2026-10-19T21:17:00+08:00"
-    },
-    {
-      "account": "P2",
-      "shop": "KoltCraftStudio",
-      "queue_id": "33d7f6e3-a7b1-414b-872c-243d2965c968",
-      "projected_at": "2026-10-20T10:17:00+08:00"
-    },
-    {
-      "account": "P3",
-      "shop": "CellaHo",
-      "queue_id": "20be1fda-afe8-4629-a612-b527969dd516",
-      "projected_at": "2026-10-20T10:17:00+08:00"
-    },
-    {
-      "account": "P4",
-      "shop": "QuGifts",
-      "queue_id": "dfdb296b-eed7-47e5-900e-891d6679c3ae",
-      "projected_at": "2026-10-20T10:17:00+08:00"
-    },
-    {
-      "account": "P5",
-      "shop": "NinaJiaStudio",
-      "queue_id": "68068152-5ca2-4f12-a097-f136705b449e",
-      "projected_at": "2026-10-20T10:17:00+08:00"
-    },
-    {
-      "account": "P1",
-      "shop": "WOGOL",
-      "queue_id": "17e38cee-9cc3-400a-a441-50a57ae71665",
-      "projected_at": "2026-10-20T21:17:00+08:00"
-    },
-    {
-      "account": "P2",
-      "shop": "KoltCraftStudio",
-      "queue_id": "62a027c5-a941-447f-8b56-82e35c450fb9",
-      "projected_at": "2026-10-21T10:17:00+08:00"
-    },
-    {
-      "account": "P3",
-      "shop": "CellaHo",
-      "queue_id": "50994c09-7048-4a7d-bc08-2480c1b36caa",
-      "projected_at": "2026-10-21T10:17:00+08:00"
-    },
-    {
-      "account": "P4",
-      "shop": "QuGifts",
-      "queue_id": "fa9faabd-9b11-4594-be53-4362f9460433",
-      "projected_at": "2026-10-21T10:17:00+08:00"
-    },
-    {
-      "account": "P5",
-      "shop": "NinaJiaStudio",
-      "queue_id": "af1a05b1-49fc-4aa7-a036-4b606cd2359e",
-      "projected_at": "2026-10-21T10:17:00+08:00"
-    },
-    {
-      "account": "P1",
-      "shop": "WOGOL",
-      "queue_id": "4124e280-7c05-43b8-9d14-2c22d40111d9",
-      "projected_at": "2026-10-21T21:17:00+08:00"
-    },
-    {
-      "account": "P2",
-      "shop": "KoltCraftStudio",
-      "queue_id": "8d47313c-3ab9-48d1-a509-d078616e97a0",
-      "projected_at": "2026-10-22T10:17:00+08:00"
-    },
-    {
-      "account": "P3",
-      "shop": "CellaHo",
-      "queue_id": "841e9d5b-d207-417a-a0ae-d3eb246d4b8a",
-      "projected_at": "2026-10-22T10:17:00+08:00"
-    },
-    {
-      "account": "P4",
-      "shop": "QuGifts",
-      "queue_id": "3ba908c2-73e0-44e6-9c54-b504f9791b77",
-      "projected_at": "2026-10-22T10:17:00+08:00"
-    },
-    {
-      "account": "P5",
-      "shop": "NinaJiaStudio",
-      "queue_id": "b9371abd-b624-41fd-b312-8248ee0c71bd",
-      "projected_at": "2026-10-22T10:17:00+08:00"
-    },
-    {
-      "account": "P1",
-      "shop": "WOGOL",
-      "queue_id": "57c4f43b-1c54-41dc-bd12-4a893edd1983",
-      "projected_at": "2026-10-22T21:17:00+08:00"
-    },
-    {
-      "account": "P2",
-      "shop": "KoltCraftStudio",
-      "queue_id": "a4b91038-c82d-4717-be59-5dfd61c1e04b",
-      "projected_at": "2026-10-23T10:17:00+08:00"
-    },
-    {
-      "account": "P3",
-      "shop": "CellaHo",
-      "queue_id": "f3e1823f-931d-422e-be5f-4ba00616a183",
-      "projected_at": "2026-10-23T10:17:00+08:00"
-    },
-    {
-      "account": "P5",
-      "shop": "NinaJiaStudio",
-      "queue_id": "d5e0c800-b9aa-4210-80c1-7cb13bf49c2e",
-      "projected_at": "2026-10-23T10:17:00+08:00"
-    },
-    {
-      "account": "P1",
-      "shop": "WOGOL",
-      "queue_id": "7306b610-c8db-42a8-95be-8320746c8137",
-      "projected_at": "2026-10-23T21:17:00+08:00"
-    }
-  ],
   "shop_coverage": [
     {
       "account": "P1",
       "shop": "AmyHomeCrafts",
       "ready": 0,
-      "published": 3,
+      "published": 4,
       "paused_or_failed": 0,
-      "latest_published_at": "2026-10-16T01:22:50.388978+00:00",
+      "latest_published_at": "2026-10-18T02:16:36.71416+00:00",
       "target_unpublished": 7,
       "gap": 7
     },
     {
       "account": "P1",
       "shop": "beou",
-      "ready": 0,
+      "ready": 1,
       "published": 0,
       "paused_or_failed": 0,
       "latest_published_at": null,
       "target_unpublished": 7,
-      "gap": 7
+      "gap": 6
     },
     {
       "account": "P1",
       "shop": "ChicDecorHK",
-      "ready": 0,
+      "ready": 1,
       "published": 0,
       "paused_or_failed": 0,
       "latest_published_at": null,
       "target_unpublished": 7,
-      "gap": 7
+      "gap": 6
     },
     {
       "account": "P1",
       "shop": "Chtte",
-      "ready": 0,
+      "ready": 1,
       "published": 0,
       "paused_or_failed": 0,
       "latest_published_at": null,
       "target_unpublished": 7,
-      "gap": 7
+      "gap": 6
     },
     {
       "account": "P1",
       "shop": "CustomCurtainsStudio",
-      "ready": 0,
+      "ready": 1,
       "published": 0,
       "paused_or_failed": 0,
       "latest_published_at": null,
       "target_unpublished": 7,
-      "gap": 7
+      "gap": 6
     },
     {
       "account": "P1",
@@ -344,42 +195,42 @@
     {
       "account": "P1",
       "shop": "FrenchStyleDecor",
-      "ready": 0,
+      "ready": 1,
       "published": 0,
       "paused_or_failed": 0,
       "latest_published_at": null,
       "target_unpublished": 7,
-      "gap": 7
+      "gap": 6
     },
     {
       "account": "P1",
       "shop": "GavinHome",
-      "ready": 0,
+      "ready": 1,
       "published": 0,
       "paused_or_failed": 0,
       "latest_published_at": null,
       "target_unpublished": 7,
-      "gap": 7
+      "gap": 6
     },
     {
       "account": "P1",
       "shop": "HeyDream",
-      "ready": 0,
+      "ready": 1,
       "published": 0,
       "paused_or_failed": 0,
       "latest_published_at": null,
       "target_unpublished": 7,
-      "gap": 7
+      "gap": 6
     },
     {
       "account": "P1",
       "shop": "KorusStore",
-      "ready": 0,
+      "ready": 1,
       "published": 0,
       "paused_or_failed": 0,
       "latest_published_at": null,
       "target_unpublished": 7,
-      "gap": 7
+      "gap": 6
     },
     {
       "account": "P1",
@@ -454,12 +305,12 @@
     {
       "account": "P1",
       "shop": "WOGOL",
-      "ready": 7,
-      "published": 2,
+      "ready": 6,
+      "published": 3,
       "paused_or_failed": 0,
-      "latest_published_at": "2026-10-14T07:40:10.457801+00:00",
+      "latest_published_at": "2026-10-17T13:44:38.069788+00:00",
       "target_unpublished": 7,
-      "gap": 0
+      "gap": 1
     },
     {
       "account": "P2",
@@ -474,62 +325,62 @@
     {
       "account": "P2",
       "shop": "HibiChStudio",
-      "ready": 0,
+      "ready": 1,
       "published": 2,
       "paused_or_failed": 0,
       "latest_published_at": "2026-10-14T07:40:12.62822+00:00",
       "target_unpublished": 7,
-      "gap": 7
+      "gap": 6
     },
     {
       "account": "P2",
       "shop": "KoltCraftStudio",
-      "ready": 6,
-      "published": 4,
+      "ready": 5,
+      "published": 5,
       "paused_or_failed": 0,
-      "latest_published_at": "2026-10-17T02:02:52.965627+00:00",
+      "latest_published_at": "2026-10-18T02:05:17.942729+00:00",
       "target_unpublished": 7,
-      "gap": 1
+      "gap": 2
     },
     {
       "account": "P2",
       "shop": "LambertHouse",
-      "ready": 0,
+      "ready": 1,
       "published": 2,
       "paused_or_failed": 0,
       "latest_published_at": "2026-10-13T01:50:35.598964+00:00",
       "target_unpublished": 7,
-      "gap": 7
+      "gap": 6
     },
     {
       "account": "P2",
       "shop": "MiawoodStudio",
-      "ready": 0,
+      "ready": 1,
       "published": 2,
       "paused_or_failed": 0,
       "latest_published_at": "2026-10-14T07:40:14.732256+00:00",
       "target_unpublished": 7,
-      "gap": 7
+      "gap": 6
     },
     {
       "account": "P2",
       "shop": "WoodHomeLiang",
-      "ready": 0,
+      "ready": 1,
       "published": 2,
       "paused_or_failed": 0,
       "latest_published_at": "2026-10-14T07:40:16.95796+00:00",
       "target_unpublished": 7,
-      "gap": 7
+      "gap": 6
     },
     {
       "account": "P3",
       "shop": "CellaHo",
-      "ready": 6,
-      "published": 4,
+      "ready": 5,
+      "published": 5,
       "paused_or_failed": 0,
-      "latest_published_at": "2026-10-17T02:02:50.318038+00:00",
+      "latest_published_at": "2026-10-18T02:05:15.759943+00:00",
       "target_unpublished": 7,
-      "gap": 1
+      "gap": 2
     },
     {
       "account": "P3",
@@ -575,42 +426,42 @@
       "account": "P4",
       "shop": "QuGifts",
       "ready": 5,
-      "published": 4,
+      "published": 5,
       "paused_or_failed": 0,
-      "latest_published_at": "2026-10-17T02:02:55.990543+00:00",
+      "latest_published_at": "2026-10-18T02:05:19.954577+00:00",
       "target_unpublished": 7,
       "gap": 2
     },
     {
       "account": "P5",
       "shop": "NinaJiaStudio",
-      "ready": 6,
-      "published": 3,
+      "ready": 5,
+      "published": 4,
       "paused_or_failed": 0,
-      "latest_published_at": "2026-10-17T02:03:00.263666+00:00",
+      "latest_published_at": "2026-10-18T02:05:22.420266+00:00",
       "target_unpublished": 7,
-      "gap": 1
+      "gap": 2
     },
     {
       "account": "P5",
       "shop": "NngGoods",
-      "ready": 0,
+      "ready": 2,
       "published": 3,
       "paused_or_failed": 0,
       "latest_published_at": "2026-10-16T01:22:59.278169+00:00",
       "target_unpublished": 7,
-      "gap": 7
+      "gap": 5
     }
   ],
   "source_status": {
-    "status": "rate_limited",
-    "checked_at": "2026-10-16T05:11:14Z",
-    "retry_not_before": "2026-10-17T05:11:14Z",
-    "listing_id": "1436043433",
-    "source_url": "https://www.etsy.com/listing/1436043433/elegant-white-lace-tablecloth-cotton",
-    "note": "First exact-listing browser request returned HTTP 429 Too Many Requests. Stopped all Etsy requests; no material or queue changes."
+    "status": "available",
+    "checked_at": "2026-10-18T02:18:44.697863+00:00",
+    "retry_not_before": null,
+    "note": "Normal low-frequency public browser access recovered; 16 exact listings visually verified and saved. No CAPTCHA bypass or rate-limit workaround."
   },
-  "new_materials": 0,
+  "new_materials": 16,
   "open_attempts": [],
-  "note": "No Etsy requests before cooldown. Nominal hourly :17 simulation with windows, 2h/account, 24h/shop and 30d review/source expiry. Includes today actual success; delays can reduce coverage. Only one stocked shop per account remains, so shop-order ties cannot alter coverage. Active scheduler missed eligible evening window; protected manual run completed 5 recorded Pins."
+  "schedule_active": true,
+  "code_sha": "31f1dca1c41af988fe65338e94c5d10450c71759",
+  "note": "Nominal hourly :30 simulation; enumerates all equal-priority/equal-created-at shop order branches, includes actual success today. Enforces windows, 2h/account, >=24h/shop, due time, source/review 30d expiry and exact snapshot/config. Delay can reduce actual coverage. Shop reserve gaps remain unfinished; no rate limit currently observed. P3 fabrics/P4 jewelry remain draft without verified matching board. 7 stock items per shop is distinct from daily posting coverage."
 }
