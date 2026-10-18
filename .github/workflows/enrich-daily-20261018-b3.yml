@@ -1,0 +1,23 @@
+name: Replenish verified daily stock 20261018-b3
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: supabase-production
+  cancel-in-progress: false
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    environment: production
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Install PostgreSQL client
+        run: sudo apt-get update && sudo apt-get install -y postgresql-client
+      - name: Save four verified products and exact reviews
+        env:
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+        run: psql "$SUPABASE_DB_URL" -X -v ON_ERROR_STOP=1 -Atf scripts/enrich-daily-20261018-b3.sql
