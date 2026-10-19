@@ -489,5 +489,12 @@
       "source": "https://www.etsy.com/shop/Chtte"
     }
   ],
-  "per_shop_target_complete": false
+  "per_shop_target_complete": false,
+  "post_configuration_publisher_check": {
+    "run_id": "39191473438",
+    "checked_at": "2026-10-19T02:45:50Z",
+    "status": "idle",
+    "published": 0,
+    "note": "Protected publisher invoked after P4 board configuration. No extra publication; all five accounts remain inside the minimum two-hour interval after their last successful publication."
+  }
 }
