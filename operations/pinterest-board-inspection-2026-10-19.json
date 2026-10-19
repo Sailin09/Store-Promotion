@@ -1,0 +1,92 @@
+[
+  {
+    "status": "inspected",
+    "http_status": 200,
+    "content_type": "application/json",
+    "account_type": "BUSINESS",
+    "reconciliation": null,
+    "handle": "mydecorshop",
+    "boards": [
+      {
+        "id": "499618221101298956",
+        "name": "Decor"
+      },
+      {
+        "id": "499618221101119723",
+        "name": "Design ideas by room"
+      },
+      {
+        "id": "499618221101241764",
+        "name": "Drinkware"
+      },
+      {
+        "id": "499618221101238533",
+        "name": "Home Decor"
+      },
+      {
+        "id": "499618221101215211",
+        "name": "Kitchen & Dining"
+      },
+      {
+        "id": "499618221101238763",
+        "name": "Lighting"
+      },
+      {
+        "id": "499618221101216981",
+        "name": "Posters"
+      },
+      {
+        "id": "499618221101159797",
+        "name": "Rug"
+      },
+      {
+        "id": "499618221101214207",
+        "name": "Slipcover"
+      },
+      {
+        "id": "499618221101238540",
+        "name": "Storage & Organization"
+      },
+      {
+        "id": "499618221101217006",
+        "name": "Tables"
+      },
+      {
+        "id": "499618221101216983",
+        "name": "Tableware"
+      },
+      {
+        "id": "499618221101217177",
+        "name": "Throw Pillows"
+      },
+      {
+        "id": "499618221101214423",
+        "name": "Window Treatments"
+      }
+    ],
+    "has_more": false
+  },
+  {
+    "status": "inspected",
+    "http_status": 200,
+    "content_type": "application/json",
+    "account_type": "BUSINESS",
+    "reconciliation": null,
+    "handle": "cindyzhang62",
+    "boards": [
+      {
+        "id": "675399344056770476",
+        "name": "cyndizhang.com"
+      },
+      {
+        "id": "675399344056772225",
+        "name": "Decor"
+      },
+      {
+        "id": "675399344056770481",
+        "name": "mydecorshop.com"
+      }
+    ],
+    "has_more": false
+  }
+]
