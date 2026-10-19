@@ -1,0 +1,10 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {ensureBoard} from '../supabase/functions/pinterest-board-setup/board.mjs';
+const b={id:'123',name:'Jewelry & Accessories',privacy:'PUBLIC',owner:{username:'cindyzhang62'}};
+const deps=()=>({profile:{username:'cindyzhang62'},scopes:['boards:read','boards:write'],list:async()=>[],claim:async()=>true,create:async()=>b,get:async()=>b,save:async()=>{}});
+test('wrong account cannot create',async()=>{let d=deps();d.profile.username='other';await assert.rejects(ensureBoard(d),/account_mismatch/)});
+test('missing write scope cannot create',async()=>{let d=deps();d.scopes=['boards:read'];await assert.rejects(ensureBoard(d),/scope_missing/)});
+test('existing public board reused without POST',async()=>{let d=deps();d.list=async()=>[b];d.create=()=>assert.fail();assert.equal((await ensureBoard(d)).status,'verified_existing')});
+test('prior uncertain attempt cannot repeat POST',async()=>{let d=deps();d.claim=async()=>false;d.create=()=>assert.fail();await assert.rejects(ensureBoard(d),/prior_attempt/)});
+test('private match is not exposed',async()=>{let d=deps();d.list=async()=>[{...b,privacy:'SECRET'}];d.create=()=>assert.fail();await assert.rejects(ensureBoard(d),/ambiguous_or_private/)});
+test('create then GET must verify owner before saving',async()=>{let d=deps();d.get=async()=>({...b,owner:{username:'other'}});d.save=()=>assert.fail();await assert.rejects(ensureBoard(d),/board_verification/)});
+test('single POST after durable claim, then save verified board',async()=>{let d=deps(),order=[];d.claim=async()=>{order.push('claim');return true};d.create=async x=>{order.push('post');assert.equal(x.privacy,'PUBLIC');return b};d.get=async()=>{order.push('get');return b};d.save=async()=>{order.push('save')};assert.equal((await ensureBoard(d)).status,'created_verified');assert.deepEqual(order,['claim','post','get','save'])});
