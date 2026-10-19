@@ -1,0 +1,27 @@
+{
+  "account": "P4",
+  "handle": "cindyzhang62",
+  "id": "675399344058025061",
+  "name": "Jewelry & Accessories",
+  "privacy": "PUBLIC",
+  "owner": "cindyzhang62",
+  "verified_at": "2026-10-19T02:36:49.323875Z",
+  "setup_run": "39190681884",
+  "configuration_run": "39190859881",
+  "reactivated_listing_ids": [
+    "1721799800",
+    "1904477471",
+    "4339516931",
+    "4348858512"
+  ],
+  "source_verification_dates_preserved": true,
+  "new_material_runs": [
+    "39190979677",
+    "39191284616"
+  ],
+  "new_materials": 10,
+  "shops": [
+    "ChicDecorHK",
+    "PearlsTreasuresArt"
+  ]
+}
