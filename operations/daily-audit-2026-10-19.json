@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-10-19T02:27:12.382356+00:00",
-  "verification_run": "39190010570",
+  "checked_at": "2026-10-19T02:44:26.101272+00:00",
+  "verification_run": "39191353911",
   "publisher_runs": [
     "39188217002",
     "39188376473"
@@ -127,10 +127,10 @@
       ]
     },
     "P4": {
-      "ready": 6,
+      "ready": 20,
       "continuous_days_including_today_min": 7,
       "continuous_days_including_today_max": 7,
-      "new_materials": 2,
+      "new_materials": 12,
       "possible_day_masks": [
         127
       ]
@@ -419,22 +419,22 @@
     {
       "account": "P4",
       "shop": "ChicDecorHK",
-      "ready": 0,
+      "ready": 7,
       "published": 0,
       "paused_or_failed": 0,
       "latest_published_at": null,
       "target_unpublished": 7,
-      "gap": 7
+      "gap": 0
     },
     {
       "account": "P4",
       "shop": "PearlsTreasuresArt",
-      "ready": 0,
+      "ready": 7,
       "published": 0,
       "paused_or_failed": 0,
       "latest_published_at": null,
       "target_unpublished": 7,
-      "gap": 7
+      "gap": 0
     },
     {
       "account": "P4",
@@ -468,32 +468,25 @@
     }
   ],
   "source_status": {
-    "status": "available",
-    "checked_at": "2026-10-19T02:24:00+00:00",
-    "retry_not_before": null,
-    "note": "21 exact listing pages and original images verified through normal public browser access; no CAPTCHA or HTTP429 encountered in this batch."
+    "status": "rate_limited",
+    "checked_at": "2026-10-19T02:44:03Z",
+    "retry_not_before": "2026-10-20T02:44:03Z",
+    "http_status": 429,
+    "listing_id": "4537687983",
+    "source_url": "https://www.etsy.com/listing/4537687983/natural-stone-cabinet-knob-blue-or-green",
+    "note": "Etsy public listing returned 429 Too Many Requests. Source requests stopped; no product facts or images saved."
   },
-  "new_materials": 21,
+  "new_materials": 31,
   "open_attempts": [],
   "schedule_active": true,
-  "code_sha": "5256fb3de106c4c707f0d113359d77a16d8a8b74",
-  "note": "Nominal hourly :30 simulation; enumerates equal-priority/equal-created-at branches, collapsing equivalent eligible single-item shops with no expiry within horizon, includes actual success today. Enforces windows, 2h/account, >=24h/shop, due time, source/review 30d expiry and exact snapshot/config. Delay can reduce actual coverage. Shop reserve gaps remain unfinished; no rate limit currently observed. P3 garment-only fabrics and P4 jewelry require matching public boards. Chtte shop currently shows only seat pads, unsuitable for its P3 fabric route. 7 stock items per shop is distinct from daily posting coverage.",
+  "code_sha": "15deed736f8ac7740f8d0d916bb1408711ae951c",
+  "note": "Nominal hourly :30 simulation; enumerates equal-priority/equal-created-at branches, collapsing equivalent eligible single-item shops with no expiry within horizon, includes actual success today. Enforces windows, 2h/account, >=24h/shop, due time, source/review 30d expiry and exact snapshot/config. Delay can reduce actual coverage. Shop reserve gaps remain unfinished; Etsy returned HTTP429 at 2026-10-19T02:44:03Z; do not retry before 2026-10-20T02:44:03Z. P4 public jewelry board created and officially verified; four prior verified drafts activated and ten new items saved. P3 garment-only fabrics still require matching public boards. Chtte shop currently shows only seat pads, unsuitable for its P3 fabric route. 7 stock items per shop is distinct from daily posting coverage.",
   "zero_reserve_blockers": [
     {
       "account": "P3",
       "shop": "Chtte",
-      "reason": "Current public shop page lists seven chair-pad products; no matching fabric product observed. Do not reroute chair pads to P3 fabric route.",
+      "reason": "Current public shop page lists chair pads; no matching fabric product observed. Do not reroute chair pads to P3 fabric route.",
       "source": "https://www.etsy.com/shop/Chtte"
-    },
-    {
-      "account": "P4",
-      "shop": "ChicDecorHK",
-      "reason": "No verified owned public jewelry board in current official board inspection."
-    },
-    {
-      "account": "P4",
-      "shop": "PearlsTreasuresArt",
-      "reason": "No verified owned public jewelry board in current official board inspection."
     }
   ],
   "per_shop_target_complete": false
