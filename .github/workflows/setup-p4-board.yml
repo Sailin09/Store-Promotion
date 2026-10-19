@@ -1,0 +1,37 @@
+name: Set up authorized P4 public jewelry board
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: supabase-production
+  cancel-in-progress: false
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    environment: production
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test tests/board-setup.test.mjs
+      - uses: supabase/setup-cli@v1
+        with:
+          version: latest
+      - run: sudo apt-get update && sudo apt-get install -y postgresql-client
+      - name: Prepare durable board operation record
+        env:
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+        run: psql "$SUPABASE_DB_URL" -X -v ON_ERROR_STOP=1 -f scripts/setup-p4-board.sql
+      - name: Deploy fixed P4 board setup endpoint
+        env:
+          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+        run: supabase functions deploy pinterest-board-setup --project-ref czexstqnkogfvqyjvatr --no-verify-jwt
+      - name: Create or verify the authorized public jewelry board
+        env:
+          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+        run: node scripts/setup-p4-board.mjs
