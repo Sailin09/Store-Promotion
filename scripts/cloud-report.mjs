@@ -17,7 +17,7 @@ export function renderReport(report, stock, recovery=[]) {
  const deficit=stock.reduce((n,x)=>n+x.deficit,0);
  lines.push('## 素材库存',`${stock.length} 条店铺/账号路线，可用 ${stock.reduce((n,x)=>n+x.usable,0)} 条，按每路线至少 3 条计算，缺口 ${deficit} 条。`);
  for(const s of stock.filter(s=>s.deficit>0)) lines.push(`- ${s.shop} / ${s.account}：可用 ${s.usable}，待补 ${s.deficit}。`);
- lines.push('自动发现新商品尚未启用：云端 Etsy 网页访问被拒绝，暂无可用 Etsy API 数据源；未经图片核验的商品不会入队。', '', '## 调度与恢复');
+ lines.push('新品发现与图片核验由独立的 ChatGPT 云端补货任务负责；本报告仅检查库存和发布。定时任务配置及首次实际入库验证状态见 operations/replenishment/cloud-automation-audit-20261023.json；未经图片核验的商品不会入队。', '', '## 调度与恢复');
  for(const s of report.scheduler) lines.push(`- 发布调度：${s.active?'启用':'停用'}，${s.schedule}。`);
  for(const r of report.requests.slice(0,10)) lines.push(`- ${r.requested_at}：HTTP ${r.http_status??'待完成'}，${r.outcome??'待完成'}，${r.reason??'无附加原因'}。`);
  for(const r of recovery) lines.push(`- ${r}`);
