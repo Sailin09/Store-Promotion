@@ -1,0 +1,48 @@
+name: Replenish verified stock
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['operations/replenishment/batch-*.json', 'scripts/ingest-replenishment.mjs', 'scripts/replenishment-batch.mjs', '.github/workflows/replenish-stock.yml']
+permissions:
+  contents: read
+concurrency:
+  group: supabase-production
+  cancel-in-progress: false
+jobs:
+  tests:
+    uses: ./.github/workflows/publisher-tests.yml
+  replenish:
+    needs: tests
+    runs-on: ubuntu-latest
+    environment: production
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: sudo apt-get update && sudo apt-get install -y postgresql-client
+      - name: Inspect stock deficits
+        env:
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+        run: psql "$SUPABASE_DB_URL" -X -v ON_ERROR_STOP=1 -Atf scripts/replenishment-plan.sql
+      - name: Verify and ingest new materials
+        env:
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+        run: node scripts/ingest-replenishment.mjs
+      - name: Verify idempotent retry
+        env:
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+        run: node scripts/ingest-replenishment.mjs
+      - name: Inspect actual persisted stock
+        if: always()
+        env:
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+        run: |
+          psql "$SUPABASE_DB_URL" -X -v ON_ERROR_STOP=1 -Atf scripts/replenishment-plan.sql
+          psql "$SUPABASE_DB_URL" -X -v ON_ERROR_STOP=1 -Atf scripts/inspect-pinterest-queue.sql

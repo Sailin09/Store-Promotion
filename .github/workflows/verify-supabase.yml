@@ -3,7 +3,7 @@ name: Verify Supabase Data
 on:
   workflow_dispatch:
   workflow_run:
-    workflows: [Replenish verified daily stock 20261023-b15]
+    workflows: [Replenish verified daily stock 20261023-b15, Replenish verified stock]
     types: [completed]
     branches: [main]
   push:
@@ -48,3 +48,9 @@ jobs:
         env:
           SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
         run: psql "$SUPABASE_DB_URL" -X -v ON_ERROR_STOP=1 -Atf scripts/inspect-pinterest-scheduler.sql
+
+      - name: Inspect replenishment deficits
+        env:
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+        run: psql "$SUPABASE_DB_URL" -X -v ON_ERROR_STOP=1 -Atf scripts/replenishment-plan.sql
+
