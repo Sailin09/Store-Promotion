@@ -38,3 +38,8 @@ jobs:
         env:
           SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
         run: psql "$SUPABASE_DB_URL" -X -v ON_ERROR_STOP=1 -Atf scripts/inspect-pinterest-queue.sql
+      - name: Inspect database scheduler and actual publication health
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+        run: psql "$SUPABASE_DB_URL" -X -v ON_ERROR_STOP=1 -Atf scripts/inspect-pinterest-scheduler.sql

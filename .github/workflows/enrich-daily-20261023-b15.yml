@@ -1,6 +1,10 @@
 name: Replenish verified daily stock 20261023-b15
 on:
   workflow_dispatch:
+  workflow_run:
+    workflows: [Deploy Supabase Migrations]
+    types: [completed]
+    branches: [main]
 permissions:
   contents: read
 concurrency:
@@ -8,6 +12,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   review:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     environment: production
     timeout-minutes: 5
@@ -17,7 +22,20 @@ jobs:
           persist-credentials: false
       - name: Install PostgreSQL client
         run: sudo apt-get update && sudo apt-get install -y postgresql-client
-      - name: Save one verified product and exact reviews
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify live Board and image, then ingest reviewed batch
         env:
           SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
-        run: psql "$SUPABASE_DB_URL" -X -v ON_ERROR_STOP=1 -Atf scripts/enrich-daily-20261023-b15.sql
+          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+        run: node scripts/replenish-verified.mjs
+      - name: Verify idempotent retry
+        env:
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+        run: node scripts/replenish-verified.mjs
+      - name: Inspect persisted queue
+        env:
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+        run: psql "$SUPABASE_DB_URL" -X -v ON_ERROR_STOP=1 -Atf scripts/inspect-pinterest-queue.sql

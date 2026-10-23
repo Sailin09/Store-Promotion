@@ -2,7 +2,7 @@ name: Deploy Supabase Migrations
 on:
   push:
     branches: [main]
-    paths: ['supabase/**', 'tests/**', '.github/workflows/deploy-supabase.yml', '.github/workflows/publisher-tests.yml']
+    paths: ['supabase/**', 'tests/**', 'scripts/pinterest-scheduler.sql', 'scripts/install-pinterest-scheduler.mjs', '.github/workflows/deploy-supabase.yml', '.github/workflows/publisher-tests.yml']
   workflow_dispatch:
 permissions:
   contents: read
@@ -24,6 +24,11 @@ jobs:
       - uses: supabase/setup-cli@v1
         with:
           version: latest
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install PostgreSQL client
+        run: sudo apt-get update && sudo apt-get install -y postgresql-client
       - name: Apply migrations
         env:
           SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
@@ -37,3 +42,12 @@ jobs:
           test -n "$SUPABASE_ACCESS_TOKEN"
           supabase functions deploy pinterest-publisher --project-ref czexstqnkogfvqyjvatr
           supabase functions deploy pinterest-trial-demo --project-ref czexstqnkogfvqyjvatr
+      - name: Install reliable database scheduler
+        env:
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+        run: node scripts/install-pinterest-scheduler.mjs
+      - name: Inspect scheduler status
+        env:
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+        run: psql "$SUPABASE_DB_URL" -X -v ON_ERROR_STOP=1 -Atf scripts/inspect-pinterest-scheduler.sql
