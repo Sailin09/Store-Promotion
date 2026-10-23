@@ -1,5 +1,11 @@
 # Cloud operations without new API credentials
 
+## Update: 2026-10-23 08:36 UTC
+
+ChatGPT Work cloud has successfully inspected real Etsy listing pages and images for Chtte, TunaMunStudio and Parkermo and committed audit evidence using the GitHub connector. The separate ChatGPT automation `6adb18502ca08191b0b05f436915aee4` was read back as enabled, with UTC 05:15/11:15/17:15/23:15 execution times. The audit API did not independently expose a runtime field or a completed scheduled run. An immediate run has been requested; acceptance alone is not proof of completion. Fresh stock remains 116 with zero deficits, so no new batch was inserted. The first real deficit-to-ingestion run remains unverified. See `replenishment/cloud-capability-20261023.json` and `replenishment/cloud-automation-audit-20261023.json`. No user API keys are required by this task. Tonight's 13:35 UTC verification remains unchanged.
+
+The limitation below describes the earlier GitHub-hosted runner route; it does not negate the later ChatGPT cloud browser capability test.
+
 The user requested a simpler setup on 2026-10-23. No new API service is required for the deployed publication, snapshot and stock reporting paths.
 
 - Pinterest publishing continues in Supabase on its existing five-minute scheduler, with its existing time windows, review checks, account/shop intervals and duplicate protection.
