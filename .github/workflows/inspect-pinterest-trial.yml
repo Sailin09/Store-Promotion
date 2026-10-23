@@ -1,5 +1,8 @@
 name: Inspect Pinterest Trial account
 on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/inspect-pinterest-trial.yml']
   workflow_dispatch:
     inputs:
       handle:
@@ -24,7 +27,14 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: node scripts/inspect-pinterest-trial.mjs
+      - run: |
+          if [ -n "$PINTEREST_HANDLE" ]; then
+            node scripts/inspect-pinterest-trial.mjs
+          else
+            for account in icyndizhang sailing_981 mydecorshop cindyzhang62 ivy5205; do
+              PINTEREST_HANDLE="$account" node scripts/inspect-pinterest-trial.mjs
+            done
+          fi
         env:
           PINTEREST_HANDLE: ${{ inputs.handle }}
           SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
