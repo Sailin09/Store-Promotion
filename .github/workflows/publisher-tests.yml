@@ -37,3 +37,4 @@ jobs:
           psql -v ON_ERROR_STOP=1 -f tests/pinterest-trial-demo.sql
           psql -v ON_ERROR_STOP=1 -f tests/verified-replenishment.sql
           psql -v ON_ERROR_STOP=1 -f tests/pinterest-scheduler.sql
+          psql -v ON_ERROR_STOP=1 -f tests/cloud-report.sql

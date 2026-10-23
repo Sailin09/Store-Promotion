@@ -1,0 +1,57 @@
+name: Cloud promotion operations
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/cloud-operations.yml', 'scripts/cloud-report.mjs', 'scripts/cloud-publication-report.sql', 'tests/cloud-report*']
+  schedule:
+    - cron: '15 5,11,17,23 * * *'
+    - cron: '35 13 23 10 *'
+permissions:
+  contents: read
+  issues: write
+concurrency:
+  group: supabase-production
+  cancel-in-progress: false
+jobs:
+  tests:
+    uses: ./.github/workflows/publisher-tests.yml
+  cloud:
+    needs: tests
+    runs-on: ubuntu-latest
+    environment: production
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: sudo apt-get update && sudo apt-get install -y postgresql-client
+      - name: Install cloud snapshot schedule
+        env:
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+        run: psql "$SUPABASE_DB_URL" -X -v ON_ERROR_STOP=1 -f scripts/cloud-publication-report.sql
+      - name: Select report mode
+        env:
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          if [ "$EVENT_SCHEDULE" = '35 13 23 10 *' ] && [ "$(date -u +%F)" = '2026-10-23' ]; then
+            echo 'REPORT_MODE=evening' >> "$GITHUB_ENV"
+          else
+            echo 'REPORT_MODE=stock' >> "$GITHUB_ENV"
+          fi
+      - name: Verify cloud stock and publication evidence
+        env:
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/cloud-report.mjs
+      - name: Preserve verification evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cloud-promotion-report-${{ github.run_id }}
+          path: cloud-output/
+          retention-days: 30
