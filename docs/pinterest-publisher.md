@@ -1,6 +1,20 @@
 # Pinterest publisher
 
-The hourly GitHub workflow sequentially invokes up to ten bounded Supabase Edge Function jobs. The database defaults to disabled/Trial. Deployment and a green scheduled run do not mean public publishing is active.
+The primary scheduler is Supabase pg_cron, checking every five minutes and invoking one bounded Edge Function job per tick during the existing Beijing windows. GitHub's hourly workflow remains a fallback and manual runner (up to ten sequential jobs). Deployment and a green scheduled run do not mean a Pin was published.
+
+## Reliable scheduler (2026-10-23)
+
+GitHub scheduled checks missed every publishing window after October 20. Deployment now installs a named, idempotent pg_cron job using pg_net and an encrypted project-local Vault credential. No key is embedded in cron commands or source. The scheduler function is administrator-only; it cannot accept an endpoint or arbitrary payload. The pending HTTP queue is inaccessible to public, anon, authenticated and service_role roles.
+
+All existing worker gates, exact reviews, shop/account spacing and uncertain-job reservations remain unchanged. `pinterest_scheduler_requests` records safe HTTP outcomes separately from cron SQL success. Missing responses are recorded, not treated as successful Pins. `scripts/inspect-pinterest-scheduler.sql` reports cron runs, HTTP outcomes and actual account publication times, and warns when reviewed stock remains with no publication for 26 hours. Disable `pinterest_publish_settings.enabled` to stop dispatches; an already dispatched call may finish.
+
+The five-minute check continues outside windows only to collect prior responses; it does not send new HTTP requests there. GitHub remains a fallback, so it can still report `outside_publish_window` normally. Judge delivery by new `publish_history` rows and external Pin IDs.
+
+## Reviewed replenishment
+
+`scripts/replenish-verified.mjs` uses `operations/materials-2026-10-23-b15.json`, checks the current owned/public Board and image reachability, then invokes the administrative SQL function `replenish_verified_products`. New listings require genuine source and visual verification within 24 hours. Do not advance timestamps without rechecking the source. The database validates each item, accepts multi-item batches atomically and skips existing products without refreshing their evidence or touching history. A failed item rolls back the entire batch. Existing publication reviews still use their separate 30-day validity period.
+
+The repaired b15 workflow runs after a successful main deployment or manually, and verifies a second invocation adds zero duplicate products. The former SQL file fails closed to prevent accidental reuse of the copied, stale jewelry batch. Historical batch scripts are retained as audit artifacts; use the new ingestion path for new batches.
 
 ## What runs
 
