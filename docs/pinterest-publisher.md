@@ -73,3 +73,8 @@ The existing hourly GitHub schedule remains active, so these are eligibility win
 With two-hour account spacing these windows permit at most three claims per account per day, and scheduling delays can reduce this.
 Multiple shops therefore rotate across available slots; a per-shop daily maximum is not a promise that every shop publishes daily.
 Seven-day reserve calculations must simulate account spacing and windows as well as shop limits and review expiry.
+
+## Continuous stock replenishment (2026-10-23)
+
+The Codex thread automation runs every six hours, discovers new listings for current stock deficits and verifies their live seller, availability and original image. Target: three usable items per active shop/account. The host and Codex app must remain running for discovery. Reviewed batch commits trigger the Replenish verified stock workflow; GitHub does not discover listings by itself. The runner checks current Board ownership and image reachability, enforces the stock target under the ingestion lock, isolates item failures and verifies idempotence. Supabase publication remains independent. See operations/replenishment/README.md and verification-20261023.json for operating instructions, actual insertion evidence and remaining deficits.
+

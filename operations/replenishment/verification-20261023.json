@@ -1,0 +1,192 @@
+{
+  "checked_at": "2026-10-23T06:07:56Z",
+  "status": "two_new_batches_ingested_and_verified",
+  "code_commit": "dc71a06098d1aec348543d13875f53450821b38c",
+  "automation": {
+    "id": "automation",
+    "kind": "heartbeat",
+    "schedule_utc": [
+      "05:15",
+      "11:15",
+      "17:15",
+      "23:15"
+    ],
+    "requires_host_and_codex_running": true,
+    "next_scheduled_tick_not_yet_observed": true
+  },
+  "publication_verification": {
+    "automation_id": "pinterest",
+    "scheduled_at": "2026-10-23T13:35:00Z",
+    "unchanged": true
+  },
+  "runs": [
+    {
+      "id": 39909016094,
+      "inserted": 3,
+      "retry_inserted": 0
+    },
+    {
+      "id": 39909457776,
+      "inserted": 6,
+      "retry_inserted": 0
+    }
+  ],
+  "verification_run": 39909545279,
+  "verification_job": 120269075329,
+  "tests": {
+    "node_passed": 50,
+    "sql_suites_passed": 5
+  },
+  "ready_before": 63,
+  "ready_after": 72,
+  "new_listing_ids": [
+    "1462865996",
+    "4454342176",
+    "4498616976",
+    "4360340090",
+    "4355167342",
+    "4473098237",
+    "4391650576",
+    "4498625218",
+    "4498620868"
+  ],
+  "new_items_ready_and_snapshot_match": 9,
+  "zero_stock_shops_filled": [
+    {
+      "shop": "HibiChStudio",
+      "account": "P2",
+      "usable": 3
+    },
+    {
+      "shop": "LoomGoStudio",
+      "account": "P3",
+      "usable": 3
+    },
+    {
+      "shop": "NiceCraftStudioHK",
+      "account": "P1",
+      "usable": 3
+    }
+  ],
+  "remaining_deficits": [
+    {
+      "shop": "Chtte",
+      "account": "P3",
+      "deficit": 3
+    },
+    {
+      "shop": "Adamideal",
+      "account": "P2",
+      "deficit": 2
+    },
+    {
+      "shop": "AmyHomeCrafts",
+      "account": "P1",
+      "deficit": 2
+    },
+    {
+      "shop": "beou",
+      "account": "P1",
+      "deficit": 2
+    },
+    {
+      "shop": "ChicDecorHK",
+      "account": "P1",
+      "deficit": 2
+    },
+    {
+      "shop": "Chtte",
+      "account": "P1",
+      "deficit": 2
+    },
+    {
+      "shop": "CustomCurtainsStudio",
+      "account": "P1",
+      "deficit": 2
+    },
+    {
+      "shop": "DanyHomeDesign",
+      "account": "P1",
+      "deficit": 2
+    },
+    {
+      "shop": "FrenchStyleDecor",
+      "account": "P1",
+      "deficit": 2
+    },
+    {
+      "shop": "GavinHome",
+      "account": "P1",
+      "deficit": 2
+    },
+    {
+      "shop": "HeyDream",
+      "account": "P1",
+      "deficit": 2
+    },
+    {
+      "shop": "KorusStore",
+      "account": "P1",
+      "deficit": 2
+    },
+    {
+      "shop": "LambertHouse",
+      "account": "P2",
+      "deficit": 2
+    },
+    {
+      "shop": "MiawoodStudio",
+      "account": "P2",
+      "deficit": 2
+    },
+    {
+      "shop": "MiraKiuStudio",
+      "account": "P1",
+      "deficit": 2
+    },
+    {
+      "shop": "Parkermo",
+      "account": "P1",
+      "deficit": 2
+    },
+    {
+      "shop": "ShirieHomeShow",
+      "account": "P1",
+      "deficit": 2
+    },
+    {
+      "shop": "SobiaStudio",
+      "account": "P1",
+      "deficit": 2
+    },
+    {
+      "shop": "StellaGoodsGifts",
+      "account": "P1",
+      "deficit": 2
+    },
+    {
+      "shop": "TunaMunStudio",
+      "account": "P1",
+      "deficit": 2
+    },
+    {
+      "shop": "WoodHomeLiang",
+      "account": "P2",
+      "deficit": 2
+    },
+    {
+      "shop": "NngGoods",
+      "account": "P5",
+      "deficit": 1
+    }
+  ],
+  "remaining_deficit_total": 44,
+  "blocked_routes": [
+    {
+      "shop": "Chtte",
+      "account": "P3",
+      "reason": "Active mapping has no reviewed Board route; P1 route has one ready item. No guessed routing or mapping changes."
+    }
+  ],
+  "published_after_repair_not_yet_confirmed": true
+}
