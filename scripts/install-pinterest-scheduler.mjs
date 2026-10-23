@@ -18,11 +18,9 @@ try {
  create extension if not exists pg_net;
  create extension if not exists supabase_vault;
  revoke all on net.http_request_queue from public,anon,authenticated,service_role;
- do $$ declare secret_id uuid; begin
- select id into secret_id from vault.secrets where name='pinterest_scheduler_service_role';
- if secret_id is null then perform vault.create_secret(${literal},'pinterest_scheduler_service_role');
- else perform vault.update_secret(secret_id,${literal}); end if;
- end $$;
+ select vault.update_secret(id,${literal}) from vault.secrets where name='pinterest_scheduler_service_role';
+ select vault.create_secret(${literal},'pinterest_scheduler_service_role')
+ where not exists(select 1 from vault.secrets where name='pinterest_scheduler_service_role');
  ${readFileSync(new URL('./pinterest-scheduler.sql',import.meta.url),'utf8')}
  -- One guarded connectivity probe. The worker still enforces the real time window.
  insert into public.pinterest_scheduler_requests(request_id)
