@@ -1,0 +1,13 @@
+{
+  "status": "pending",
+  "created_at": "2026-10-23T09:29:13.271Z",
+  "after": "2026-10-23T13:35:00Z",
+  "automation_id": "6adb18502ca08191b0b05f436915aee4",
+  "target": 3,
+  "max_batch": 20,
+  "first_inserted": null,
+  "retry_inserted": null,
+  "new_items": [],
+  "remaining_deficit": null,
+  "reason": "Await first real post-publication deficit and verified ingestion; no completed claim."
+}

@@ -1,0 +1,61 @@
+{
+  "observed_at": "2026-10-23T09:29:13.271Z",
+  "source": "automations.update followed by automations.peek readback",
+  "automation": {
+    "id": "6adb18502ca08191b0b05f436915aee4",
+    "title": "Etsy 云端持续补货",
+    "is_enabled": true,
+    "timezone": "Etc/UTC",
+    "schedule": "BEGIN:VEVENT\nDTSTART:20261023T111500Z\nRRULE:FREQ=DAILY;BYHOUR=5,11,17,23;BYMINUTE=15;BYSECOND=0\nRDATE:20261023T134500Z\nEND:VEVENT",
+    "timing_mode": "exact_schedule",
+    "next_run_time": null,
+    "prompt": "在 ChatGPT Work 纯云端执行 Etsy 新品发现、真实详情与主图核验、按缺口补货入队。仓库 https://github.com/Sailin09/Store-Promotion 。必须用本次运行的 GitHub 连接器确认访问，使用远程云端浏览器 cdp，不使用用户电脑、桌面浏览器会话、本地路径或本地 Codex heartbeat；不要求配置 OpenAI/Etsy API key。先读取最新 main 的 operations/replenishment/README.md、operations/cloud-operations.md、docs/shops.md、scripts/replenishment-plan.sql、scripts/replenishment-batch.mjs、scripts/ingest-replenishment.mjs、近期 batch 及 verification-20261023-chtte-and-reserve.json。读取最新 Verify Supabase Data，重跑最新 verify job，等完成并从新日志获取 replenishment_plan，禁止用历史116条基线判断。优先 usable=0，然后低库存，每条有效店铺/账号路线目标3条有效已审核素材，每轮最多20条。无缺口则不入队，可记录候选，安静结束。对缺口从登记店铺当前 storefront 发现新ID，先排除全部 known_listing_ids。必须进入真实详情核验卖家归属、可选在售状态和 Add to cart，实际查看商品主图截图，不能用搜索摘要、alt或HTTP200充当视觉核验；遇验证码/拒绝访问如实记录并停止该站点尝试，不绕过。只沿用经核验的账号和Board与分类，不能猜Board或改映射。Chtte P3=mydecorshop Kitchen & Dining 499618221101215211，分类 Chair Cushions & Seat Pads；旧布料4325858718不可用，P1商品ID须与P3不同。生成克制文案、真实来源和原图URL、诚实 checked_at/visual_verified、具体证据，按已有结构写 operations/replenishment/batch-YYYYMMDD-HHMMSS.json。写前读取最新 main，用 GitHub create_tree/create_commit/update_ref expected_sha 防止覆盖。等待 Replenish verified stock 结果与后续 Verify Supabase Data，确认真实 inserted 数量、queue_status=ready、snapshot_matches=true、重复运行零新增与剩余缺口；若verify没有自动触发，重跑最新verify。未知失败保留证据，禁止刷新旧证据时间、重置发布记录、放宽门槛或手工触发发布。可把运行证据写GitHub，只有实际新增、失败或需用户处理才在现有 Issue https://github.com/Sailin09/Store-Promotion/issues/2 留通知/通知用户；无变化不重复通知。任何工具缺失必须准确报停点，不把调度创建、workflow success或HTTP200 idle称成功补货。保持现有Supabase自动发布、GitHub云端库存报告、2026-10-23 13:35 UTC五账号实际Pin复核和已暂停旧本地heartbeat原样，不修改取消。首次实测证据在 operations/replenishment/cloud-capability-20261023.json；每次仍重新核验，不复用候选为新证据。\n\n首次发布后实际缺口补货跟进（用户已授权，长期补货继续）：读取 operations/replenishment/first-deficit-followup.json。若不存在，按 pending 处理；completed 时不再重复首次跟进报告，但长期按缺口补货不能停用。仅在2026-10-23 13:35 UTC晚间发布复核之后，依据最新发布记录和新 replenishment_plan 跟进第一轮真实缺口。13:45 UTC额外检查若无缺口，保持pending；后续常规运行继续，发布后首轮常规为2026-10-23 17:15 UTC（北京10月24日01:15），11:15 UTC/北京19:15不是发布后补货。严禁为测试改库存、超target=3或手工发布。\n首次有缺口时，按前述流程从当前Etsy店铺发现未入库ID，现场核验卖家、在售选项、实际图片、分类及账号/Board匹配，写批次并等真实入库；随后实际重跑入库幂等验证，读取新数据库结果。报告每个新增商品的shop、Etsy链接/listing_id、账号handle/account、Board名称/ID、queue_id、queue_status、snapshot_matches，首次inserted、retry inserted=0、剩余缺口。异常继续定位修复授权范围内的补货脚本/工作流或不合格候选；保留审核、限频、归属和防重复门槛，不清空历史、不重试结果不确定的发布。\n只有在实际新增行均ready且snapshot_matches=true、重复执行零新增并明确剩余缺口时，才把首次跟进状态写completed，附batch/run/job/queue证据；把结果同时发GitHub Issue #2评论及本云端任务聊天。部分新增或失败保留pending并报告具体问题，继续下一轮。无缺口安静结束，不能称补货验证完成。仅实际新增、异常/修复或需用户行动时通知。首次闭环完成后停止额外跟进逻辑，保留长期补货任务启用。不要触碰2026-10-23 13:35 UTC五账号复核或现有发布调度。",
+    "updated_at": "2026-10-23T09:28:45.748804+00:00"
+  },
+  "runtime": {
+    "provider": "ChatGPT cloud Automations",
+    "dedicated_runtime_field_returned": false,
+    "recorded_execution": {
+      "id": "53bf2a7b-b8e0-8330-8150-922a855b0179",
+      "recorded_status": "completed",
+      "scheduled_for": "2026-10-23T08:36:02.261707Z",
+      "started_at": "2026-10-23T08:36:20.842041Z",
+      "completed_at": "2026-10-23T08:38:20.487354Z",
+      "chat_ref": {
+        "type": "chatgpt",
+        "id": "6adb1784-03ec-83e8-9880-0f5de42f22a6"
+      }
+    },
+    "latest_result": {
+      "run_id": "53bf2a7b-b8e0-8330-8150-922a855b0179",
+      "created_at": "2026-10-23T08:38:18.967561Z",
+      "scheduled_for": "2026-10-23T08:36:02.261707Z",
+      "completed_at": "2026-10-23T08:38:20.487354Z",
+      "content_text": "已重新读取仓库规则并重跑最新 verify。2026-10-23 08:37 UTC 的数据库查询显示：32 条路线、116 条可用素材，缺口为 0。本轮新增入队 0 条，保持 target=3，未复用旧候选或刷新视觉核验时间。完整的新素材入库及幂等闭环仍待首次实际缺口验证。执行证据已保存至 [cloud-run-20261023-083623.json](https://github.com/Sailin09/Store-Promotion/blob/main/operations/replenishment/cloud-run-20261023-083623.json)。现有发布调度及今晚21:35复核未修改。",
+      "content_truncated": false,
+      "chat_ref": {
+        "type": "chatgpt",
+        "id": "6adb1784-03ec-83e8-9880-0f5de42f22a6"
+      },
+      "requires_user_action": false,
+      "is_failure_message": false
+    },
+    "delivery_status": "unknown"
+  },
+  "changes": {
+    "existing_task_updated": true,
+    "duplicate_task_created": false,
+    "regular_cadence_preserved": true,
+    "one_time_extra_check": "2026-10-23T13:45:00Z",
+    "first_regular_after_evening_review": "2026-10-23T17:15:00Z",
+    "publication_schedule_changed": false,
+    "evening_review_changed": false
+  },
+  "followup": {
+    "state_file": "operations/replenishment/first-deficit-followup.json",
+    "completion_requires": "Actual new Etsy candidates visually reviewed, inserted ready queues with matching snapshots, actual retry inserted=0, residual deficit read and item-level results sent to Issue #2 and cloud task chat",
+    "no_deficit": "Remain pending; no artificial deficit, target=3 unchanged",
+    "after_completion": "Stop only extra followup; recurring replenishment stays enabled"
+  },
+  "limitation": "Saved schedule accepted and read back including RDATE; next_run_time was null, so no specific worker-start guarantee is claimed."
+}
