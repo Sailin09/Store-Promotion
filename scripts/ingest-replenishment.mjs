@@ -35,7 +35,20 @@ try {
    if(url.protocol!=='https:'||url.hostname!=='i.etsystatic.com'||url.username||url.password||url.port)throw new Error('Invalid image source');
    const image=await fetch(url,{method:'HEAD',redirect:'error',signal:AbortSignal.timeout(15000)});
    if(!image.ok||!image.headers.get('content-type')?.startsWith('image/'))throw new Error('Image unavailable');
-   const result=JSON.parse(sql(`select public.replenish_verified_products(${literal([item])}::jsonb,${literal(batch)}::jsonb #>> '{}');`));
+   const result=JSON.parse(sql(`
+begin;
+select pg_advisory_xact_lock(1617125,13);
+with candidate as (select * from jsonb_to_record(${literal(item)}::jsonb) as i(shop text,handle text)),
+stock as (select count(*) as n from public.publish_queue q
+ join public.shops s on s.id=q.shop_id join public.social_accounts a on a.id=q.social_account_id
+ join public.products p on p.id=q.product_id join public.content_variants cv on cv.id=q.content_variant_id
+ join public.pinterest_publish_reviews r on r.queue_id=q.id, candidate i
+ where s.shop_name=i.shop and a.handle=i.handle and q.platform='pinterest' and q.status in ('ready','scheduled')
+ and p.listing_status='active' and cv.status='ready' and r.snapshot=public.pinterest_publish_snapshot(q.id)
+ and r.listing_checked_at>now()-interval '29 days' and r.reviewed_at>now()-interval '29 days')
+select case when n>=3 then jsonb_build_object('inserted',0,'skipped_target_met',1)
+ else public.replenish_verified_products(${literal([item])}::jsonb,${literal(batch)}::jsonb #>> '{}') end from stock;
+commit;`).split('\n').find(line=>line.startsWith('{')));
    inserted+=result.inserted;existing.add(item.listing_id);
    console.log(JSON.stringify({batch,shop:item.shop,listing_id:item.listing_id,...result}));
   }catch(error){failed++;console.log(JSON.stringify({batch,shop:item.shop,listing_id:item.listing_id,status:'blocked',reason:error.message}));}
