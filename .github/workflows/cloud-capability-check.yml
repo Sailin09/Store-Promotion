@@ -27,6 +27,6 @@ jobs:
           try {
             const r=await fetch('https://www.etsy.com/shop/Chtte',{signal:AbortSignal.timeout(20000)});
             const html=await r.text();
-            console.log(JSON.stringify({storefront_http:r.status,has_listing_links:/\\/listing\\/\\d+/.test(html),challenge:/captcha|datadome|verify you are human/i.test(html)}));
+            console.log(JSON.stringify({storefront_http:r.status,has_listing_links:html.includes('/listing/'),challenge:/captcha|datadome|verify you are human/i.test(html)}));
           } catch {console.log(JSON.stringify({storefront_error:'network_unavailable'}));}
           NODE
