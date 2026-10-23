@@ -1,0 +1,98 @@
+{
+  "checked_at": "2026-10-23T04:15:42Z",
+  "status": "deployed_and_replenishment_verified_live_publication_pending_window",
+  "pull_request": "https://github.com/Sailin09/Store-Promotion/pull/1",
+  "code_commit": "8a07f9c997f1d83ee1070d27cef46142df5898a4",
+  "deployment_run": "39898894605",
+  "replenishment_run": "39898992604",
+  "verification_run": "39899034339",
+  "verification_job": "120237071347",
+  "tests": {
+    "node_passed": 48,
+    "sql_suites": [
+      "pinterest-scheduling",
+      "pinterest-publisher",
+      "pinterest-trial-demo",
+      "verified-replenishment",
+      "pinterest-scheduler"
+    ],
+    "scheduler_extension_apis_mocked_in_ci": true,
+    "production_cron_and_http_probe_verified": true
+  },
+  "scheduler": [
+    {
+      "scheduler": "store-promotion-pinterest",
+      "schedule": "*/5 * * * *",
+      "active": true
+    },
+    {
+      "cron_run": 1,
+      "status": "succeeded",
+      "started_at": "2026-10-23T04:15:00.127165+00:00",
+      "ended_at": "2026-10-23T04:15:00.138499+00:00"
+    },
+    {
+      "http_request": 1,
+      "requested_at": "2026-10-23T04:11:23.025641+00:00",
+      "completed_at": "2026-10-23T04:15:00.127189+00:00",
+      "http_status": 200,
+      "outcome": "idle",
+      "reason": "outside_publish_window"
+    }
+  ],
+  "replenishment": {
+    "listing_id": "4537687983",
+    "shop": "NngGoods",
+    "handle": "ivy5205",
+    "board_id": "713820678377803412",
+    "queue_id": "b946b2f4-217f-4c7e-ba7a-5eacad948588",
+    "source_checked_at": "2026-10-23T03:59:35Z",
+    "live_owned_public_board_check": true,
+    "image_head_check": true,
+    "first_execution": {
+      "inserted": 1,
+      "skipped_existing": 0
+    },
+    "second_execution": {
+      "inserted": 0,
+      "skipped_existing": 1
+    },
+    "queue_status": "ready",
+    "snapshot_matches": true,
+    "products_before": 209,
+    "products_after": 210
+  },
+  "totals": {
+    "published": 62,
+    "ready": 63
+  },
+  "account_last_publish": [
+    {
+      "account": "P1",
+      "published_at": "2026-10-20T00:22:20.974515+00:00"
+    },
+    {
+      "account": "P2",
+      "published_at": "2026-10-20T00:22:25.203658+00:00"
+    },
+    {
+      "account": "P3",
+      "published_at": "2026-10-20T00:22:28.576767+00:00"
+    },
+    {
+      "account": "P4",
+      "published_at": "2026-10-20T00:22:23.412779+00:00"
+    },
+    {
+      "account": "P5",
+      "published_at": "2026-10-20T00:22:27.321699+00:00"
+    }
+  ],
+  "live_publication_after_fix_verified": false,
+  "next_allowed_window_utc": "2026-10-23T13:00:00Z",
+  "next_check": "Rerun the read-only Verify Supabase Data job after the next allowed window. Require new Pin IDs and publish_history records; cron success and HTTP200/idle are not publication success.",
+  "remaining_issues": [
+    "Actual scheduled publication cannot be confirmed before the next existing publication window.",
+    "Existing per-shop reserve deficits and P3 category/board gaps are outside this repair's stock-ingestion validation."
+  ]
+}
