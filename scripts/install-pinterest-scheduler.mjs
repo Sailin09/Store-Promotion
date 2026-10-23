@@ -30,7 +30,7 @@ try {
   body:='{}'::jsonb,timeout_milliseconds:=100000)
  from vault.decrypted_secrets where name='pinterest_scheduler_service_role';
  commit;`;
- const result=spawnSync('psql',['-X','-q','-v','ON_ERROR_STOP=1'],{
+ const result=spawnSync('psql',['--dbname',process.env.SUPABASE_DB_URL,'-X','-q','-v','ON_ERROR_STOP=1'],{
   input:setup,encoding:'utf8',env:{...process.env,PGDATABASE:process.env.SUPABASE_DB_URL},timeout:60000});
  if(result.status!==0) {
   console.error((result.stderr||'').replaceAll(key,'[REDACTED]').replaceAll(process.env.SUPABASE_DB_URL,'[REDACTED]').slice(-3000));

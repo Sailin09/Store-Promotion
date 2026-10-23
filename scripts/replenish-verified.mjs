@@ -29,7 +29,7 @@ try {
  }
  const literal="'"+JSON.stringify(items).replaceAll("'","''")+"'";
  const sql=`select public.replenish_verified_products(${literal}::jsonb,'daily-20261023-b15');`;
- const result=spawnSync('psql',['-X','-At','-v','ON_ERROR_STOP=1'],{input:sql,encoding:'utf8',
+ const result=spawnSync('psql',['--dbname',process.env.SUPABASE_DB_URL,'-X','-At','-v','ON_ERROR_STOP=1'],{input:sql,encoding:'utf8',
   env:{...process.env,PGDATABASE:process.env.SUPABASE_DB_URL},timeout:60000});
  if(result.status!==0){console.error(result.stderr);throw new Error('Material ingestion failed');}
  console.log(result.stdout.trim());
