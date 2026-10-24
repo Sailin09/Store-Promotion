@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "completed",
   "requested_at": "2026-10-24T03:49:42.536Z",
   "automation_id": "6adc2a511ee081918fdad9ce86bec71a",
   "report_date": "2026-10-24",
@@ -11,7 +11,12 @@
   "original_prompt": "生成并投递 Sailin09/Store-Promotion 的完整每日执行日报。纯云端执行，不依赖用户电脑、桌面会话、本地路径、Codex进程或heartbeat，不要求用户配置OpenAI/Etsy API key。每次即使无变化也必须发送完整日报，不使用skip_notification抑制日报。日报只读汇报业务状态：不触发发布、补货、入队、修复、重置历史或更改任何发布/补货/跟进任务。\n\n一、区间与证据。以Asia/Shanghai当天10:00（UTC02:00）为本次逻辑截止，区间为上一次成功日报截止（含）至本次截止（不含）；首份用本次截止前24小时。延迟运行仍用原逻辑截止，标出实际核验时间、数据时间和延迟；截止后事件另列不计入区间。读取operations/replenishment/cloud-daily-report-state.json及Issue #2当日日报以续接/去重。不能用历史累计62条作每日基线，按真实published_at/入库时间及唯一Pin/queue事件计数。不随意推进失败日报的已成功截止。\n\n二、本次通过GitHub连接器确认仓库访问，读取最新main的operations/replenishment/证据目录（含区间batch、cloud-run和verification、first-deficit-followup.json）、operations/cloud-operations.md、Issue #2及其全部相关评论、发布复核Issue（按标题搜索，不猜ID）、最新发布和补货工作流/实际job日志、最新只读Verify Supabase Data。必要时重跑最新verify job并等完成读取新数据库日志和replenishment_plan。只读核验重跑获授权，不重跑发布或补货。按需要分页读取，核对证据是否覆盖完整区间；日志限量或缺失无法证明全部记录时明确标“未确认/覆盖不完整”，禁止用workflow success、HTTP200 idle或零缺口零入队替代业务成功。\n\n三、逐账号完整报告P1 icyndizhang、P2 sailing_981、P3 mydecorshop、P4 cindyzhang62、P5 ivy5205：区间真实新增Pin数量、全部可核实Pin链接、对应店铺、Etsy商品ID/链接、真实发布时间；没有新增也单列0或未确认，区分两者。列未发布/失败/待处理及证据支持原因；不把累计值当区间值、不重复计同一Pin。\n\n四、完整列出区间真实新增补货素材：shop、Etsy链接/listing_id、account/handle、Board名称/ID、queue_id、queue_status、snapshot_matches、来源/实际视觉核验时间及证据、首次inserted、实际幂等重跑inserted=0的run/job证据。未入库候选单列，不计成功。报告各路线库存/缺口（target仍为3）、总库存/缺口、重复或失败、已修复与未解决事项，首次缺口跟进状态。缺任何证据标未确认。当前库存可为核验时点值，必须与日报区间计数区分。\n\n五、将同一份完整Markdown日报同时用于本云端任务聊天最终响应与GitHub Issue #2评论，标题按北京时间日期“执行日报 YYYY-MM-DD”，含唯一标记<!-- store-promotion-daily:YYYY-MM-DD -->。先读取全部相关评论查标记：无则追加，有则更新同一条当日评论，保留其他日期历史，禁止同日重复评论。用户明确授权这两处投递。若任一投递失败准确说明实际状态，不声称已送达；只读业务限制不禁止日报评论及日报证据/状态文件写入。只在GitHub评论成功并保存完整日报后记录该逻辑截止与comment_id；重跑同日复用原区间。聊天最终提供与评论正文相同的完整日报，不能仅给摘要/链接。日报可另保存operations/replenishment/daily-report-YYYY-MM-DD.md及配套JSON证据，更新cloud-daily-report-state.json；写前读最新main，用expected_sha提交防覆盖。失败保留证据和具体工具/权限停点。\n\n保留现有Supabase云端发布、每6小时Etsy云端补货任务6adb18502ca08191b0b05f436915aee4、首次缺口跟进状态和已有修复安排原样；不创建任何本地任务，不停用用户本地日报ID10（由主聊天处理）。此日报是长期每日汇报任务，一份日报完成不代表应停用整个任务。",
   "no_extra_publication": true,
   "delivery": {
-    "chat": "pending",
-    "issue": "pending"
-  }
+    "issue": "verified_body_exact_match",
+    "chat": "unknown_pending_postrun_confirmation"
+  },
+  "report_completed_at": "2026-10-24T03:54:19.597Z",
+  "run_id": "a27cb652-3dcc-8331-8164-bdbeab7724ea",
+  "report_path": "operations/replenishment/daily-report-2026-10-24.md",
+  "comment_url": "https://github.com/Sailin09/Store-Promotion/issues/2#issuecomment-6379536355",
+  "notes": "Report generation and Issue readback completed. Chat delivery cannot be confirmed until final response completes; do not claim both delivered."
 }
