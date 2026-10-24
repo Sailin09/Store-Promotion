@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-10-24T03:58:23.681Z",
+  "operation": "delivery-only-closeout-no-business-rerun",
+  "automation_id": "6adc2a511ee081918fdad9ce86bec71a",
+  "linked_conversation_id": "6adb1784-03ec-83e8-9880-0f5de42f22a6",
+  "independent_run_chat_ref": null,
+  "independent_run_link": null,
+  "run_details": {
+    "last_run": {
+      "id": "a27cb652-3dcc-8331-8164-bdbeab7724ea",
+      "recorded_status": "in_progress",
+      "scheduled_for": "2026-10-24T03:50:06.501605Z",
+      "started_at": "2026-10-24T03:50:34.130948Z",
+      "completed_at": null,
+      "chat_ref": null
+    },
+    "latest_result": null,
+    "delivery_status": "unknown"
+  },
+  "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Shanghai:20261025T100000\nRRULE:FREQ=DAILY;BYHOUR=10;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+  "timezone": "Asia/Shanghai",
+  "is_enabled": true,
+  "one_time_instruction_removed": true,
+  "issue_comment_url": "https://github.com/Sailin09/Store-Promotion/issues/2#issuecomment-6379536355",
+  "issue_report_readback_chars": 19235,
+  "issue_delivery": "confirmed_readback",
+  "current_chat_delivery": "Full issue report will be emitted in this turn final; no independent read_thread tool exposed to this agent. Do not mark received before post-response readback.",
+  "no_run_now_called": true,
+  "no_verify_rerun": true,
+  "no_business_mutations": true
+}
