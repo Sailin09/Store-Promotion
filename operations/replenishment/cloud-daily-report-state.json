@@ -7,9 +7,9 @@
   "report_path": "operations/replenishment/daily-report-2026-10-24.md",
   "report_saved": true,
   "issue_body_verified": true,
-  "chat_delivery_status": "unknown",
+  "chat_delivery_status": "confirmed_by_user_independent_readback",
   "run_id": "a27cb652-3dcc-8331-8164-bdbeab7724ea",
-  "updated_at": "2026-10-24T03:54:19.597Z",
+  "updated_at": "2026-10-24T04:02:13.009Z",
   "delivery_closeout_checked_at": "2026-10-24T03:58:23.681Z",
   "chat_delivery_readback": {
     "last_run": {
@@ -24,5 +24,50 @@
     "delivery_status": "unknown"
   },
   "linked_conversation_id": "6adb1784-03ec-83e8-9880-0f5de42f22a6",
-  "delivery_closeout_file": "operations/replenishment/daily-report-delivery-20261024.json"
+  "delivery_closeout_file": "operations/replenishment/daily-report-delivery-20261024.json",
+  "notification_delivery_status": "unknown",
+  "chat_content_readback_evidence": {
+    "evidence_source": "user_supplied_independent_read_thread_result",
+    "recorded_at": "2026-10-24T04:02:13.009Z",
+    "verification_performed_by": "user; not independently repeated by this agent",
+    "thread_id": "01a167d4-0341-71ec-910d-4487b610e03d",
+    "thread_runtime": "host durable",
+    "read_method": "read_thread",
+    "message_type": "final_answer",
+    "message_id": "msg_0a288b3cebc6bfee016adc2bf8b3b881908ed1dd524c742586",
+    "body_characters": 19235,
+    "comparison": "trimmed final_answer body matches Issue comment body character for character",
+    "comparison_trimmed": true,
+    "issue_comment_id": 6379536355,
+    "issue_comment_url": "https://github.com/Sailin09/Store-Promotion/issues/2#issuecomment-6379536355",
+    "cloud_execution_chat_body_readback": "confirmed_by_independent_user_readback",
+    "issue_body_readback": "confirmed",
+    "notification_delivery_status": "unknown",
+    "distinction": "Body persistence/readback in both destinations is confirmed; system notification receipt is not confirmed."
+  },
+  "daily_plan_restoration_readback": {
+    "checked_at": "2026-10-24T04:02:13.009Z",
+    "source": "automations.peek",
+    "automation_id": "6adc2a511ee081918fdad9ce86bec71a",
+    "is_enabled": true,
+    "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Shanghai:20261025T100000\nRRULE:FREQ=DAILY;BYHOUR=10;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+    "timezone": "Asia/Shanghai",
+    "next_run_time": null,
+    "one_time_instruction_removed": true,
+    "prompt_matches_saved_original": true,
+    "schedule_matches_saved_original": true,
+    "run_details": {
+      "last_run": {
+        "id": "a27cb652-3dcc-8331-8164-bdbeab7724ea",
+        "recorded_status": "in_progress",
+        "scheduled_for": "2026-10-24T03:50:06.501605Z",
+        "started_at": "2026-10-24T03:50:34.130948Z",
+        "completed_at": null,
+        "chat_ref": null
+      },
+      "latest_result": null,
+      "delivery_status": "unknown"
+    },
+    "no_automation_update_needed": true
+  }
 }
