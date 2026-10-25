@@ -1,0 +1,36 @@
+[
+  {
+    "shop": "LambertHouse",
+    "handle": "sailing_981",
+    "listing_id": "1789516737",
+    "source_url": "https://www.etsy.com/listing/1789516737/10-piece-matte-gold-aluminum-hangers-165",
+    "category": "Closet Organization",
+    "board_id": "863494997243989843",
+    "board_name": "storage",
+    "new_title": "Gold-Tone Metal Coat Hangers",
+    "image_url": "https://i.etsystatic.com/46944744/r/il/730909/6300922109/il_794xN.6300922109_gd1j.jpg",
+    "checked_at": "2026-10-25T17:16:12Z",
+    "available": true,
+    "visual_verified": true,
+    "evidence": "Discovered current registered LambertHouse storefront, excluded every fresh known ID before detail. Actual seller header and shop profile LambertHouse match; Hangers & Clothing Storage breadcrumb. Selected C01 and5 PCS; loaded DOM confirms both selected and Add to cart enabled. Actual cloud CDP main-image screenshot viewed: rows of gold-tone slim metal triangular hangers with rounded shoulders and lower bars hanging on dark wardrobe rail. Matches existing P2 Closet Organization/storage route; no fixed pack-size or material-purity claim in copy.",
+    "body": "Gold-Tone Metal Coat Hangers from LambertHouse. Explore the original Etsy listing for current options and product details. Confirm your selected size, quantity and fitting requirements before ordering.",
+    "facebook_draft": "Gold-Tone Metal Coat Hangers from LambertHouse. Explore the original Etsy listing for current options and product details. Confirm your selected size, quantity and fitting requirements before ordering. https://www.etsy.com/listing/1789516737/10-piece-matte-gold-aluminum-hangers-165"
+  },
+  {
+    "shop": "Parkermo",
+    "handle": "icyndizhang",
+    "listing_id": "1555653880",
+    "source_url": "https://www.etsy.com/listing/1555653880/checkered-semi-blackout-curtains",
+    "category": "Farmhouse Curtains",
+    "board_id": "801218658646993070",
+    "board_name": "CyndiZhangStudio",
+    "new_title": "Neutral Checkered Farmhouse Curtain",
+    "image_url": "https://i.etsystatic.com/41687571/r/il/f3b116/7145815004/il_794xN.7145815004_c4xp.jpg",
+    "checked_at": "2026-10-25T17:16:40Z",
+    "available": true,
+    "visual_verified": true,
+    "evidence": "Discovered current Parkermo storefront, absent from all fresh known IDs. Actual seller and Made by Parkermo match; Curtains breadcrumb. Selected Rod Pocket and1 PC W39xL59 inches; loaded DOM confirms selected options and cart enabled. Actual cloud CDP first main screenshot viewed: close view of gray-brown and cream small-check curtain hanging in deep vertical folds beside bright window, visible woven texture. Matches existing P1 Farmhouse Curtains/CyndiZhangStudio route; copy avoids blackout-percentage or fiber claims.",
+    "body": "Neutral Checkered Farmhouse Curtain from Parkermo. Explore the original Etsy listing for current options and product details. Confirm your selected size, quantity and fitting requirements before ordering.",
+    "facebook_draft": "Neutral Checkered Farmhouse Curtain from Parkermo. Explore the original Etsy listing for current options and product details. Confirm your selected size, quantity and fitting requirements before ordering. https://www.etsy.com/listing/1555653880/checkered-semi-blackout-curtains"
+  }
+]
