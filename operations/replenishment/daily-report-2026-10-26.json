@@ -1,0 +1,1622 @@
+{
+  "report_date": "2026-10-26",
+  "interval": {
+    "start_inclusive": "2026-10-25T02:00:00Z",
+    "end_exclusive": "2026-10-26T02:00:00Z",
+    "timezone": "Asia/Shanghai"
+  },
+  "audit_time": "2026-10-26T02:00:26.93543+00:00",
+  "generated_at": "2026-10-26T02:02:47Z",
+  "run_id": "a27b8075-3f5c-8333-ac33-eebe200980d4",
+  "readonly_business": true,
+  "github_access": {
+    "confirmed_this_run": true,
+    "main_before_report": "6223e7df62f2b30584bdd89e35e87a455e070017",
+    "comment_count_read": 14,
+    "review_issue": 3,
+    "review_issue_title": "Pinterest 2026-10-23 21:35 发布复核"
+  },
+  "verify": {
+    "run_id": 40215764533,
+    "job_id": 121360658616,
+    "status": "completed",
+    "conclusion": "success",
+    "log_characters": 248685,
+    "daily_history_no_limit": true,
+    "daily_history_returned": 19,
+    "coverage_start": "2026-10-24T16:00:00Z",
+    "complete_interval": true,
+    "unmatched_pin_product_joins": 0
+  },
+  "pins": [
+    {
+      "account": "P1",
+      "pin_id": "801218590009481089",
+      "url": "https://www.pinterest.com/pin/801218590009481089/",
+      "published_at": "2026-10-25T02:05:02.776716+00:00",
+      "status": "published",
+      "listing_id": "1739543167",
+      "shop": "CustomCurtainsStudio",
+      "queue_id": "320e4feb-5e43-4dd6-ba7f-2e224ba7f894"
+    },
+    {
+      "account": "P2",
+      "pin_id": "863494928599285662",
+      "url": "https://www.pinterest.com/pin/863494928599285662/",
+      "published_at": "2026-10-25T02:10:01.952975+00:00",
+      "status": "published",
+      "listing_id": "4454342176",
+      "shop": "HibiChStudio",
+      "queue_id": "609b6f35-9007-4fb6-9d08-6f1dedc7c83c"
+    },
+    {
+      "account": "P4",
+      "pin_id": "675399275414578694",
+      "url": "https://www.pinterest.com/pin/675399275414578694/",
+      "published_at": "2026-10-25T02:20:02.695281+00:00",
+      "status": "published",
+      "listing_id": "4338894105",
+      "shop": "QuGifts",
+      "queue_id": "fa9faabd-9b11-4594-be53-4362f9460433"
+    },
+    {
+      "account": "P3",
+      "pin_id": "499618152434251460",
+      "url": "https://www.pinterest.com/pin/499618152434251460/",
+      "published_at": "2026-10-25T02:30:02.01147+00:00",
+      "status": "published",
+      "listing_id": "4514553651",
+      "shop": "Chtte",
+      "queue_id": "981da0c9-c340-4a21-bfaa-d9441379a4b0"
+    },
+    {
+      "account": "P1",
+      "pin_id": "801218590009488626",
+      "url": "https://www.pinterest.com/pin/801218590009488626/",
+      "published_at": "2026-10-25T13:00:03.444999+00:00",
+      "status": "published",
+      "listing_id": "1702252202",
+      "shop": "Parkermo",
+      "queue_id": "4d320052-aa80-4a44-8378-df8a4c22bcd3"
+    },
+    {
+      "account": "P2",
+      "pin_id": "863494928599292388",
+      "url": "https://www.pinterest.com/pin/863494928599292388/",
+      "published_at": "2026-10-25T13:05:02.629657+00:00",
+      "status": "published",
+      "listing_id": "1790823175",
+      "shop": "LambertHouse",
+      "queue_id": "7b08bb7e-13e4-4f37-b626-514a336cbbfd"
+    },
+    {
+      "account": "P3",
+      "pin_id": "499618152434253785",
+      "url": "https://www.pinterest.com/pin/499618152434253785/",
+      "published_at": "2026-10-25T13:10:06.16558+00:00",
+      "status": "published",
+      "listing_id": "4432320593",
+      "shop": "CellaHo",
+      "queue_id": "50994c09-7048-4a7d-bc08-2480c1b36caa"
+    },
+    {
+      "account": "P4",
+      "pin_id": "675399275414585416",
+      "url": "https://www.pinterest.com/pin/675399275414585416/",
+      "published_at": "2026-10-25T13:25:02.444004+00:00",
+      "status": "published",
+      "listing_id": "1170079452",
+      "shop": "ChicDecorHK",
+      "queue_id": "ca703054-be0b-4d49-adaa-7a50b2c3be41"
+    },
+    {
+      "account": "P5",
+      "pin_id": "713820609737615581",
+      "url": "https://www.pinterest.com/pin/713820609737615581/",
+      "published_at": "2026-10-25T13:30:03.714095+00:00",
+      "status": "published",
+      "listing_id": "4585549341",
+      "shop": "NinaJiaStudio",
+      "queue_id": "af1a05b1-49fc-4aa7-a036-4b606cd2359e"
+    },
+    {
+      "account": "P1",
+      "pin_id": "801218590009498213",
+      "url": "https://www.pinterest.com/pin/801218590009498213/",
+      "published_at": "2026-10-26T00:00:05.50847+00:00",
+      "status": "published",
+      "listing_id": "1270924141",
+      "shop": "KorusStore",
+      "queue_id": "3a809f05-073a-4eab-a4e7-0c5688021553"
+    },
+    {
+      "account": "P2",
+      "pin_id": "863494928599300753",
+      "url": "https://www.pinterest.com/pin/863494928599300753/",
+      "published_at": "2026-10-26T00:05:05.280565+00:00",
+      "status": "published",
+      "listing_id": "4434422856",
+      "shop": "KoltCraftStudio",
+      "queue_id": "8d47313c-3ab9-48d1-a509-d078616e97a0"
+    },
+    {
+      "account": "P4",
+      "pin_id": "675399275414596616",
+      "url": "https://www.pinterest.com/pin/675399275414596616/",
+      "published_at": "2026-10-26T00:20:03.054665+00:00",
+      "status": "published",
+      "listing_id": "1899462379",
+      "shop": "PearlsTreasuresArt",
+      "queue_id": "4aabf60c-203a-44d0-958d-679701fcef54"
+    },
+    {
+      "account": "P5",
+      "pin_id": "713820609737624793",
+      "url": "https://www.pinterest.com/pin/713820609737624793/",
+      "published_at": "2026-10-26T00:25:01.972882+00:00",
+      "status": "published",
+      "listing_id": "4301773735",
+      "shop": "NngGoods",
+      "queue_id": "556ef488-39f5-4bd2-9c56-f7d81e1980be"
+    },
+    {
+      "account": "P3",
+      "pin_id": "499618152434258555",
+      "url": "https://www.pinterest.com/pin/499618152434258555/",
+      "published_at": "2026-10-26T00:30:02.4679+00:00",
+      "status": "published",
+      "listing_id": "4498620868",
+      "shop": "LoomGoStudio",
+      "queue_id": "eda8db5d-b72d-4a2b-ab60-45c184636bf7"
+    }
+  ],
+  "after_cutoff_pins": [],
+  "account_counts": {
+    "P1": 3,
+    "P2": 3,
+    "P3": 3,
+    "P4": 3,
+    "P5": 2
+  },
+  "materials": [
+    {
+      "shop": "Adamideal",
+      "handle": "sailing_981",
+      "listing_id": "4486775612",
+      "source_url": "https://www.etsy.com/listing/4486775612/wooden-cable-organizer-multi-slot-wire",
+      "category": "Desk Organization",
+      "board_id": "863494997243989843",
+      "board_name": "storage",
+      "new_title": "Wooden Cable Organizer with Slots",
+      "image_url": "https://i.etsystatic.com/35172699/r/il/81dc57/7948029341/il_794xN.7948029341_aodr.jpg",
+      "checked_at": "2026-10-25T05:15:00Z",
+      "available": true,
+      "visual_verified": true,
+      "evidence": "Discovered in current registered Adamideal storefront via cloud CDP. Excluded all fresh known IDs. Actual detail seller and Made by Adamideal match; Cord Ties & Organizers breadcrumb. Selected Black Walnut and Small; Add to cart enabled. Actual first main image screenshot inspected: dark brown elongated wooden three-slot organizer with rounded ends holding white cables on white boards. Matches existing P2 Desk Organization/storage route; no unsupported performance claims.",
+      "body": "Wooden Cable Organizer with Slots from Adamideal. Explore the original Etsy listing for current options and product details. Confirm your selected size, quantity and fitting requirements before ordering.",
+      "facebook_draft": "Wooden Cable Organizer with Slots from Adamideal. Explore the original Etsy listing for current options and product details. Confirm your selected size, quantity and fitting requirements before ordering. https://www.etsy.com/listing/4486775612/wooden-cable-organizer-multi-slot-wire",
+      "account": "P2",
+      "queue_id": "78f3174c-47c6-4a16-b1db-ae96676d20f3",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "source_matches": true,
+      "created_at": "2026-10-25T05:18:10.451695+00:00",
+      "reserve": {
+        "account": "P2",
+        "shop": "Adamideal",
+        "queue_id": "78f3174c-47c6-4a16-b1db-ae96676d20f3",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-25T05:18:10.451695+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-25T05:15:00+00:00",
+        "reviewed_at": "2026-10-25T05:18:10.451695+00:00",
+        "snapshot_matches": true,
+        "board_id": "863494997243989843",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-25T00:05:02.986166+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "shop": "CustomCurtainsStudio",
+      "handle": "icyndizhang",
+      "listing_id": "4544256338",
+      "source_url": "https://www.etsy.com/listing/4544256338/woven-textured-knit-sheer-curtains",
+      "category": "Sheer Curtains",
+      "board_id": "801218658646993070",
+      "board_name": "CyndiZhangStudio",
+      "new_title": "Textured Sheer Window Curtain",
+      "image_url": "https://i.etsystatic.com/38873964/r/il/c3e27c/8686524222/il_794xN.8686524222_9vvo.jpg",
+      "checked_at": "2026-10-25T05:15:28Z",
+      "available": true,
+      "visual_verified": true,
+      "evidence": "Fresh registered storefront discovery excluded all known IDs. Actual detail seller CustomCurtainsStudio matches, Curtains breadcrumb. Selected 1PCS-W39xL59 inches and Rod Pocket; Add to cart enabled after variant price loaded. Cloud CDP actual first main-image screenshot reviewed: cream sheer curtain at wood-framed window, repeating small openwork squares and horizontal textured bands with daylight visible through weave. Matches existing P1 Sheer Curtains/CyndiZhangStudio route.",
+      "body": "Textured Sheer Window Curtain from CustomCurtainsStudio. Explore the original Etsy listing for current options and product details. Confirm your selected size, quantity and fitting requirements before ordering.",
+      "facebook_draft": "Textured Sheer Window Curtain from CustomCurtainsStudio. Explore the original Etsy listing for current options and product details. Confirm your selected size, quantity and fitting requirements before ordering. https://www.etsy.com/listing/4544256338/woven-textured-knit-sheer-curtains",
+      "account": "P1",
+      "queue_id": "43c77c97-233c-4cb2-bcd5-89553e804963",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "source_matches": true,
+      "created_at": "2026-10-25T05:18:13.070894+00:00",
+      "reserve": {
+        "account": "P1",
+        "shop": "CustomCurtainsStudio",
+        "queue_id": "43c77c97-233c-4cb2-bcd5-89553e804963",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-25T05:18:13.070894+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-25T05:15:28+00:00",
+        "reviewed_at": "2026-10-25T05:18:13.070894+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-25T02:05:02.776716+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "shop": "FrenchStyleDecor",
+      "handle": "icyndizhang",
+      "listing_id": "4296817061",
+      "source_url": "https://www.etsy.com/listing/4296817061/floral-embroidered-lace-cushion-cover",
+      "category": "Decorative Pillow Covers",
+      "board_id": "801218658646993070",
+      "board_name": "CyndiZhangStudio",
+      "new_title": "White Floral Embroidered Pillow Cover",
+      "image_url": "https://i.etsystatic.com/33874695/r/il/9b46cb/8589448149/il_794xN.8589448149_6dtr.jpg",
+      "checked_at": "2026-10-25T05:15:56Z",
+      "available": true,
+      "visual_verified": true,
+      "evidence": "Found current FrenchStyleDecor storefront, absent from fresh known IDs. Actual detail seller and Made by FrenchStyleDecor match; Throw Pillows breadcrumb. Selected A-Pillowcase and18x18/45x45cm; cart enabled after loading. Actual cloud CDP first main screenshot inspected: white square cover with raised repeating leafy floral motifs and curved stems on pale sofa. Variant photo also reviewed, with smaller floral vines. Existing P1 Decorative Pillow Covers route; copy avoids claiming insert included or fiber purity.",
+      "body": "White Floral Embroidered Pillow Cover from FrenchStyleDecor. Explore the original Etsy listing for current options and product details. Confirm your selected size, quantity and fitting requirements before ordering.",
+      "facebook_draft": "White Floral Embroidered Pillow Cover from FrenchStyleDecor. Explore the original Etsy listing for current options and product details. Confirm your selected size, quantity and fitting requirements before ordering. https://www.etsy.com/listing/4296817061/floral-embroidered-lace-cushion-cover",
+      "account": "P1",
+      "queue_id": "f14da872-fbf1-4b96-9efd-800e54a653b1",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "source_matches": true,
+      "created_at": "2026-10-25T05:18:13.877112+00:00",
+      "reserve": {
+        "account": "P1",
+        "shop": "FrenchStyleDecor",
+        "queue_id": "f14da872-fbf1-4b96-9efd-800e54a653b1",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-25T05:18:13.877112+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-25T05:15:56+00:00",
+        "reviewed_at": "2026-10-25T05:18:13.877112+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-25T00:00:03.732038+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "shop": "HibiChStudio",
+      "handle": "sailing_981",
+      "listing_id": "4391681449",
+      "source_url": "https://www.etsy.com/listing/4391681449/canvas-wall-hanging-organizer-bedside",
+      "category": "Wall & Door Organizers",
+      "board_id": "863494997243989843",
+      "board_name": "storage",
+      "new_title": "Canvas Wall Hanging Storage Pockets",
+      "image_url": "https://i.etsystatic.com/59640782/r/il/935262/7396941851/il_794xN.7396941851_ln31.jpg",
+      "checked_at": "2026-10-25T05:16:24Z",
+      "available": true,
+      "visual_verified": true,
+      "evidence": "Fresh registered HibiChStudio storefront discovery, absent from all fresh known IDs. Actual detail seller and Made by HibiChStudio match; Storage & Organization/Boxes & Bins breadcrumb and wall-hanging product description. Selected M; cart enabled. Actual cloud CDP first main image screenshot inspected: cream hanging fabric pockets supported on light wooden dowels on wall, holding kitchen utensils, plus smaller bag and open basket below. Fits existing P2 Wall & Door Organizers/storage route.",
+      "body": "Canvas Wall Hanging Storage Pockets from HibiChStudio. Explore the original Etsy listing for current options and product details. Confirm your selected size, quantity and fitting requirements before ordering.",
+      "facebook_draft": "Canvas Wall Hanging Storage Pockets from HibiChStudio. Explore the original Etsy listing for current options and product details. Confirm your selected size, quantity and fitting requirements before ordering. https://www.etsy.com/listing/4391681449/canvas-wall-hanging-organizer-bedside",
+      "account": "P2",
+      "queue_id": "cc41446c-156d-44b2-bb04-43d947227067",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "source_matches": true,
+      "created_at": "2026-10-25T05:18:14.616898+00:00",
+      "reserve": {
+        "account": "P2",
+        "shop": "HibiChStudio",
+        "queue_id": "cc41446c-156d-44b2-bb04-43d947227067",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-25T05:18:14.616898+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-25T05:16:24+00:00",
+        "reviewed_at": "2026-10-25T05:18:14.616898+00:00",
+        "snapshot_matches": true,
+        "board_id": "863494997243989843",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-25T02:10:01.952975+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "shop": "LoomGoStudio",
+      "handle": "mydecorshop",
+      "listing_id": "4416535984",
+      "source_url": "https://www.etsy.com/listing/4416535984/linen-and-cotton-jacquard-fabric-floral",
+      "category": "Jacquard Fabric",
+      "board_id": "499618221101238533",
+      "board_name": "Home Decor",
+      "new_title": "Floral Textured Jacquard Fabric",
+      "image_url": "https://i.etsystatic.com/58959935/r/il/2bcedb/7523921300/il_794xN.7523921300_e5j5.jpg",
+      "checked_at": "2026-10-25T05:16:48Z",
+      "available": true,
+      "visual_verified": true,
+      "evidence": "Current registered LoomGoStudio storefront discovered ID absent from fresh known IDs. Actual seller and Made by LoomGoStudio match; Craft Supplies & Tools; description includes cushion covers/light curtains. Selected1 Yard and cart enabled after loading. Actual first main screenshot reviewed in cloud CDP: folded off-white woven fabric with large raised floral silhouettes and textured edges, visible drape and woven grain. Existing P3 Jacquard Fabric/Home Decor route; copy avoids fiber percentage claims.",
+      "body": "Floral Textured Jacquard Fabric from LoomGoStudio. Explore the original Etsy listing for current options and product details. Confirm your selected size, quantity and fitting requirements before ordering.",
+      "facebook_draft": "Floral Textured Jacquard Fabric from LoomGoStudio. Explore the original Etsy listing for current options and product details. Confirm your selected size, quantity and fitting requirements before ordering. https://www.etsy.com/listing/4416535984/linen-and-cotton-jacquard-fabric-floral",
+      "account": "P3",
+      "queue_id": "beeca7b6-0642-4e9d-ae39-fe3845202a4e",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "source_matches": true,
+      "created_at": "2026-10-25T05:18:17.209122+00:00",
+      "reserve": {
+        "account": "P3",
+        "shop": "LoomGoStudio",
+        "queue_id": "beeca7b6-0642-4e9d-ae39-fe3845202a4e",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-25T05:18:17.209122+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-25T05:16:48+00:00",
+        "reviewed_at": "2026-10-25T05:18:17.209122+00:00",
+        "snapshot_matches": true,
+        "board_id": "499618221101238533",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-26T00:30:02.4679+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "shop": "NngGoods",
+      "handle": "ivy5205",
+      "listing_id": "4301774308",
+      "source_url": "https://www.etsy.com/listing/4301774308/crystal-cabinet-knob-modern-brass-drawer",
+      "category": "Cabinet Knobs & Pulls",
+      "board_id": "713820678377803412",
+      "board_name": "Furniture",
+      "new_title": "Round Cabinet Knobs with Gold-Tone Bases",
+      "image_url": "https://i.etsystatic.com/57194200/r/il/540f5a/6843827942/il_794xN.6843827942_ok3a.jpg",
+      "checked_at": "2026-10-25T05:17:15Z",
+      "available": true,
+      "visual_verified": true,
+      "evidence": "Found current registered NngGoods storefront, excluded all fresh known IDs. Actual detail seller and shop profile NngGoods match; Drawer Knobs & Pulls breadcrumb. Selected Yellow and1 PCS; Add to cart enabled after loading. Actual cloud CDP main screenshot reviewed: two pink round knobs on gold-tone conical bases mounted on white cabinet doors; selected-variant chart also inspected showing yellow, white and blue spheres. Seller explicitly notes artificially dyed beads; copy avoids natural-color, material-authenticity or set-size claims. Existing P5 Furniture route.",
+      "body": "Round Cabinet Knobs with Gold-Tone Bases from NngGoods. Explore the original Etsy listing for current options and product details. Confirm your selected size, quantity and fitting requirements before ordering.",
+      "facebook_draft": "Round Cabinet Knobs with Gold-Tone Bases from NngGoods. Explore the original Etsy listing for current options and product details. Confirm your selected size, quantity and fitting requirements before ordering. https://www.etsy.com/listing/4301774308/crystal-cabinet-knob-modern-brass-drawer",
+      "account": "P5",
+      "queue_id": "fac1e534-1430-4b19-97ef-a4536fa4fad3",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "source_matches": true,
+      "created_at": "2026-10-25T05:18:19.487372+00:00",
+      "reserve": {
+        "account": "P5",
+        "shop": "NngGoods",
+        "queue_id": "fac1e534-1430-4b19-97ef-a4536fa4fad3",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-25T05:18:19.487372+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-25T05:17:15+00:00",
+        "reviewed_at": "2026-10-25T05:18:19.487372+00:00",
+        "snapshot_matches": true,
+        "board_id": "713820678377803412",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-26T00:25:01.972882+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "shop": "LambertHouse",
+      "handle": "sailing_981",
+      "listing_id": "1789516737",
+      "source_url": "https://www.etsy.com/listing/1789516737/10-piece-matte-gold-aluminum-hangers-165",
+      "category": "Closet Organization",
+      "board_id": "863494997243989843",
+      "board_name": "storage",
+      "new_title": "Gold-Tone Metal Coat Hangers",
+      "image_url": "https://i.etsystatic.com/46944744/r/il/730909/6300922109/il_794xN.6300922109_gd1j.jpg",
+      "checked_at": "2026-10-25T17:16:12Z",
+      "available": true,
+      "visual_verified": true,
+      "evidence": "Discovered current registered LambertHouse storefront, excluded every fresh known ID before detail. Actual seller header and shop profile LambertHouse match; Hangers & Clothing Storage breadcrumb. Selected C01 and5 PCS; loaded DOM confirms both selected and Add to cart enabled. Actual cloud CDP main-image screenshot viewed: rows of gold-tone slim metal triangular hangers with rounded shoulders and lower bars hanging on dark wardrobe rail. Matches existing P2 Closet Organization/storage route; no fixed pack-size or material-purity claim in copy.",
+      "body": "Gold-Tone Metal Coat Hangers from LambertHouse. Explore the original Etsy listing for current options and product details. Confirm your selected size, quantity and fitting requirements before ordering.",
+      "facebook_draft": "Gold-Tone Metal Coat Hangers from LambertHouse. Explore the original Etsy listing for current options and product details. Confirm your selected size, quantity and fitting requirements before ordering. https://www.etsy.com/listing/1789516737/10-piece-matte-gold-aluminum-hangers-165",
+      "account": "P2",
+      "queue_id": "f08b94ab-9b81-4726-b482-97ea9702064c",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "source_matches": true,
+      "created_at": "2026-10-25T17:17:33.60012+00:00",
+      "reserve": {
+        "account": "P2",
+        "shop": "LambertHouse",
+        "queue_id": "f08b94ab-9b81-4726-b482-97ea9702064c",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-25T17:17:33.60012+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-25T17:16:12+00:00",
+        "reviewed_at": "2026-10-25T17:17:33.60012+00:00",
+        "snapshot_matches": true,
+        "board_id": "863494997243989843",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-25T13:05:02.629657+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "shop": "Parkermo",
+      "handle": "icyndizhang",
+      "listing_id": "1555653880",
+      "source_url": "https://www.etsy.com/listing/1555653880/checkered-semi-blackout-curtains",
+      "category": "Farmhouse Curtains",
+      "board_id": "801218658646993070",
+      "board_name": "CyndiZhangStudio",
+      "new_title": "Neutral Checkered Farmhouse Curtain",
+      "image_url": "https://i.etsystatic.com/41687571/r/il/f3b116/7145815004/il_794xN.7145815004_c4xp.jpg",
+      "checked_at": "2026-10-25T17:16:40Z",
+      "available": true,
+      "visual_verified": true,
+      "evidence": "Discovered current Parkermo storefront, absent from all fresh known IDs. Actual seller and Made by Parkermo match; Curtains breadcrumb. Selected Rod Pocket and1 PC W39xL59 inches; loaded DOM confirms selected options and cart enabled. Actual cloud CDP first main screenshot viewed: close view of gray-brown and cream small-check curtain hanging in deep vertical folds beside bright window, visible woven texture. Matches existing P1 Farmhouse Curtains/CyndiZhangStudio route; copy avoids blackout-percentage or fiber claims.",
+      "body": "Neutral Checkered Farmhouse Curtain from Parkermo. Explore the original Etsy listing for current options and product details. Confirm your selected size, quantity and fitting requirements before ordering.",
+      "facebook_draft": "Neutral Checkered Farmhouse Curtain from Parkermo. Explore the original Etsy listing for current options and product details. Confirm your selected size, quantity and fitting requirements before ordering. https://www.etsy.com/listing/1555653880/checkered-semi-blackout-curtains",
+      "account": "P1",
+      "queue_id": "4aa304bf-e8a9-4331-8891-ef55e7bb0afb",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "source_matches": true,
+      "created_at": "2026-10-25T17:17:35.382305+00:00",
+      "reserve": {
+        "account": "P1",
+        "shop": "Parkermo",
+        "queue_id": "4aa304bf-e8a9-4331-8891-ef55e7bb0afb",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-25T17:17:35.382305+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-25T17:16:40+00:00",
+        "reviewed_at": "2026-10-25T17:17:35.382305+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-25T13:00:03.444999+00:00",
+        "eligible_configuration": true
+      }
+    }
+  ],
+  "visual_observations": {
+    "1555653880": "窗边灰棕与奶油色小格纹窗帘近景，深褶和织纹清晰；Rod Pocket、1 PC W39×L59英寸。",
+    "1789516737": "深色衣柜杆上一排金色纤细金属三角衣架，圆肩和横杆清晰；C01、5 PCS。",
+    "4486775612": "深棕色长条三槽木质理线器，圆角端部，白色线缆穿过槽口；Black Walnut、Small。",
+    "4544256338": "木框窗边米白透光窗帘，织面有重复镂空方格与横向纹理；1PCS W39×L59英寸、Rod Pocket。",
+    "4296817061": "白色方形靠垫套，凸起叶片花卉与弯曲花茎；另看A款小花藤规格图，选择A-Pillowcase、18×18英寸。",
+    "4391681449": "浅色木杆支撑的米白挂墙布袋，收纳厨具，下方有小袋和篮状袋；M。",
+    "4416535984": "折叠的米白提花面料，大幅凸起花卉轮廓与织纹；1 Yard。",
+    "4301774308": "白色柜门上的粉色球形旋钮和金色锥形底座；另看黄/白/蓝规格图，选择Yellow、1 PCS。卖家说明珠体人工染色。"
+  },
+  "ingestion_evidence": [
+    {
+      "run_id": 40164989090,
+      "job_id": 121084159232,
+      "inserted": 6,
+      "failed": 0,
+      "retry_inserted": 0,
+      "actual_log_lines": [
+        "2026-10-25T05:18:10.7185504Z {\"batch\":\"batch-20261025-051721\",\"shop\":\"Adamideal\",\"listing_id\":\"4486775612\",\"input\":1,\"inserted\":1,\"skipped_existing\":0}",
+        "2026-10-25T05:18:13.2896144Z {\"batch\":\"batch-20261025-051721\",\"shop\":\"CustomCurtainsStudio\",\"listing_id\":\"4544256338\",\"input\":1,\"inserted\":1,\"skipped_existing\":0}",
+        "2026-10-25T05:18:14.0963615Z {\"batch\":\"batch-20261025-051721\",\"shop\":\"FrenchStyleDecor\",\"listing_id\":\"4296817061\",\"input\":1,\"inserted\":1,\"skipped_existing\":0}",
+        "2026-10-25T05:18:14.8321283Z {\"batch\":\"batch-20261025-051721\",\"shop\":\"HibiChStudio\",\"listing_id\":\"4391681449\",\"input\":1,\"inserted\":1,\"skipped_existing\":0}",
+        "2026-10-25T05:18:17.4636845Z {\"batch\":\"batch-20261025-051721\",\"shop\":\"LoomGoStudio\",\"listing_id\":\"4416535984\",\"input\":1,\"inserted\":1,\"skipped_existing\":0}",
+        "2026-10-25T05:18:19.7449986Z {\"batch\":\"batch-20261025-051721\",\"shop\":\"NngGoods\",\"listing_id\":\"4301774308\",\"input\":1,\"inserted\":1,\"skipped_existing\":0}",
+        "2026-10-25T05:18:19.7451167Z {\"inserted\":6,\"failed\":0,\"pending\":6}",
+        "2026-10-25T05:18:20.3115306Z {\"status\":\"no_new_verified_material\",\"inserted\":0}"
+      ]
+    },
+    {
+      "run_id": 40215693164,
+      "job_id": 121236326452,
+      "inserted": 2,
+      "failed": 0,
+      "retry_inserted": 0,
+      "actual_log_lines": [
+        "2026-10-25T17:17:33.8138737Z {\"batch\":\"batch-20261025-171640\",\"shop\":\"LambertHouse\",\"listing_id\":\"1789516737\",\"input\":1,\"inserted\":1,\"skipped_existing\":0}",
+        "2026-10-25T17:17:35.5472309Z {\"batch\":\"batch-20261025-171640\",\"shop\":\"Parkermo\",\"listing_id\":\"1555653880\",\"input\":1,\"inserted\":1,\"skipped_existing\":0}",
+        "2026-10-25T17:17:35.5472902Z {\"inserted\":2,\"failed\":0,\"pending\":2}",
+        "2026-10-25T17:17:36.0421467Z {\"status\":\"no_new_verified_material\",\"inserted\":0}"
+      ]
+    }
+  ],
+  "zero_ingestion_rounds": [
+    {
+      "started_at": "2026-10-25T11:17:29Z",
+      "zero": 0,
+      "stock": 104,
+      "deficit": 1
+    },
+    {
+      "started_at": "2026-10-25T23:18:16Z",
+      "zero": 0,
+      "stock": 101,
+      "deficit": 1
+    }
+  ],
+  "replenishment_plan": [
+    {
+      "shop": "Chtte",
+      "handle": "mydecorshop",
+      "target": 3,
+      "usable": 2,
+      "account": "P3",
+      "deficit": 1,
+      "previous_routes": [
+        {
+          "board_id": "499618221101215211",
+          "category": "Chair Cushions & Seat Pads"
+        }
+      ],
+      "known_listing_ids": [
+        "4325858718",
+        "4440783510",
+        "4440831933",
+        "4514553651",
+        "4535436683",
+        "4514589653",
+        "4535424416",
+        "4535407129"
+      ]
+    },
+    {
+      "shop": "KorusStore",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 2,
+      "account": "P1",
+      "deficit": 1,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Blackout Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Floral Curtains"
+        }
+      ],
+      "known_listing_ids": [
+        "1697227283",
+        "1697773621",
+        "1311051679",
+        "1311056433",
+        "1302160044",
+        "1639723092",
+        "4405728873",
+        "1697366539",
+        "1302152874",
+        "1892822667",
+        "1681233657",
+        "1718517321",
+        "1270924141",
+        "1340978253",
+        "1341070659",
+        "1857527262"
+      ]
+    },
+    {
+      "shop": "LoomGoStudio",
+      "handle": "mydecorshop",
+      "target": 3,
+      "usable": 2,
+      "account": "P3",
+      "deficit": 1,
+      "previous_routes": [
+        {
+          "board_id": "499618221101238533",
+          "category": "Home Decor Fabric"
+        },
+        {
+          "board_id": "499618221101238533",
+          "category": "Jacquard Fabric"
+        },
+        {
+          "board_id": "499618221101238533",
+          "category": "Silk & Organza Fabric"
+        }
+      ],
+      "known_listing_ids": [
+        "4356345034",
+        "4364578832",
+        "4366040480",
+        "4416533490",
+        "4442572721",
+        "4442577240",
+        "4498616976",
+        "4498625218",
+        "4498620868",
+        "4498613403",
+        "4416535984"
+      ]
+    },
+    {
+      "shop": "NngGoods",
+      "handle": "ivy5205",
+      "target": 3,
+      "usable": 2,
+      "account": "P5",
+      "deficit": 1,
+      "previous_routes": [
+        {
+          "board_id": "713820678377803412",
+          "category": "Cabinet Knobs & Pulls"
+        }
+      ],
+      "known_listing_ids": [
+        "4351662726",
+        "4538093833",
+        "4537632729",
+        "4571804678",
+        "4582976030",
+        "4571794029",
+        "4537687983",
+        "4301773735",
+        "4301771190",
+        "4301774308"
+      ]
+    },
+    {
+      "shop": "Adamideal",
+      "handle": "sailing_981",
+      "target": 3,
+      "usable": 3,
+      "account": "P2",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "863494997243989843",
+          "category": "Desk Organization"
+        },
+        {
+          "board_id": "863494997243989843",
+          "category": "Wooden Home Organization"
+        }
+      ],
+      "known_listing_ids": [
+        "1805037084",
+        "4449956852",
+        "4535083543",
+        "4512140149",
+        "4364186500",
+        "4486775612"
+      ]
+    },
+    {
+      "shop": "AmyHomeCrafts",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 3,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Cafe Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Floral Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Sheer Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Table Linens"
+        }
+      ],
+      "known_listing_ids": [
+        "1436043433",
+        "4365977435",
+        "4417682544",
+        "4419626490",
+        "1527006905",
+        "1737407522",
+        "4323894263",
+        "4365683163",
+        "4347288764",
+        "1527020795",
+        "4549672978"
+      ]
+    },
+    {
+      "shop": "beou",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 3,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Chair Cushions & Seat Pads"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Tie-Up & Balloon Shades"
+        }
+      ],
+      "known_listing_ids": [
+        "4432947002",
+        "4425559908",
+        "1752414600",
+        "4473862388",
+        "4513529763",
+        "4432976736",
+        "4474318286",
+        "4363072807",
+        "4403877330",
+        "1341529845",
+        "1316301617",
+        "4516207914",
+        "4389140030"
+      ]
+    },
+    {
+      "shop": "CellaHo",
+      "handle": "mydecorshop",
+      "target": 3,
+      "usable": 3,
+      "account": "P3",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "499618221101238533",
+          "category": "Embroidered Fabric"
+        },
+        {
+          "board_id": "499618221101238533",
+          "category": "Home Decor Fabric"
+        }
+      ],
+      "known_listing_ids": [
+        "1538620317",
+        "1538587663",
+        "1832654442",
+        "4368683284",
+        "4396132405",
+        "4432320593",
+        "1832656370",
+        "1839182756",
+        "1846855145",
+        "4365149143",
+        "4367385017",
+        "4486870527",
+        "4512454460"
+      ]
+    },
+    {
+      "shop": "ChicDecorHK",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 3,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Roman Shades"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Striped Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Tie-Up & Balloon Shades"
+        }
+      ],
+      "known_listing_ids": [
+        "1626539101",
+        "1721799800",
+        "1323643255",
+        "1606392268",
+        "1170079452",
+        "1506048129",
+        "1103128579",
+        "1125022447",
+        "1618224588",
+        "4450228164",
+        "1734365992"
+      ]
+    },
+    {
+      "shop": "Chtte",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 3,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Chair Cushions & Seat Pads"
+        }
+      ],
+      "known_listing_ids": [
+        "4325858718",
+        "4440783510",
+        "4440831933",
+        "4514553651",
+        "4535436683",
+        "4514589653",
+        "4535424416",
+        "4535407129"
+      ]
+    },
+    {
+      "shop": "CustomCurtainsStudio",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 3,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Sheer Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Tie-Up & Balloon Shades"
+        }
+      ],
+      "known_listing_ids": [
+        "1739543167",
+        "4432312297",
+        "1864054150",
+        "4320366785",
+        "1792567511",
+        "1723269690",
+        "1513221839",
+        "1795965612",
+        "4544256338"
+      ]
+    },
+    {
+      "shop": "DanyHomeDesign",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 3,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Blackout Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Floral Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Sheer Curtains"
+        }
+      ],
+      "known_listing_ids": [
+        "4359318131",
+        "4363644082",
+        "4481217943",
+        "1850503273",
+        "1835846194"
+      ]
+    },
+    {
+      "shop": "FrenchStyleDecor",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 3,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Decorative Pillow Covers"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Vintage Aprons"
+        }
+      ],
+      "known_listing_ids": [
+        "1715831642",
+        "1491232780",
+        "1681316864",
+        "1681211044",
+        "1491248244",
+        "1323800588",
+        "1640065065",
+        "1688268594",
+        "4296817061"
+      ]
+    },
+    {
+      "shop": "GavinHome",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 3,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Cafe Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Sheer Curtains"
+        }
+      ],
+      "known_listing_ids": [
+        "1780825518",
+        "1413513702",
+        "1727267376",
+        "1781315456",
+        "1653857136",
+        "1741943021",
+        "1628235211",
+        "1640142609",
+        "1781284786",
+        "1306867898",
+        "1707732808",
+        "1306489180",
+        "1588948144"
+      ]
+    },
+    {
+      "shop": "HeyDream",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 3,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Decorative Pillows"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Sheer Curtains"
+        }
+      ],
+      "known_listing_ids": [
+        "1796483506",
+        "1809228191",
+        "1784373740",
+        "4559770507"
+      ]
+    },
+    {
+      "shop": "HibiChStudio",
+      "handle": "sailing_981",
+      "target": 3,
+      "usable": 3,
+      "account": "P2",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "863494997243989843",
+          "category": "Wall & Door Organizers"
+        }
+      ],
+      "known_listing_ids": [
+        "4374362269",
+        "4374349912",
+        "4391652370",
+        "4454342176",
+        "4473098237",
+        "4391650576",
+        "4391681449"
+      ]
+    },
+    {
+      "shop": "KoltCraftStudio",
+      "handle": "sailing_981",
+      "target": 3,
+      "usable": 3,
+      "account": "P2",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "863494997243989843",
+          "category": "Home Storage"
+        },
+        {
+          "board_id": "863494997243989843",
+          "category": "Wooden Hangers"
+        }
+      ],
+      "known_listing_ids": [
+        "1883704823",
+        "1836722296",
+        "1826811576",
+        "1795885573",
+        "4434399589",
+        "4385747137",
+        "4451574935",
+        "1841132315",
+        "1826865120",
+        "4528223141",
+        "4511503152",
+        "4451568739",
+        "4434422856",
+        "4497139834",
+        "4497091383",
+        "1776683908",
+        "1762833875"
+      ]
+    },
+    {
+      "shop": "LambertHouse",
+      "handle": "sailing_981",
+      "target": 3,
+      "usable": 3,
+      "account": "P2",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "863494997243989843",
+          "category": "Closet Organization"
+        }
+      ],
+      "known_listing_ids": [
+        "1893519997",
+        "1775126898",
+        "1893428301",
+        "1787372056",
+        "1893340909",
+        "1790815391",
+        "1803029273",
+        "1790823175",
+        "4317015758",
+        "1775126772",
+        "1789516737"
+      ]
+    },
+    {
+      "shop": "MiawoodStudio",
+      "handle": "sailing_981",
+      "target": 3,
+      "usable": 3,
+      "account": "P2",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "863494997243989843",
+          "category": "Wooden Hangers"
+        }
+      ],
+      "known_listing_ids": [
+        "1877238171",
+        "1863038510",
+        "1302262396",
+        "1447491091",
+        "1863045130",
+        "1877231797",
+        "1877309389",
+        "1877240709",
+        "1284508718",
+        "1781803827",
+        "1877234401",
+        "1798068027",
+        "1876737077"
+      ]
+    },
+    {
+      "shop": "MiraKiuStudio",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 3,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Vintage Aprons"
+        }
+      ],
+      "known_listing_ids": [
+        "4385581970",
+        "4464822987",
+        "4489980889",
+        "4464847134",
+        "4464842770"
+      ]
+    },
+    {
+      "shop": "NiceCraftStudioHK",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 3,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Sheer Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Table Linens"
+        }
+      ],
+      "known_listing_ids": [
+        "1397614637",
+        "1676851479",
+        "1717023528",
+        "1462865996",
+        "4360340090",
+        "4355167342"
+      ]
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "handle": "ivy5205",
+      "target": 3,
+      "usable": 3,
+      "account": "P5",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "713820678377803445",
+          "category": "Cosmetic Bags"
+        },
+        {
+          "board_id": "713820678377803445",
+          "category": "Shoulder Bags"
+        },
+        {
+          "board_id": "713820678377803445",
+          "category": "Textile Bags"
+        }
+      ],
+      "known_listing_ids": [
+        "4486251915",
+        "4585567382",
+        "4585556630",
+        "4569933203",
+        "4558515139",
+        "4585524379",
+        "4568703716",
+        "4585549341",
+        "4477926256",
+        "4435968040",
+        "4435907497"
+      ]
+    },
+    {
+      "shop": "Parkermo",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 3,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Cafe Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Farmhouse Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Linen Curtains"
+        }
+      ],
+      "known_listing_ids": [
+        "4449345616",
+        "1905317635",
+        "1702252202",
+        "1842796344",
+        "1845789821",
+        "1856975829",
+        "4388009902",
+        "1857030803",
+        "1555653880"
+      ]
+    },
+    {
+      "shop": "PearlsTreasuresArt",
+      "handle": "cindyzhang62",
+      "target": 3,
+      "usable": 3,
+      "account": "P4",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "675399344058025061",
+          "category": "Seashell Jewelry"
+        }
+      ],
+      "known_listing_ids": [
+        "4339516931",
+        "4348858512",
+        "1904477471",
+        "1899462379",
+        "1895005417",
+        "4320437541",
+        "1867791265"
+      ]
+    },
+    {
+      "shop": "ShirieHomeShow",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 3,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Blackout Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "French Country Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Sheer Curtains"
+        }
+      ],
+      "known_listing_ids": [
+        "4310626154",
+        "4332536339",
+        "4365994633",
+        "1873105176",
+        "4366238220",
+        "4299980520",
+        "1838608268",
+        "1902114323"
+      ]
+    },
+    {
+      "shop": "SobiaStudio",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 3,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Cafe Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Floral Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Tie-Up & Balloon Shades"
+        }
+      ],
+      "known_listing_ids": [
+        "4366214891",
+        "4301845181",
+        "4363478666"
+      ]
+    },
+    {
+      "shop": "StellaGoodsGifts",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 3,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Decorative Pillow Covers"
+        }
+      ],
+      "known_listing_ids": [
+        "4316038513",
+        "4341667363",
+        "4579450601"
+      ]
+    },
+    {
+      "shop": "TunaMunStudio",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 3,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Cabinet Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Cafe Curtains"
+        }
+      ],
+      "known_listing_ids": [
+        "4391064776",
+        "4374365692",
+        "4418023334",
+        "4443064499",
+        "4538560615",
+        "4548402554"
+      ]
+    },
+    {
+      "shop": "WoodHomeLiang",
+      "handle": "sailing_981",
+      "target": 3,
+      "usable": 3,
+      "account": "P2",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "863494997243989843",
+          "category": "Closet Organization"
+        },
+        {
+          "board_id": "863494997243989843",
+          "category": "Wooden Hangers"
+        }
+      ],
+      "known_listing_ids": [
+        "4433497827",
+        "1846382537",
+        "1863933464",
+        "1698517856",
+        "1896704249",
+        "1853913189",
+        "1846378711",
+        "1747740369",
+        "1853904591",
+        "1769992796",
+        "1752546922",
+        "1383474987",
+        "1375376543",
+        "1342461246",
+        "1882526938"
+      ]
+    },
+    {
+      "shop": "ChicDecorHK",
+      "handle": "cindyzhang62",
+      "target": 3,
+      "usable": 4,
+      "account": "P4",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "675399344058025061",
+          "category": "Seashell Jewelry"
+        }
+      ],
+      "known_listing_ids": [
+        "1626539101",
+        "1721799800",
+        "1323643255",
+        "1606392268",
+        "1170079452",
+        "1506048129",
+        "1103128579",
+        "1125022447",
+        "1618224588",
+        "4450228164",
+        "1734365992"
+      ]
+    },
+    {
+      "shop": "QuGifts",
+      "handle": "cindyzhang62",
+      "target": 3,
+      "usable": 4,
+      "account": "P4",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "675399344056772225",
+          "category": "Coastal Home Decor"
+        },
+        {
+          "board_id": "675399344056772225",
+          "category": "Wall Decor"
+        }
+      ],
+      "known_listing_ids": [
+        "4348907433",
+        "4315230146",
+        "4359523943",
+        "4399003122",
+        "4353446272",
+        "1843847088",
+        "4338894105",
+        "1858605625",
+        "4549033180",
+        "1858609385",
+        "1858091897",
+        "1848167461"
+      ]
+    },
+    {
+      "shop": "WOGOL",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 5,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Cafe Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Linen Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Noren Curtains"
+        }
+      ],
+      "known_listing_ids": [
+        "4438724155",
+        "1506884608",
+        "4349378423",
+        "4448391965",
+        "4450630323",
+        "4556220466",
+        "4556211571",
+        "4439603695",
+        "4556660960"
+      ]
+    }
+  ],
+  "usable": 96,
+  "remaining_deficit": 4,
+  "first_deficit_followup": {
+    "status": "completed",
+    "created_at": "2026-10-23T09:29:13.271Z",
+    "after": "2026-10-23T13:35:00Z",
+    "automation_id": "6adb18502ca08191b0b05f436915aee4",
+    "target": 3,
+    "max_batch": 20,
+    "first_inserted": 2,
+    "retry_inserted": 0,
+    "new_items": [
+      {
+        "shop": "GavinHome",
+        "listing_id": "1588948144",
+        "source_url": "https://www.etsy.com/listing/1588948144/embroidered-lace-sheer-curtain-french",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "board_id": "801218658646993070",
+        "board_name": "CyndiZhangStudio",
+        "queue_id": "636f5127-1a35-4fef-8ba7-1a98ab69ae41",
+        "queue_status": "ready",
+        "snapshot_matches": true
+      },
+      {
+        "shop": "MiawoodStudio",
+        "listing_id": "1876737077",
+        "source_url": "https://www.etsy.com/listing/1876737077/solid-wood-clothes-hangers-elegant",
+        "account": "P2",
+        "handle": "sailing_981",
+        "board_id": "863494997243989843",
+        "board_name": "storage",
+        "queue_id": "c8e5f580-30c5-460b-8d29-191f63d35bbb",
+        "queue_status": "ready",
+        "snapshot_matches": true
+      }
+    ],
+    "remaining_deficit": 0,
+    "reason": "Actual insertions, ready snapshots and real zero-insert retry verified. Stop extra first-deficit follow-up only; keep recurring replenishment enabled.",
+    "completed_at": "2026-10-23T13:52:56.578Z",
+    "evidence_file": "operations/replenishment/verification-20261023-first-cloud-deficit.json",
+    "ingestion_run_id": 39964575258,
+    "verify_run_id": 39964697818,
+    "issue_comment_id": 6366492923
+  },
+  "account_readiness": [
+    {
+      "account": "P1",
+      "handle": "icyndizhang",
+      "status": "authorized_trial",
+      "active": true,
+      "oauth_connected": true,
+      "drafts": 55,
+      "drafts_with_image": 0
+    },
+    {
+      "account": "P2",
+      "handle": "sailing_981",
+      "status": "authorized_trial",
+      "active": true,
+      "oauth_connected": true,
+      "drafts": 26,
+      "drafts_with_image": 0
+    },
+    {
+      "account": "P3",
+      "handle": "mydecorshop",
+      "status": "authorized_trial",
+      "active": true,
+      "oauth_connected": true,
+      "drafts": 4,
+      "drafts_with_image": 3
+    },
+    {
+      "account": "P4",
+      "handle": "cindyzhang62",
+      "status": "authorized_trial",
+      "active": true,
+      "oauth_connected": true,
+      "drafts": 0,
+      "drafts_with_image": 0
+    },
+    {
+      "account": "P5",
+      "handle": "ivy5205",
+      "status": "authorized_trial",
+      "active": true,
+      "oauth_connected": true,
+      "drafts": 0,
+      "drafts_with_image": 0
+    }
+  ],
+  "open_attempts": [],
+  "historical_http_failure_coverage": "incomplete: latest20 HTTP and10 cron entries only",
+  "latest_publisher": {
+    "run_id": 40253079053,
+    "job_id": 121348985586,
+    "status": "idle",
+    "published": 0
+  },
+  "latest_cloud_report": {
+    "run_id": 40252878418,
+    "job_id": 121348479679
+  },
+  "issue": {
+    "id": 6406582104,
+    "url": "https://github.com/Sailin09/Store-Promotion/issues/2#issuecomment-6406582104",
+    "body_matches": true,
+    "characters": 11800
+  },
+  "chat": {
+    "status": "unknown_pending_final_and_independent_readback",
+    "notification_delivery_status": "unknown",
+    "device_receipt": "unknown"
+  },
+  "report_path": "operations/replenishment/daily-report-2026-10-26.md",
+  "schedules_changed": false
+}
