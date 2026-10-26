@@ -1,0 +1,52 @@
+[
+  {
+    "shop": "CellaHo",
+    "handle": "mydecorshop",
+    "listing_id": "1839625072",
+    "source_url": "https://www.etsy.com/listing/1839625072/sky-blue-cotton-fabric-embroidered-daisy",
+    "category": "Embroidered Fabric",
+    "board_id": "499618221101238533",
+    "board_name": "Home Decor",
+    "new_title": "Sky Blue Daisy Embroidered Fabric",
+    "image_url": "https://i.etsystatic.com/39663062/r/il/f8ccbd/6544772212/il_794xN.6544772212_tjjs.jpg",
+    "available": true,
+    "visual_verified": true,
+    "evidence": "Current registered CellaHo storefront discovered new ID absent from fresh known IDs. Actual seller and Made by CellaHo match. Quantity1, Add to cart enabled; description half-yard units and explicitly curtains/tablecloths/pillow covers fits existing P3 Embroidered Fabric/Home Decor route. Actual cloud CDP main screenshot inspected: folded pale blue textured fabric with sparse white daisy flowers and green embroidered stems/leaves. Description has contradictory width/material fields so copy makes no composition/width/opacity promises.",
+    "checked_at": "2026-10-26T17:20:19Z",
+    "body": "Sky Blue Daisy Embroidered Fabric from CellaHo. Explore the original Etsy listing for current options and product details. Confirm your selected size and quantity before ordering.",
+    "facebook_draft": "Sky Blue Daisy Embroidered Fabric from CellaHo. Explore the original Etsy listing for current options and product details. Confirm your selected size and quantity before ordering. https://www.etsy.com/listing/1839625072/sky-blue-cotton-fabric-embroidered-daisy"
+  },
+  {
+    "shop": "MiraKiuStudio",
+    "handle": "icyndizhang",
+    "listing_id": "4465201641",
+    "source_url": "https://www.etsy.com/listing/4465201641/vintage-white-lace-apron-floral",
+    "category": "Vintage Aprons",
+    "board_id": "801218658646993070",
+    "board_name": "CyndiZhangStudio",
+    "new_title": "White Floral Apron with Ruffled Straps",
+    "image_url": "https://i.etsystatic.com/59152881/r/il/924b35/7882339433/il_794xN.7882339433_nqum.jpg",
+    "available": true,
+    "visual_verified": true,
+    "checked_at": "2026-10-26T17:21:27Z",
+    "evidence": "Current registered MiraKiuStudio storefront new ID absent from fresh known IDs. Seller and Made by MiraKiuStudio match; Aprons breadcrumb; quantity1, no size/color variants, Add to cart enabled and stock5 shown. Actual cloud CDP main screenshot viewed: model in pink shirt wearing white apron with floral textured bib, broad ruffled shoulder straps, gathered skirt and pockets. Matches existing P1 Vintage Aprons/CyndiZhangStudio route. No age, material purity or fit promises.",
+    "body": "White Floral Apron with Ruffled Straps from MiraKiuStudio. Explore the original Etsy listing for current options and product details. Confirm your selected size and quantity before ordering.",
+    "facebook_draft": "White Floral Apron with Ruffled Straps from MiraKiuStudio. Explore the original Etsy listing for current options and product details. Confirm your selected size and quantity before ordering. https://www.etsy.com/listing/4465201641/vintage-white-lace-apron-floral"
+  },
+  {
+    "shop": "NinaJiaStudio",
+    "handle": "ivy5205",
+    "listing_id": "4435963114",
+    "source_url": "https://www.etsy.com/listing/4435963114/colorful-plaid-makeup-bag-large-travel",
+    "category": "Cosmetic Bags",
+    "board_id": "713820678377803445",
+    "new_title": "Colorful Checkered Zipper Cosmetic Bag",
+    "image_url": "https://i.etsystatic.com/61131894/r/il/e0f6d5/7579560280/il_794xN.7579560280_1al9.jpg",
+    "checked_at": "2026-10-26T17:22:30Z",
+    "available": true,
+    "visual_verified": true,
+    "evidence": "New current registered NinaJiaStudio storefront ID absent from all fresh known IDs. Actual seller and Made by NinaJiaStudio match; Cosmetic Bags breadcrumb. Selected Small quantity1, loaded DOM confirms Small and enabled Add to cart. Actual cloud CDP main screenshot viewed: hand-held upright fabric pouch with red, green, yellow, blue and pale checkerboard woven texture and top zipper. Fits existing P5 Cosmetic Bags route; no composition purity or waterproof claims.",
+    "body": "Colorful Checkered Zipper Cosmetic Bag from NinaJiaStudio. Explore the original Etsy listing for current options and product details. Confirm your selected size and quantity before ordering.",
+    "facebook_draft": "Colorful Checkered Zipper Cosmetic Bag from NinaJiaStudio. Explore the original Etsy listing for current options and product details. Confirm your selected size and quantity before ordering. https://www.etsy.com/listing/4435963114/colorful-plaid-makeup-bag-large-travel"
+  }
+]
