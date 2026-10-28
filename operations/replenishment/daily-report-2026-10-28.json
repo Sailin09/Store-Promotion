@@ -2057,8 +2057,12 @@
     "history_reset": false
   },
   "delivery": {
-    "issue": "pending",
-    "chat": "pending_final_and_independent_readback",
+    "issue": "comment_body_readback_matches",
+    "comment_id": 6458714999,
+    "comment_url": "https://github.com/Sailin09/Store-Promotion/issues/2#issuecomment-6458714999",
+    "report_saved_commit": "895631fe100499d7bea8d36cc408aaec5f5cd9c2",
+    "report_readback_matches": true,
+    "chat": "final_response_pending_independent_readback",
     "platform_notification": "unknown",
     "device_receipt": "unknown"
   },
