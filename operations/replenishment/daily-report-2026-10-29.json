@@ -4368,11 +4368,17 @@
     "No independent platform notification or device-delivery proof"
   ],
   "delivery": {
-    "issue": "pending",
+    "issue": {
+      "comment_id": 6485881111,
+      "url": "https://github.com/Sailin09/Store-Promotion/issues/2#issuecomment-6485881111",
+      "body_readback_matches": true
+    },
     "chat": "unknown_pending_independent_readback",
     "platform_notification": "unknown",
     "device": "unknown"
   },
   "business_mutations": false,
-  "scheduled_tasks_modified": false
+  "scheduled_tasks_modified": false,
+  "report_commit": "cdfa5e23c291b4d5094b9091dbef6c4ab1917651",
+  "report_readback_matches": true
 }
