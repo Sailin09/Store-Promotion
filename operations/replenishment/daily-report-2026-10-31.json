@@ -1,0 +1,5547 @@
+{
+  "report_date": "2026-10-31",
+  "interval_start": "2026-10-30T02:00:00Z",
+  "cutoff": "2026-10-31T02:00:00Z",
+  "audit_time": "2026-10-31T02:01:44.501567+00:00",
+  "github_connector_access": true,
+  "verify": {
+    "run_id": 41098996049,
+    "job_id": 124409169773,
+    "rerun_from_job_id": 124363550115,
+    "conclusion": "success",
+    "log_characters": 268221,
+    "daily_history_no_limit": true,
+    "history_returned": 18,
+    "interval_history": [
+      {
+        "account": "P2",
+        "pin_id": "863494928599366475",
+        "url": "https://www.pinterest.com/pin/863494928599366475/",
+        "published_at": "2026-10-30T02:05:02.330633+00:00",
+        "status": "published",
+        "queue_id": "efd32e54-e248-4591-97e5-3371545d1da1",
+        "listing_id": "1342461246",
+        "queue_status": "published",
+        "attempt_state": "published",
+        "error": null,
+        "history_pin_id": "863494928599366475",
+        "history_url": "https://www.pinterest.com/pin/863494928599366475/",
+        "snapshot_matches": true,
+        "shop": "WoodHomeLiang"
+      },
+      {
+        "account": "P1",
+        "pin_id": "801218590009569646",
+        "url": "https://www.pinterest.com/pin/801218590009569646/",
+        "published_at": "2026-10-30T02:10:02.179344+00:00",
+        "status": "published",
+        "queue_id": "d355ca2c-77be-4e02-8694-3f800f222307",
+        "listing_id": "4360340090",
+        "queue_status": "published",
+        "attempt_state": "published",
+        "error": null,
+        "history_pin_id": "801218590009569646",
+        "history_url": "https://www.pinterest.com/pin/801218590009569646/",
+        "snapshot_matches": true,
+        "shop": "NiceCraftStudioHK"
+      },
+      {
+        "account": "P4",
+        "pin_id": "675399275414665631",
+        "url": "https://www.pinterest.com/pin/675399275414665631/",
+        "published_at": "2026-10-30T02:45:02.634832+00:00",
+        "status": "published",
+        "queue_id": "98b5f13a-590f-4b43-a8d4-226512f1fc10",
+        "listing_id": "1900963037",
+        "queue_status": "published",
+        "attempt_state": "published",
+        "error": null,
+        "history_pin_id": "675399275414665631",
+        "history_url": "https://www.pinterest.com/pin/675399275414665631/",
+        "snapshot_matches": true,
+        "shop": "QuGifts"
+      },
+      {
+        "account": "P1",
+        "pin_id": "801218590009575905",
+        "url": "https://www.pinterest.com/pin/801218590009575905/",
+        "published_at": "2026-10-30T13:00:03.877821+00:00",
+        "status": "published",
+        "queue_id": "61946164-76a4-48af-9185-172a469c7a07",
+        "listing_id": "4514589653",
+        "queue_status": "published",
+        "attempt_state": "published",
+        "error": null,
+        "history_pin_id": "801218590009575905",
+        "history_url": "https://www.pinterest.com/pin/801218590009575905/",
+        "snapshot_matches": true,
+        "shop": "Chtte"
+      },
+      {
+        "account": "P2",
+        "pin_id": "863494928599372560",
+        "url": "https://www.pinterest.com/pin/863494928599372560/",
+        "published_at": "2026-10-30T13:05:02.843255+00:00",
+        "status": "published",
+        "queue_id": "78f3174c-47c6-4a16-b1db-ae96676d20f3",
+        "listing_id": "4486775612",
+        "queue_status": "published",
+        "attempt_state": "published",
+        "error": null,
+        "history_pin_id": "863494928599372560",
+        "history_url": "https://www.pinterest.com/pin/863494928599372560/",
+        "snapshot_matches": true,
+        "shop": "Adamideal"
+      },
+      {
+        "account": "P3",
+        "pin_id": "499618152434291557",
+        "url": "https://www.pinterest.com/pin/499618152434291557/",
+        "published_at": "2026-10-30T13:35:02.330333+00:00",
+        "status": "published",
+        "queue_id": "b02cc43b-9aca-4263-bdb1-16d4aba52897",
+        "listing_id": "4512412605",
+        "queue_status": "published",
+        "attempt_state": "published",
+        "error": null,
+        "history_pin_id": "499618152434291557",
+        "history_url": "https://www.pinterest.com/pin/499618152434291557/",
+        "snapshot_matches": true,
+        "shop": "CellaHo"
+      },
+      {
+        "account": "P4",
+        "pin_id": "675399275414672282",
+        "url": "https://www.pinterest.com/pin/675399275414672282/",
+        "published_at": "2026-10-30T13:50:02.471754+00:00",
+        "status": "published",
+        "queue_id": "50cfb56f-3a82-42ce-96f4-53ca5f9e5c35",
+        "listing_id": "1599224125",
+        "queue_status": "published",
+        "attempt_state": "published",
+        "error": null,
+        "history_pin_id": "675399275414672282",
+        "history_url": "https://www.pinterest.com/pin/675399275414672282/",
+        "snapshot_matches": true,
+        "shop": "ChicDecorHK"
+      },
+      {
+        "account": "P5",
+        "pin_id": "713820609737705876",
+        "url": "https://www.pinterest.com/pin/713820609737705876/",
+        "published_at": "2026-10-30T13:55:02.118032+00:00",
+        "status": "published",
+        "queue_id": "85dac9aa-3050-4b73-b019-588c06495897",
+        "listing_id": "4435912349",
+        "queue_status": "published",
+        "attempt_state": "published",
+        "error": null,
+        "history_pin_id": "713820609737705876",
+        "history_url": "https://www.pinterest.com/pin/713820609737705876/",
+        "snapshot_matches": true,
+        "shop": "NinaJiaStudio"
+      },
+      {
+        "account": "P1",
+        "pin_id": "801218590009583580",
+        "url": "https://www.pinterest.com/pin/801218590009583580/",
+        "published_at": "2026-10-31T00:00:03.045806+00:00",
+        "status": "published",
+        "queue_id": "25c9977e-f1b0-4cea-97fb-12734a919bf4",
+        "listing_id": "1527020795",
+        "queue_status": "published",
+        "attempt_state": "published",
+        "error": null,
+        "history_pin_id": "801218590009583580",
+        "history_url": "https://www.pinterest.com/pin/801218590009583580/",
+        "snapshot_matches": true,
+        "shop": "AmyHomeCrafts"
+      },
+      {
+        "account": "P2",
+        "pin_id": "863494928599379615",
+        "url": "https://www.pinterest.com/pin/863494928599379615/",
+        "published_at": "2026-10-31T00:05:02.275674+00:00",
+        "status": "published",
+        "queue_id": "c8e5f580-30c5-460b-8d29-191f63d35bbb",
+        "listing_id": "1876737077",
+        "queue_status": "published",
+        "attempt_state": "published",
+        "error": null,
+        "history_pin_id": "863494928599379615",
+        "history_url": "https://www.pinterest.com/pin/863494928599379615/",
+        "snapshot_matches": true,
+        "shop": "MiawoodStudio"
+      },
+      {
+        "account": "P4",
+        "pin_id": "675399275414680232",
+        "url": "https://www.pinterest.com/pin/675399275414680232/",
+        "published_at": "2026-10-31T00:45:02.498419+00:00",
+        "status": "published",
+        "queue_id": "65c36a36-097c-4c00-bbf1-9b437d115372",
+        "listing_id": "4320754160",
+        "queue_status": "published",
+        "attempt_state": "published",
+        "error": null,
+        "history_pin_id": "675399275414680232",
+        "history_url": "https://www.pinterest.com/pin/675399275414680232/",
+        "snapshot_matches": true,
+        "shop": "PearlsTreasuresArt"
+      },
+      {
+        "account": "P5",
+        "pin_id": "713820609737714147",
+        "url": "https://www.pinterest.com/pin/713820609737714147/",
+        "published_at": "2026-10-31T00:50:02.075876+00:00",
+        "status": "published",
+        "queue_id": "ef7c2c45-7936-4094-814a-b1fd70c511d8",
+        "listing_id": "4582971773",
+        "queue_status": "published",
+        "attempt_state": "published",
+        "error": null,
+        "history_pin_id": "713820609737714147",
+        "history_url": "https://www.pinterest.com/pin/713820609737714147/",
+        "snapshot_matches": true,
+        "shop": "NngGoods"
+      },
+      {
+        "account": "P3",
+        "pin_id": "499618152434295002",
+        "url": "https://www.pinterest.com/pin/499618152434295002/",
+        "published_at": "2026-10-31T00:55:01.952129+00:00",
+        "status": "published",
+        "queue_id": "704c5f2f-d4c9-46c4-9257-adb94bebe947",
+        "listing_id": "4365508063",
+        "queue_status": "published",
+        "attempt_state": "published",
+        "error": null,
+        "history_pin_id": "499618152434295002",
+        "history_url": "https://www.pinterest.com/pin/499618152434295002/",
+        "snapshot_matches": true,
+        "shop": "LoomGoStudio"
+      }
+    ],
+    "post_cutoff_history": [],
+    "coverage_complete": true
+  },
+  "replenishment_items": [
+    {
+      "shop": "KoltCraftStudio",
+      "handle": "sailing_981",
+      "listing_id": "1841151987",
+      "source_url": "https://www.etsy.com/listing/1841151987/camphor-wood-pants-hanger-with-anti-slip",
+      "category": "Wooden Hangers",
+      "board_id": "863494997243989843",
+      "board_name": "storage",
+      "new_title": "Wooden Pants Hanger with Gold Tone Clips",
+      "image_url": "https://i.etsystatic.com/43671795/r/il/eb1d35/6565460289/il_794xN.6565460289_68fy.jpg",
+      "checked_at": "2026-10-30T05:14:52Z",
+      "available": true,
+      "visual_verified": true,
+      "evidence": "Current registered KoltCraftStudio storefront new ID excluded against full fresh known IDs before detail. Actual seller KoltCraftStudio; Hangers & Clothing Storage breadcrumb, Wood material. Selected1 PCS, quantity1; loaded cart enabled. Cloud CDP main screenshot actually viewed: pale rectangular wood bars, gold-tone hooks and two end clips on black surface, several pictured not sold-count claim, seller watermark. Existing P2 Wooden Hangers/storage route. No anti-moth, moisture-resistant, anti-slip, swivel or camphor species claims.",
+      "body": "Wooden Pants Hanger with Gold Tone Clips from KoltCraftStudio. View the original Etsy listing for current options and details. Confirm your selected options, quantity and fit before ordering.",
+      "facebook_draft": "Wooden Pants Hanger with Gold Tone Clips from KoltCraftStudio. View the original Etsy listing for current options and details. Confirm your selected options, quantity and fit before ordering. https://www.etsy.com/listing/1841151987/camphor-wood-pants-hanger-with-anti-slip",
+      "account": "P2",
+      "queue_id": "dfd9f074-d07d-44d4-9616-07f43586f8f2",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "reserve": {
+        "account": "P2",
+        "shop": "KoltCraftStudio",
+        "queue_id": "dfd9f074-d07d-44d4-9616-07f43586f8f2",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-30T05:21:23.668338+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-30T05:14:52+00:00",
+        "reviewed_at": "2026-10-30T05:21:23.668338+00:00",
+        "snapshot_matches": true,
+        "board_id": "863494997243989843",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T00:00:03.959666+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "shop": "LoomGoStudio",
+      "handle": "mydecorshop",
+      "listing_id": "4555451011",
+      "source_url": "https://www.etsy.com/listing/4555451011/butterfly-floral-silk-jacquard-fabric",
+      "category": "Jacquard Fabric",
+      "board_id": "499618221101238533",
+      "board_name": "Home Decor",
+      "new_title": "Black and Gold Tone Butterfly Floral Jacquard Fabric",
+      "image_url": "https://i.etsystatic.com/58959935/r/il/8bcdd8/8766381590/il_794xN.8766381590_pgn9.jpg",
+      "checked_at": "2026-10-30T05:15:37Z",
+      "available": true,
+      "visual_verified": true,
+      "evidence": "Fresh registered LoomGoStudio storefront new ID, absent from all fresh known IDs before detail. Seller LoomGoStudio; Craft Supplies breadcrumb; description expressly includes decorative panels, cushions and curtains. Selected1 Yard and Color-1, quantity1, subsequent loaded cart enabled. Actual cloud CDP main screenshot viewed: black draped cloth with gold-tone butterflies, peony-like flowers, leafy branches and gold selvage. Existing P3 Jacquard Fabric/Home Decor route. Copy does not certify silk percentage, provenance, momme, material or width. Delivery phone not submitted.",
+      "body": "Black and Gold Tone Butterfly Floral Jacquard Fabric from LoomGoStudio. View the original Etsy listing for current options and details. Confirm your selected options, quantity and fit before ordering.",
+      "facebook_draft": "Black and Gold Tone Butterfly Floral Jacquard Fabric from LoomGoStudio. View the original Etsy listing for current options and details. Confirm your selected options, quantity and fit before ordering. https://www.etsy.com/listing/4555451011/butterfly-floral-silk-jacquard-fabric",
+      "account": "P3",
+      "queue_id": "aa1214cc-7ad6-4f9b-ac5d-6c680803bfc9",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "reserve": {
+        "account": "P3",
+        "shop": "LoomGoStudio",
+        "queue_id": "aa1214cc-7ad6-4f9b-ac5d-6c680803bfc9",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-30T05:21:25.208527+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-30T05:15:37+00:00",
+        "reviewed_at": "2026-10-30T05:21:25.208527+00:00",
+        "snapshot_matches": true,
+        "board_id": "499618221101238533",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-31T00:55:01.952129+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "shop": "NiceCraftStudioHK",
+      "handle": "icyndizhang",
+      "listing_id": "1837658116",
+      "source_url": "https://www.etsy.com/listing/1837658116/nordic-embroidered-sheer-curtain-elegant",
+      "category": "Sheer Curtains",
+      "board_id": "801218658646993070",
+      "board_name": "CyndiZhangStudio",
+      "new_title": "White Sheer Curtain with Gold Tone Embroidered Bands",
+      "image_url": "https://i.etsystatic.com/39068605/r/il/34505f/6805208581/il_794xN.6805208581_pz6k.jpg",
+      "checked_at": "2026-10-30T05:16:11Z",
+      "available": true,
+      "visual_verified": true,
+      "evidence": "Fresh registered NiceCraftStudioHK storefront new ID absent from full fresh known IDs before detail. Actual seller and Made by NiceCraftStudioHK; Curtains breadcrumb. Selected1PCS-W39xL59 inch and Rod Pocket, quantity1; subsequently loaded cart enabled. Actual cloud CDP main screenshot inspected: white sheer drape before gridded window with rows of gold-tone medallion motifs and broad central ornate floral band, seller watermark. Existing P1 Sheer Curtains/CyndiZhangStudio route. Avoids privacy, opaque/light-blocking or composition claims; no phone submitted.",
+      "body": "White Sheer Curtain with Gold Tone Embroidered Bands from NiceCraftStudioHK. View the original Etsy listing for current options and details. Confirm your selected options, quantity and fit before ordering.",
+      "facebook_draft": "White Sheer Curtain with Gold Tone Embroidered Bands from NiceCraftStudioHK. View the original Etsy listing for current options and details. Confirm your selected options, quantity and fit before ordering. https://www.etsy.com/listing/1837658116/nordic-embroidered-sheer-curtain-elegant",
+      "account": "P1",
+      "queue_id": "b284f067-3e9a-4f60-a7d0-707efb7d28f9",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "reserve": {
+        "account": "P1",
+        "shop": "NiceCraftStudioHK",
+        "queue_id": "b284f067-3e9a-4f60-a7d0-707efb7d28f9",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-30T05:21:26.314166+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-30T05:16:11+00:00",
+        "reviewed_at": "2026-10-30T05:21:26.314166+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T02:10:02.179344+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "shop": "NngGoods",
+      "handle": "ivy5205",
+      "listing_id": "4582960271",
+      "source_url": "https://www.etsy.com/listing/4582960271/natural-stone-drawer-pull-brass-cabinet",
+      "category": "Cabinet Knobs & Pulls",
+      "board_id": "713820678377803412",
+      "board_name": "Furniture",
+      "new_title": "Pink Rectangular Cabinet Knob with Gold Tone Base",
+      "image_url": "https://i.etsystatic.com/57194200/r/il/545662/8628782819/il_794xN.8628782819_6egn.jpg",
+      "checked_at": "2026-10-30T05:17:05Z",
+      "available": true,
+      "visual_verified": true,
+      "evidence": "New ID from fresh registered NngGoods storefront, absent from full fresh known IDs before detail. Actual seller NngGoods, Drawer Knobs & Pulls breadcrumb. Selected1 PCS and Rose Quartz, quantity1, enabled cart, stock6. First screenshot while image loading was blank; waited for actual main variant image then viewed second cloud CDP screenshot: pale pink rounded rectangular knob on gold-tone circular base with loose gold-tone screw on weathered pale wood; source text Rose Quartz and seller watermark visible. Original variant URL matches viewed image. Existing P5 Cabinet Knobs & Pulls/Furniture route. No mineral authenticity, metal purity or safety claims; no phone submitted.",
+      "body": "Pink Rectangular Cabinet Knob with Gold Tone Base from NngGoods. View the original Etsy listing for current options and details. Confirm your selected options, quantity and fit before ordering.",
+      "facebook_draft": "Pink Rectangular Cabinet Knob with Gold Tone Base from NngGoods. View the original Etsy listing for current options and details. Confirm your selected options, quantity and fit before ordering. https://www.etsy.com/listing/4582960271/natural-stone-drawer-pull-brass-cabinet",
+      "account": "P5",
+      "queue_id": "157fd433-d0bb-4cf5-b2ba-f2429545bfab",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "reserve": {
+        "account": "P5",
+        "shop": "NngGoods",
+        "queue_id": "157fd433-d0bb-4cf5-b2ba-f2429545bfab",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-30T05:21:27.409832+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-30T05:17:05+00:00",
+        "reviewed_at": "2026-10-30T05:21:27.409832+00:00",
+        "snapshot_matches": true,
+        "board_id": "713820678377803412",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-31T00:50:02.075876+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "shop": "PearlsTreasuresArt",
+      "handle": "cindyzhang62",
+      "listing_id": "1853584450",
+      "source_url": "https://www.etsy.com/listing/1853584450/natural-seashell-drop-earrings-ocean",
+      "category": "Seashell Jewelry",
+      "board_id": "675399344058025061",
+      "new_title": "Iridescent Spiral Shell Drop Earrings",
+      "image_url": "https://i.etsystatic.com/46725934/r/il/f380b3/6806305966/il_794xN.6806305966_pd2n.jpg",
+      "checked_at": "2026-10-30T05:17:44Z",
+      "available": true,
+      "visual_verified": true,
+      "evidence": "Current registered PearlsTreasuresArt storefront new ID excluded against all fresh known IDs before detail. Actual seller and Made by PearlsTreasuresArt; Dangle & Drop Earrings, Shell material. No required variant, quantity1 and enabled cart. Actual cloud CDP main screenshot viewed: two yellow-white iridescent spiral shells with long gold-tone wire hooks on translucent scalloped glass dish. Existing P4 Seashell Jewelry Board ID retained, name not guessed. No hypoallergenic, comfort, secure-fit, metal purity or packaging claims.",
+      "body": "Iridescent Spiral Shell Drop Earrings from PearlsTreasuresArt. View the original Etsy listing for current options and details. Confirm your selected options, quantity and fit before ordering.",
+      "facebook_draft": "Iridescent Spiral Shell Drop Earrings from PearlsTreasuresArt. View the original Etsy listing for current options and details. Confirm your selected options, quantity and fit before ordering. https://www.etsy.com/listing/1853584450/natural-seashell-drop-earrings-ocean",
+      "account": "P4",
+      "queue_id": "322224b8-acdb-4b06-978c-c713a04d8e95",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "reserve": {
+        "account": "P4",
+        "shop": "PearlsTreasuresArt",
+        "queue_id": "322224b8-acdb-4b06-978c-c713a04d8e95",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-30T05:21:28.401842+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-30T05:17:44+00:00",
+        "reviewed_at": "2026-10-30T05:21:28.401842+00:00",
+        "snapshot_matches": true,
+        "board_id": "675399344058025061",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-31T00:45:02.498419+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "shop": "QuGifts",
+      "handle": "cindyzhang62",
+      "listing_id": "4315241292",
+      "source_url": "https://www.etsy.com/listing/4315241292/seashell-jewelry-display-tray-marble",
+      "category": "Coastal Home Decor",
+      "board_id": "675399344056772225",
+      "new_title": "Pink Scallop Shell Display on Stone Base",
+      "image_url": "https://i.etsystatic.com/38006525/r/il/b0d4d8/6912768580/il_794xN.6912768580_74r2.jpg",
+      "checked_at": "2026-10-30T05:18:35Z",
+      "available": true,
+      "visual_verified": true,
+      "evidence": "Fresh registered QuGifts storefront new ID excluded against all fresh known IDs before detail. Seller and Made by QuGifts; description explicitly coastal home decorative art, vanity/dresser holder though generic Craft Supplies breadcrumb. Selected Pink scallop shell, quantity1, stock2, loaded enabled cart. Actual cloud CDP main variant screenshot viewed after initial loading blank: four labeled shell-on-stone-base designs; Pink scallop shell top-right has cream/pink scalloped rim on square pale porous base. Copy names only selected variant, not four-piece set; no size or stone-species authenticity, heat/incense safety claim. Existing P4 Coastal Home Decor Board ID retained, name not guessed; no phone submitted.",
+      "body": "Pink Scallop Shell Display on Stone Base from QuGifts. View the original Etsy listing for current options and details. Confirm your selected options, quantity and fit before ordering.",
+      "facebook_draft": "Pink Scallop Shell Display on Stone Base from QuGifts. View the original Etsy listing for current options and details. Confirm your selected options, quantity and fit before ordering. https://www.etsy.com/listing/4315241292/seashell-jewelry-display-tray-marble",
+      "account": "P4",
+      "queue_id": "6bd2e585-6127-47b4-9f25-c2120c8473db",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "reserve": {
+        "account": "P4",
+        "shop": "QuGifts",
+        "queue_id": "6bd2e585-6127-47b4-9f25-c2120c8473db",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-30T05:21:28.942099+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-30T05:18:35+00:00",
+        "reviewed_at": "2026-10-30T05:21:28.942099+00:00",
+        "snapshot_matches": true,
+        "board_id": "675399344056772225",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T02:45:02.634832+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "shop": "WOGOL",
+      "handle": "icyndizhang",
+      "listing_id": "4370222007",
+      "source_url": "https://www.etsy.com/listing/4370222007/linen-textured-curtain-rustic-semi",
+      "category": "Curtains",
+      "board_id": "801218658646993070",
+      "board_name": "CyndiZhangStudio",
+      "new_title": "Neutral Textured Curtain with Narrow Dark Stripes",
+      "image_url": "https://i.etsystatic.com/45174159/r/il/1eb0f4/7249956079/il_794xN.7249956079_icd3.jpg",
+      "checked_at": "2026-10-30T05:19:28Z",
+      "available": true,
+      "visual_verified": true,
+      "evidence": "Fresh registered WOGOL storefront discovery new ID excluded against all fresh known IDs before detail. Actual seller and Made by WOGOL; Curtains breadcrumb. Selected W39XL51 inch -1 PC and Rod pocket, quantity1; loaded enabled cart, stock2. Actual cloud CDP main screenshot viewed: pale beige coarse-textured curtain with narrow dark vertical stripes pooling on pale wood-look floor beside white drape. Existing P1 Curtains/CyndiZhangStudio route. Copy avoids inconsistent semi-blackout vs semi-transparent claims and does not certify linen content; no phone submitted.",
+      "body": "Neutral Textured Curtain with Narrow Dark Stripes from WOGOL. View the original Etsy listing for current options and details. Confirm your selected options, quantity and fit before ordering.",
+      "facebook_draft": "Neutral Textured Curtain with Narrow Dark Stripes from WOGOL. View the original Etsy listing for current options and details. Confirm your selected options, quantity and fit before ordering. https://www.etsy.com/listing/4370222007/linen-textured-curtain-rustic-semi",
+      "account": "P1",
+      "queue_id": "8ea870e3-ccad-40a0-8ef5-83c6e29eedb5",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "reserve": {
+        "account": "P1",
+        "shop": "WOGOL",
+        "queue_id": "8ea870e3-ccad-40a0-8ef5-83c6e29eedb5",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-30T05:21:29.291273+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-30T05:19:28+00:00",
+        "reviewed_at": "2026-10-30T05:21:29.291273+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T00:05:02.334003+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "shop": "WoodHomeLiang",
+      "handle": "sailing_981",
+      "listing_id": "1839700218",
+      "source_url": "https://www.etsy.com/listing/1839700218/vintage-wooden-clothes-hanger-wide",
+      "category": "Wooden Hangers",
+      "board_id": "863494997243989843",
+      "board_name": "storage",
+      "new_title": "Brown Wide Shoulder Wooden Hanger with Dark Hook",
+      "image_url": "https://i.etsystatic.com/38928671/r/il/1bd41c/6593287199/il_794xN.6593287199_igz7.jpg",
+      "checked_at": "2026-10-30T05:20:19Z",
+      "available": true,
+      "visual_verified": true,
+      "evidence": "Fresh registered WoodHomeLiang storefront new ID excluded against full fresh known IDs before detail. Actual seller WoodHomeLiang, Hangers & Clothing Storage breadcrumb, wood/metal materials. Selected Woman-15.8x10.6 inch then1 PCS after dynamic price loaded, quantity1; loaded selections and enabled cart confirmed. Actual cloud CDP main screenshot inspected: two rich brown broad curved wood hangers with dark squared hooks on black closet rail within light wood cabinet, seller watermark. Existing P2 Wooden Hangers/storage route. Copy avoids anti-slip, anti-crease, load, wood species and longevity claims and does not imply pair sold.",
+      "body": "Brown Wide Shoulder Wooden Hanger with Dark Hook from WoodHomeLiang. View the original Etsy listing for current options and details. Confirm your selected options, quantity and fit before ordering.",
+      "facebook_draft": "Brown Wide Shoulder Wooden Hanger with Dark Hook from WoodHomeLiang. View the original Etsy listing for current options and details. Confirm your selected options, quantity and fit before ordering. https://www.etsy.com/listing/1839700218/vintage-wooden-clothes-hanger-wide",
+      "account": "P2",
+      "queue_id": "c7815c87-656e-4c0d-9802-0862e96ca0d9",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "reserve": {
+        "account": "P2",
+        "shop": "WoodHomeLiang",
+        "queue_id": "c7815c87-656e-4c0d-9802-0862e96ca0d9",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-30T05:21:29.669003+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-30T05:20:19+00:00",
+        "reviewed_at": "2026-10-30T05:21:29.669003+00:00",
+        "snapshot_matches": true,
+        "board_id": "863494997243989843",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T02:05:02.330633+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "shop": "Adamideal",
+      "handle": "sailing_981",
+      "listing_id": "4525373104",
+      "source_url": "https://www.etsy.com/listing/4525373104/walnut-beech-wood-phone-stand-tablet",
+      "category": "Desk Organization",
+      "board_id": "863494997243989843",
+      "board_name": "storage",
+      "new_title": "Brown Wooden Phone Stand with Desktop Tray",
+      "image_url": "https://i.etsystatic.com/35172699/r/il/d7ebfe/8160939218/il_794xN.8160939218_qo0f.jpg",
+      "checked_at": "2026-10-30T17:23:57Z",
+      "available": true,
+      "visual_verified": true,
+      "evidence": "Fresh registered Adamideal storefront discovery, absent from all fresh known_listing_ids before detail. Actual seller and Made by Adamideal; Stands breadcrumb, description explicitly desktop organizer tray for small essentials. Selected Style-1, quantity1; loaded DOM confirms enabled Add to cart and stock5. Actual remote CDP main screenshot viewed: brown wood upright phone stand with rectangular recessed base tray and a phone, earbud case and earbuds staged on it. Existing P2 Desk Organization/storage route retained. Copy does not imply phone or earbuds included and avoids untested wood grade, load, hinge or anti-slip claims. Optional delivery phone left blank.",
+      "body": "Brown Wooden Phone Stand with Desktop Tray from Adamideal. View the original Etsy listing for current options and details. Confirm your selected options, quantity and fit before ordering.",
+      "facebook_draft": "Brown Wooden Phone Stand with Desktop Tray from Adamideal. View the original Etsy listing for current options and details. Confirm your selected options, quantity and fit before ordering. https://www.etsy.com/listing/4525373104/walnut-beech-wood-phone-stand-tablet",
+      "account": "P2",
+      "queue_id": "0ddae9f2-664d-428d-accf-c11bb651028b",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "reserve": {
+        "account": "P2",
+        "shop": "Adamideal",
+        "queue_id": "0ddae9f2-664d-428d-accf-c11bb651028b",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-30T17:27:18.844397+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-30T17:23:57+00:00",
+        "reviewed_at": "2026-10-30T17:27:18.844397+00:00",
+        "snapshot_matches": true,
+        "board_id": "863494997243989843",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T13:05:02.843255+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "shop": "CellaHo",
+      "handle": "mydecorshop",
+      "listing_id": "4432299269",
+      "source_url": "https://www.etsy.com/listing/4432299269/pumpkin-embroidered-cotton-fabric-rustic",
+      "category": "Embroidered Fabric",
+      "board_id": "499618221101238533",
+      "board_name": "Home Decor",
+      "new_title": "Rust Orange Fabric with Pumpkin and Gourd Embroidery",
+      "image_url": "https://i.etsystatic.com/39663062/r/il/54e59d/7548501198/il_794xN.7548501198_40vg.jpg",
+      "checked_at": "2026-10-30T17:24:38Z",
+      "available": true,
+      "visual_verified": true,
+      "evidence": "Fresh registered CellaHo storefront discovery; excluded against every fresh known listing ID before detail. Seller CellaHo; Craft Supplies breadcrumb, description explicitly cushion covers, curtains, tablecloths and home decor. Selected0.5 Yards and Orange, quantity1; loaded DOM confirms enabled Add to cart. Actual remote cloud CDP main screenshot viewed: rust orange draped cloth embroidered with orange/yellow pumpkins and gourds and dark green small leaves/stems. Existing P3 Embroidered Fabric/Home Decor route retained. No composition, environmental, breathability or durability claims copied; no personalization submitted.",
+      "body": "Rust Orange Fabric with Pumpkin and Gourd Embroidery from CellaHo. View the original Etsy listing for current options and details. Confirm your selected options, quantity and fit before ordering.",
+      "facebook_draft": "Rust Orange Fabric with Pumpkin and Gourd Embroidery from CellaHo. View the original Etsy listing for current options and details. Confirm your selected options, quantity and fit before ordering. https://www.etsy.com/listing/4432299269/pumpkin-embroidered-cotton-fabric-rustic",
+      "account": "P3",
+      "queue_id": "0e36134e-d3fc-47fc-a4d6-5bdf37860f43",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "reserve": {
+        "account": "P3",
+        "shop": "CellaHo",
+        "queue_id": "0e36134e-d3fc-47fc-a4d6-5bdf37860f43",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-30T17:27:20.800339+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-30T17:24:38+00:00",
+        "reviewed_at": "2026-10-30T17:27:20.800339+00:00",
+        "snapshot_matches": true,
+        "board_id": "499618221101238533",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T13:35:02.330333+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "shop": "ChicDecorHK",
+      "handle": "cindyzhang62",
+      "listing_id": "1640975851",
+      "source_url": "https://www.etsy.com/listing/1640975851/handmade-pearl-and-white-seashell",
+      "category": "Seashell Jewelry",
+      "board_id": "675399344058025061",
+      "new_title": "White Beaded Necklace with Mixed Shell Pendants",
+      "image_url": "https://i.etsystatic.com/32003756/r/il/5e5dbb/5611622054/il_794xN.5611622054_40za.jpg",
+      "checked_at": "2026-10-30T17:25:24Z",
+      "available": true,
+      "visual_verified": true,
+      "evidence": "Fresh registered ChicDecorHK storefront discovery; excluded against all fresh known IDs before detail. Seller and Made by ChicDecorHK, Pendant Necklaces breadcrumb, Shell material. No required variant; quantity1, enabled Add to cart. Actual remote CDP main screenshot viewed: irregular white bead strand with multiple pale shell pendants including scallop and spiral forms on a model wearing green. Existing P4 Seashell Jewelry Board ID retained without guessing name. Copy avoids authenticating freshwater pearls, metal purity, hypoallergenic or comfort claims from a photo; no delivery phone entered.",
+      "body": "White Beaded Necklace with Mixed Shell Pendants from ChicDecorHK. View the original Etsy listing for current options and details. Confirm your selected options, quantity and fit before ordering.",
+      "facebook_draft": "White Beaded Necklace with Mixed Shell Pendants from ChicDecorHK. View the original Etsy listing for current options and details. Confirm your selected options, quantity and fit before ordering. https://www.etsy.com/listing/1640975851/handmade-pearl-and-white-seashell",
+      "account": "P4",
+      "queue_id": "01c69af7-99ad-4f85-8104-86f74e78aa42",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "reserve": {
+        "account": "P4",
+        "shop": "ChicDecorHK",
+        "queue_id": "01c69af7-99ad-4f85-8104-86f74e78aa42",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-30T17:27:22.353297+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-30T17:25:24+00:00",
+        "reviewed_at": "2026-10-30T17:27:22.353297+00:00",
+        "snapshot_matches": true,
+        "board_id": "675399344058025061",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T13:50:02.471754+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "handle": "ivy5205",
+      "listing_id": "4558513279",
+      "source_url": "https://www.etsy.com/listing/4558513279/foreststyle-bird-embroidered-shoulder",
+      "category": "Shoulder Bags",
+      "board_id": "713820678377803445",
+      "new_title": "Green Shoulder Bag with White Bird Embroidery and Brown Strap",
+      "image_url": "https://i.etsystatic.com/61131894/r/il/98ceba/8474909236/il_794xN.8474909236_odpk.jpg",
+      "checked_at": "2026-10-30T17:26:15Z",
+      "available": true,
+      "visual_verified": true,
+      "evidence": "Fresh registered NinaJiaStudio storefront discovery; absent from all fresh known listing IDs before detail. Actual seller NinaJiaStudio; Totes breadcrumb, title and description expressly shoulder bag. Selected N01, quantity1; loaded DOM confirms enabled Add to cart, stock5. Actual remote CDP main screenshot viewed after image loaded: green slouchy bag with repeating white bird and flower-like embroidery and single brown strap on a pale surface. Existing P5 Shoulder Bags Board ID retained without guessing Board name. Copy avoids composition, genuine leather, capacity, comfort or durability claims; seller describes faux-leather strap. No delivery phone submitted.",
+      "body": "Green Shoulder Bag with White Bird Embroidery and Brown Strap from NinaJiaStudio. View the original Etsy listing for current options and details. Confirm your selected options, quantity and fit before ordering.",
+      "facebook_draft": "Green Shoulder Bag with White Bird Embroidery and Brown Strap from NinaJiaStudio. View the original Etsy listing for current options and details. Confirm your selected options, quantity and fit before ordering. https://www.etsy.com/listing/4558513279/foreststyle-bird-embroidered-shoulder",
+      "account": "P5",
+      "queue_id": "9463b5a2-a9b3-426c-a81e-9086cffb65f9",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "reserve": {
+        "account": "P5",
+        "shop": "NinaJiaStudio",
+        "queue_id": "9463b5a2-a9b3-426c-a81e-9086cffb65f9",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-30T17:27:24.172491+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-30T17:26:15+00:00",
+        "reviewed_at": "2026-10-30T17:27:24.172491+00:00",
+        "snapshot_matches": true,
+        "board_id": "713820678377803445",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T13:55:02.118032+00:00",
+        "eligible_configuration": true
+      }
+    }
+  ],
+  "original_visual_evidence": [
+    {
+      "listing_id": "1841151987",
+      "checked_at": "2026-10-30T05:14:52Z",
+      "image_url": "https://i.etsystatic.com/43671795/r/il/eb1d35/6565460289/il_794xN.6565460289_68fy.jpg",
+      "evidence": "Current registered KoltCraftStudio storefront new ID excluded against full fresh known IDs before detail. Actual seller KoltCraftStudio; Hangers & Clothing Storage breadcrumb, Wood material. Selected1 PCS, quantity1; loaded cart enabled. Cloud CDP main screenshot actually viewed: pale rectangular wood bars, gold-tone hooks and two end clips on black surface, several pictured not sold-count claim, seller watermark. Existing P2 Wooden Hangers/storage route. No anti-moth, moisture-resistant, anti-slip, swivel or camphor species claims.",
+      "summary_zh": "浅木色裤架，带金色夹子及挂钩，置于黑色台面；选1 PCS、数量1，不把多件图片当售卖数量，不宣称樟木、防虫或防滑。"
+    },
+    {
+      "listing_id": "4555451011",
+      "checked_at": "2026-10-30T05:15:37Z",
+      "image_url": "https://i.etsystatic.com/58959935/r/il/8bcdd8/8766381590/il_794xN.8766381590_pgn9.jpg",
+      "evidence": "Fresh registered LoomGoStudio storefront new ID, absent from all fresh known IDs before detail. Seller LoomGoStudio; Craft Supplies breadcrumb; description expressly includes decorative panels, cushions and curtains. Selected1 Yard and Color-1, quantity1, subsequent loaded cart enabled. Actual cloud CDP main screenshot viewed: black draped cloth with gold-tone butterflies, peony-like flowers, leafy branches and gold selvage. Existing P3 Jacquard Fabric/Home Decor route. Copy does not certify silk percentage, provenance, momme, material or width. Delivery phone not submitted.",
+      "summary_zh": "黑色褶叠提花布上有金色蝴蝶、花朵和枝叶；选1 Yard、Color-1、数量1，描述含装饰面板、靠垫与窗帘用途；不认证丝含量、产地或宽度。"
+    },
+    {
+      "listing_id": "1837658116",
+      "checked_at": "2026-10-30T05:16:11Z",
+      "image_url": "https://i.etsystatic.com/39068605/r/il/34505f/6805208581/il_794xN.6805208581_pz6k.jpg",
+      "evidence": "Fresh registered NiceCraftStudioHK storefront new ID absent from full fresh known IDs before detail. Actual seller and Made by NiceCraftStudioHK; Curtains breadcrumb. Selected1PCS-W39xL59 inch and Rod Pocket, quantity1; subsequently loaded cart enabled. Actual cloud CDP main screenshot inspected: white sheer drape before gridded window with rows of gold-tone medallion motifs and broad central ornate floral band, seller watermark. Existing P1 Sheer Curtains/CyndiZhangStudio route. Avoids privacy, opaque/light-blocking or composition claims; no phone submitted.",
+      "summary_zh": "格窗前白色透光窗帘带金色花纹横带和中央卷草纹；选1PCS-W39xL59 inch、Rod Pocket、数量1，不承诺隐私或遮光等级。"
+    },
+    {
+      "listing_id": "4582960271",
+      "checked_at": "2026-10-30T05:17:05Z",
+      "image_url": "https://i.etsystatic.com/57194200/r/il/545662/8628782819/il_794xN.8628782819_6egn.jpg",
+      "evidence": "New ID from fresh registered NngGoods storefront, absent from full fresh known IDs before detail. Actual seller NngGoods, Drawer Knobs & Pulls breadcrumb. Selected1 PCS and Rose Quartz, quantity1, enabled cart, stock6. First screenshot while image loading was blank; waited for actual main variant image then viewed second cloud CDP screenshot: pale pink rounded rectangular knob on gold-tone circular base with loose gold-tone screw on weathered pale wood; source text Rose Quartz and seller watermark visible. Original variant URL matches viewed image. Existing P5 Cabinet Knobs & Pulls/Furniture route. No mineral authenticity, metal purity or safety claims; no phone submitted.",
+      "summary_zh": "浅木面上粉色圆角长方形拉手，金色圆底座及螺钉；选1 PCS、Rose Quartz、数量1。首次图片空白未计视觉核验，加载后再实际查看；不认证矿石或金属纯度。"
+    },
+    {
+      "listing_id": "1853584450",
+      "checked_at": "2026-10-30T05:17:44Z",
+      "image_url": "https://i.etsystatic.com/46725934/r/il/f380b3/6806305966/il_794xN.6806305966_pd2n.jpg",
+      "evidence": "Current registered PearlsTreasuresArt storefront new ID excluded against all fresh known IDs before detail. Actual seller and Made by PearlsTreasuresArt; Dangle & Drop Earrings, Shell material. No required variant, quantity1 and enabled cart. Actual cloud CDP main screenshot viewed: two yellow-white iridescent spiral shells with long gold-tone wire hooks on translucent scalloped glass dish. Existing P4 Seashell Jewelry Board ID retained, name not guessed. No hypoallergenic, comfort, secure-fit, metal purity or packaging claims.",
+      "summary_zh": "玻璃花边碟上两枚黄白珠光螺壳配细长金色钩；无必选变体、数量1，不承诺防敏、重量、舒适或金属纯度。"
+    },
+    {
+      "listing_id": "4315241292",
+      "checked_at": "2026-10-30T05:18:35Z",
+      "image_url": "https://i.etsystatic.com/38006525/r/il/b0d4d8/6912768580/il_794xN.6912768580_74r2.jpg",
+      "evidence": "Fresh registered QuGifts storefront new ID excluded against all fresh known IDs before detail. Seller and Made by QuGifts; description explicitly coastal home decorative art, vanity/dresser holder though generic Craft Supplies breadcrumb. Selected Pink scallop shell, quantity1, stock2, loaded enabled cart. Actual cloud CDP main variant screenshot viewed after initial loading blank: four labeled shell-on-stone-base designs; Pink scallop shell top-right has cream/pink scalloped rim on square pale porous base. Copy names only selected variant, not four-piece set; no size or stone-species authenticity, heat/incense safety claim. Existing P4 Coastal Home Decor Board ID retained, name not guessed; no phone submitted.",
+      "summary_zh": "变体图展示四种贝壳石座；所选粉色扇贝为右上角粉白边缘贝壳、浅色方形多孔底座；选Pink scallop shell、数量1，不称四件套，不承诺耐热或石材真实性。"
+    },
+    {
+      "listing_id": "4370222007",
+      "checked_at": "2026-10-30T05:19:28Z",
+      "image_url": "https://i.etsystatic.com/45174159/r/il/1eb0f4/7249956079/il_794xN.7249956079_icd3.jpg",
+      "evidence": "Fresh registered WOGOL storefront discovery new ID excluded against all fresh known IDs before detail. Actual seller and Made by WOGOL; Curtains breadcrumb. Selected W39XL51 inch -1 PC and Rod pocket, quantity1; loaded enabled cart, stock2. Actual cloud CDP main screenshot viewed: pale beige coarse-textured curtain with narrow dark vertical stripes pooling on pale wood-look floor beside white drape. Existing P1 Curtains/CyndiZhangStudio route. Copy avoids inconsistent semi-blackout vs semi-transparent claims and does not certify linen content; no phone submitted.",
+      "summary_zh": "浅色木纹地板旁米色粗纹帘带细深色竖条；选W39XL51 inch -1 PC、Rod pocket、数量1，不复制页面矛盾的遮光/透光或亚麻成分断言。"
+    },
+    {
+      "listing_id": "1839700218",
+      "checked_at": "2026-10-30T05:20:19Z",
+      "image_url": "https://i.etsystatic.com/38928671/r/il/1bd41c/6593287199/il_794xN.6593287199_igz7.jpg",
+      "evidence": "Fresh registered WoodHomeLiang storefront new ID excluded against full fresh known IDs before detail. Actual seller WoodHomeLiang, Hangers & Clothing Storage breadcrumb, wood/metal materials. Selected Woman-15.8x10.6 inch then1 PCS after dynamic price loaded, quantity1; loaded selections and enabled cart confirmed. Actual cloud CDP main screenshot inspected: two rich brown broad curved wood hangers with dark squared hooks on black closet rail within light wood cabinet, seller watermark. Existing P2 Wooden Hangers/storage route. Copy avoids anti-slip, anti-crease, load, wood species and longevity claims and does not imply pair sold.",
+      "summary_zh": "浅木柜中黑杆上棕色宽弯肩木衣架配深色方钩；选Woman-15.8x10.6 inch、1 PCS、数量1，不把图片中的一对称为售卖数量，不承诺木种或承重。"
+    },
+    {
+      "listing_id": "4525373104",
+      "checked_at": "2026-10-30T17:23:57Z",
+      "image_url": "https://i.etsystatic.com/35172699/r/il/d7ebfe/8160939218/il_794xN.8160939218_qo0f.jpg",
+      "evidence": "Fresh registered Adamideal storefront discovery, absent from all fresh known_listing_ids before detail. Actual seller and Made by Adamideal; Stands breadcrumb, description explicitly desktop organizer tray for small essentials. Selected Style-1, quantity1; loaded DOM confirms enabled Add to cart and stock5. Actual remote CDP main screenshot viewed: brown wood upright phone stand with rectangular recessed base tray and a phone, earbud case and earbuds staged on it. Existing P2 Desk Organization/storage route retained. Copy does not imply phone or earbuds included and avoids untested wood grade, load, hinge or anti-slip claims. Optional delivery phone left blank.",
+      "summary_zh": "棕色木手机架带长方形凹托盘，手机、耳机盒及耳机作场景摆设；选Style-1、数量1，描述明确桌面收纳用途；不暗示电子设备随附，不认证木材等级或防滑。"
+    },
+    {
+      "listing_id": "4432299269",
+      "checked_at": "2026-10-30T17:24:38Z",
+      "image_url": "https://i.etsystatic.com/39663062/r/il/54e59d/7548501198/il_794xN.7548501198_40vg.jpg",
+      "evidence": "Fresh registered CellaHo storefront discovery; excluded against every fresh known listing ID before detail. Seller CellaHo; Craft Supplies breadcrumb, description explicitly cushion covers, curtains, tablecloths and home decor. Selected0.5 Yards and Orange, quantity1; loaded DOM confirms enabled Add to cart. Actual remote cloud CDP main screenshot viewed: rust orange draped cloth embroidered with orange/yellow pumpkins and gourds and dark green small leaves/stems. Existing P3 Embroidered Fabric/Home Decor route retained. No composition, environmental, breathability or durability claims copied; no personalization submitted.",
+      "summary_zh": "橙锈色褶叠布有橙黄南瓜、葫芦及深绿小叶刺绣；选0.5 Yards、Orange、数量1，说明含靠垫、窗帘、桌布用途；不承诺环保、成分或耐用性。"
+    },
+    {
+      "listing_id": "1640975851",
+      "checked_at": "2026-10-30T17:25:24Z",
+      "image_url": "https://i.etsystatic.com/32003756/r/il/5e5dbb/5611622054/il_794xN.5611622054_40za.jpg",
+      "evidence": "Fresh registered ChicDecorHK storefront discovery; excluded against all fresh known IDs before detail. Seller and Made by ChicDecorHK, Pendant Necklaces breadcrumb, Shell material. No required variant; quantity1, enabled Add to cart. Actual remote CDP main screenshot viewed: irregular white bead strand with multiple pale shell pendants including scallop and spiral forms on a model wearing green. Existing P4 Seashell Jewelry Board ID retained without guessing name. Copy avoids authenticating freshwater pearls, metal purity, hypoallergenic or comfort claims from a photo; no delivery phone entered.",
+      "summary_zh": "绿衣模特佩戴白色不规则珠串，带扇贝与螺壳等多个浅色吊坠；无必选变体、数量1，不以图片认证淡水珍珠、金属纯度或防敏。"
+    },
+    {
+      "listing_id": "4558513279",
+      "checked_at": "2026-10-30T17:26:15Z",
+      "image_url": "https://i.etsystatic.com/61131894/r/il/98ceba/8474909236/il_794xN.8474909236_odpk.jpg",
+      "evidence": "Fresh registered NinaJiaStudio storefront discovery; absent from all fresh known listing IDs before detail. Actual seller NinaJiaStudio; Totes breadcrumb, title and description expressly shoulder bag. Selected N01, quantity1; loaded DOM confirms enabled Add to cart, stock5. Actual remote CDP main screenshot viewed after image loaded: green slouchy bag with repeating white bird and flower-like embroidery and single brown strap on a pale surface. Existing P5 Shoulder Bags Board ID retained without guessing Board name. Copy avoids composition, genuine leather, capacity, comfort or durability claims; seller describes faux-leather strap. No delivery phone submitted.",
+      "summary_zh": "浅色台面上绿色软肩包，带重复白色鸟和花形刺绣、单棕色肩带；选N01、数量1，图片加载后实看；不把人造革肩带称真皮，不承诺容量或舒适度。"
+    }
+  ],
+  "ingestion_runs": [
+    {
+      "job_id": 123907018737,
+      "run_id": 41007919240,
+      "raw_insert_log_lines": [
+        "2026-10-30T05:21:23.7785816Z {\"batch\":\"batch-20261030-052019\",\"shop\":\"KoltCraftStudio\",\"listing_id\":\"1841151987\",\"input\":1,\"inserted\":1,\"skipped_existing\":0}",
+        "2026-10-30T05:21:25.2796097Z {\"batch\":\"batch-20261030-052019\",\"shop\":\"LoomGoStudio\",\"listing_id\":\"4555451011\",\"input\":1,\"inserted\":1,\"skipped_existing\":0}",
+        "2026-10-30T05:21:26.3880885Z {\"batch\":\"batch-20261030-052019\",\"shop\":\"NiceCraftStudioHK\",\"listing_id\":\"1837658116\",\"input\":1,\"inserted\":1,\"skipped_existing\":0}",
+        "2026-10-30T05:21:27.4743956Z {\"batch\":\"batch-20261030-052019\",\"shop\":\"NngGoods\",\"listing_id\":\"4582960271\",\"input\":1,\"inserted\":1,\"skipped_existing\":0}",
+        "2026-10-30T05:21:28.4619873Z {\"batch\":\"batch-20261030-052019\",\"shop\":\"PearlsTreasuresArt\",\"listing_id\":\"1853584450\",\"input\":1,\"inserted\":1,\"skipped_existing\":0}",
+        "2026-10-30T05:21:29.0105905Z {\"batch\":\"batch-20261030-052019\",\"shop\":\"QuGifts\",\"listing_id\":\"4315241292\",\"input\":1,\"inserted\":1,\"skipped_existing\":0}",
+        "2026-10-30T05:21:29.3554424Z {\"batch\":\"batch-20261030-052019\",\"shop\":\"WOGOL\",\"listing_id\":\"4370222007\",\"input\":1,\"inserted\":1,\"skipped_existing\":0}",
+        "2026-10-30T05:21:29.7373206Z {\"batch\":\"batch-20261030-052019\",\"shop\":\"WoodHomeLiang\",\"listing_id\":\"1839700218\",\"input\":1,\"inserted\":1,\"skipped_existing\":0}",
+        "2026-10-30T05:21:29.7374344Z {\"inserted\":8,\"failed\":0,\"pending\":8}",
+        "2026-10-30T05:21:29.9563060Z {\"status\":\"no_new_verified_material\",\"inserted\":0}"
+      ]
+    },
+    {
+      "job_id": 124211829246,
+      "run_id": 41098850293,
+      "raw_insert_log_lines": [
+        "2026-10-30T17:27:19.0378636Z {\"batch\":\"batch-20261030-172615\",\"shop\":\"Adamideal\",\"listing_id\":\"4525373104\",\"input\":1,\"inserted\":1,\"skipped_existing\":0}",
+        "2026-10-30T17:27:20.9494070Z {\"batch\":\"batch-20261030-172615\",\"shop\":\"CellaHo\",\"listing_id\":\"4432299269\",\"input\":1,\"inserted\":1,\"skipped_existing\":0}",
+        "2026-10-30T17:27:22.5083071Z {\"batch\":\"batch-20261030-172615\",\"shop\":\"ChicDecorHK\",\"listing_id\":\"1640975851\",\"input\":1,\"inserted\":1,\"skipped_existing\":0}",
+        "2026-10-30T17:27:24.3234218Z {\"batch\":\"batch-20261030-172615\",\"shop\":\"NinaJiaStudio\",\"listing_id\":\"4558513279\",\"input\":1,\"inserted\":1,\"skipped_existing\":0}",
+        "2026-10-30T17:27:24.3235527Z {\"inserted\":4,\"failed\":0,\"pending\":4}",
+        "2026-10-30T17:27:24.6930709Z {\"status\":\"no_new_verified_material\",\"inserted\":0}"
+      ]
+    }
+  ],
+  "current_replenishment_plan": [
+    {
+      "shop": "Chtte",
+      "handle": "mydecorshop",
+      "target": 3,
+      "usable": 0,
+      "account": "P3",
+      "deficit": 3,
+      "previous_routes": [
+        {
+          "board_id": "499618221101215211",
+          "category": "Chair Cushions & Seat Pads"
+        }
+      ],
+      "known_listing_ids": [
+        "4325858718",
+        "4440783510",
+        "4440831933",
+        "4514553651",
+        "4535436683",
+        "4514589653",
+        "4535424416",
+        "4535407129"
+      ]
+    },
+    {
+      "shop": "Chtte",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 1,
+      "account": "P1",
+      "deficit": 2,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Chair Cushions & Seat Pads"
+        }
+      ],
+      "known_listing_ids": [
+        "4325858718",
+        "4440783510",
+        "4440831933",
+        "4514553651",
+        "4535436683",
+        "4514589653",
+        "4535424416",
+        "4535407129"
+      ]
+    },
+    {
+      "shop": "HibiChStudio",
+      "handle": "sailing_981",
+      "target": 3,
+      "usable": 1,
+      "account": "P2",
+      "deficit": 2,
+      "previous_routes": [
+        {
+          "board_id": "863494997243989843",
+          "category": "Wall & Door Organizers"
+        }
+      ],
+      "known_listing_ids": [
+        "4374362269",
+        "4374349912",
+        "4391652370",
+        "4454342176",
+        "4473098237",
+        "4391650576",
+        "4391681449"
+      ]
+    },
+    {
+      "shop": "AmyHomeCrafts",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 2,
+      "account": "P1",
+      "deficit": 1,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Cafe Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Floral Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Sheer Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Table Linens"
+        }
+      ],
+      "known_listing_ids": [
+        "1436043433",
+        "4365977435",
+        "4417682544",
+        "4419626490",
+        "1527006905",
+        "1737407522",
+        "4323894263",
+        "4365683163",
+        "4347288764",
+        "1527020795",
+        "4549672978",
+        "1851887061"
+      ]
+    },
+    {
+      "shop": "LoomGoStudio",
+      "handle": "mydecorshop",
+      "target": 3,
+      "usable": 2,
+      "account": "P3",
+      "deficit": 1,
+      "previous_routes": [
+        {
+          "board_id": "499618221101238533",
+          "category": "Home Decor Fabric"
+        },
+        {
+          "board_id": "499618221101238533",
+          "category": "Jacquard Fabric"
+        },
+        {
+          "board_id": "499618221101238533",
+          "category": "Silk & Organza Fabric"
+        }
+      ],
+      "known_listing_ids": [
+        "4356345034",
+        "4364578832",
+        "4366040480",
+        "4416533490",
+        "4442572721",
+        "4442577240",
+        "4498616976",
+        "4498625218",
+        "4498620868",
+        "4498613403",
+        "4416535984",
+        "4442580418",
+        "4356341420",
+        "4365508063",
+        "4390468889",
+        "4555451011"
+      ]
+    },
+    {
+      "shop": "MiawoodStudio",
+      "handle": "sailing_981",
+      "target": 3,
+      "usable": 2,
+      "account": "P2",
+      "deficit": 1,
+      "previous_routes": [
+        {
+          "board_id": "863494997243989843",
+          "category": "Wooden Hangers"
+        }
+      ],
+      "known_listing_ids": [
+        "1877238171",
+        "1863038510",
+        "1302262396",
+        "1447491091",
+        "1863045130",
+        "1877231797",
+        "1877309389",
+        "1877240709",
+        "1284508718",
+        "1781803827",
+        "1877234401",
+        "1798068027",
+        "1876737077",
+        "1877279919",
+        "1877316427"
+      ]
+    },
+    {
+      "shop": "NngGoods",
+      "handle": "ivy5205",
+      "target": 3,
+      "usable": 2,
+      "account": "P5",
+      "deficit": 1,
+      "previous_routes": [
+        {
+          "board_id": "713820678377803412",
+          "category": "Cabinet Knobs & Pulls"
+        }
+      ],
+      "known_listing_ids": [
+        "4351662726",
+        "4538093833",
+        "4537632729",
+        "4571804678",
+        "4582976030",
+        "4571794029",
+        "4537687983",
+        "4301773735",
+        "4301771190",
+        "4301774308",
+        "4301763578",
+        "4585511878",
+        "4582971773",
+        "4571808994",
+        "4582960271"
+      ]
+    },
+    {
+      "shop": "PearlsTreasuresArt",
+      "handle": "cindyzhang62",
+      "target": 3,
+      "usable": 2,
+      "account": "P4",
+      "deficit": 1,
+      "previous_routes": [
+        {
+          "board_id": "675399344058025061",
+          "category": "Seashell Jewelry"
+        }
+      ],
+      "known_listing_ids": [
+        "4339516931",
+        "4348858512",
+        "1904477471",
+        "1899462379",
+        "1895005417",
+        "4320437541",
+        "1867791265",
+        "4320444542",
+        "4320754160",
+        "4320754317",
+        "1853584450"
+      ]
+    },
+    {
+      "shop": "Adamideal",
+      "handle": "sailing_981",
+      "target": 3,
+      "usable": 3,
+      "account": "P2",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "863494997243989843",
+          "category": "Desk Organization"
+        },
+        {
+          "board_id": "863494997243989843",
+          "category": "Wooden Home Organization"
+        }
+      ],
+      "known_listing_ids": [
+        "1805037084",
+        "4449956852",
+        "4535083543",
+        "4512140149",
+        "4364186500",
+        "4486775612",
+        "4528768933",
+        "4362265334",
+        "4525373104"
+      ]
+    },
+    {
+      "shop": "beou",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 3,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Chair Cushions & Seat Pads"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Tie-Up & Balloon Shades"
+        }
+      ],
+      "known_listing_ids": [
+        "4432947002",
+        "4425559908",
+        "1752414600",
+        "4473862388",
+        "4513529763",
+        "4432976736",
+        "4474318286",
+        "4363072807",
+        "4403877330",
+        "1341529845",
+        "1316301617",
+        "4516207914",
+        "4389140030"
+      ]
+    },
+    {
+      "shop": "CellaHo",
+      "handle": "mydecorshop",
+      "target": 3,
+      "usable": 3,
+      "account": "P3",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "499618221101238533",
+          "category": "Embroidered Fabric"
+        },
+        {
+          "board_id": "499618221101238533",
+          "category": "Home Decor Fabric"
+        }
+      ],
+      "known_listing_ids": [
+        "1538620317",
+        "1538587663",
+        "1832654442",
+        "4368683284",
+        "4396132405",
+        "4432320593",
+        "1832656370",
+        "1839182756",
+        "1846855145",
+        "4365149143",
+        "4367385017",
+        "4486870527",
+        "4512454460",
+        "1839625072",
+        "4512412605",
+        "1839598796",
+        "4512460627",
+        "4432299269"
+      ]
+    },
+    {
+      "shop": "ChicDecorHK",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 3,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Roman Shades"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Striped Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Tie-Up & Balloon Shades"
+        }
+      ],
+      "known_listing_ids": [
+        "1626539101",
+        "1721799800",
+        "1323643255",
+        "1606392268",
+        "1170079452",
+        "1506048129",
+        "1103128579",
+        "1125022447",
+        "1618224588",
+        "4450228164",
+        "1734365992",
+        "1599224125",
+        "1678693571",
+        "1170123268",
+        "1640975851"
+      ]
+    },
+    {
+      "shop": "ChicDecorHK",
+      "handle": "cindyzhang62",
+      "target": 3,
+      "usable": 3,
+      "account": "P4",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "675399344058025061",
+          "category": "Seashell Jewelry"
+        }
+      ],
+      "known_listing_ids": [
+        "1626539101",
+        "1721799800",
+        "1323643255",
+        "1606392268",
+        "1170079452",
+        "1506048129",
+        "1103128579",
+        "1125022447",
+        "1618224588",
+        "4450228164",
+        "1734365992",
+        "1599224125",
+        "1678693571",
+        "1170123268",
+        "1640975851"
+      ]
+    },
+    {
+      "shop": "CustomCurtainsStudio",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 3,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Sheer Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Tie-Up & Balloon Shades"
+        }
+      ],
+      "known_listing_ids": [
+        "1739543167",
+        "4432312297",
+        "1864054150",
+        "4320366785",
+        "1792567511",
+        "1723269690",
+        "1513221839",
+        "1795965612",
+        "4544256338"
+      ]
+    },
+    {
+      "shop": "DanyHomeDesign",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 3,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Blackout Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Floral Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Sheer Curtains"
+        }
+      ],
+      "known_listing_ids": [
+        "4359318131",
+        "4363644082",
+        "4481217943",
+        "1850503273",
+        "1835846194",
+        "1886430383"
+      ]
+    },
+    {
+      "shop": "FrenchStyleDecor",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 3,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Decorative Pillow Covers"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Vintage Aprons"
+        }
+      ],
+      "known_listing_ids": [
+        "1715831642",
+        "1491232780",
+        "1681316864",
+        "1681211044",
+        "1491248244",
+        "1323800588",
+        "1640065065",
+        "1688268594",
+        "4296817061"
+      ]
+    },
+    {
+      "shop": "GavinHome",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 3,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Cafe Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Sheer Curtains"
+        }
+      ],
+      "known_listing_ids": [
+        "1780825518",
+        "1413513702",
+        "1727267376",
+        "1781315456",
+        "1653857136",
+        "1741943021",
+        "1628235211",
+        "1640142609",
+        "1781284786",
+        "1306867898",
+        "1707732808",
+        "1306489180",
+        "1588948144"
+      ]
+    },
+    {
+      "shop": "HeyDream",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 3,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Decorative Pillows"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Sheer Curtains"
+        }
+      ],
+      "known_listing_ids": [
+        "1796483506",
+        "1809228191",
+        "1784373740",
+        "4559770507"
+      ]
+    },
+    {
+      "shop": "KoltCraftStudio",
+      "handle": "sailing_981",
+      "target": 3,
+      "usable": 3,
+      "account": "P2",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "863494997243989843",
+          "category": "Home Storage"
+        },
+        {
+          "board_id": "863494997243989843",
+          "category": "Wooden Hangers"
+        }
+      ],
+      "known_listing_ids": [
+        "1883704823",
+        "1836722296",
+        "1826811576",
+        "1795885573",
+        "4434399589",
+        "4385747137",
+        "4451574935",
+        "1841132315",
+        "1826865120",
+        "4528223141",
+        "4511503152",
+        "4451568739",
+        "4434422856",
+        "4497139834",
+        "4497091383",
+        "1776683908",
+        "1762833875",
+        "1753876451",
+        "1883990072",
+        "1841151987"
+      ]
+    },
+    {
+      "shop": "KorusStore",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 3,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Blackout Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Floral Curtains"
+        }
+      ],
+      "known_listing_ids": [
+        "1697227283",
+        "1697773621",
+        "1311051679",
+        "1311056433",
+        "1302160044",
+        "1639723092",
+        "4405728873",
+        "1697366539",
+        "1302152874",
+        "1892822667",
+        "1681233657",
+        "1718517321",
+        "1270924141",
+        "1340978253",
+        "1341070659",
+        "1857527262",
+        "1857527976"
+      ]
+    },
+    {
+      "shop": "LambertHouse",
+      "handle": "sailing_981",
+      "target": 3,
+      "usable": 3,
+      "account": "P2",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "863494997243989843",
+          "category": "Closet Organization"
+        }
+      ],
+      "known_listing_ids": [
+        "1893519997",
+        "1775126898",
+        "1893428301",
+        "1787372056",
+        "1893340909",
+        "1790815391",
+        "1803029273",
+        "1790823175",
+        "4317015758",
+        "1775126772",
+        "1789516737",
+        "1797117653",
+        "1788818902"
+      ]
+    },
+    {
+      "shop": "MiraKiuStudio",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 3,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Vintage Aprons"
+        }
+      ],
+      "known_listing_ids": [
+        "4385581970",
+        "4464822987",
+        "4489980889",
+        "4464847134",
+        "4464842770",
+        "4465201641"
+      ]
+    },
+    {
+      "shop": "NiceCraftStudioHK",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 3,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Sheer Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Table Linens"
+        }
+      ],
+      "known_listing_ids": [
+        "1397614637",
+        "1676851479",
+        "1717023528",
+        "1462865996",
+        "4360340090",
+        "4355167342",
+        "1851761429",
+        "1837658116"
+      ]
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "handle": "ivy5205",
+      "target": 3,
+      "usable": 3,
+      "account": "P5",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "713820678377803445",
+          "category": "Cosmetic Bags"
+        },
+        {
+          "board_id": "713820678377803445",
+          "category": "Shoulder Bags"
+        },
+        {
+          "board_id": "713820678377803445",
+          "category": "Textile Bags"
+        }
+      ],
+      "known_listing_ids": [
+        "4486251915",
+        "4585567382",
+        "4585556630",
+        "4569933203",
+        "4558515139",
+        "4585524379",
+        "4568703716",
+        "4585549341",
+        "4477926256",
+        "4435968040",
+        "4435907497",
+        "4435963114",
+        "4435912349",
+        "4435955425",
+        "4477929531",
+        "4558513279"
+      ]
+    },
+    {
+      "shop": "Parkermo",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 3,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Cafe Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Farmhouse Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Linen Curtains"
+        }
+      ],
+      "known_listing_ids": [
+        "4449345616",
+        "1905317635",
+        "1702252202",
+        "1842796344",
+        "1845789821",
+        "1856975829",
+        "4388009902",
+        "1857030803",
+        "1555653880"
+      ]
+    },
+    {
+      "shop": "QuGifts",
+      "handle": "cindyzhang62",
+      "target": 3,
+      "usable": 3,
+      "account": "P4",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "675399344056772225",
+          "category": "Coastal Home Decor"
+        },
+        {
+          "board_id": "675399344056772225",
+          "category": "Wall Decor"
+        }
+      ],
+      "known_listing_ids": [
+        "4348907433",
+        "4315230146",
+        "4359523943",
+        "4399003122",
+        "4353446272",
+        "1843847088",
+        "4338894105",
+        "1858605625",
+        "4549033180",
+        "1858609385",
+        "1858091897",
+        "1848167461",
+        "1900963037",
+        "1844301194",
+        "4318133912",
+        "4315241292"
+      ]
+    },
+    {
+      "shop": "ShirieHomeShow",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 3,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Blackout Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "French Country Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Sheer Curtains"
+        }
+      ],
+      "known_listing_ids": [
+        "4310626154",
+        "4332536339",
+        "4365994633",
+        "1873105176",
+        "4366238220",
+        "4299980520",
+        "1838608268",
+        "1902114323",
+        "4366227478"
+      ]
+    },
+    {
+      "shop": "SobiaStudio",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 3,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Cafe Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Floral Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Tie-Up & Balloon Shades"
+        }
+      ],
+      "known_listing_ids": [
+        "4366214891",
+        "4301845181",
+        "4363478666",
+        "4310547220"
+      ]
+    },
+    {
+      "shop": "StellaGoodsGifts",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 3,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Decorative Pillow Covers"
+        }
+      ],
+      "known_listing_ids": [
+        "4316038513",
+        "4341667363",
+        "4579450601",
+        "4315989559"
+      ]
+    },
+    {
+      "shop": "TunaMunStudio",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 3,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Cabinet Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Cafe Curtains"
+        }
+      ],
+      "known_listing_ids": [
+        "4391064776",
+        "4374365692",
+        "4418023334",
+        "4443064499",
+        "4538560615",
+        "4548402554",
+        "4391069404"
+      ]
+    },
+    {
+      "shop": "WOGOL",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 3,
+      "account": "P1",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Cafe Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Linen Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Noren Curtains"
+        }
+      ],
+      "known_listing_ids": [
+        "4438724155",
+        "1506884608",
+        "4349378423",
+        "4448391965",
+        "4450630323",
+        "4556220466",
+        "4556211571",
+        "4439603695",
+        "4556660960",
+        "4370222007"
+      ]
+    },
+    {
+      "shop": "WoodHomeLiang",
+      "handle": "sailing_981",
+      "target": 3,
+      "usable": 3,
+      "account": "P2",
+      "deficit": 0,
+      "previous_routes": [
+        {
+          "board_id": "863494997243989843",
+          "category": "Closet Organization"
+        },
+        {
+          "board_id": "863494997243989843",
+          "category": "Wooden Hangers"
+        }
+      ],
+      "known_listing_ids": [
+        "4433497827",
+        "1846382537",
+        "1863933464",
+        "1698517856",
+        "1896704249",
+        "1853913189",
+        "1846378711",
+        "1747740369",
+        "1853904591",
+        "1769992796",
+        "1752546922",
+        "1383474987",
+        "1375376543",
+        "1342461246",
+        "1882526938",
+        "1839723648",
+        "1839700218"
+      ]
+    }
+  ],
+  "current_rows": [
+    {
+      "settings": {
+        "enabled": true,
+        "access_tier": "standard",
+        "standard_verified_at": "2026-10-10T01:45:44.447509+00:00"
+      }
+    },
+    {
+      "rules": {
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "evergreen_reuse_days": 45
+      }
+    },
+    {
+      "account": "P1",
+      "handle": "icyndizhang",
+      "status": "authorized_trial",
+      "category": "Bed Canopies",
+      "drafts": 3,
+      "with_image": 0
+    },
+    {
+      "account": "P1",
+      "handle": "icyndizhang",
+      "status": "authorized_trial",
+      "category": "Blackout Curtains",
+      "drafts": 5,
+      "with_image": 0
+    },
+    {
+      "account": "P1",
+      "handle": "icyndizhang",
+      "status": "authorized_trial",
+      "category": "Cafe Curtains",
+      "drafts": 9,
+      "with_image": 0
+    },
+    {
+      "account": "P1",
+      "handle": "icyndizhang",
+      "status": "authorized_trial",
+      "category": "Chair Cushions & Seat Pads",
+      "drafts": 4,
+      "with_image": 0
+    },
+    {
+      "account": "P1",
+      "handle": "icyndizhang",
+      "status": "authorized_trial",
+      "category": "Custom Curtains",
+      "drafts": 2,
+      "with_image": 0
+    },
+    {
+      "account": "P1",
+      "handle": "icyndizhang",
+      "status": "authorized_trial",
+      "category": "Embroidered Curtains",
+      "drafts": 2,
+      "with_image": 0
+    },
+    {
+      "account": "P1",
+      "handle": "icyndizhang",
+      "status": "authorized_trial",
+      "category": "Floral Curtains",
+      "drafts": 9,
+      "with_image": 0
+    },
+    {
+      "account": "P1",
+      "handle": "icyndizhang",
+      "status": "authorized_trial",
+      "category": "Linen Curtains",
+      "drafts": 2,
+      "with_image": 0
+    },
+    {
+      "account": "P1",
+      "handle": "icyndizhang",
+      "status": "authorized_trial",
+      "category": "Sheer Curtains",
+      "drafts": 8,
+      "with_image": 0
+    },
+    {
+      "account": "P1",
+      "handle": "icyndizhang",
+      "status": "authorized_trial",
+      "category": "Sofa Covers",
+      "drafts": 2,
+      "with_image": 0
+    },
+    {
+      "account": "P1",
+      "handle": "icyndizhang",
+      "status": "authorized_trial",
+      "category": "Table Linens",
+      "drafts": 3,
+      "with_image": 0
+    },
+    {
+      "account": "P1",
+      "handle": "icyndizhang",
+      "status": "authorized_trial",
+      "category": "Tie-Up & Balloon Shades",
+      "drafts": 4,
+      "with_image": 0
+    },
+    {
+      "account": "P1",
+      "handle": "icyndizhang",
+      "status": "authorized_trial",
+      "category": "Vintage Aprons",
+      "drafts": 2,
+      "with_image": 0
+    },
+    {
+      "account": "P2",
+      "handle": "sailing_981",
+      "status": "authorized_trial",
+      "category": "Closet Organization",
+      "drafts": 3,
+      "with_image": 0
+    },
+    {
+      "account": "P2",
+      "handle": "sailing_981",
+      "status": "authorized_trial",
+      "category": "Wooden DIY Projects",
+      "drafts": 1,
+      "with_image": 0
+    },
+    {
+      "account": "P2",
+      "handle": "sailing_981",
+      "status": "authorized_trial",
+      "category": "Wooden Hangers",
+      "drafts": 19,
+      "with_image": 0
+    },
+    {
+      "account": "P2",
+      "handle": "sailing_981",
+      "status": "authorized_trial",
+      "category": "Wooden Home Organization",
+      "drafts": 3,
+      "with_image": 0
+    },
+    {
+      "account": "P3",
+      "handle": "mydecorshop",
+      "status": "authorized_trial",
+      "category": "Embroidered Fabric",
+      "drafts": 1,
+      "with_image": 1
+    },
+    {
+      "account": "P3",
+      "handle": "mydecorshop",
+      "status": "authorized_trial",
+      "category": "Jacquard Fabric",
+      "drafts": 1,
+      "with_image": 1
+    },
+    {
+      "account": "P3",
+      "handle": "mydecorshop",
+      "status": "authorized_trial",
+      "category": "Linen & Cotton Fabric",
+      "drafts": 1,
+      "with_image": 0
+    },
+    {
+      "account": "P3",
+      "handle": "mydecorshop",
+      "status": "authorized_trial",
+      "category": "Silk & Organza Fabric",
+      "drafts": 1,
+      "with_image": 1
+    },
+    {
+      "account_readiness": {
+        "account": "P1",
+        "handle": "icyndizhang",
+        "status": "authorized_trial",
+        "active": true,
+        "oauth_connected": true,
+        "drafts": 55,
+        "drafts_with_image": 0
+      }
+    },
+    {
+      "account_readiness": {
+        "account": "P2",
+        "handle": "sailing_981",
+        "status": "authorized_trial",
+        "active": true,
+        "oauth_connected": true,
+        "drafts": 26,
+        "drafts_with_image": 0
+      }
+    },
+    {
+      "account_readiness": {
+        "account": "P3",
+        "handle": "mydecorshop",
+        "status": "authorized_trial",
+        "active": true,
+        "oauth_connected": true,
+        "drafts": 4,
+        "drafts_with_image": 3
+      }
+    },
+    {
+      "account_readiness": {
+        "account": "P4",
+        "handle": "cindyzhang62",
+        "status": "authorized_trial",
+        "active": true,
+        "oauth_connected": true,
+        "drafts": 0,
+        "drafts_with_image": 0
+      }
+    },
+    {
+      "account_readiness": {
+        "account": "P5",
+        "handle": "ivy5205",
+        "status": "authorized_trial",
+        "active": true,
+        "oauth_connected": true,
+        "drafts": 0,
+        "drafts_with_image": 0
+      }
+    },
+    {
+      "shop_queue_coverage": {
+        "account": "P1",
+        "shop": "AmyHomeCrafts",
+        "ready": 2,
+        "published": 7,
+        "paused_or_failed": 0,
+        "latest_published_at": "2026-10-31T00:00:03.045806+00:00"
+      }
+    },
+    {
+      "shop_queue_coverage": {
+        "account": "P1",
+        "shop": "beou",
+        "ready": 3,
+        "published": 1,
+        "paused_or_failed": 0,
+        "latest_published_at": "2026-10-24T02:05:02.580346+00:00"
+      }
+    },
+    {
+      "shop_queue_coverage": {
+        "account": "P1",
+        "shop": "ChicDecorHK",
+        "ready": 3,
+        "published": 0,
+        "paused_or_failed": 0,
+        "latest_published_at": null
+      }
+    },
+    {
+      "shop_queue_coverage": {
+        "account": "P1",
+        "shop": "Chtte",
+        "ready": 1,
+        "published": 2,
+        "paused_or_failed": 0,
+        "latest_published_at": "2026-10-30T13:00:03.877821+00:00"
+      }
+    },
+    {
+      "shop_queue_coverage": {
+        "account": "P1",
+        "shop": "CustomCurtainsStudio",
+        "ready": 3,
+        "published": 2,
+        "paused_or_failed": 0,
+        "latest_published_at": "2026-10-25T02:05:02.776716+00:00"
+      }
+    },
+    {
+      "shop_queue_coverage": {
+        "account": "P1",
+        "shop": "DanyHomeDesign",
+        "ready": 3,
+        "published": 3,
+        "paused_or_failed": 0,
+        "latest_published_at": "2026-10-28T02:05:01.939033+00:00"
+      }
+    },
+    {
+      "shop_queue_coverage": {
+        "account": "P1",
+        "shop": "FrenchStyleDecor",
+        "ready": 3,
+        "published": 1,
+        "paused_or_failed": 0,
+        "latest_published_at": "2026-10-25T00:00:03.732038+00:00"
+      }
+    },
+    {
+      "shop_queue_coverage": {
+        "account": "P1",
+        "shop": "GavinHome",
+        "ready": 3,
+        "published": 1,
+        "paused_or_failed": 0,
+        "latest_published_at": "2026-10-23T13:00:04.884221+00:00"
+      }
+    },
+    {
+      "shop_queue_coverage": {
+        "account": "P1",
+        "shop": "HeyDream",
+        "ready": 3,
+        "published": 1,
+        "paused_or_failed": 0,
+        "latest_published_at": "2026-10-24T13:00:03.530329+00:00"
+      }
+    },
+    {
+      "shop_queue_coverage": {
+        "account": "P1",
+        "shop": "KorusStore",
+        "ready": 3,
+        "published": 1,
+        "paused_or_failed": 0,
+        "latest_published_at": "2026-10-26T00:00:05.50847+00:00"
+      }
+    },
+    {
+      "shop_queue_coverage": {
+        "account": "P1",
+        "shop": "MiraKiuStudio",
+        "ready": 3,
+        "published": 1,
+        "paused_or_failed": 0,
+        "latest_published_at": "2026-10-26T13:00:03.696166+00:00"
+      }
+    },
+    {
+      "shop_queue_coverage": {
+        "account": "P1",
+        "shop": "NiceCraftStudioHK",
+        "ready": 3,
+        "published": 3,
+        "paused_or_failed": 0,
+        "latest_published_at": "2026-10-30T02:10:02.179344+00:00"
+      }
+    },
+    {
+      "shop_queue_coverage": {
+        "account": "P1",
+        "shop": "Parkermo",
+        "ready": 3,
+        "published": 5,
+        "paused_or_failed": 0,
+        "latest_published_at": "2026-10-25T13:00:03.444999+00:00"
+      }
+    },
+    {
+      "shop_queue_coverage": {
+        "account": "P1",
+        "shop": "ShirieHomeShow",
+        "ready": 3,
+        "published": 3,
+        "paused_or_failed": 0,
+        "latest_published_at": "2026-10-27T00:00:03.217299+00:00"
+      }
+    },
+    {
+      "shop_queue_coverage": {
+        "account": "P1",
+        "shop": "SobiaStudio",
+        "ready": 3,
+        "published": 1,
+        "paused_or_failed": 0,
+        "latest_published_at": "2026-10-26T02:05:02.519307+00:00"
+      }
+    },
+    {
+      "shop_queue_coverage": {
+        "account": "P1",
+        "shop": "StellaGoodsGifts",
+        "ready": 3,
+        "published": 1,
+        "paused_or_failed": 0,
+        "latest_published_at": "2026-10-28T00:00:04.195477+00:00"
+      }
+    },
+    {
+      "shop_queue_coverage": {
+        "account": "P1",
+        "shop": "TunaMunStudio",
+        "ready": 3,
+        "published": 1,
+        "paused_or_failed": 0,
+        "latest_published_at": "2026-10-27T13:00:03.371316+00:00"
+      }
+    },
+    {
+      "shop_queue_coverage": {
+        "account": "P1",
+        "shop": "WOGOL",
+        "ready": 3,
+        "published": 7,
+        "paused_or_failed": 0,
+        "latest_published_at": "2026-10-30T00:05:02.334003+00:00"
+      }
+    },
+    {
+      "shop_queue_coverage": {
+        "account": "P2",
+        "shop": "Adamideal",
+        "ready": 3,
+        "published": 5,
+        "paused_or_failed": 0,
+        "latest_published_at": "2026-10-30T13:05:02.843255+00:00"
+      }
+    },
+    {
+      "shop_queue_coverage": {
+        "account": "P2",
+        "shop": "HibiChStudio",
+        "ready": 1,
+        "published": 6,
+        "paused_or_failed": 0,
+        "latest_published_at": "2026-10-28T00:05:02.252719+00:00"
+      }
+    },
+    {
+      "shop_queue_coverage": {
+        "account": "P2",
+        "shop": "KoltCraftStudio",
+        "ready": 3,
+        "published": 10,
+        "paused_or_failed": 0,
+        "latest_published_at": "2026-10-30T00:00:03.959666+00:00"
+      }
+    },
+    {
+      "shop_queue_coverage": {
+        "account": "P2",
+        "shop": "LambertHouse",
+        "ready": 3,
+        "published": 7,
+        "paused_or_failed": 0,
+        "latest_published_at": "2026-10-29T02:10:02.197033+00:00"
+      }
+    },
+    {
+      "shop_queue_coverage": {
+        "account": "P2",
+        "shop": "MiawoodStudio",
+        "ready": 2,
+        "published": 6,
+        "paused_or_failed": 0,
+        "latest_published_at": "2026-10-31T00:05:02.275674+00:00"
+      }
+    },
+    {
+      "shop_queue_coverage": {
+        "account": "P2",
+        "shop": "WoodHomeLiang",
+        "ready": 3,
+        "published": 6,
+        "paused_or_failed": 0,
+        "latest_published_at": "2026-10-30T02:05:02.330633+00:00"
+      }
+    },
+    {
+      "shop_queue_coverage": {
+        "account": "P3",
+        "shop": "CellaHo",
+        "ready": 3,
+        "published": 14,
+        "paused_or_failed": 0,
+        "latest_published_at": "2026-10-30T13:35:02.330333+00:00"
+      }
+    },
+    {
+      "shop_queue_coverage": {
+        "account": "P3",
+        "shop": "Chtte",
+        "ready": 0,
+        "published": 4,
+        "paused_or_failed": 0,
+        "latest_published_at": "2026-10-27T02:40:02.068487+00:00"
+      }
+    },
+    {
+      "shop_queue_coverage": {
+        "account": "P3",
+        "shop": "LoomGoStudio",
+        "ready": 2,
+        "published": 12,
+        "paused_or_failed": 0,
+        "latest_published_at": "2026-10-31T00:55:01.952129+00:00"
+      }
+    },
+    {
+      "shop_queue_coverage": {
+        "account": "P4",
+        "shop": "ChicDecorHK",
+        "ready": 3,
+        "published": 8,
+        "paused_or_failed": 0,
+        "latest_published_at": "2026-10-30T13:50:02.471754+00:00"
+      }
+    },
+    {
+      "shop_queue_coverage": {
+        "account": "P4",
+        "shop": "PearlsTreasuresArt",
+        "ready": 2,
+        "published": 9,
+        "paused_or_failed": 0,
+        "latest_published_at": "2026-10-31T00:45:02.498419+00:00"
+      }
+    },
+    {
+      "shop_queue_coverage": {
+        "account": "P4",
+        "shop": "QuGifts",
+        "ready": 3,
+        "published": 13,
+        "paused_or_failed": 0,
+        "latest_published_at": "2026-10-30T02:45:02.634832+00:00"
+      }
+    },
+    {
+      "shop_queue_coverage": {
+        "account": "P5",
+        "shop": "NinaJiaStudio",
+        "ready": 3,
+        "published": 13,
+        "paused_or_failed": 0,
+        "latest_published_at": "2026-10-30T13:55:02.118032+00:00"
+      }
+    },
+    {
+      "shop_queue_coverage": {
+        "account": "P5",
+        "shop": "NngGoods",
+        "ready": 2,
+        "published": 13,
+        "paused_or_failed": 0,
+        "latest_published_at": "2026-10-31T00:50:02.075876+00:00"
+      }
+    },
+    {
+      "audit_time": "2026-10-31T02:01:44.501567+00:00"
+    },
+    {
+      "publish_schedule": {
+        "timezone": "Asia/Shanghai",
+        "windows": [
+          "08:00-11:00",
+          "21:00-23:00"
+        ],
+        "account_min_gap_hours": 2,
+        "window_open": true
+      }
+    },
+    {
+      "account_last_publish": {
+        "account": "P1",
+        "published_at": "2026-10-31T00:00:03.045806+00:00"
+      }
+    },
+    {
+      "account_last_publish": {
+        "account": "P2",
+        "published_at": "2026-10-31T00:05:02.275674+00:00"
+      }
+    },
+    {
+      "account_last_publish": {
+        "account": "P3",
+        "published_at": "2026-10-31T00:55:01.952129+00:00"
+      }
+    },
+    {
+      "account_last_publish": {
+        "account": "P4",
+        "published_at": "2026-10-31T00:45:02.498419+00:00"
+      }
+    },
+    {
+      "account_last_publish": {
+        "account": "P5",
+        "published_at": "2026-10-31T00:50:02.075876+00:00"
+      }
+    },
+    {
+      "daily_history": {
+        "account": "P2",
+        "pin_id": "863494928599365406",
+        "url": "https://www.pinterest.com/pin/863494928599365406/",
+        "published_at": "2026-10-30T00:00:03.959666+00:00",
+        "status": "published"
+      }
+    },
+    {
+      "daily_history": {
+        "account": "P1",
+        "pin_id": "801218590009568575",
+        "url": "https://www.pinterest.com/pin/801218590009568575/",
+        "published_at": "2026-10-30T00:05:02.334003+00:00",
+        "status": "published"
+      }
+    },
+    {
+      "daily_history": {
+        "account": "P4",
+        "pin_id": "675399275414664499",
+        "url": "https://www.pinterest.com/pin/675399275414664499/",
+        "published_at": "2026-10-30T00:40:02.186826+00:00",
+        "status": "published"
+      }
+    },
+    {
+      "daily_history": {
+        "account": "P5",
+        "pin_id": "713820609737698094",
+        "url": "https://www.pinterest.com/pin/713820609737698094/",
+        "published_at": "2026-10-30T00:45:03.155908+00:00",
+        "status": "published"
+      }
+    },
+    {
+      "daily_history": {
+        "account": "P3",
+        "pin_id": "499618152434288351",
+        "url": "https://www.pinterest.com/pin/499618152434288351/",
+        "published_at": "2026-10-30T00:50:02.045445+00:00",
+        "status": "published"
+      }
+    },
+    {
+      "daily_history": {
+        "account": "P2",
+        "pin_id": "863494928599366475",
+        "url": "https://www.pinterest.com/pin/863494928599366475/",
+        "published_at": "2026-10-30T02:05:02.330633+00:00",
+        "status": "published"
+      }
+    },
+    {
+      "daily_history": {
+        "account": "P1",
+        "pin_id": "801218590009569646",
+        "url": "https://www.pinterest.com/pin/801218590009569646/",
+        "published_at": "2026-10-30T02:10:02.179344+00:00",
+        "status": "published"
+      }
+    },
+    {
+      "daily_history": {
+        "account": "P4",
+        "pin_id": "675399275414665631",
+        "url": "https://www.pinterest.com/pin/675399275414665631/",
+        "published_at": "2026-10-30T02:45:02.634832+00:00",
+        "status": "published"
+      }
+    },
+    {
+      "daily_history": {
+        "account": "P1",
+        "pin_id": "801218590009575905",
+        "url": "https://www.pinterest.com/pin/801218590009575905/",
+        "published_at": "2026-10-30T13:00:03.877821+00:00",
+        "status": "published"
+      }
+    },
+    {
+      "daily_history": {
+        "account": "P2",
+        "pin_id": "863494928599372560",
+        "url": "https://www.pinterest.com/pin/863494928599372560/",
+        "published_at": "2026-10-30T13:05:02.843255+00:00",
+        "status": "published"
+      }
+    },
+    {
+      "daily_history": {
+        "account": "P3",
+        "pin_id": "499618152434291557",
+        "url": "https://www.pinterest.com/pin/499618152434291557/",
+        "published_at": "2026-10-30T13:35:02.330333+00:00",
+        "status": "published"
+      }
+    },
+    {
+      "daily_history": {
+        "account": "P4",
+        "pin_id": "675399275414672282",
+        "url": "https://www.pinterest.com/pin/675399275414672282/",
+        "published_at": "2026-10-30T13:50:02.471754+00:00",
+        "status": "published"
+      }
+    },
+    {
+      "daily_history": {
+        "account": "P5",
+        "pin_id": "713820609737705876",
+        "url": "https://www.pinterest.com/pin/713820609737705876/",
+        "published_at": "2026-10-30T13:55:02.118032+00:00",
+        "status": "published"
+      }
+    },
+    {
+      "daily_history": {
+        "account": "P1",
+        "pin_id": "801218590009583580",
+        "url": "https://www.pinterest.com/pin/801218590009583580/",
+        "published_at": "2026-10-31T00:00:03.045806+00:00",
+        "status": "published"
+      }
+    },
+    {
+      "daily_history": {
+        "account": "P2",
+        "pin_id": "863494928599379615",
+        "url": "https://www.pinterest.com/pin/863494928599379615/",
+        "published_at": "2026-10-31T00:05:02.275674+00:00",
+        "status": "published"
+      }
+    },
+    {
+      "daily_history": {
+        "account": "P4",
+        "pin_id": "675399275414680232",
+        "url": "https://www.pinterest.com/pin/675399275414680232/",
+        "published_at": "2026-10-31T00:45:02.498419+00:00",
+        "status": "published"
+      }
+    },
+    {
+      "daily_history": {
+        "account": "P5",
+        "pin_id": "713820609737714147",
+        "url": "https://www.pinterest.com/pin/713820609737714147/",
+        "published_at": "2026-10-31T00:50:02.075876+00:00",
+        "status": "published"
+      }
+    },
+    {
+      "daily_history": {
+        "account": "P3",
+        "pin_id": "499618152434295002",
+        "url": "https://www.pinterest.com/pin/499618152434295002/",
+        "published_at": "2026-10-31T00:55:01.952129+00:00",
+        "status": "published"
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "AmyHomeCrafts",
+        "queue_id": "f3fca447-a526-4cc0-a156-a698c353b6f7",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-24T05:16:36.878431+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-24T05:12:30.351+00:00",
+        "reviewed_at": "2026-10-24T05:16:36.878431+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-31T00:00:03.045806+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "AmyHomeCrafts",
+        "queue_id": "405661c9-a07e-4447-8253-f46d7b499809",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-29T17:25:55.484284+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-29T17:22:45+00:00",
+        "reviewed_at": "2026-10-29T17:25:55.484284+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-31T00:00:03.045806+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "beou",
+        "queue_id": "b52854cf-8068-4378-a855-ae0062ca53bc",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-23T06:36:46.135599+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-23T06:32:55.042+00:00",
+        "reviewed_at": "2026-10-23T06:36:46.135599+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-24T02:05:02.580346+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "beou",
+        "queue_id": "412f7670-d27b-4de8-a7e4-172069b43ef2",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-23T06:36:46.437895+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-23T06:32:57.709+00:00",
+        "reviewed_at": "2026-10-23T06:36:46.437895+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-24T02:05:02.580346+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "beou",
+        "queue_id": "400bc6a8-7195-4a62-b5e0-a62e02dc6fc2",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-24T05:16:38.784444+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-24T05:12:58.596+00:00",
+        "reviewed_at": "2026-10-24T05:16:38.784444+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-24T02:05:02.580346+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "ChicDecorHK",
+        "queue_id": "0886e3c6-15e6-495e-853f-bc00f321856f",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-09-24T04:51:52.170874+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-18T02:11:01.578989+00:00",
+        "reviewed_at": "2026-10-18T02:11:40.139872+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T13:50:02.471754+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "ChicDecorHK",
+        "queue_id": "8c240dd7-a6af-4ad5-829c-24ed2ca18f80",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-23T06:36:46.757778+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-23T06:33:14.325+00:00",
+        "reviewed_at": "2026-10-23T06:36:46.757778+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T13:50:02.471754+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "ChicDecorHK",
+        "queue_id": "8929ce07-4d7b-4463-9ca6-a2f14b13639e",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-23T06:36:47.106473+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-23T06:33:17.136+00:00",
+        "reviewed_at": "2026-10-23T06:36:47.106473+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T13:50:02.471754+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "Chtte",
+        "queue_id": "1e3dbc99-7da4-45f1-bb90-3ef8b888e6ef",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-23T06:36:42.869521+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-23T06:31:18.799+00:00",
+        "reviewed_at": "2026-10-23T06:36:42.869521+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T13:00:03.877821+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "CustomCurtainsStudio",
+        "queue_id": "55ed78d0-76b6-412d-81ea-5a33125715b2",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-23T06:36:47.4921+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-23T06:33:32.235+00:00",
+        "reviewed_at": "2026-10-23T06:36:47.4921+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-25T02:05:02.776716+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "CustomCurtainsStudio",
+        "queue_id": "1980536b-680d-491a-80f3-56301120da5e",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-23T06:36:47.763248+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-23T06:33:34.641+00:00",
+        "reviewed_at": "2026-10-23T06:36:47.763248+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-25T02:05:02.776716+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "CustomCurtainsStudio",
+        "queue_id": "43c77c97-233c-4cb2-bcd5-89553e804963",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-25T05:18:13.070894+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-25T05:15:28+00:00",
+        "reviewed_at": "2026-10-25T05:18:13.070894+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-25T02:05:02.776716+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "DanyHomeDesign",
+        "queue_id": "1c11bca6-fc11-41d8-a792-6b1bfe965647",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-23T06:36:48.358342+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-23T06:33:47.546+00:00",
+        "reviewed_at": "2026-10-23T06:36:48.358342+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-28T02:05:01.939033+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "DanyHomeDesign",
+        "queue_id": "3c192711-c779-4464-bb7a-06d606bfab0a",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-23T06:36:48.775639+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-23T06:33:50.549+00:00",
+        "reviewed_at": "2026-10-23T06:36:48.775639+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-28T02:05:01.939033+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "DanyHomeDesign",
+        "queue_id": "5305b74c-a8e1-4918-84c1-a2f1631d6e1b",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-28T05:19:23.027019+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-28T05:15:48+00:00",
+        "reviewed_at": "2026-10-28T05:19:23.027019+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-28T02:05:01.939033+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "FrenchStyleDecor",
+        "queue_id": "7cd4c7d9-55ce-4b95-978f-1a455d5cc87a",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-23T06:36:49.031223+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-23T06:34:21.537+00:00",
+        "reviewed_at": "2026-10-23T06:36:49.031223+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-25T00:00:03.732038+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "FrenchStyleDecor",
+        "queue_id": "64a65fe3-f3b5-4bcc-bc35-f8b2c5bb4c47",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-23T06:36:49.397511+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-23T06:34:24.16+00:00",
+        "reviewed_at": "2026-10-23T06:36:49.397511+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-25T00:00:03.732038+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "FrenchStyleDecor",
+        "queue_id": "f14da872-fbf1-4b96-9efd-800e54a653b1",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-25T05:18:13.877112+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-25T05:15:56+00:00",
+        "reviewed_at": "2026-10-25T05:18:13.877112+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-25T00:00:03.732038+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "GavinHome",
+        "queue_id": "5275be81-40fd-484c-838f-abf35ec3a3c7",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-23T06:41:53.243457+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-23T06:36:12.073+00:00",
+        "reviewed_at": "2026-10-23T06:41:53.243457+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-23T13:00:04.884221+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "GavinHome",
+        "queue_id": "2532e622-85ae-45fc-8d4b-78678c3d362d",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-23T06:41:54.135362+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-23T06:36:15.24+00:00",
+        "reviewed_at": "2026-10-23T06:41:54.135362+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-23T13:00:04.884221+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "GavinHome",
+        "queue_id": "636f5127-1a35-4fef-8ba7-1a98ab69ae41",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-23T13:51:24.623761+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-23T13:50:35.657+00:00",
+        "reviewed_at": "2026-10-23T13:51:24.623761+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-23T13:00:04.884221+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "HeyDream",
+        "queue_id": "19dde5b4-5658-4c36-8f63-0ed665834e20",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-23T06:41:54.981244+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-23T06:36:27.967+00:00",
+        "reviewed_at": "2026-10-23T06:41:54.981244+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-24T13:00:03.530329+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "HeyDream",
+        "queue_id": "0b81049b-bc8d-4238-9fe9-76de985be2a3",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-23T06:41:55.843598+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-23T06:36:30.203+00:00",
+        "reviewed_at": "2026-10-23T06:41:55.843598+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-24T13:00:03.530329+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "HeyDream",
+        "queue_id": "64fba320-f0e4-4dc5-8934-76e03375adab",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-24T17:13:47.609549+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-24T17:12:49.402+00:00",
+        "reviewed_at": "2026-10-24T17:13:47.609549+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-24T13:00:03.530329+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "KorusStore",
+        "queue_id": "0569ee9e-ed2b-4104-82ec-6f4e1d2667ca",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-23T06:41:56.696654+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-23T06:36:44.468+00:00",
+        "reviewed_at": "2026-10-23T06:41:56.696654+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-26T00:00:05.50847+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "KorusStore",
+        "queue_id": "ef19761c-dcfe-4bf3-9485-5fbe3f137547",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-23T06:41:57.579006+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-23T06:36:46.852+00:00",
+        "reviewed_at": "2026-10-23T06:41:57.579006+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-26T00:00:05.50847+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "KorusStore",
+        "queue_id": "e597086c-cf97-4961-b278-8708f55c17d2",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-26T05:19:55.202846+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-26T05:17:17+00:00",
+        "reviewed_at": "2026-10-26T05:19:55.202846+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-26T00:00:05.50847+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "MiraKiuStudio",
+        "queue_id": "34345c33-591a-48a5-a656-c3e932b2870b",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-23T06:42:03.887879+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-23T06:37:57.385+00:00",
+        "reviewed_at": "2026-10-23T06:42:03.887879+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-26T13:00:03.696166+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "MiraKiuStudio",
+        "queue_id": "0de7ba75-1929-4973-b1df-2696d756af2e",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-23T06:42:04.799488+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-23T06:37:59.724+00:00",
+        "reviewed_at": "2026-10-23T06:42:04.799488+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-26T13:00:03.696166+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "MiraKiuStudio",
+        "queue_id": "4c871132-1c94-4f44-8ac6-a2ec27527402",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-26T17:24:05.444704+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-26T17:21:27+00:00",
+        "reviewed_at": "2026-10-26T17:24:05.444704+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-26T13:00:03.696166+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "NiceCraftStudioHK",
+        "queue_id": "72f926b4-0184-4b29-9b21-9671528a474f",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-23T06:06:32.95896+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-23T06:04:38+00:00",
+        "reviewed_at": "2026-10-23T06:06:32.95896+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T02:10:02.179344+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "NiceCraftStudioHK",
+        "queue_id": "566a01bf-cdca-4a2b-9628-1796565db6a0",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-29T05:18:57.876139+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-29T05:14:34+00:00",
+        "reviewed_at": "2026-10-29T05:18:57.876139+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T02:10:02.179344+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "NiceCraftStudioHK",
+        "queue_id": "b284f067-3e9a-4f60-a7d0-707efb7d28f9",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-30T05:21:26.314166+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-30T05:16:11+00:00",
+        "reviewed_at": "2026-10-30T05:21:26.314166+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T02:10:02.179344+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "Parkermo",
+        "queue_id": "95f26552-ea2d-4491-91e5-b970de77dff6",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-23T06:42:05.65504+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-23T06:38:20.624+00:00",
+        "reviewed_at": "2026-10-23T06:42:05.65504+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-25T13:00:03.444999+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "Parkermo",
+        "queue_id": "4409e84d-3e34-4106-9765-076899020ce6",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-23T06:42:06.350965+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-23T06:38:23.26+00:00",
+        "reviewed_at": "2026-10-23T06:42:06.350965+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-25T13:00:03.444999+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "Parkermo",
+        "queue_id": "4aa304bf-e8a9-4331-8891-ef55e7bb0afb",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-25T17:17:35.382305+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-25T17:16:40+00:00",
+        "reviewed_at": "2026-10-25T17:17:35.382305+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-25T13:00:03.444999+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "ShirieHomeShow",
+        "queue_id": "e7dced93-9350-4398-b79c-c4e6abe7c750",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-23T06:42:07.067165+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-23T06:38:34.046+00:00",
+        "reviewed_at": "2026-10-23T06:42:07.067165+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-27T00:00:03.217299+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "ShirieHomeShow",
+        "queue_id": "1637f93d-8169-429c-ad52-4178d1184e73",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-23T06:42:07.766419+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-23T06:38:36.711+00:00",
+        "reviewed_at": "2026-10-23T06:42:07.766419+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-27T00:00:03.217299+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "ShirieHomeShow",
+        "queue_id": "162d0433-1ebb-48a2-a4ae-431f57e704e6",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-27T05:25:54.160503+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-27T05:24:51+00:00",
+        "reviewed_at": "2026-10-27T05:25:54.160503+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-27T00:00:03.217299+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "SobiaStudio",
+        "queue_id": "4093bd75-d4fe-4bf8-aef9-254c632ca24d",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-23T06:42:08.628077+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-23T06:38:49.688+00:00",
+        "reviewed_at": "2026-10-23T06:42:08.628077+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-26T02:05:02.519307+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "SobiaStudio",
+        "queue_id": "7a6a26a3-a7ff-43a6-92f2-6ee20bcfc4cb",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-23T06:42:09.439681+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-23T06:38:51.957+00:00",
+        "reviewed_at": "2026-10-23T06:42:09.439681+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-26T02:05:02.519307+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "SobiaStudio",
+        "queue_id": "ed1360c5-1672-43e1-a385-3d4a651f0d2f",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-26T05:20:01.674966+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-26T05:18:53+00:00",
+        "reviewed_at": "2026-10-26T05:20:01.674966+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-26T02:05:02.519307+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "StellaGoodsGifts",
+        "queue_id": "40d0393d-3518-4706-ac6a-13f50355908f",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-23T06:42:10.229234+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-23T06:39:06.779+00:00",
+        "reviewed_at": "2026-10-23T06:42:10.229234+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-28T00:00:04.195477+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "StellaGoodsGifts",
+        "queue_id": "dfe015bb-1efd-4305-96c4-ddc136aaef2a",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-23T06:42:11.072692+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-23T06:39:09.44+00:00",
+        "reviewed_at": "2026-10-23T06:42:11.072692+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-28T00:00:04.195477+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "StellaGoodsGifts",
+        "queue_id": "fb2d7204-ad61-4b3f-980b-8f2db346cad4",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-28T05:19:36.262838+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-28T05:18:37+00:00",
+        "reviewed_at": "2026-10-28T05:19:36.262838+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-28T00:00:04.195477+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "TunaMunStudio",
+        "queue_id": "c28fd647-1832-4989-9641-005679457194",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-23T06:42:11.771657+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-23T06:39:29.149+00:00",
+        "reviewed_at": "2026-10-23T06:42:11.771657+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-27T13:00:03.371316+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "TunaMunStudio",
+        "queue_id": "9279aa36-25d0-41a8-83ca-b16a9cb5f666",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-23T06:42:12.480581+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-23T06:39:31.829+00:00",
+        "reviewed_at": "2026-10-23T06:42:12.480581+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-27T13:00:03.371316+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "TunaMunStudio",
+        "queue_id": "b05ba4cb-eff8-4933-9694-a34411773156",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-27T17:22:36.361167+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-27T17:21:32+00:00",
+        "reviewed_at": "2026-10-27T17:22:36.361167+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-27T13:00:03.371316+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "WOGOL",
+        "queue_id": "4124e280-7c05-43b8-9d14-2c22d40111d9",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-13T05:26:28.13097+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-13T05:23:23.951+00:00",
+        "reviewed_at": "2026-10-13T05:26:28.13097+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T00:05:02.334003+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "WOGOL",
+        "queue_id": "57c4f43b-1c54-41dc-bd12-4a893edd1983",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-13T05:26:28.13097+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-13T05:23:32.05+00:00",
+        "reviewed_at": "2026-10-13T05:26:28.13097+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T00:05:02.334003+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P1",
+        "shop": "WOGOL",
+        "queue_id": "8ea870e3-ccad-40a0-8ef5-83c6e29eedb5",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-30T05:21:29.291273+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-30T05:19:28+00:00",
+        "reviewed_at": "2026-10-30T05:21:29.291273+00:00",
+        "snapshot_matches": true,
+        "board_id": "801218658646993070",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T00:05:02.334003+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P2",
+        "shop": "Adamideal",
+        "queue_id": "284d8b5b-3338-46a6-838e-c3a1f2da01d1",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-26T05:19:53.066099+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-26T05:16:45+00:00",
+        "reviewed_at": "2026-10-26T05:19:53.066099+00:00",
+        "snapshot_matches": true,
+        "board_id": "863494997243989843",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T13:05:02.843255+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P2",
+        "shop": "Adamideal",
+        "queue_id": "2bde8831-d364-4667-bc06-aff06687e10b",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-27T17:22:30.066115+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-27T17:18:55+00:00",
+        "reviewed_at": "2026-10-27T17:22:30.066115+00:00",
+        "snapshot_matches": true,
+        "board_id": "863494997243989843",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T13:05:02.843255+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P2",
+        "shop": "Adamideal",
+        "queue_id": "0ddae9f2-664d-428d-accf-c11bb651028b",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-30T17:27:18.844397+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-30T17:23:57+00:00",
+        "reviewed_at": "2026-10-30T17:27:18.844397+00:00",
+        "snapshot_matches": true,
+        "board_id": "863494997243989843",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T13:05:02.843255+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P2",
+        "shop": "HibiChStudio",
+        "queue_id": "cc41446c-156d-44b2-bb04-43d947227067",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-25T05:18:14.616898+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-25T05:16:24+00:00",
+        "reviewed_at": "2026-10-25T05:18:14.616898+00:00",
+        "snapshot_matches": true,
+        "board_id": "863494997243989843",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-28T00:05:02.252719+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P2",
+        "shop": "KoltCraftStudio",
+        "queue_id": "a54af9bb-ebe8-40f0-8a9e-2e24d60a6cee",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-27T05:25:46.080438+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-27T05:19:56+00:00",
+        "reviewed_at": "2026-10-27T05:25:46.080438+00:00",
+        "snapshot_matches": true,
+        "board_id": "863494997243989843",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T00:00:03.959666+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P2",
+        "shop": "KoltCraftStudio",
+        "queue_id": "e68a4c99-91d3-4299-ad6d-ca1d38d2772f",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-28T17:28:58.444254+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-28T17:26:58+00:00",
+        "reviewed_at": "2026-10-28T17:28:58.444254+00:00",
+        "snapshot_matches": true,
+        "board_id": "863494997243989843",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T00:00:03.959666+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P2",
+        "shop": "KoltCraftStudio",
+        "queue_id": "dfd9f074-d07d-44d4-9616-07f43586f8f2",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-30T05:21:23.668338+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-30T05:14:52+00:00",
+        "reviewed_at": "2026-10-30T05:21:23.668338+00:00",
+        "snapshot_matches": true,
+        "board_id": "863494997243989843",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T00:00:03.959666+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P2",
+        "shop": "LambertHouse",
+        "queue_id": "f08b94ab-9b81-4726-b482-97ea9702064c",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-25T17:17:33.60012+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-25T17:16:12+00:00",
+        "reviewed_at": "2026-10-25T17:17:33.60012+00:00",
+        "snapshot_matches": true,
+        "board_id": "863494997243989843",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-29T02:10:02.197033+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P2",
+        "shop": "LambertHouse",
+        "queue_id": "94f88d6f-2164-49cd-a220-dc206ce2c49c",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-27T05:25:46.394968+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-27T05:20:36+00:00",
+        "reviewed_at": "2026-10-27T05:25:46.394968+00:00",
+        "snapshot_matches": true,
+        "board_id": "863494997243989843",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-29T02:10:02.197033+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P2",
+        "shop": "LambertHouse",
+        "queue_id": "9982c6a7-7f56-492a-bceb-1670c54b817f",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-29T05:18:55.059338+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-29T05:12:46+00:00",
+        "reviewed_at": "2026-10-29T05:18:55.059338+00:00",
+        "snapshot_matches": true,
+        "board_id": "863494997243989843",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-29T02:10:02.197033+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P2",
+        "shop": "MiawoodStudio",
+        "queue_id": "02d3380d-561d-4789-8b94-d958e1b47070",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-28T05:19:27.510486+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-28T05:16:40+00:00",
+        "reviewed_at": "2026-10-28T05:19:27.510486+00:00",
+        "snapshot_matches": true,
+        "board_id": "863494997243989843",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-31T00:05:02.275674+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P2",
+        "shop": "MiawoodStudio",
+        "queue_id": "28f73fd8-39ed-4b85-82fb-954d1f67ae9a",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-29T17:26:02.535612+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-29T17:24:20+00:00",
+        "reviewed_at": "2026-10-29T17:26:02.535612+00:00",
+        "snapshot_matches": true,
+        "board_id": "863494997243989843",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-31T00:05:02.275674+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P2",
+        "shop": "WoodHomeLiang",
+        "queue_id": "d8c2d3a4-e743-4c52-8914-4e947ba0bc6f",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-24T05:16:45.526704+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-24T05:15:04.473+00:00",
+        "reviewed_at": "2026-10-24T05:16:45.526704+00:00",
+        "snapshot_matches": true,
+        "board_id": "863494997243989843",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T02:05:02.330633+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P2",
+        "shop": "WoodHomeLiang",
+        "queue_id": "5a3e8ffe-2db1-4596-9351-0707465c6158",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-29T05:19:01.054358+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-29T05:18:05+00:00",
+        "reviewed_at": "2026-10-29T05:19:01.054358+00:00",
+        "snapshot_matches": true,
+        "board_id": "863494997243989843",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T02:05:02.330633+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P2",
+        "shop": "WoodHomeLiang",
+        "queue_id": "c7815c87-656e-4c0d-9802-0862e96ca0d9",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-30T05:21:29.669003+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-30T05:20:19+00:00",
+        "reviewed_at": "2026-10-30T05:21:29.669003+00:00",
+        "snapshot_matches": true,
+        "board_id": "863494997243989843",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T02:05:02.330633+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P3",
+        "shop": "CellaHo",
+        "queue_id": "43457bd1-d58d-4be4-a529-7826b821351d",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-28T17:28:52.571329+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-28T17:23:12+00:00",
+        "reviewed_at": "2026-10-28T17:28:52.571329+00:00",
+        "snapshot_matches": true,
+        "board_id": "499618221101238533",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T13:35:02.330333+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P3",
+        "shop": "CellaHo",
+        "queue_id": "45f8b31a-605c-4852-a89b-66dc7199f231",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-29T17:25:57.17281+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-29T17:23:17+00:00",
+        "reviewed_at": "2026-10-29T17:25:57.17281+00:00",
+        "snapshot_matches": true,
+        "board_id": "499618221101238533",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T13:35:02.330333+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P3",
+        "shop": "CellaHo",
+        "queue_id": "0e36134e-d3fc-47fc-a4d6-5bdf37860f43",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-30T17:27:20.800339+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-30T17:24:38+00:00",
+        "reviewed_at": "2026-10-30T17:27:20.800339+00:00",
+        "snapshot_matches": true,
+        "board_id": "499618221101238533",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T13:35:02.330333+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P3",
+        "shop": "LoomGoStudio",
+        "queue_id": "f1027fe9-9bd4-4c49-9f1d-41c1fb532402",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-29T05:18:56.643305+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-29T05:13:33+00:00",
+        "reviewed_at": "2026-10-29T05:18:56.643305+00:00",
+        "snapshot_matches": true,
+        "board_id": "499618221101238533",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-31T00:55:01.952129+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P3",
+        "shop": "LoomGoStudio",
+        "queue_id": "aa1214cc-7ad6-4f9b-ac5d-6c680803bfc9",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-30T05:21:25.208527+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-30T05:15:37+00:00",
+        "reviewed_at": "2026-10-30T05:21:25.208527+00:00",
+        "snapshot_matches": true,
+        "board_id": "499618221101238533",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-31T00:55:01.952129+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P4",
+        "shop": "ChicDecorHK",
+        "queue_id": "0c392ae6-a2d6-421d-97e1-05674ca460c0",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-28T17:28:54.858594+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-28T17:25:00+00:00",
+        "reviewed_at": "2026-10-28T17:28:54.858594+00:00",
+        "snapshot_matches": true,
+        "board_id": "675399344058025061",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T13:50:02.471754+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P4",
+        "shop": "ChicDecorHK",
+        "queue_id": "31a10926-4618-4273-9952-b424150258ef",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-29T17:25:58.593264+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-29T17:23:45+00:00",
+        "reviewed_at": "2026-10-29T17:25:58.593264+00:00",
+        "snapshot_matches": true,
+        "board_id": "675399344058025061",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T13:50:02.471754+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P4",
+        "shop": "ChicDecorHK",
+        "queue_id": "01c69af7-99ad-4f85-8104-86f74e78aa42",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-30T17:27:22.353297+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-30T17:25:24+00:00",
+        "reviewed_at": "2026-10-30T17:27:22.353297+00:00",
+        "snapshot_matches": true,
+        "board_id": "675399344058025061",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T13:50:02.471754+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P4",
+        "shop": "PearlsTreasuresArt",
+        "queue_id": "3d12aad8-637f-4eec-b296-28363ebf085f",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-29T05:19:00.169692+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-29T05:16:09+00:00",
+        "reviewed_at": "2026-10-29T05:19:00.169692+00:00",
+        "snapshot_matches": true,
+        "board_id": "675399344058025061",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-31T00:45:02.498419+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P4",
+        "shop": "PearlsTreasuresArt",
+        "queue_id": "322224b8-acdb-4b06-978c-c713a04d8e95",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-30T05:21:28.401842+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-30T05:17:44+00:00",
+        "reviewed_at": "2026-10-30T05:21:28.401842+00:00",
+        "snapshot_matches": true,
+        "board_id": "675399344058025061",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-31T00:45:02.498419+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P4",
+        "shop": "QuGifts",
+        "queue_id": "c70b683b-28b9-49c4-a3b8-8f47099276ea",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-28T05:19:34.245076+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-28T05:17:59+00:00",
+        "reviewed_at": "2026-10-28T05:19:34.245076+00:00",
+        "snapshot_matches": true,
+        "board_id": "675399344056772225",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T02:45:02.634832+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P4",
+        "shop": "QuGifts",
+        "queue_id": "5df47d97-4fb2-453b-a8cd-5d647a3c861b",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-29T05:19:00.534427+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-29T05:17:04+00:00",
+        "reviewed_at": "2026-10-29T05:19:00.534427+00:00",
+        "snapshot_matches": true,
+        "board_id": "675399344056772225",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T02:45:02.634832+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P4",
+        "shop": "QuGifts",
+        "queue_id": "6bd2e585-6127-47b4-9f25-c2120c8473db",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-30T05:21:28.942099+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-30T05:18:35+00:00",
+        "reviewed_at": "2026-10-30T05:21:28.942099+00:00",
+        "snapshot_matches": true,
+        "board_id": "675399344056772225",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T02:45:02.634832+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P5",
+        "shop": "NinaJiaStudio",
+        "queue_id": "e65d39a5-4bea-408d-9ac3-4e6473896c4d",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-28T17:29:00.639888+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-28T17:27:42+00:00",
+        "reviewed_at": "2026-10-28T17:29:00.639888+00:00",
+        "snapshot_matches": true,
+        "board_id": "713820678377803445",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T13:55:02.118032+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P5",
+        "shop": "NinaJiaStudio",
+        "queue_id": "16cdfe0a-b3fe-4a8f-8069-da3b2e413893",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-29T17:26:03.837329+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-29T17:24:54+00:00",
+        "reviewed_at": "2026-10-29T17:26:03.837329+00:00",
+        "snapshot_matches": true,
+        "board_id": "713820678377803445",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T13:55:02.118032+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P5",
+        "shop": "NinaJiaStudio",
+        "queue_id": "9463b5a2-a9b3-426c-a81e-9086cffb65f9",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-30T17:27:24.172491+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-30T17:26:15+00:00",
+        "reviewed_at": "2026-10-30T17:27:24.172491+00:00",
+        "snapshot_matches": true,
+        "board_id": "713820678377803445",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-30T13:55:02.118032+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P5",
+        "shop": "NngGoods",
+        "queue_id": "fbbdf07e-9b63-44f9-8b98-fe628cf93ffa",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-29T05:18:58.927909+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-29T05:15:27+00:00",
+        "reviewed_at": "2026-10-29T05:18:58.927909+00:00",
+        "snapshot_matches": true,
+        "board_id": "713820678377803412",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-31T00:50:02.075876+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "reserve_item": {
+        "account": "P5",
+        "shop": "NngGoods",
+        "queue_id": "157fd433-d0bb-4cf5-b2ba-f2429545bfab",
+        "scheduled_at": null,
+        "priority": 100,
+        "created_at": "2026-10-30T05:21:27.409832+00:00",
+        "source_matches": true,
+        "listing_checked_at": "2026-10-30T05:17:05+00:00",
+        "reviewed_at": "2026-10-30T05:21:27.409832+00:00",
+        "snapshot_matches": true,
+        "board_id": "713820678377803412",
+        "max_posts_per_day": 1,
+        "min_gap_hours": 24,
+        "latest_shop_publish": "2026-10-31T00:50:02.075876+00:00",
+        "eligible_configuration": true
+      }
+    },
+    {
+      "scheduler": "store-promotion-pinterest",
+      "schedule": "*/5 * * * *",
+      "active": true
+    },
+    {
+      "cron_run": 2279,
+      "status": "succeeded",
+      "started_at": "2026-10-31T02:00:00.095944+00:00",
+      "ended_at": "2026-10-31T02:00:00.133021+00:00"
+    },
+    {
+      "cron_run": 2278,
+      "status": "succeeded",
+      "started_at": "2026-10-31T01:55:00.092783+00:00",
+      "ended_at": "2026-10-31T01:55:00.136222+00:00"
+    },
+    {
+      "cron_run": 2277,
+      "status": "succeeded",
+      "started_at": "2026-10-31T01:50:00.072302+00:00",
+      "ended_at": "2026-10-31T01:50:00.095887+00:00"
+    },
+    {
+      "cron_run": 2276,
+      "status": "succeeded",
+      "started_at": "2026-10-31T01:45:00.195593+00:00",
+      "ended_at": "2026-10-31T01:45:00.2827+00:00"
+    },
+    {
+      "cron_run": 2275,
+      "status": "succeeded",
+      "started_at": "2026-10-31T01:40:00.088252+00:00",
+      "ended_at": "2026-10-31T01:40:00.120444+00:00"
+    },
+    {
+      "cron_run": 2274,
+      "status": "succeeded",
+      "started_at": "2026-10-31T01:35:00.095448+00:00",
+      "ended_at": "2026-10-31T01:35:00.13201+00:00"
+    },
+    {
+      "cron_run": 2273,
+      "status": "succeeded",
+      "started_at": "2026-10-31T01:30:00.087539+00:00",
+      "ended_at": "2026-10-31T01:30:00.11677+00:00"
+    },
+    {
+      "cron_run": 2272,
+      "status": "succeeded",
+      "started_at": "2026-10-31T01:25:00.187373+00:00",
+      "ended_at": "2026-10-31T01:25:00.234455+00:00"
+    },
+    {
+      "cron_run": 2271,
+      "status": "succeeded",
+      "started_at": "2026-10-31T01:20:00.077788+00:00",
+      "ended_at": "2026-10-31T01:20:00.103223+00:00"
+    },
+    {
+      "cron_run": 2270,
+      "status": "succeeded",
+      "started_at": "2026-10-31T01:15:00.241317+00:00",
+      "ended_at": "2026-10-31T01:15:00.397761+00:00"
+    },
+    {
+      "http_request": 472,
+      "requested_at": "2026-10-31T02:00:00.095967+00:00",
+      "completed_at": null,
+      "http_status": null,
+      "outcome": null,
+      "reason": null
+    },
+    {
+      "http_request": 471,
+      "requested_at": "2026-10-31T01:55:00.092811+00:00",
+      "completed_at": "2026-10-31T02:00:00.095967+00:00",
+      "http_status": 200,
+      "outcome": "idle",
+      "reason": null
+    },
+    {
+      "http_request": 470,
+      "requested_at": "2026-10-31T01:50:00.072326+00:00",
+      "completed_at": "2026-10-31T01:55:00.092811+00:00",
+      "http_status": 200,
+      "outcome": "idle",
+      "reason": null
+    },
+    {
+      "http_request": 469,
+      "requested_at": "2026-10-31T01:45:00.195634+00:00",
+      "completed_at": "2026-10-31T01:50:00.072326+00:00",
+      "http_status": 200,
+      "outcome": "idle",
+      "reason": null
+    },
+    {
+      "http_request": 468,
+      "requested_at": "2026-10-31T01:40:00.088286+00:00",
+      "completed_at": "2026-10-31T01:45:00.195634+00:00",
+      "http_status": 200,
+      "outcome": "idle",
+      "reason": null
+    },
+    {
+      "http_request": 467,
+      "requested_at": "2026-10-31T01:35:00.095497+00:00",
+      "completed_at": "2026-10-31T01:40:00.088286+00:00",
+      "http_status": 200,
+      "outcome": "idle",
+      "reason": null
+    },
+    {
+      "http_request": 466,
+      "requested_at": "2026-10-31T01:30:00.087564+00:00",
+      "completed_at": "2026-10-31T01:35:00.095497+00:00",
+      "http_status": 200,
+      "outcome": "idle",
+      "reason": null
+    },
+    {
+      "http_request": 465,
+      "requested_at": "2026-10-31T01:25:00.187593+00:00",
+      "completed_at": "2026-10-31T01:30:00.087564+00:00",
+      "http_status": 200,
+      "outcome": "idle",
+      "reason": null
+    },
+    {
+      "http_request": 464,
+      "requested_at": "2026-10-31T01:20:00.077817+00:00",
+      "completed_at": "2026-10-31T01:25:00.187593+00:00",
+      "http_status": 200,
+      "outcome": "idle",
+      "reason": null
+    },
+    {
+      "http_request": 463,
+      "requested_at": "2026-10-31T01:15:00.2416+00:00",
+      "completed_at": "2026-10-31T01:20:00.077817+00:00",
+      "http_status": 200,
+      "outcome": "idle",
+      "reason": null
+    },
+    {
+      "http_request": 462,
+      "requested_at": "2026-10-31T01:10:00.092786+00:00",
+      "completed_at": "2026-10-31T01:15:00.2416+00:00",
+      "http_status": 200,
+      "outcome": "idle",
+      "reason": null
+    },
+    {
+      "http_request": 461,
+      "requested_at": "2026-10-31T01:05:00.105751+00:00",
+      "completed_at": "2026-10-31T01:10:00.092786+00:00",
+      "http_status": 200,
+      "outcome": "idle",
+      "reason": null
+    },
+    {
+      "http_request": 460,
+      "requested_at": "2026-10-31T01:00:00.087766+00:00",
+      "completed_at": "2026-10-31T01:05:00.105751+00:00",
+      "http_status": 200,
+      "outcome": "idle",
+      "reason": null
+    },
+    {
+      "http_request": 459,
+      "requested_at": "2026-10-31T00:55:00.10076+00:00",
+      "completed_at": "2026-10-31T01:00:00.087766+00:00",
+      "http_status": 200,
+      "outcome": "published",
+      "reason": null
+    },
+    {
+      "http_request": 458,
+      "requested_at": "2026-10-31T00:50:00.088944+00:00",
+      "completed_at": "2026-10-31T00:55:00.10076+00:00",
+      "http_status": 200,
+      "outcome": "published",
+      "reason": null
+    },
+    {
+      "http_request": 457,
+      "requested_at": "2026-10-31T00:45:00.103131+00:00",
+      "completed_at": "2026-10-31T00:50:00.088944+00:00",
+      "http_status": 200,
+      "outcome": "published",
+      "reason": null
+    },
+    {
+      "http_request": 456,
+      "requested_at": "2026-10-31T00:40:00.083499+00:00",
+      "completed_at": "2026-10-31T00:45:00.103131+00:00",
+      "http_status": 200,
+      "outcome": "idle",
+      "reason": null
+    },
+    {
+      "http_request": 455,
+      "requested_at": "2026-10-31T00:35:00.099217+00:00",
+      "completed_at": "2026-10-31T00:40:00.083499+00:00",
+      "http_status": 200,
+      "outcome": "idle",
+      "reason": null
+    },
+    {
+      "http_request": 454,
+      "requested_at": "2026-10-31T00:30:00.089024+00:00",
+      "completed_at": "2026-10-31T00:35:00.099217+00:00",
+      "http_status": 200,
+      "outcome": "idle",
+      "reason": null
+    },
+    {
+      "http_request": 453,
+      "requested_at": "2026-10-31T00:25:00.096304+00:00",
+      "completed_at": "2026-10-31T00:30:00.089024+00:00",
+      "http_status": 200,
+      "outcome": "idle",
+      "reason": null
+    },
+    {
+      "account": "P1",
+      "last_publish": "2026-10-31T00:00:03.045806+00:00",
+      "published": 41
+    },
+    {
+      "account": "P2",
+      "last_publish": "2026-10-31T00:05:02.275674+00:00",
+      "published": 40
+    },
+    {
+      "account": "P3",
+      "last_publish": "2026-10-31T00:55:01.952129+00:00",
+      "published": 30
+    },
+    {
+      "account": "P4",
+      "last_publish": "2026-10-31T00:45:02.498419+00:00",
+      "published": 30
+    },
+    {
+      "account": "P5",
+      "last_publish": "2026-10-31T00:50:02.075876+00:00",
+      "published": 26
+    },
+    {
+      "replenishment_plan": {
+        "shop": "Chtte",
+        "handle": "mydecorshop",
+        "target": 3,
+        "usable": 0,
+        "account": "P3",
+        "deficit": 3,
+        "previous_routes": [
+          {
+            "board_id": "499618221101215211",
+            "category": "Chair Cushions & Seat Pads"
+          }
+        ],
+        "known_listing_ids": [
+          "4325858718",
+          "4440783510",
+          "4440831933",
+          "4514553651",
+          "4535436683",
+          "4514589653",
+          "4535424416",
+          "4535407129"
+        ]
+      }
+    },
+    {
+      "replenishment_plan": {
+        "shop": "Chtte",
+        "handle": "icyndizhang",
+        "target": 3,
+        "usable": 1,
+        "account": "P1",
+        "deficit": 2,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Chair Cushions & Seat Pads"
+          }
+        ],
+        "known_listing_ids": [
+          "4325858718",
+          "4440783510",
+          "4440831933",
+          "4514553651",
+          "4535436683",
+          "4514589653",
+          "4535424416",
+          "4535407129"
+        ]
+      }
+    },
+    {
+      "replenishment_plan": {
+        "shop": "HibiChStudio",
+        "handle": "sailing_981",
+        "target": 3,
+        "usable": 1,
+        "account": "P2",
+        "deficit": 2,
+        "previous_routes": [
+          {
+            "board_id": "863494997243989843",
+            "category": "Wall & Door Organizers"
+          }
+        ],
+        "known_listing_ids": [
+          "4374362269",
+          "4374349912",
+          "4391652370",
+          "4454342176",
+          "4473098237",
+          "4391650576",
+          "4391681449"
+        ]
+      }
+    },
+    {
+      "replenishment_plan": {
+        "shop": "AmyHomeCrafts",
+        "handle": "icyndizhang",
+        "target": 3,
+        "usable": 2,
+        "account": "P1",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Cafe Curtains"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Floral Curtains"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Sheer Curtains"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Table Linens"
+          }
+        ],
+        "known_listing_ids": [
+          "1436043433",
+          "4365977435",
+          "4417682544",
+          "4419626490",
+          "1527006905",
+          "1737407522",
+          "4323894263",
+          "4365683163",
+          "4347288764",
+          "1527020795",
+          "4549672978",
+          "1851887061"
+        ]
+      }
+    },
+    {
+      "replenishment_plan": {
+        "shop": "LoomGoStudio",
+        "handle": "mydecorshop",
+        "target": 3,
+        "usable": 2,
+        "account": "P3",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "499618221101238533",
+            "category": "Home Decor Fabric"
+          },
+          {
+            "board_id": "499618221101238533",
+            "category": "Jacquard Fabric"
+          },
+          {
+            "board_id": "499618221101238533",
+            "category": "Silk & Organza Fabric"
+          }
+        ],
+        "known_listing_ids": [
+          "4356345034",
+          "4364578832",
+          "4366040480",
+          "4416533490",
+          "4442572721",
+          "4442577240",
+          "4498616976",
+          "4498625218",
+          "4498620868",
+          "4498613403",
+          "4416535984",
+          "4442580418",
+          "4356341420",
+          "4365508063",
+          "4390468889",
+          "4555451011"
+        ]
+      }
+    },
+    {
+      "replenishment_plan": {
+        "shop": "MiawoodStudio",
+        "handle": "sailing_981",
+        "target": 3,
+        "usable": 2,
+        "account": "P2",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "863494997243989843",
+            "category": "Wooden Hangers"
+          }
+        ],
+        "known_listing_ids": [
+          "1877238171",
+          "1863038510",
+          "1302262396",
+          "1447491091",
+          "1863045130",
+          "1877231797",
+          "1877309389",
+          "1877240709",
+          "1284508718",
+          "1781803827",
+          "1877234401",
+          "1798068027",
+          "1876737077",
+          "1877279919",
+          "1877316427"
+        ]
+      }
+    },
+    {
+      "replenishment_plan": {
+        "shop": "NngGoods",
+        "handle": "ivy5205",
+        "target": 3,
+        "usable": 2,
+        "account": "P5",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "713820678377803412",
+            "category": "Cabinet Knobs & Pulls"
+          }
+        ],
+        "known_listing_ids": [
+          "4351662726",
+          "4538093833",
+          "4537632729",
+          "4571804678",
+          "4582976030",
+          "4571794029",
+          "4537687983",
+          "4301773735",
+          "4301771190",
+          "4301774308",
+          "4301763578",
+          "4585511878",
+          "4582971773",
+          "4571808994",
+          "4582960271"
+        ]
+      }
+    },
+    {
+      "replenishment_plan": {
+        "shop": "PearlsTreasuresArt",
+        "handle": "cindyzhang62",
+        "target": 3,
+        "usable": 2,
+        "account": "P4",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "675399344058025061",
+            "category": "Seashell Jewelry"
+          }
+        ],
+        "known_listing_ids": [
+          "4339516931",
+          "4348858512",
+          "1904477471",
+          "1899462379",
+          "1895005417",
+          "4320437541",
+          "1867791265",
+          "4320444542",
+          "4320754160",
+          "4320754317",
+          "1853584450"
+        ]
+      }
+    },
+    {
+      "replenishment_plan": {
+        "shop": "Adamideal",
+        "handle": "sailing_981",
+        "target": 3,
+        "usable": 3,
+        "account": "P2",
+        "deficit": 0,
+        "previous_routes": [
+          {
+            "board_id": "863494997243989843",
+            "category": "Desk Organization"
+          },
+          {
+            "board_id": "863494997243989843",
+            "category": "Wooden Home Organization"
+          }
+        ],
+        "known_listing_ids": [
+          "1805037084",
+          "4449956852",
+          "4535083543",
+          "4512140149",
+          "4364186500",
+          "4486775612",
+          "4528768933",
+          "4362265334",
+          "4525373104"
+        ]
+      }
+    },
+    {
+      "replenishment_plan": {
+        "shop": "beou",
+        "handle": "icyndizhang",
+        "target": 3,
+        "usable": 3,
+        "account": "P1",
+        "deficit": 0,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Chair Cushions & Seat Pads"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Tie-Up & Balloon Shades"
+          }
+        ],
+        "known_listing_ids": [
+          "4432947002",
+          "4425559908",
+          "1752414600",
+          "4473862388",
+          "4513529763",
+          "4432976736",
+          "4474318286",
+          "4363072807",
+          "4403877330",
+          "1341529845",
+          "1316301617",
+          "4516207914",
+          "4389140030"
+        ]
+      }
+    },
+    {
+      "replenishment_plan": {
+        "shop": "CellaHo",
+        "handle": "mydecorshop",
+        "target": 3,
+        "usable": 3,
+        "account": "P3",
+        "deficit": 0,
+        "previous_routes": [
+          {
+            "board_id": "499618221101238533",
+            "category": "Embroidered Fabric"
+          },
+          {
+            "board_id": "499618221101238533",
+            "category": "Home Decor Fabric"
+          }
+        ],
+        "known_listing_ids": [
+          "1538620317",
+          "1538587663",
+          "1832654442",
+          "4368683284",
+          "4396132405",
+          "4432320593",
+          "1832656370",
+          "1839182756",
+          "1846855145",
+          "4365149143",
+          "4367385017",
+          "4486870527",
+          "4512454460",
+          "1839625072",
+          "4512412605",
+          "1839598796",
+          "4512460627",
+          "4432299269"
+        ]
+      }
+    },
+    {
+      "replenishment_plan": {
+        "shop": "ChicDecorHK",
+        "handle": "icyndizhang",
+        "target": 3,
+        "usable": 3,
+        "account": "P1",
+        "deficit": 0,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Roman Shades"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Striped Curtains"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Tie-Up & Balloon Shades"
+          }
+        ],
+        "known_listing_ids": [
+          "1626539101",
+          "1721799800",
+          "1323643255",
+          "1606392268",
+          "1170079452",
+          "1506048129",
+          "1103128579",
+          "1125022447",
+          "1618224588",
+          "4450228164",
+          "1734365992",
+          "1599224125",
+          "1678693571",
+          "1170123268",
+          "1640975851"
+        ]
+      }
+    },
+    {
+      "replenishment_plan": {
+        "shop": "ChicDecorHK",
+        "handle": "cindyzhang62",
+        "target": 3,
+        "usable": 3,
+        "account": "P4",
+        "deficit": 0,
+        "previous_routes": [
+          {
+            "board_id": "675399344058025061",
+            "category": "Seashell Jewelry"
+          }
+        ],
+        "known_listing_ids": [
+          "1626539101",
+          "1721799800",
+          "1323643255",
+          "1606392268",
+          "1170079452",
+          "1506048129",
+          "1103128579",
+          "1125022447",
+          "1618224588",
+          "4450228164",
+          "1734365992",
+          "1599224125",
+          "1678693571",
+          "1170123268",
+          "1640975851"
+        ]
+      }
+    },
+    {
+      "replenishment_plan": {
+        "shop": "CustomCurtainsStudio",
+        "handle": "icyndizhang",
+        "target": 3,
+        "usable": 3,
+        "account": "P1",
+        "deficit": 0,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Sheer Curtains"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Tie-Up & Balloon Shades"
+          }
+        ],
+        "known_listing_ids": [
+          "1739543167",
+          "4432312297",
+          "1864054150",
+          "4320366785",
+          "1792567511",
+          "1723269690",
+          "1513221839",
+          "1795965612",
+          "4544256338"
+        ]
+      }
+    },
+    {
+      "replenishment_plan": {
+        "shop": "DanyHomeDesign",
+        "handle": "icyndizhang",
+        "target": 3,
+        "usable": 3,
+        "account": "P1",
+        "deficit": 0,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Blackout Curtains"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Floral Curtains"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Sheer Curtains"
+          }
+        ],
+        "known_listing_ids": [
+          "4359318131",
+          "4363644082",
+          "4481217943",
+          "1850503273",
+          "1835846194",
+          "1886430383"
+        ]
+      }
+    },
+    {
+      "replenishment_plan": {
+        "shop": "FrenchStyleDecor",
+        "handle": "icyndizhang",
+        "target": 3,
+        "usable": 3,
+        "account": "P1",
+        "deficit": 0,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Decorative Pillow Covers"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Vintage Aprons"
+          }
+        ],
+        "known_listing_ids": [
+          "1715831642",
+          "1491232780",
+          "1681316864",
+          "1681211044",
+          "1491248244",
+          "1323800588",
+          "1640065065",
+          "1688268594",
+          "4296817061"
+        ]
+      }
+    },
+    {
+      "replenishment_plan": {
+        "shop": "GavinHome",
+        "handle": "icyndizhang",
+        "target": 3,
+        "usable": 3,
+        "account": "P1",
+        "deficit": 0,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Cafe Curtains"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Sheer Curtains"
+          }
+        ],
+        "known_listing_ids": [
+          "1780825518",
+          "1413513702",
+          "1727267376",
+          "1781315456",
+          "1653857136",
+          "1741943021",
+          "1628235211",
+          "1640142609",
+          "1781284786",
+          "1306867898",
+          "1707732808",
+          "1306489180",
+          "1588948144"
+        ]
+      }
+    },
+    {
+      "replenishment_plan": {
+        "shop": "HeyDream",
+        "handle": "icyndizhang",
+        "target": 3,
+        "usable": 3,
+        "account": "P1",
+        "deficit": 0,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Decorative Pillows"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Sheer Curtains"
+          }
+        ],
+        "known_listing_ids": [
+          "1796483506",
+          "1809228191",
+          "1784373740",
+          "4559770507"
+        ]
+      }
+    },
+    {
+      "replenishment_plan": {
+        "shop": "KoltCraftStudio",
+        "handle": "sailing_981",
+        "target": 3,
+        "usable": 3,
+        "account": "P2",
+        "deficit": 0,
+        "previous_routes": [
+          {
+            "board_id": "863494997243989843",
+            "category": "Home Storage"
+          },
+          {
+            "board_id": "863494997243989843",
+            "category": "Wooden Hangers"
+          }
+        ],
+        "known_listing_ids": [
+          "1883704823",
+          "1836722296",
+          "1826811576",
+          "1795885573",
+          "4434399589",
+          "4385747137",
+          "4451574935",
+          "1841132315",
+          "1826865120",
+          "4528223141",
+          "4511503152",
+          "4451568739",
+          "4434422856",
+          "4497139834",
+          "4497091383",
+          "1776683908",
+          "1762833875",
+          "1753876451",
+          "1883990072",
+          "1841151987"
+        ]
+      }
+    },
+    {
+      "replenishment_plan": {
+        "shop": "KorusStore",
+        "handle": "icyndizhang",
+        "target": 3,
+        "usable": 3,
+        "account": "P1",
+        "deficit": 0,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Blackout Curtains"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Floral Curtains"
+          }
+        ],
+        "known_listing_ids": [
+          "1697227283",
+          "1697773621",
+          "1311051679",
+          "1311056433",
+          "1302160044",
+          "1639723092",
+          "4405728873",
+          "1697366539",
+          "1302152874",
+          "1892822667",
+          "1681233657",
+          "1718517321",
+          "1270924141",
+          "1340978253",
+          "1341070659",
+          "1857527262",
+          "1857527976"
+        ]
+      }
+    },
+    {
+      "replenishment_plan": {
+        "shop": "LambertHouse",
+        "handle": "sailing_981",
+        "target": 3,
+        "usable": 3,
+        "account": "P2",
+        "deficit": 0,
+        "previous_routes": [
+          {
+            "board_id": "863494997243989843",
+            "category": "Closet Organization"
+          }
+        ],
+        "known_listing_ids": [
+          "1893519997",
+          "1775126898",
+          "1893428301",
+          "1787372056",
+          "1893340909",
+          "1790815391",
+          "1803029273",
+          "1790823175",
+          "4317015758",
+          "1775126772",
+          "1789516737",
+          "1797117653",
+          "1788818902"
+        ]
+      }
+    },
+    {
+      "replenishment_plan": {
+        "shop": "MiraKiuStudio",
+        "handle": "icyndizhang",
+        "target": 3,
+        "usable": 3,
+        "account": "P1",
+        "deficit": 0,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Vintage Aprons"
+          }
+        ],
+        "known_listing_ids": [
+          "4385581970",
+          "4464822987",
+          "4489980889",
+          "4464847134",
+          "4464842770",
+          "4465201641"
+        ]
+      }
+    },
+    {
+      "replenishment_plan": {
+        "shop": "NiceCraftStudioHK",
+        "handle": "icyndizhang",
+        "target": 3,
+        "usable": 3,
+        "account": "P1",
+        "deficit": 0,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Sheer Curtains"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Table Linens"
+          }
+        ],
+        "known_listing_ids": [
+          "1397614637",
+          "1676851479",
+          "1717023528",
+          "1462865996",
+          "4360340090",
+          "4355167342",
+          "1851761429",
+          "1837658116"
+        ]
+      }
+    },
+    {
+      "replenishment_plan": {
+        "shop": "NinaJiaStudio",
+        "handle": "ivy5205",
+        "target": 3,
+        "usable": 3,
+        "account": "P5",
+        "deficit": 0,
+        "previous_routes": [
+          {
+            "board_id": "713820678377803445",
+            "category": "Cosmetic Bags"
+          },
+          {
+            "board_id": "713820678377803445",
+            "category": "Shoulder Bags"
+          },
+          {
+            "board_id": "713820678377803445",
+            "category": "Textile Bags"
+          }
+        ],
+        "known_listing_ids": [
+          "4486251915",
+          "4585567382",
+          "4585556630",
+          "4569933203",
+          "4558515139",
+          "4585524379",
+          "4568703716",
+          "4585549341",
+          "4477926256",
+          "4435968040",
+          "4435907497",
+          "4435963114",
+          "4435912349",
+          "4435955425",
+          "4477929531",
+          "4558513279"
+        ]
+      }
+    },
+    {
+      "replenishment_plan": {
+        "shop": "Parkermo",
+        "handle": "icyndizhang",
+        "target": 3,
+        "usable": 3,
+        "account": "P1",
+        "deficit": 0,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Cafe Curtains"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Farmhouse Curtains"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Linen Curtains"
+          }
+        ],
+        "known_listing_ids": [
+          "4449345616",
+          "1905317635",
+          "1702252202",
+          "1842796344",
+          "1845789821",
+          "1856975829",
+          "4388009902",
+          "1857030803",
+          "1555653880"
+        ]
+      }
+    },
+    {
+      "replenishment_plan": {
+        "shop": "QuGifts",
+        "handle": "cindyzhang62",
+        "target": 3,
+        "usable": 3,
+        "account": "P4",
+        "deficit": 0,
+        "previous_routes": [
+          {
+            "board_id": "675399344056772225",
+            "category": "Coastal Home Decor"
+          },
+          {
+            "board_id": "675399344056772225",
+            "category": "Wall Decor"
+          }
+        ],
+        "known_listing_ids": [
+          "4348907433",
+          "4315230146",
+          "4359523943",
+          "4399003122",
+          "4353446272",
+          "1843847088",
+          "4338894105",
+          "1858605625",
+          "4549033180",
+          "1858609385",
+          "1858091897",
+          "1848167461",
+          "1900963037",
+          "1844301194",
+          "4318133912",
+          "4315241292"
+        ]
+      }
+    },
+    {
+      "replenishment_plan": {
+        "shop": "ShirieHomeShow",
+        "handle": "icyndizhang",
+        "target": 3,
+        "usable": 3,
+        "account": "P1",
+        "deficit": 0,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Blackout Curtains"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "French Country Curtains"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Sheer Curtains"
+          }
+        ],
+        "known_listing_ids": [
+          "4310626154",
+          "4332536339",
+          "4365994633",
+          "1873105176",
+          "4366238220",
+          "4299980520",
+          "1838608268",
+          "1902114323",
+          "4366227478"
+        ]
+      }
+    },
+    {
+      "replenishment_plan": {
+        "shop": "SobiaStudio",
+        "handle": "icyndizhang",
+        "target": 3,
+        "usable": 3,
+        "account": "P1",
+        "deficit": 0,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Cafe Curtains"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Floral Curtains"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Tie-Up & Balloon Shades"
+          }
+        ],
+        "known_listing_ids": [
+          "4366214891",
+          "4301845181",
+          "4363478666",
+          "4310547220"
+        ]
+      }
+    },
+    {
+      "replenishment_plan": {
+        "shop": "StellaGoodsGifts",
+        "handle": "icyndizhang",
+        "target": 3,
+        "usable": 3,
+        "account": "P1",
+        "deficit": 0,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Decorative Pillow Covers"
+          }
+        ],
+        "known_listing_ids": [
+          "4316038513",
+          "4341667363",
+          "4579450601",
+          "4315989559"
+        ]
+      }
+    },
+    {
+      "replenishment_plan": {
+        "shop": "TunaMunStudio",
+        "handle": "icyndizhang",
+        "target": 3,
+        "usable": 3,
+        "account": "P1",
+        "deficit": 0,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Cabinet Curtains"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Cafe Curtains"
+          }
+        ],
+        "known_listing_ids": [
+          "4391064776",
+          "4374365692",
+          "4418023334",
+          "4443064499",
+          "4538560615",
+          "4548402554",
+          "4391069404"
+        ]
+      }
+    },
+    {
+      "replenishment_plan": {
+        "shop": "WOGOL",
+        "handle": "icyndizhang",
+        "target": 3,
+        "usable": 3,
+        "account": "P1",
+        "deficit": 0,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Cafe Curtains"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Curtains"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Linen Curtains"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Noren Curtains"
+          }
+        ],
+        "known_listing_ids": [
+          "4438724155",
+          "1506884608",
+          "4349378423",
+          "4448391965",
+          "4450630323",
+          "4556220466",
+          "4556211571",
+          "4439603695",
+          "4556660960",
+          "4370222007"
+        ]
+      }
+    },
+    {
+      "replenishment_plan": {
+        "shop": "WoodHomeLiang",
+        "handle": "sailing_981",
+        "target": 3,
+        "usable": 3,
+        "account": "P2",
+        "deficit": 0,
+        "previous_routes": [
+          {
+            "board_id": "863494997243989843",
+            "category": "Closet Organization"
+          },
+          {
+            "board_id": "863494997243989843",
+            "category": "Wooden Hangers"
+          }
+        ],
+        "known_listing_ids": [
+          "4433497827",
+          "1846382537",
+          "1863933464",
+          "1698517856",
+          "1896704249",
+          "1853913189",
+          "1846378711",
+          "1747740369",
+          "1853904591",
+          "1769992796",
+          "1752546922",
+          "1383474987",
+          "1375376543",
+          "1342461246",
+          "1882526938",
+          "1839723648",
+          "1839700218"
+        ]
+      }
+    }
+  ],
+  "first_deficit_followup": {
+    "status": "completed",
+    "created_at": "2026-10-23T09:29:13.271Z",
+    "after": "2026-10-23T13:35:00Z",
+    "automation_id": "6adb18502ca08191b0b05f436915aee4",
+    "target": 3,
+    "max_batch": 20,
+    "first_inserted": 2,
+    "retry_inserted": 0,
+    "new_items": [
+      {
+        "shop": "GavinHome",
+        "listing_id": "1588948144",
+        "source_url": "https://www.etsy.com/listing/1588948144/embroidered-lace-sheer-curtain-french",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "board_id": "801218658646993070",
+        "board_name": "CyndiZhangStudio",
+        "queue_id": "636f5127-1a35-4fef-8ba7-1a98ab69ae41",
+        "queue_status": "ready",
+        "snapshot_matches": true
+      },
+      {
+        "shop": "MiawoodStudio",
+        "listing_id": "1876737077",
+        "source_url": "https://www.etsy.com/listing/1876737077/solid-wood-clothes-hangers-elegant",
+        "account": "P2",
+        "handle": "sailing_981",
+        "board_id": "863494997243989843",
+        "board_name": "storage",
+        "queue_id": "c8e5f580-30c5-460b-8d29-191f63d35bbb",
+        "queue_status": "ready",
+        "snapshot_matches": true
+      }
+    ],
+    "remaining_deficit": 0,
+    "reason": "Actual insertions, ready snapshots and real zero-insert retry verified. Stop extra first-deficit follow-up only; keep recurring replenishment enabled.",
+    "completed_at": "2026-10-23T13:52:56.578Z",
+    "evidence_file": "operations/replenishment/verification-20261023-first-cloud-deficit.json",
+    "ingestion_run_id": 39964575258,
+    "verify_run_id": 39964697818,
+    "issue_comment_id": 6366492923
+  },
+  "evidence_files_read": [
+    "operations/replenishment/batch-20261030-052019.json",
+    "operations/replenishment/batch-20261030-172615.json",
+    "operations/replenishment/cloud-run-20261030-051225.json",
+    "operations/replenishment/cloud-run-20261030-111702.json",
+    "operations/replenishment/cloud-run-20261030-171957.json",
+    "operations/replenishment/cloud-run-20261030-231745.json"
+  ],
+  "comments_read": 43,
+  "issue": {
+    "id": 6537543308,
+    "url": "https://github.com/Sailin09/Store-Promotion/issues/2#issuecomment-6537543308",
+    "body_exact": true
+  },
+  "delivery": {
+    "issue_body_readback": true,
+    "chat_body": "pending_final_emission_and_independent_readback",
+    "platform_notification": "unknown",
+    "device_receipt": "unknown"
+  },
+  "run_id": null,
+  "run_id_note": "Automation run ID not independently retrieved; do not infer from GitHub job ID.",
+  "business_mutations": false
+}
