@@ -15,7 +15,7 @@ export function renderReport(report, stock, recovery=[]) {
   lines.push('');
  }
  const deficit=stock.reduce((n,x)=>n+x.deficit,0);
- lines.push('## 素材库存',`${stock.length} 条店铺/账号路线，可用 ${stock.reduce((n,x)=>n+x.usable,0)} 条，按每路线至少 3 条计算，缺口 ${deficit} 条。`);
+ lines.push('## 素材库存',`${stock.length} 条店铺/账号路线，可用 ${stock.reduce((n,x)=>n+x.usable,0)} 条，按每店/账号路线 7 条目标计算，缺口 ${deficit} 条。`);
  for(const s of stock.filter(s=>s.deficit>0)) lines.push(`- ${s.shop} / ${s.account}：可用 ${s.usable}，待补 ${s.deficit}。`);
  lines.push('新品发现与图片核验由独立的 ChatGPT 云端补货任务负责；本报告仅检查库存和发布。定时任务配置及首次实际入库验证状态见 operations/replenishment/cloud-automation-audit-20261023.json；未经图片核验的商品不会入队。', '', '## 调度与恢复');
  for(const s of report.scheduler) lines.push(`- 发布调度：${s.active?'启用':'停用'}，${s.schedule}。`);
