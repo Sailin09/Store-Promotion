@@ -1,0 +1,100 @@
+{
+  "verify": {
+    "run": 41778308132,
+    "job": 126539973484,
+    "completed_at": "2026-11-04T11:19:08Z"
+  },
+  "usable": 88,
+  "deficit": 8,
+  "routes": [
+    {
+      "shop": "Chtte",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 0,
+      "account": "P1",
+      "deficit": 3,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Chair Cushions & Seat Pads"
+        }
+      ],
+      "known_listing_ids": [
+        "4325858718",
+        "4440783510",
+        "4440831933",
+        "4514553651",
+        "4535436683",
+        "4514589653",
+        "4535424416",
+        "4535407129"
+      ]
+    },
+    {
+      "shop": "Chtte",
+      "handle": "mydecorshop",
+      "target": 3,
+      "usable": 0,
+      "account": "P3",
+      "deficit": 3,
+      "previous_routes": [
+        {
+          "board_id": "499618221101215211",
+          "category": "Chair Cushions & Seat Pads"
+        }
+      ],
+      "known_listing_ids": [
+        "4325858718",
+        "4440783510",
+        "4440831933",
+        "4514553651",
+        "4535436683",
+        "4514589653",
+        "4535424416",
+        "4535407129"
+      ]
+    },
+    {
+      "shop": "HibiChStudio",
+      "handle": "sailing_981",
+      "target": 3,
+      "usable": 1,
+      "account": "P2",
+      "deficit": 2,
+      "previous_routes": [
+        {
+          "board_id": "863494997243989843",
+          "category": "Wall & Door Organizers"
+        }
+      ],
+      "known_listing_ids": [
+        "4374362269",
+        "4374349912",
+        "4391652370",
+        "4454342176",
+        "4473098237",
+        "4391650576",
+        "4391681449",
+        "4559711054"
+      ]
+    }
+  ],
+  "storefronts": {
+    "Chtte": {
+      "total": 7,
+      "new_eligible": 0,
+      "note": "All7 current cushion IDs are known."
+    },
+    "HibiChStudio": {
+      "total": 21,
+      "matching_known": 8,
+      "excluded_off_route": 13,
+      "new_eligible": 0
+    }
+  },
+  "inserted": 0,
+  "ingestion_executed": false,
+  "retry_executed": false,
+  "first_followup": "completed; unchanged"
+}
