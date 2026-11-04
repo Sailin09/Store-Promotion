@@ -1135,5 +1135,13 @@
       "reason": null
     }
   ],
-  "first_deficit_followup": "completed"
+  "first_deficit_followup": "completed",
+  "delivery": {
+    "comment_id": 6620564794,
+    "comment_url": "https://github.com/Sailin09/Store-Promotion/issues/2#issuecomment-6620564794",
+    "issue_body_verified": true,
+    "report_readback_exact": true,
+    "chat_delivery_status": "unknown_pending_independent_readback",
+    "notification_delivery_status": "unknown"
+  }
 }
