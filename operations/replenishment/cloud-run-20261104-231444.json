@@ -1091,7 +1091,6 @@
     {
       "shop": "Chtte",
       "url": "https://www.etsy.com/shop/Chtte",
-      "checked_at": "2026-11-04T23:16:39Z",
       "browser": "remote cdp",
       "items_advertised": 7,
       "listing_ids": [
@@ -1104,12 +1103,15 @@
         "4535424416"
       ],
       "new_ids_after_global_known_exclusion": [],
-      "result": "All seven current storefront IDs already known. Unavailable historical fabric4325858718 not reused."
+      "result": "All seven current storefront IDs already known. Unavailable historical fabric4325858718 not reused.",
+      "observation_window_utc": {
+        "after": "2026-11-04T23:16:20Z",
+        "before": "2026-11-04T23:17:28Z"
+      }
     },
     {
       "shop": "HibiChStudio",
       "url": "https://www.etsy.com/shop/HibiChStudio",
-      "checked_at": "2026-11-04T23:17:43Z",
       "browser": "remote cdp",
       "items_advertised": 21,
       "listing_ids": [
@@ -1214,7 +1216,11 @@
           "reason": "Current storefront title describes closet/bin/hamper/bedding/garment storage rather than existing Wall & Door Organizers route. No mapping/category expansion authorized; not promoted."
         }
       ],
-      "result": "Eight wall/door organizer IDs are known;13 remaining listings excluded by existing category. No eligible new candidate."
+      "result": "Eight wall/door organizer IDs are known;13 remaining listings excluded by existing category. No eligible new candidate.",
+      "observation_window_utc": {
+        "after": "2026-11-04T23:16:20Z",
+        "before": "2026-11-04T23:17:28Z"
+      }
     }
   ],
   "visual_verified": false,
@@ -1231,5 +1237,6 @@
     "sent": false,
     "reason": "Same remaining deficits and candidate exclusions as preceding run; no additions, new failure, or user action."
   },
-  "publication_or_schedule_changes": false
+  "publication_or_schedule_changes": false,
+  "checked_at_meaning": "Clock time audit assembled after both live storefront observations; individual observations occurred within the recorded window, not at invented exact seconds."
 }
