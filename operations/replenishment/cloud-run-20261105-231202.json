@@ -1,0 +1,152 @@
+{
+  "status": "no_eligible_new_listings",
+  "recorded_at": "2026-11-05 23:12:02 UTC",
+  "source": "GitHub connector and fresh remote CDP storefronts",
+  "verify_run_id": 42073369977,
+  "verify_job_id": 127595714094,
+  "database_audit_time": "2026-11-05T23:11:09.414902Z",
+  "authorized_target": 3,
+  "sql_report_target": 7,
+  "usable": 90,
+  "remaining_deficit": 6,
+  "remaining_routes": [
+    {
+      "shop": "Chtte",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 1,
+      "account": "P1",
+      "deficit": 2,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Chair Cushions & Seat Pads"
+        }
+      ],
+      "known_listing_ids": [
+        "4325858718",
+        "4440783510",
+        "4440831933",
+        "4514553651",
+        "4535436683",
+        "4514589653",
+        "4535424416",
+        "4535407129",
+        "4577591162",
+        "4577556837",
+        "4535422573"
+      ],
+      "reported_target": 7,
+      "reported_deficit": 6
+    },
+    {
+      "shop": "Chtte",
+      "handle": "mydecorshop",
+      "target": 3,
+      "usable": 1,
+      "account": "P3",
+      "deficit": 2,
+      "previous_routes": [
+        {
+          "board_id": "499618221101215211",
+          "category": "Chair Cushions & Seat Pads"
+        }
+      ],
+      "known_listing_ids": [
+        "4325858718",
+        "4440783510",
+        "4440831933",
+        "4514553651",
+        "4535436683",
+        "4514589653",
+        "4535424416",
+        "4535407129",
+        "4577591162",
+        "4577556837",
+        "4535422573"
+      ],
+      "reported_target": 7,
+      "reported_deficit": 6
+    },
+    {
+      "shop": "HibiChStudio",
+      "handle": "sailing_981",
+      "target": 3,
+      "usable": 1,
+      "account": "P2",
+      "deficit": 2,
+      "previous_routes": [
+        {
+          "board_id": "863494997243989843",
+          "category": "Wall & Door Organizers"
+        }
+      ],
+      "known_listing_ids": [
+        "4374362269",
+        "4374349912",
+        "4391652370",
+        "4454342176",
+        "4473098237",
+        "4391650576",
+        "4391681449",
+        "4559711054"
+      ],
+      "reported_target": 7,
+      "reported_deficit": 6
+    }
+  ],
+  "storefronts": [
+    {
+      "url": "https://www.etsy.com/shop/Chtte",
+      "observed": 10,
+      "known_ids": [
+        "4577591162",
+        "4577556837",
+        "4535422573",
+        "4440783510",
+        "4535407129",
+        "4514553651",
+        "4440831933",
+        "4535436683",
+        "4514589653",
+        "4535424416"
+      ]
+    },
+    {
+      "url": "https://www.etsy.com/shop/HibiChStudio",
+      "observed": 21,
+      "matching_known_ids": [
+        "4473098237",
+        "4559711054",
+        "4391652370",
+        "4374349912",
+        "4454342176",
+        "4391681449",
+        "4391650576",
+        "4374362269"
+      ],
+      "excluded_outside_existing_wall_door_organizers_route": [
+        "4559057618",
+        "4559038359",
+        "4559062406",
+        "4559684799",
+        "4420844641",
+        "4473116090",
+        "4473114318",
+        "4420839477",
+        "4420842205",
+        "4517906376",
+        "4517885823",
+        "4454347860",
+        "4454344966"
+      ]
+    }
+  ],
+  "eligible_new": 0,
+  "new_detail_or_image_verifications": 0,
+  "batch_created": false,
+  "ingestion_executed": false,
+  "idempotent_retry_executed": false,
+  "first_deficit_followup": "completed; unchanged",
+  "publisher_or_schedule_changes": false
+}
