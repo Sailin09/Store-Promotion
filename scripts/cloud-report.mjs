@@ -2,7 +2,7 @@ import {spawnSync} from 'node:child_process';
 import {readFileSync,writeFileSync,appendFileSync,mkdirSync} from 'node:fs';
 import {pathToFileURL} from 'node:url';
 
-export function renderReport(report, stock, recovery=[]) {
+export function renderReport(report, stock, recovery=[], coverage=null) {
  const lines=['# Pinterest 云端运行报告',`核验时间：${report.captured_at}`,`发布基线：${report.baseline_at}，累计 ${report.baseline_total} 条。`,''];
  for(const a of report.accounts) {
   lines.push(`## ${a.account} · ${a.handle}`,`实际新增 ${a.pins.length} 条；累计 ${a.total} 条；待发布 ${a.ready} 条。`);
@@ -17,7 +17,15 @@ export function renderReport(report, stock, recovery=[]) {
  const deficit=stock.reduce((n,x)=>n+x.deficit,0);
  lines.push('## 素材库存',`${stock.length} 条店铺/账号路线，可用 ${stock.reduce((n,x)=>n+x.usable,0)} 条，按每店/账号路线 7 条目标计算，缺口 ${deficit} 条。`);
  for(const s of stock.filter(s=>s.deficit>0)) lines.push(`- ${s.shop} / ${s.account}：可用 ${s.usable}，待补 ${s.deficit}。`);
- lines.push('新品发现与图片核验由独立的 ChatGPT 云端补货任务负责；本报告仅检查库存和发布。定时任务配置及首次实际入库验证状态见 operations/replenishment/cloud-automation-audit-20261023.json；未经图片核验的商品不会入队。', '', '## 调度与恢复');
+ lines.push('新品发现与图片核验由独立的 ChatGPT 云端补货任务负责；本报告仅检查库存和发布。定时任务配置及首次实际入库验证状态见 operations/replenishment/cloud-automation-audit-20261023.json；未经图片核验的商品不会入队。', '');
+ lines.push('## 未来7天排程覆盖');
+ if(!coverage||coverage.status!=='simulated') lines.push('无法核实：本次未能读取并模拟当前可用复核队列。');
+ else {
+  lines.push(`条件模拟时间：${coverage.as_of}；覆盖日期（北京时间）：${coverage.dates.join('、')}。预计队列项 ${coverage.scheduled_slots} 条，非实际发布承诺。`);
+  for(const [account,x] of Object.entries(coverage.accounts)) lines.push(`- ${account}：预计覆盖 ${x.covered_days}/7 天，模拟可排 ${x.publish_slots} 条（${x.days.join('、')||'无'}）。`);
+  for(const x of coverage.shops) lines.push(`- 店铺 ${x.account} / ${x.shop}：预计 ${x.publish_slots} 条，覆盖 ${x.days.length}/7 天。`);
+  lines.push(`同优先级与创建时间并列候选 ${coverage.ambiguous_tie_items} 条；并列顺序仅按固定名称顺序模拟。发布器仍会实时复核账号、图板和图片，调度延迟或核验变化会减少实际覆盖。`);
+ }
  for(const s of report.scheduler) lines.push(`- 发布调度：${s.active?'启用':'停用'}，${s.schedule}。`);
  for(const r of report.requests.slice(0,10)) lines.push(`- ${r.requested_at}：HTTP ${r.http_status??'待完成'}，${r.outcome??'待完成'}，${r.reason??'无附加原因'}。`);
  for(const r of recovery) lines.push(`- ${r}`);
@@ -56,13 +64,14 @@ async function main() {
   }
  }
  const final=evening?JSON.parse(sql('select public.pinterest_cloud_report();')):report;
- let body=renderReport(snapshot||final,stock,recovery);
+ if(evening&&recovery.length)coverage=runCoverage();
+ let body=renderReport(snapshot||final,stock,recovery,coverage);
  if(snapshot) body+='\n---\n## 补偿检查后的实时结果\n'+renderReport(final,stock);
  const run=`https://github.com/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID}`;
  body+=`\n[本次云端运行](${run})\n`;
  mkdirSync('cloud-output',{recursive:true});
  writeFileSync('cloud-output/report.md',body);
- writeFileSync('cloud-output/report.json',JSON.stringify({snapshot,final,stock,recovery},null,2));
+ writeFileSync('cloud-output/report.json',JSON.stringify({snapshot,final,stock,recovery,coverage},null,2));
  if(process.env.GITHUB_STEP_SUMMARY)appendFileSync(process.env.GITHUB_STEP_SUMMARY,body);
  const title=evening?`Pinterest ${reportDay} 21:35 发布复核`:'Pinterest 云端库存与运行状态';
  const headers={Authorization:`Bearer ${process.env.GITHUB_TOKEN}`,Accept:'application/vnd.github+json','Content-Type':'application/json','X-GitHub-Api-Version':'2022-11-28'};
