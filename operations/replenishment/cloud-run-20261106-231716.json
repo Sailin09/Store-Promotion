@@ -1,0 +1,89 @@
+{
+  "status": "no_eligible_new_listings",
+  "recorded_at": "2026-11-06 23:17:16 UTC",
+  "verify_run_id": 42261189811,
+  "verify_job_id": 128211112544,
+  "database_audit_time": "2026-11-06T23:16:17.763665+00:00",
+  "authorized_target": 3,
+  "sql_report_target": 7,
+  "usable": 92,
+  "remaining_deficit": 4,
+  "remaining_routes": [
+    {
+      "shop": "HibiChStudio",
+      "account": "P2",
+      "handle": "sailing_981",
+      "usable": 1,
+      "deficit": 2
+    },
+    {
+      "shop": "Chtte",
+      "account": "P1",
+      "handle": "icyndizhang",
+      "usable": 2,
+      "deficit": 1
+    },
+    {
+      "shop": "Chtte",
+      "account": "P3",
+      "handle": "mydecorshop",
+      "usable": 2,
+      "deficit": 1
+    }
+  ],
+  "storefronts": [
+    {
+      "shop": "Chtte",
+      "observed": 13,
+      "known_ids": [
+        "4586894685",
+        "4577582372",
+        "4577559034",
+        "4577591162",
+        "4577556837",
+        "4535422573",
+        "4440783510",
+        "4535407129",
+        "4514553651",
+        "4440831933",
+        "4535436683",
+        "4514589653",
+        "4535424416"
+      ]
+    },
+    {
+      "shop": "HibiChStudio",
+      "observed": 21,
+      "matching_known_ids": [
+        "4473098237",
+        "4559711054",
+        "4391652370",
+        "4374349912",
+        "4454342176",
+        "4391681449",
+        "4391650576",
+        "4374362269"
+      ],
+      "outside_existing_wall_door_organizers_route": [
+        "4559057618",
+        "4559038359",
+        "4559062406",
+        "4559684799",
+        "4420844641",
+        "4473116090",
+        "4473114318",
+        "4420839477",
+        "4420842205",
+        "4517906376",
+        "4517885823",
+        "4454347860",
+        "4454344966"
+      ]
+    }
+  ],
+  "batch_created": false,
+  "ingestion_executed": false,
+  "idempotent_retry_executed": false,
+  "first_deficit_followup": "completed",
+  "publisher_or_schedule_changes": false
+}
