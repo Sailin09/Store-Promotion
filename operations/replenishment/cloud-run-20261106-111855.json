@@ -1,0 +1,102 @@
+{
+  "status": "replenished_with_remaining_deficits",
+  "authorized_target": 3,
+  "batch_path": "operations/replenishment/batch-20261106-111855.json",
+  "batch_commit": "ff06741d59d8ef75142979c7ed2335065251ec0e",
+  "before": {
+    "job": "https://github.com/Sailin09/Store-Promotion/actions/runs/42168014789/job/127863039538",
+    "usable": 92,
+    "deficit": 4,
+    "at": "2026-11-06T11:17:22.934531+00:00"
+  },
+  "ingest": {
+    "run_id": 42209327510,
+    "job_id": 127863943706,
+    "first_inserted": 1,
+    "retry_inserted": 0,
+    "failed": 0,
+    "results": [
+      {
+        "batch": "batch-20261106-111855",
+        "shop": "Chtte",
+        "listing_id": "4586894685",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0
+      },
+      {
+        "inserted": 1,
+        "failed": 0,
+        "pending": 1
+      },
+      {
+        "status": "no_new_verified_material",
+        "inserted": 0
+      }
+    ]
+  },
+  "after": {
+    "job": "https://github.com/Sailin09/Store-Promotion/actions/runs/42209429143/job/127864121575",
+    "usable": 93,
+    "remaining": [
+      {
+        "shop": "HibiChStudio",
+        "account": "P2",
+        "handle": "sailing_981",
+        "usable": 1,
+        "deficit": 2
+      },
+      {
+        "shop": "Chtte",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 2,
+        "deficit": 1
+      }
+    ],
+    "deficit": 3,
+    "at": "2026-11-06T11:20:02.268481+00:00"
+  },
+  "new_items": [
+    {
+      "shop": "Chtte",
+      "listing_id": "4586894685",
+      "category": "Chair Cushions & Seat Pads",
+      "source_url": "https://www.etsy.com/listing/4586894685/memory-foam-chair-cushion-tie-on-seat",
+      "image_url": "https://i.etsystatic.com/58205190/r/il/13a462/8806727612/il_794xN.8806727612_33g8.jpg",
+      "new_title": "Tie-On Windsor Chair Seat Cushion",
+      "handle": "mydecorshop",
+      "board_id": "499618221101215211",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-06T11:18:55Z",
+      "body": "A tie-on Windsor chair seat cushion from Chtte. See the Etsy listing for size and color options.",
+      "facebook_draft": "Tie-On Windsor Chair Seat Cushion https://www.etsy.com/listing/4586894685/memory-foam-chair-cushion-tie-on-seat",
+      "evidence": "Discovered on this run's Chtte storefront (13 cards), excluded all known listing IDs; only 4586894685 was new. Listing seller links matched Chtte. Selected C01 and S 15.7 × 13.8 in, quantity 1, and verified the main Add to cart button enabled. Selected first gallery image and visually inspected the rendered full-page screenshot: blue, brown, gray and beige rounded seat pads stacked on a wooden chair with ties visible. Image URL read from the same rendered main image. Chair Pads breadcrumb and Windsor seat pad title support existing P3 Kitchen & Dining route.",
+      "queue_id": "3babcf50-692e-4357-a46e-932a91cfd4f6",
+      "queue_status": "ready",
+      "attempt_state": null,
+      "pin_id": null,
+      "error": null,
+      "history_pin_id": null,
+      "history_url": null,
+      "published_at": null,
+      "snapshot_matches": true,
+      "account": "P3",
+      "board_name": "Kitchen & Dining"
+    }
+  ],
+  "discovery": {
+    "Chtte": {
+      "visible": 13,
+      "known": 12,
+      "verified_new": 1
+    },
+    "HibiChStudio": {
+      "visible": 21,
+      "eligible_known": 8,
+      "other_outside_route": 13
+    }
+  },
+  "first_deficit_followup": "completed; unchanged"
+}
