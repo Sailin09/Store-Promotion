@@ -23,7 +23,7 @@ export function renderReport(report, stock, recovery=[], coverage=null) {
  else {
   lines.push(`条件模拟时间：${coverage.as_of}；覆盖日期（北京时间）：${coverage.dates.join('、')}。预计队列项 ${coverage.scheduled_slots} 条，非实际发布承诺。`);
   for(const [account,x] of Object.entries(coverage.accounts)) lines.push(`- ${account}：预计覆盖 ${x.covered_days}/7 天，模拟可排 ${x.publish_slots} 条（${x.days.join('、')||'无'}）。`);
-  for(const x of coverage.shops) lines.push(`- 店铺 ${x.account} / ${x.shop}：预计 ${x.publish_slots} 条，覆盖 ${x.days.length}/7 天。`);
+  for(const route of stock) {const x=coverage.shops.find(y=>y.account===route.account&&y.shop===route.shop);lines.push(`- 店铺 ${route.account} / ${route.shop}：预计 ${x?.publish_slots||0} 条，覆盖 ${x?.days.length||0}/7 天；当前可用素材 ${route.usable}，目标缺口 ${route.deficit}。`);}
   lines.push(`同优先级与创建时间并列候选 ${coverage.ambiguous_tie_items} 条；并列顺序仅按固定名称顺序模拟。发布器仍会实时复核账号、图板和图片，调度延迟或核验变化会减少实际覆盖。`);
  }
  lines.push('', '## 调度与恢复');
