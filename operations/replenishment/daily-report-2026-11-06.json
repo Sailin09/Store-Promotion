@@ -6,30 +6,57 @@
   "published": [
     {
       "account": "P1",
+      "pin_id": "801218590009662721",
+      "url": "https://www.pinterest.com/pin/801218590009662721/",
+      "published_at": "2026-11-05T00:00:03.492474+00:00",
+      "status": "published",
+      "listing_id": "1341070659",
+      "shop": "KorusStore"
+    },
+    {
+      "account": "P2",
+      "pin_id": "863494928599455925",
+      "url": "https://www.pinterest.com/pin/863494928599455925/",
+      "published_at": "2026-11-05T00:05:03.128187+00:00",
+      "status": "published",
+      "listing_id": "4525373104",
+      "shop": "Adamideal"
+    },
+    {
+      "account": "P4",
+      "pin_id": "675399275414760284",
+      "url": "https://www.pinterest.com/pin/675399275414760284/",
+      "published_at": "2026-11-05T00:10:03.082608+00:00",
+      "status": "published",
+      "listing_id": "1735968559",
+      "shop": "ChicDecorHK"
+    },
+    {
+      "account": "P5",
+      "pin_id": "713820609737801245",
+      "url": "https://www.pinterest.com/pin/713820609737801245/",
+      "published_at": "2026-11-05T01:15:02.549356+00:00",
+      "status": "published",
+      "listing_id": "4537610223",
+      "shop": "NngGoods"
+    },
+    {
+      "account": "P3",
+      "pin_id": "499618152434328640",
+      "url": "https://www.pinterest.com/pin/499618152434328640/",
+      "published_at": "2026-11-05T01:20:02.243603+00:00",
+      "status": "published",
+      "listing_id": "4574329494",
+      "shop": "LoomGoStudio"
+    },
+    {
+      "account": "P1",
       "pin_id": "801218590009663942",
       "url": "https://www.pinterest.com/pin/801218590009663942/",
       "published_at": "2026-11-05T02:05:02.110965+00:00",
       "status": "published",
       "listing_id": "1688268594",
       "shop": "FrenchStyleDecor"
-    },
-    {
-      "account": "P1",
-      "pin_id": "801218590009670267",
-      "url": "https://www.pinterest.com/pin/801218590009670267/",
-      "published_at": "2026-11-05T13:00:03.589161+00:00",
-      "status": "published",
-      "listing_id": "1306489180",
-      "shop": "GavinHome"
-    },
-    {
-      "account": "P1",
-      "pin_id": "801218590009679051",
-      "url": "https://www.pinterest.com/pin/801218590009679051/",
-      "published_at": "2026-11-06T00:00:04.808487+00:00",
-      "status": "published",
-      "listing_id": "1784373740",
-      "shop": "HeyDream"
     },
     {
       "account": "P2",
@@ -41,6 +68,24 @@
       "shop": "MiawoodStudio"
     },
     {
+      "account": "P4",
+      "pin_id": "675399275414761749",
+      "url": "https://www.pinterest.com/pin/675399275414761749/",
+      "published_at": "2026-11-05T02:20:02.580628+00:00",
+      "status": "published",
+      "listing_id": "1885288690",
+      "shop": "PearlsTreasuresArt"
+    },
+    {
+      "account": "P1",
+      "pin_id": "801218590009670267",
+      "url": "https://www.pinterest.com/pin/801218590009670267/",
+      "published_at": "2026-11-05T13:00:03.589161+00:00",
+      "status": "published",
+      "listing_id": "1306489180",
+      "shop": "GavinHome"
+    },
+    {
       "account": "P2",
       "pin_id": "863494928599462396",
       "url": "https://www.pinterest.com/pin/863494928599462396/",
@@ -48,15 +93,6 @@
       "status": "published",
       "listing_id": "4548309153",
       "shop": "LambertHouse"
-    },
-    {
-      "account": "P2",
-      "pin_id": "863494928599470698",
-      "url": "https://www.pinterest.com/pin/863494928599470698/",
-      "published_at": "2026-11-06T00:05:02.48358+00:00",
-      "status": "published",
-      "listing_id": "1607437640",
-      "shop": "WoodHomeLiang"
     },
     {
       "account": "P3",
@@ -68,24 +104,6 @@
       "shop": "Chtte"
     },
     {
-      "account": "P3",
-      "pin_id": "499618152434334963",
-      "url": "https://www.pinterest.com/pin/499618152434334963/",
-      "published_at": "2026-11-06T00:10:02.674861+00:00",
-      "status": "published",
-      "listing_id": "1853810995",
-      "shop": "CellaHo"
-    },
-    {
-      "account": "P4",
-      "pin_id": "675399275414761749",
-      "url": "https://www.pinterest.com/pin/675399275414761749/",
-      "published_at": "2026-11-05T02:20:02.580628+00:00",
-      "status": "published",
-      "listing_id": "1885288690",
-      "shop": "PearlsTreasuresArt"
-    },
-    {
       "account": "P4",
       "pin_id": "675399275414767849",
       "url": "https://www.pinterest.com/pin/675399275414767849/",
@@ -95,15 +113,6 @@
       "shop": "QuGifts"
     },
     {
-      "account": "P4",
-      "pin_id": "675399275414775833",
-      "url": "https://www.pinterest.com/pin/675399275414775833/",
-      "published_at": "2026-11-06T00:15:02.392858+00:00",
-      "status": "published",
-      "listing_id": "1864481074",
-      "shop": "ChicDecorHK"
-    },
-    {
       "account": "P5",
       "pin_id": "713820609737808976",
       "url": "https://www.pinterest.com/pin/713820609737808976/",
@@ -111,15 +120,6 @@
       "status": "published",
       "listing_id": "4477918490",
       "shop": "NinaJiaStudio"
-    },
-    {
-      "account": "P5",
-      "pin_id": "713820609737819127",
-      "url": "https://www.pinterest.com/pin/713820609737819127/",
-      "published_at": "2026-11-06T01:20:02.597955+00:00",
-      "status": "published",
-      "listing_id": "4301765876",
-      "shop": "NngGoods"
     }
   ],
   "replenished": [
@@ -1350,6 +1350,174 @@
   "followup": "completed",
   "schedule_coverage": {
     "status": "unverified",
-    "reason": "The latest schedule-aware seven-day snapshot is dated 2026-10-20; no current simulation was included in the 2026-11-06 report."
-  }
+    "reason": "The schedule-aware snapshot is dated 2026-10-20; the 2026-11-06 report contains no fresh schedule simulation."
+  },
+  "interval_published": [
+    {
+      "account": "P1",
+      "pin_id": "801218590009663942",
+      "url": "https://www.pinterest.com/pin/801218590009663942/",
+      "published_at": "2026-11-05T02:05:02.110965+00:00",
+      "status": "published",
+      "listing_id": "1688268594",
+      "shop": "FrenchStyleDecor"
+    },
+    {
+      "account": "P1",
+      "pin_id": "801218590009670267",
+      "url": "https://www.pinterest.com/pin/801218590009670267/",
+      "published_at": "2026-11-05T13:00:03.589161+00:00",
+      "status": "published",
+      "listing_id": "1306489180",
+      "shop": "GavinHome"
+    },
+    {
+      "account": "P1",
+      "pin_id": "801218590009679051",
+      "url": "https://www.pinterest.com/pin/801218590009679051/",
+      "published_at": "2026-11-06T00:00:04.808487+00:00",
+      "status": "published",
+      "listing_id": "1784373740",
+      "shop": "HeyDream"
+    },
+    {
+      "account": "P2",
+      "pin_id": "863494928599457205",
+      "url": "https://www.pinterest.com/pin/863494928599457205/",
+      "published_at": "2026-11-05T02:10:02.396591+00:00",
+      "status": "published",
+      "listing_id": "1447515779",
+      "shop": "MiawoodStudio"
+    },
+    {
+      "account": "P2",
+      "pin_id": "863494928599462396",
+      "url": "https://www.pinterest.com/pin/863494928599462396/",
+      "published_at": "2026-11-05T13:05:02.64584+00:00",
+      "status": "published",
+      "listing_id": "4548309153",
+      "shop": "LambertHouse"
+    },
+    {
+      "account": "P2",
+      "pin_id": "863494928599470698",
+      "url": "https://www.pinterest.com/pin/863494928599470698/",
+      "published_at": "2026-11-06T00:05:02.48358+00:00",
+      "status": "published",
+      "listing_id": "1607437640",
+      "shop": "WoodHomeLiang"
+    },
+    {
+      "account": "P3",
+      "pin_id": "499618152434331358",
+      "url": "https://www.pinterest.com/pin/499618152434331358/",
+      "published_at": "2026-11-05T13:10:02.622203+00:00",
+      "status": "published",
+      "listing_id": "4577591162",
+      "shop": "Chtte"
+    },
+    {
+      "account": "P3",
+      "pin_id": "499618152434334963",
+      "url": "https://www.pinterest.com/pin/499618152434334963/",
+      "published_at": "2026-11-06T00:10:02.674861+00:00",
+      "status": "published",
+      "listing_id": "1853810995",
+      "shop": "CellaHo"
+    },
+    {
+      "account": "P4",
+      "pin_id": "675399275414761749",
+      "url": "https://www.pinterest.com/pin/675399275414761749/",
+      "published_at": "2026-11-05T02:20:02.580628+00:00",
+      "status": "published",
+      "listing_id": "1885288690",
+      "shop": "PearlsTreasuresArt"
+    },
+    {
+      "account": "P4",
+      "pin_id": "675399275414767849",
+      "url": "https://www.pinterest.com/pin/675399275414767849/",
+      "published_at": "2026-11-05T13:25:02.576148+00:00",
+      "status": "published",
+      "listing_id": "4549004390",
+      "shop": "QuGifts"
+    },
+    {
+      "account": "P4",
+      "pin_id": "675399275414775833",
+      "url": "https://www.pinterest.com/pin/675399275414775833/",
+      "published_at": "2026-11-06T00:15:02.392858+00:00",
+      "status": "published",
+      "listing_id": "1864481074",
+      "shop": "ChicDecorHK"
+    },
+    {
+      "account": "P5",
+      "pin_id": "713820609737808976",
+      "url": "https://www.pinterest.com/pin/713820609737808976/",
+      "published_at": "2026-11-05T14:25:02.461203+00:00",
+      "status": "published",
+      "listing_id": "4477918490",
+      "shop": "NinaJiaStudio"
+    },
+    {
+      "account": "P5",
+      "pin_id": "713820609737819127",
+      "url": "https://www.pinterest.com/pin/713820609737819127/",
+      "published_at": "2026-11-06T01:20:02.597955+00:00",
+      "status": "published",
+      "listing_id": "4301765876",
+      "shop": "NngGoods"
+    }
+  ],
+  "same_day_since_previous_check": [
+    {
+      "account": "P1",
+      "pin_id": "801218590009679051",
+      "url": "https://www.pinterest.com/pin/801218590009679051/",
+      "published_at": "2026-11-06T00:00:04.808487+00:00",
+      "status": "published",
+      "listing_id": "1784373740",
+      "shop": "HeyDream"
+    },
+    {
+      "account": "P2",
+      "pin_id": "863494928599470698",
+      "url": "https://www.pinterest.com/pin/863494928599470698/",
+      "published_at": "2026-11-06T00:05:02.48358+00:00",
+      "status": "published",
+      "listing_id": "1607437640",
+      "shop": "WoodHomeLiang"
+    },
+    {
+      "account": "P3",
+      "pin_id": "499618152434334963",
+      "url": "https://www.pinterest.com/pin/499618152434334963/",
+      "published_at": "2026-11-06T00:10:02.674861+00:00",
+      "status": "published",
+      "listing_id": "1853810995",
+      "shop": "CellaHo"
+    },
+    {
+      "account": "P4",
+      "pin_id": "675399275414775833",
+      "url": "https://www.pinterest.com/pin/675399275414775833/",
+      "published_at": "2026-11-06T00:15:02.392858+00:00",
+      "status": "published",
+      "listing_id": "1864481074",
+      "shop": "ChicDecorHK"
+    },
+    {
+      "account": "P5",
+      "pin_id": "713820609737819127",
+      "url": "https://www.pinterest.com/pin/713820609737819127/",
+      "published_at": "2026-11-06T01:20:02.597955+00:00",
+      "status": "published",
+      "listing_id": "4301765876",
+      "shop": "NngGoods"
+    }
+  ],
+  "previous_complete_calendar_day_bjt": "2026-11-05",
+  "same_day_cutoff_bjt": "2026-11-06T10:00:00+08:00"
 }
