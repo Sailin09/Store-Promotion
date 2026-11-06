@@ -73,7 +73,6 @@ async function main() {
  }
  const final=evening?JSON.parse(sql('select public.pinterest_cloud_report();')):report;
  if(evening&&recovery.length)coverage=runCoverage();
- if(evening&&recovery.length)coverage=runCoverage();
  let body=renderReport(snapshot||final,stock,recovery,coverage);
  if(snapshot) body+='\n---\n## 补偿检查后的实时结果\n'+renderReport(final,stock,[],coverage);
  const run=`https://github.com/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID}`;
