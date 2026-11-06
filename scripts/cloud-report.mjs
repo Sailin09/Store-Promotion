@@ -26,6 +26,7 @@ export function renderReport(report, stock, recovery=[], coverage=null) {
   for(const x of coverage.shops) lines.push(`- 店铺 ${x.account} / ${x.shop}：预计 ${x.publish_slots} 条，覆盖 ${x.days.length}/7 天。`);
   lines.push(`同优先级与创建时间并列候选 ${coverage.ambiguous_tie_items} 条；并列顺序仅按固定名称顺序模拟。发布器仍会实时复核账号、图板和图片，调度延迟或核验变化会减少实际覆盖。`);
  }
+ lines.push('', '## 调度与恢复');
  for(const s of report.scheduler) lines.push(`- 发布调度：${s.active?'启用':'停用'}，${s.schedule}。`);
  for(const r of report.requests.slice(0,10)) lines.push(`- ${r.requested_at}：HTTP ${r.http_status??'待完成'}，${r.outcome??'待完成'}，${r.reason??'无附加原因'}。`);
  for(const r of recovery) lines.push(`- ${r}`);
@@ -38,9 +39,16 @@ function sql(query) {
  if(r.status!==0) throw new Error('Cloud report database query failed');
  return r.stdout.trim();
 }
+function runCoverage() {
+ const r=spawnSync(process.execPath,['scripts/simulate-pinterest-coverage.mjs'],{encoding:'utf8',timeout:90000});
+ if(r.status!==0)return {status:'unavailable'};
+ for(const line of r.stdout.split('\\n').reverse()) if(line.startsWith('{')) { try{return JSON.parse(line)} catch {} }
+ return {status:'unavailable'};
+}
 async function main() {
  const report=JSON.parse(sql('select public.pinterest_cloud_report();'));
  const stock=sql(readFileSync(new URL('./replenishment-plan.sql',import.meta.url),'utf8')).split('\n').filter(l=>l.startsWith('{')).map(l=>JSON.parse(l).replenishment_plan);
+ let coverage=runCoverage();
  const recovery=[];
  const evening=process.env.REPORT_MODE==='evening';
  let reportDay=null;
@@ -65,8 +73,9 @@ async function main() {
  }
  const final=evening?JSON.parse(sql('select public.pinterest_cloud_report();')):report;
  if(evening&&recovery.length)coverage=runCoverage();
+ if(evening&&recovery.length)coverage=runCoverage();
  let body=renderReport(snapshot||final,stock,recovery,coverage);
- if(snapshot) body+='\n---\n## 补偿检查后的实时结果\n'+renderReport(final,stock);
+ if(snapshot) body+='\n---\n## 补偿检查后的实时结果\n'+renderReport(final,stock,[],coverage);
  const run=`https://github.com/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID}`;
  body+=`\n[本次云端运行](${run})\n`;
  mkdirSync('cloud-output',{recursive:true});
