@@ -21,9 +21,9 @@ export function renderReport(report, stock, recovery=[], coverage=null) {
  lines.push('## 未来7天排程覆盖');
  if(!coverage||coverage.status!=='simulated') lines.push('无法核实：本次未能读取并模拟当前可用复核队列。');
  else {
-  lines.push(`条件模拟时间：${coverage.as_of}；覆盖日期（北京时间）：${coverage.dates.join('、')}。预计队列项 ${coverage.scheduled_slots} 条，非实际发布承诺。`);
+  lines.push(`条件模拟时间：${coverage.as_of}；覆盖日期（北京时间）：${coverage.dates.join('、')}。期内已发布 ${coverage.actual_slots} 条，预计可排 ${coverage.scheduled_slots} 条；模拟为条件预测，不是发布承诺。`);
   for(const [account,x] of Object.entries(coverage.accounts)) lines.push(`- ${account}：预计覆盖 ${x.covered_days}/7 天，模拟可排 ${x.publish_slots} 条（${x.days.join('、')||'无'}）。`);
-  for(const route of stock) {const x=coverage.shops.find(y=>y.account===route.account&&y.shop===route.shop);lines.push(`- 店铺 ${route.account} / ${route.shop}：预计 ${x?.publish_slots||0} 条，覆盖 ${x?.days.length||0}/7 天；当前可用素材 ${route.usable}，目标缺口 ${route.deficit}。`);}
+  for(const route of stock) {const x=coverage.shops.find(y=>y.account===route.account&&y.shop===route.shop);lines.push(`- 店铺 ${route.account} / ${route.shop}：实际 ${x?.actual_slots||0} 条、预计 ${x?.publish_slots||0} 条，覆盖 ${x?.days.length||0}/7 天；当前可用素材 ${route.usable}，目标缺口 ${route.deficit}。`);}
   lines.push(`同优先级与创建时间并列候选 ${coverage.ambiguous_tie_items} 条；并列顺序仅按固定名称顺序模拟。发布器仍会实时复核账号、图板和图片，调度延迟或核验变化会减少实际覆盖。`);
  }
  lines.push('', '## 调度与恢复');
