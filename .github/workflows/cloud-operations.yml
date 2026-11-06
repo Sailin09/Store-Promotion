@@ -6,7 +6,7 @@ on:
     paths: ['.github/workflows/cloud-operations.yml', 'scripts/cloud-report.mjs', 'scripts/cloud-publication-report.sql', 'tests/cloud-report*']
   schedule:
     - cron: '15 5,11,17,23 * * *'
-    - cron: '35 13 23 10 *'
+    - cron: '35 13 * * *'
 permissions:
   contents: read
   issues: write
@@ -37,7 +37,7 @@ jobs:
         env:
           EVENT_SCHEDULE: ${{ github.event.schedule }}
         run: |
-          if [ "$EVENT_SCHEDULE" = '35 13 23 10 *' ] && [ "$(date -u +%F)" = '2026-10-23' ]; then
+          if [ "$EVENT_SCHEDULE" = '35 13 * * *' ]; then
             echo 'REPORT_MODE=evening' >> "$GITHUB_ENV"
           else
             echo 'REPORT_MODE=stock' >> "$GITHUB_ENV"
