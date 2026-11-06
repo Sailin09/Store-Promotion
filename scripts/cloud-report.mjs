@@ -37,8 +37,10 @@ async function main() {
  const evening=process.env.REPORT_MODE==='evening';
  let snapshot=null;
  if(evening) {
+  const reportDay=sql("select to_char(now() at time zone 'Asia/Shanghai','YYYY-MM-DD');");
   sql('select public.capture_pinterest_evening_report();');
-  const raw=sql("select report from public.pinterest_cloud_reports where report_key='2026-10-23-evening';");
+  const reportKey=`${reportDay}-evening`;
+  const raw=sql(`select report from public.pinterest_cloud_reports where report_key='${reportKey}';`);
   if(!raw) throw new Error('Evening snapshot not yet available');
   snapshot=JSON.parse(raw);
   if(!report.scheduler.some(s=>s.active && s.schedule==='*/5 * * * *')) {
@@ -61,7 +63,8 @@ async function main() {
  writeFileSync('cloud-output/report.md',body);
  writeFileSync('cloud-output/report.json',JSON.stringify({snapshot,final,stock,recovery},null,2));
  if(process.env.GITHUB_STEP_SUMMARY)appendFileSync(process.env.GITHUB_STEP_SUMMARY,body);
- const title=evening?'Pinterest 2026-10-23 21:35 发布复核':'Pinterest 云端库存与运行状态';
+ const reportDay=evening?sql("select to_char(now() at time zone 'Asia/Shanghai','YYYY-MM-DD');"):null;
+ const title=evening?`Pinterest ${reportDay} 21:35 发布复核`:'Pinterest 云端库存与运行状态';
  const headers={Authorization:`Bearer ${process.env.GITHUB_TOKEN}`,Accept:'application/vnd.github+json','Content-Type':'application/json','X-GitHub-Api-Version':'2022-11-28'};
  const base=`https://api.github.com/repos/${process.env.GITHUB_REPOSITORY}/issues`;
  // Search all authors: Actions creates issues as github-actions[bot].
