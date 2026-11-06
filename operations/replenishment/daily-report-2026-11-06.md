@@ -6,23 +6,23 @@
 
 [只读数据库核验](https://github.com/Sailin09/Store-Promotion/actions/runs/42073369977/job/127662369777)于11月6日 **10:00:16** 开始，数据库记录时间 **10:00:26**，较逻辑截止晚26秒。发布历史查询无条数上限，覆盖本区间；按真实 `published_at` 和唯一 Pin ID 计数，未使用累计62条作基线。下表均为北京时间。
 
-**实际发布**：P1 @icyndizhang 3条；P2 @sailing_981 3条；P3 @mydecorshop 2条；P4 @cindyzhang62 3条；P5 @ivy5205 2条。
-
-|账号|发布时间|店铺 / Etsy商品|实际Pin|
-|---|---|---|---|
-|P1|11-05 10:05:02|FrenchStyleDecor [1688268594](https://www.etsy.com/listing/1688268594)|[801218590009663942](https://www.pinterest.com/pin/801218590009663942/)|
-|P1|11-05 21:00:03|GavinHome [1306489180](https://www.etsy.com/listing/1306489180)|[801218590009670267](https://www.pinterest.com/pin/801218590009670267/)|
-|P1|11-06 08:00:04|HeyDream [1784373740](https://www.etsy.com/listing/1784373740)|[801218590009679051](https://www.pinterest.com/pin/801218590009679051/)|
-|P2|11-05 10:10:02|MiawoodStudio [1447515779](https://www.etsy.com/listing/1447515779)|[863494928599457205](https://www.pinterest.com/pin/863494928599457205/)|
-|P2|11-05 21:05:02|LambertHouse [4548309153](https://www.etsy.com/listing/4548309153)|[863494928599462396](https://www.pinterest.com/pin/863494928599462396/)|
-|P2|11-06 08:05:02|WoodHomeLiang [1607437640](https://www.etsy.com/listing/1607437640)|[863494928599470698](https://www.pinterest.com/pin/863494928599470698/)|
-|P3|11-05 21:10:02|Chtte [4577591162](https://www.etsy.com/listing/4577591162)|[499618152434331358](https://www.pinterest.com/pin/499618152434331358/)|
-|P3|11-06 08:10:02|CellaHo [1853810995](https://www.etsy.com/listing/1853810995)|[499618152434334963](https://www.pinterest.com/pin/499618152434334963/)|
-|P4|11-05 10:20:02|PearlsTreasuresArt [1885288690](https://www.etsy.com/listing/1885288690)|[675399275414761749](https://www.pinterest.com/pin/675399275414761749/)|
-|P4|11-05 21:25:02|QuGifts [4549004390](https://www.etsy.com/listing/4549004390)|[675399275414767849](https://www.pinterest.com/pin/675399275414767849/)|
-|P4|11-06 08:15:02|ChicDecorHK [1864481074](https://www.etsy.com/listing/1864481074)|[675399275414775833](https://www.pinterest.com/pin/675399275414775833/)|
-|P5|11-05 22:25:02|NinaJiaStudio [4477918490](https://www.etsy.com/listing/4477918490)|[713820609737808976](https://www.pinterest.com/pin/713820609737808976/)|
-|P5|11-06 09:20:02|NngGoods [4301765876](https://www.etsy.com/listing/4301765876)|[713820609737819127](https://www.pinterest.com/pin/713820609737819127/)|
+**前一完整北京时间自然日 2026-11-05：实际发布13条。** 当天自上次检查后新增（2026-11-06 00:00至10:00）：5条，单独列示。\n\n|发布时间（北京时间）|账号|店铺|Etsy商品|实际Pin|\n|---|---|---|---|---|\n|11-05 08:00:03|P1|KorusStore|1341070659|[801218590009662721](https://www.pinterest.com/pin/801218590009662721/)|
+|11-05 08:05:03|P2|Adamideal|4525373104|[863494928599455925](https://www.pinterest.com/pin/863494928599455925/)|
+|11-05 08:10:03|P4|ChicDecorHK|1735968559|[675399275414760284](https://www.pinterest.com/pin/675399275414760284/)|
+|11-05 09:15:02|P5|NngGoods|4537610223|[713820609737801245](https://www.pinterest.com/pin/713820609737801245/)|
+|11-05 09:20:02|P3|LoomGoStudio|4574329494|[499618152434328640](https://www.pinterest.com/pin/499618152434328640/)|
+|11-05 10:05:02|P1|FrenchStyleDecor|1688268594|[801218590009663942](https://www.pinterest.com/pin/801218590009663942/)|
+|11-05 10:10:02|P2|MiawoodStudio|1447515779|[863494928599457205](https://www.pinterest.com/pin/863494928599457205/)|
+|11-05 10:20:02|P4|PearlsTreasuresArt|1885288690|[675399275414761749](https://www.pinterest.com/pin/675399275414761749/)|
+|11-05 21:00:03|P1|GavinHome|1306489180|[801218590009670267](https://www.pinterest.com/pin/801218590009670267/)|
+|11-05 21:05:02|P2|LambertHouse|4548309153|[863494928599462396](https://www.pinterest.com/pin/863494928599462396/)|
+|11-05 21:10:02|P3|Chtte|4577591162|[499618152434331358](https://www.pinterest.com/pin/499618152434331358/)|
+|11-05 21:25:02|P4|QuGifts|4549004390|[675399275414767849](https://www.pinterest.com/pin/675399275414767849/)|
+|11-05 22:25:02|P5|NinaJiaStudio|4477918490|[713820609737808976](https://www.pinterest.com/pin/713820609737808976/)|\n\n**当天新增（2026-11-06，截至10:00）**\n\n|发布时间（北京时间）|账号|店铺|Etsy商品|实际Pin|\n|---|---|---|---|---|\n|11-06 08:00:04|P1|HeyDream|1784373740|[801218590009679051](https://www.pinterest.com/pin/801218590009679051/)|
+|11-06 08:05:02|P2|WoodHomeLiang|1607437640|[863494928599470698](https://www.pinterest.com/pin/863494928599470698/)|
+|11-06 08:10:02|P3|CellaHo|1853810995|[499618152434334963](https://www.pinterest.com/pin/499618152434334963/)|
+|11-06 08:15:02|P4|ChicDecorHK|1864481074|[675399275414775833](https://www.pinterest.com/pin/675399275414775833/)|
+|11-06 09:20:02|P5|NngGoods|4301765876|[713820609737819127](https://www.pinterest.com/pin/713820609737819127/)|
 
 **真实补货入库**：按数据库 `created_at` 和唯一 `queue_id` 计数。15条均核实 `snapshot_matches=true`；14条当前为 `ready`，Chtte 4577591162 已发布。视觉核验时间沿用各批次原始记录。
 
@@ -51,13 +51,11 @@
 
 **未入库候选**：[11月6日07:12店面检查](https://github.com/Sailin09/Store-Promotion/blob/main/operations/replenishment/cloud-run-20261105-231202.json)发现 Chtte 10款、HibiChStudio 符合原挂袋路线的8款均为已知ID；Hibi 其余13款不符合原分类。这一轮未建批次，未执行入库或幂等重跑。
 
-**核验时点库存（每条店铺/账号路线目标7件）**：32条路线可用85件，合计缺口 **139件**。下表列出每个账号的库存与各店路线缺口；库存件数不代表未来可发布天数。\n\n|账号|可用库存|7件目标缺口|低于7件的路线（可用/缺口）|
-|---|---:|---:|---|
-|P1|51|75|Chtte 1/6、HeyDream 2/5、AmyHomeCrafts 3/4、beou 3/4、ChicDecorHK 3/4、CustomCurtainsStudio 3/4、DanyHomeDesign 3/4、FrenchStyleDecor 3/4、GavinHome 3/4、KorusStore 3/4、MiraKiuStudio 3/4、NiceCraftStudioHK 3/4、Parkermo 3/4、ShirieHomeShow 3/4、SobiaStudio 3/4、StellaGoodsGifts 3/4、TunaMunStudio 3/4、WOGOL 3/4|
+**核验时点库存（每条店铺/账号路线目标7件）**：32条路线可用85件，合计缺口 **139件**。\n\n|账号|可用库存|7件目标缺口|低于7件的路线（可用/缺口）|\n|---|---:|---:|---|\n|P1|51|75|Chtte 1/6、HeyDream 2/5、AmyHomeCrafts 3/4、beou 3/4、ChicDecorHK 3/4、CustomCurtainsStudio 3/4、DanyHomeDesign 3/4、FrenchStyleDecor 3/4、GavinHome 3/4、KorusStore 3/4、MiraKiuStudio 3/4、NiceCraftStudioHK 3/4、Parkermo 3/4、ShirieHomeShow 3/4、SobiaStudio 3/4、StellaGoodsGifts 3/4、TunaMunStudio 3/4、WOGOL 3/4|
 |P2|15|27|HibiChStudio 1/6、WoodHomeLiang 2/5、Adamideal 3/4、KoltCraftStudio 3/4、LambertHouse 3/4、MiawoodStudio 3/4|
 |P3|6|15|Chtte 1/6、CellaHo 2/5、LoomGoStudio 3/4|
 |P4|8|13|ChicDecorHK 2/5、PearlsTreasuresArt 3/4、QuGifts 3/4|
-|P5|5|9|NngGoods 2/5、NinaJiaStudio 3/4|\n\n排程覆盖天数未核实：本地 schedule-aware 快照最后更新于2026-10-20，本轮没有新模拟结果。
+|P5|5|9|NngGoods 2/5、NinaJiaStudio 3/4|\n\n库存件数不等同未来发布天数。排程覆盖无法核实：本地 schedule-aware 快照停在2026-10-20，本轮没有新的7天模拟结果。
 
 **未发布、失败与待处理**：五账号均启用且 OAuth 已连接。85条可用库存待发；另有85条草稿（P1 55条、P2 26条、P3 4条，其中3条有图；P4/P5 0条），草稿不计可用。只读日志未见未完成发布尝试或失败队列。[最新 GitHub 发布日志](https://github.com/Sailin09/Store-Promotion/actions/runs/42117615063/job/127561345474)显示 `idle / outside_publish_window`，未计作发布。调度日志仅覆盖最近20条HTTP请求和10条cron记录，全区间瞬时错误未确认。
 
