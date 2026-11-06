@@ -10,6 +10,11 @@ const query=`
 begin read only;
 set local statement_timeout='20s';
 select extract(epoch from now())*1000;
+select coalesce(json_agg(json_build_object('account',a.account_name,'shop',s.shop_name,'published_at',h.published_at) order by h.published_at),'[]'::json)
+from public.publish_history h join public.social_accounts a on a.id=h.social_account_id join public.shops s on s.id=h.shop_id
+where h.platform='pinterest' and h.publish_status='published'
+ and h.published_at >= (date_trunc('day',now() at time zone 'Asia/Shanghai') at time zone 'Asia/Shanghai')
+ and h.published_at < ((date_trunc('day',now() at time zone 'Asia/Shanghai')+interval '7 days') at time zone 'Asia/Shanghai');
 select json_build_object(
  'queue_id',q.id::text,'shop_id',q.shop_id::text,'account_id',a.id::text,'product_id',q.product_id::text,'shop',s.shop_name,'account',a.account_name,'handle',a.handle,
  'status',q.status,'due_at',coalesce(q.scheduled_at,now()),'priority',q.priority,'created_at',q.created_at,
@@ -51,6 +56,7 @@ commit;
 `;
 const raw=sql(query).split('\n').filter(Boolean);
 const now=Number(raw.shift());
+const actualPins=JSON.parse(raw.shift()||'[]');
 const items=raw.map(x=>JSON.parse(x)).filter(x=>x.eligible_configuration && x.snapshot_matches && x.source_matches);
 const ms=v=>v==null?null:Date.parse(v);
 for(const x of items){x.due=ms(x.due_at);x.created=ms(x.created_at);x.checked=ms(x.listing_checked_at);x.reviewed=ms(x.reviewed_at);x.shopLast=ms(x.latest_shop_publish);x.accountLast=ms(x.latest_account_publish);x.productLast=ms(x.latest_product_publish);x.shopHistory=(x.shop_history_24h||[]).map(ms).filter(Number.isFinite);x.done=false;}
@@ -90,9 +96,10 @@ for(let t=Math.ceil(now/300000)*300000;t<horizon;t+=300000){
 const days=new Map();
 for(let i=0;i<7;i++)days.set(new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai'}).format(new Date(first+i*86400000)),{});
 const accountNames=['P1','P2','P3','P4','P5'];
-const accounts=Object.fromEntries(accountNames.map(a=>[a,{publish_slots:0,covered_days:0,days:[]}]));
+const accounts=Object.fromEntries(accountNames.map(a=>[a,{actual_slots:0,publish_slots:0,covered_days:0,days:[]}]));
 const shops={};
-for(const x of published){const day=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai'}).format(new Date(x.at));const a=accounts[x.account];a.publish_slots++;if(!a.days.includes(day))a.days.push(day);const key=x.account+' / '+x.shop;shops[key]??={account:x.account,shop:x.shop,publish_slots:0,days:[]};shops[key].publish_slots++;if(!shops[key].days.includes(day))shops[key].days.push(day);}
+for(const x of actualPins){const day=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai'}).format(new Date(x.published_at));const a=accounts[x.account];if(a){a.actual_slots++;if(!a.days.includes(day))a.days.push(day);}const key=x.account+' / '+x.shop;shops[key]??={account:x.account,shop:x.shop,actual_slots:0,publish_slots:0,days:[]};shops[key].actual_slots++;if(!shops[key].days.includes(day))shops[key].days.push(day);}
+for(const x of published){const day=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai'}).format(new Date(x.at));const a=accounts[x.account];a.publish_slots++;if(!a.days.includes(day))a.days.push(day);const key=x.account+' / '+x.shop;shops[key]??={account:x.account,shop:x.shop,actual_slots:0,publish_slots:0,days:[]};shops[key].publish_slots++;if(!shops[key].days.includes(day))shops[key].days.push(day);}
 for(const a of accountNames){accounts[a].days.sort();accounts[a].covered_days=accounts[a].days.length;}
-const result={status:'simulated',as_of:new Date(now).toISOString(),timezone:'Asia/Shanghai',dates:[...days.keys()],scheduler_interval_minutes:5,queue_candidates:items.length,scheduled_slots:published.length,accounts,shops:Object.values(shops).sort((a,b)=>a.account.localeCompare(b.account)||a.shop.localeCompare(b.shop)),ambiguous_tie_items:ambiguousTies,confidence:'conditional_estimate',limitations:['Queue order uses priority then created_at; exact ties are shown as ambiguous and stable shop/queue ID is used only for this scenario.','Pinterest live account, board ownership/public visibility, and image reachability are rechecked at publish time and cannot be predicted here.','Real scheduler delays, failures, and database changes can reduce coverage.']};
+const result={status:'simulated',as_of:new Date(now).toISOString(),timezone:'Asia/Shanghai',dates:[...days.keys()],scheduler_interval_minutes:5,queue_candidates:items.length,actual_slots:actualPins.length,scheduled_slots:published.length,accounts,shops:Object.values(shops).sort((a,b)=>a.account.localeCompare(b.account)||a.shop.localeCompare(b.shop)),ambiguous_tie_items:ambiguousTies,confidence:'conditional_estimate',limitations:['Queue order uses priority then created_at; exact ties are shown as ambiguous and stable shop/queue ID is used only for this scenario.','Pinterest live account, board ownership/public visibility, and image reachability are rechecked at publish time and cannot be predicted here.','Real scheduler delays, failures, and database changes can reduce coverage.']};
 console.log(JSON.stringify(result));
