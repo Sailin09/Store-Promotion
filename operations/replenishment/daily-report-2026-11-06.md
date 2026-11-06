@@ -2,7 +2,7 @@
 
 <!-- store-promotion-daily:2026-11-06 -->
 
-北京时间 **11月5日10:00（含）至11月6日10:00（不含）**：实际发布 **13条 Pin**，补货入库 **15条**。核验时点可用 **85条**，按每条路线目标3条计算，缺口 **11条**。库存与上一日报对账：83 + 15 − 13 = 85。
+北京时间 **11月5日10:00（含）至11月6日10:00（不含）**：实际发布 **13条 Pin**，补货入库 **15条**。核验时点可用 **85条**，按每条路线目标7条计算，缺口 **139条**。库存与上一日报对账：83 + 15 − 13 = 85。
 
 [只读数据库核验](https://github.com/Sailin09/Store-Promotion/actions/runs/42073369977/job/127662369777)于11月6日 **10:00:16** 开始，数据库记录时间 **10:00:26**，较逻辑截止晚26秒。发布历史查询无条数上限，覆盖本区间；按真实 `published_at` 和唯一 Pin ID 计数，未使用累计62条作基线。下表均为北京时间。
 
@@ -51,20 +51,18 @@
 
 **未入库候选**：[11月6日07:12店面检查](https://github.com/Sailin09/Store-Promotion/blob/main/operations/replenishment/cloud-run-20261105-231202.json)发现 Chtte 10款、HibiChStudio 符合原挂袋路线的8款均为已知ID；Hibi 其余13款不符合原分类。这一轮未建批次，未执行入库或幂等重跑。
 
-**核验时点库存**（32条有效路线，目标3；与区间新增分开统计）：
-
-|账号|可用 / 缺口|缺口路线（可用 / 缺口）|达标路线（各3 / 0）|
-|---|---|---|---|
-|P1|51 / 3|Chtte 1/2、HeyDream 2/1|AmyHomeCrafts、ChicDecorHK、CustomCurtainsStudio、DanyHomeDesign、FrenchStyleDecor、GavinHome、KorusStore、MiraKiuStudio、NiceCraftStudioHK、Parkermo、ShirieHomeShow、SobiaStudio、StellaGoodsGifts、TunaMunStudio、WOGOL、beou|
-|P2|15 / 3|HibiChStudio 1/2、WoodHomeLiang 2/1|Adamideal、KoltCraftStudio、LambertHouse、MiawoodStudio|
-|P3|6 / 3|Chtte 1/2、CellaHo 2/1|LoomGoStudio|
-|P4|8 / 1|ChicDecorHK 2/1|PearlsTreasuresArt、QuGifts|
-|P5|5 / 1|NngGoods 2/1|NinaJiaStudio|
+**核验时点库存（每条店铺/账号路线目标7件）**：32条路线可用85件，合计缺口 **139件**。下表列出每个账号的库存与各店路线缺口；库存件数不代表未来可发布天数。\n\n|账号|可用库存|7件目标缺口|低于7件的路线（可用/缺口）|
+|---|---:|---:|---|
+|P1|51|75|Chtte 1/6、HeyDream 2/5、AmyHomeCrafts 3/4、beou 3/4、ChicDecorHK 3/4、CustomCurtainsStudio 3/4、DanyHomeDesign 3/4、FrenchStyleDecor 3/4、GavinHome 3/4、KorusStore 3/4、MiraKiuStudio 3/4、NiceCraftStudioHK 3/4、Parkermo 3/4、ShirieHomeShow 3/4、SobiaStudio 3/4、StellaGoodsGifts 3/4、TunaMunStudio 3/4、WOGOL 3/4|
+|P2|15|27|HibiChStudio 1/6、WoodHomeLiang 2/5、Adamideal 3/4、KoltCraftStudio 3/4、LambertHouse 3/4、MiawoodStudio 3/4|
+|P3|6|15|Chtte 1/6、CellaHo 2/5、LoomGoStudio 3/4|
+|P4|8|13|ChicDecorHK 2/5、PearlsTreasuresArt 3/4、QuGifts 3/4|
+|P5|5|9|NngGoods 2/5、NinaJiaStudio 3/4|\n\n排程覆盖天数未核实：本地 schedule-aware 快照最后更新于2026-10-20，本轮没有新模拟结果。
 
 **未发布、失败与待处理**：五账号均启用且 OAuth 已连接。85条可用库存待发；另有85条草稿（P1 55条、P2 26条、P3 4条，其中3条有图；P4/P5 0条），草稿不计可用。只读日志未见未完成发布尝试或失败队列。[最新 GitHub 发布日志](https://github.com/Sailin09/Store-Promotion/actions/runs/42117615063/job/127561345474)显示 `idle / outside_publish_window`，未计作发布。调度日志仅覆盖最近20条HTTP请求和10条cron记录，全区间瞬时错误未确认。
 
 **截止后**：10:00:00发起的请求在10:00:26仍待完成；截至核验未见截止后新增Pin，未纳入区间。
 
-当前未解决的是8条路线上的11条缺口。云端库存报告仍按目标7显示缺口；本日报按授权目标3计算。首次缺口跟进为 `completed`；本次只读汇报未执行业务修复、发布或补货，现有任务保持原样。
+截至核验时点，32条路线按7件目标合计缺139件；其中8条路线低于3件。首次缺口跟进为 `completed`；本次只读汇报未执行业务修复、发布或补货，现有任务保持原样。
 
 **证据与投递**：通过 GitHub 连接器核对最新 main、区间批次与现场记录、Issue #2 的77条既有评论及按标题查得的[历史发布复核](https://github.com/Sailin09/Store-Promotion/issues/3)。[日报存档](https://github.com/Sailin09/Store-Promotion/blob/main/operations/replenishment/daily-report-2026-11-06.md) · [配套证据](https://github.com/Sailin09/Store-Promotion/blob/main/operations/replenishment/daily-report-2026-11-06.json)。聊天独立读回及设备通知送达未确认。
