@@ -1,0 +1,213 @@
+{
+  "status": "replenished_with_remaining_deficits",
+  "authorized_target": 3,
+  "first_deficit_followup": "completed; unchanged",
+  "batch_path": "operations/replenishment/batch-20261106-172224.json",
+  "batch_commit": "6ccc9784f62866784d03c8b1041f2fa5de1647b2",
+  "before": {
+    "job": "https://github.com/Sailin09/Store-Promotion/actions/runs/42209429143/job/128039430581",
+    "at": "2026-11-06T17:20:15.580306+00:00",
+    "usable": 88,
+    "deficit": 8
+  },
+  "ingest": {
+    "run_id": 42261050796,
+    "job_id": 128040955480,
+    "first_inserted": 4,
+    "retry_inserted": 0,
+    "failed": 0,
+    "results": [
+      {
+        "batch": "batch-20261106-172224",
+        "shop": "KoltCraftStudio",
+        "listing_id": "1754831599",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0
+      },
+      {
+        "batch": "batch-20261106-172224",
+        "shop": "MiraKiuStudio",
+        "listing_id": "4535979555",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0
+      },
+      {
+        "batch": "batch-20261106-172224",
+        "shop": "NinaJiaStudio",
+        "listing_id": "4415221724",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0
+      },
+      {
+        "batch": "batch-20261106-172224",
+        "shop": "QuGifts",
+        "listing_id": "1859116379",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0
+      },
+      {
+        "inserted": 4,
+        "failed": 0,
+        "pending": 4
+      },
+      {
+        "status": "no_new_verified_material",
+        "inserted": 0
+      }
+    ]
+  },
+  "after": {
+    "job": "https://github.com/Sailin09/Store-Promotion/actions/runs/42261189811/job/128041241994",
+    "at": "2026-11-06T17:23:36.753518+00:00",
+    "usable": 92,
+    "deficit": 4,
+    "remaining": [
+      {
+        "shop": "HibiChStudio",
+        "account": "P2",
+        "handle": "sailing_981",
+        "usable": 1,
+        "deficit": 2
+      },
+      {
+        "shop": "Chtte",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 2,
+        "deficit": 1
+      },
+      {
+        "shop": "Chtte",
+        "account": "P3",
+        "handle": "mydecorshop",
+        "usable": 2,
+        "deficit": 1
+      }
+    ]
+  },
+  "new_items": [
+    {
+      "shop": "KoltCraftStudio",
+      "listing_id": "1754831599",
+      "category": "Wooden Hangers",
+      "source_url": "https://www.etsy.com/listing/1754831599/solid-wood-hangers-with-bar-non-slip",
+      "image_url": "https://i.etsystatic.com/43671795/r/il/153375/8162181801/il_794xN.8162181801_dqgh.jpg",
+      "new_title": "Wooden Hanger with Metal Bar",
+      "handle": "sailing_981",
+      "board_id": "863494997243989843",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-06T17:22:24Z",
+      "body": "Wooden Hanger with Metal Bar from KoltCraftStudio. See the Etsy listing for available options.",
+      "facebook_draft": "Wooden Hanger with Metal Bar https://www.etsy.com/listing/1754831599/solid-wood-hangers-with-bar-non-slip",
+      "evidence": "Discovered on current registered storefront, excluded all known listing IDs. Actual CDP listing seller links matched KoltCraftStudio. 1 PCS; quantity 1 and primary Add to cart enabled after option selection settled. Visually inspected rendered first gallery image: Brown wooden hangers with gold-tone hooks and metal bars on a white closet rod. Image source taken from rendered primary image. Existing exact category and Board mapping retained. Timestamp records completion of the verification round.",
+      "account": "P2",
+      "board_name": "storage",
+      "queue_id": "906331a7-a304-470e-9156-e0f442b309f1",
+      "queue_status": "ready",
+      "attempt_state": null,
+      "pin_id": null,
+      "error": null,
+      "history_pin_id": null,
+      "history_url": null,
+      "published_at": null,
+      "snapshot_matches": true
+    },
+    {
+      "shop": "MiraKiuStudio",
+      "listing_id": "4535979555",
+      "category": "Vintage Aprons",
+      "source_url": "https://www.etsy.com/listing/4535979555/french-lace-ruffle-apron-romantic",
+      "image_url": "https://i.etsystatic.com/59152881/r/il/4337be/8837079861/il_794xN.8837079861_k7gg.jpg",
+      "new_title": "White Ruffle Pinafore Apron",
+      "handle": "icyndizhang",
+      "board_id": "801218658646993070",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-06T17:22:24Z",
+      "body": "White Ruffle Pinafore Apron from MiraKiuStudio. See the Etsy listing for available options.",
+      "facebook_draft": "White Ruffle Pinafore Apron https://www.etsy.com/listing/4535979555/french-lace-ruffle-apron-romantic",
+      "evidence": "Discovered on current registered storefront, excluded all known listing IDs. Actual CDP listing seller links matched MiraKiuStudio. No required variation shown; quantity 1 and primary Add to cart enabled after option selection settled. Visually inspected rendered first gallery image: White pinafore apron with ruffled shoulders and tied waist displayed on a dress form. Image source taken from rendered primary image. Existing exact category and Board mapping retained. Timestamp records completion of the verification round.",
+      "account": "P1",
+      "board_name": "CyndiZhangStudio",
+      "queue_id": "68db009a-4ee2-43b9-8701-ba6c62d36af2",
+      "queue_status": "ready",
+      "attempt_state": null,
+      "pin_id": null,
+      "error": null,
+      "history_pin_id": null,
+      "history_url": null,
+      "published_at": null,
+      "snapshot_matches": true
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "listing_id": "4415221724",
+      "category": "Cosmetic Bags",
+      "source_url": "https://www.etsy.com/listing/4415221724/makeup-bag-double-layer-travel-toiletry",
+      "image_url": "https://i.etsystatic.com/61131894/r/il/272444/7470674914/il_794xN.7470674914_h9i6.jpg",
+      "new_title": "Pink Floral Cosmetic Bag",
+      "handle": "ivy5205",
+      "board_id": "713820678377803445",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-06T17:22:24Z",
+      "body": "Pink Floral Cosmetic Bag from NinaJiaStudio. See the Etsy listing for available options.",
+      "facebook_draft": "Pink Floral Cosmetic Bag https://www.etsy.com/listing/4415221724/makeup-bag-double-layer-travel-toiletry",
+      "evidence": "Discovered on current registered storefront, excluded all known listing IDs. Actual CDP listing seller links matched NinaJiaStudio. pink; quantity 1 and primary Add to cart enabled after option selection settled. Visually inspected rendered first gallery image: Cream zip pouch with pink flowers and green stems shown held in a hand. Image source taken from rendered primary image. Existing exact category and Board mapping retained. Timestamp records completion of the verification round.",
+      "account": "P5",
+      "board_name": "Fashion",
+      "queue_id": "0796bbd9-f733-4fa6-bcfe-2b1a3d320bb4",
+      "queue_status": "ready",
+      "attempt_state": null,
+      "pin_id": null,
+      "error": null,
+      "history_pin_id": null,
+      "history_url": null,
+      "published_at": null,
+      "snapshot_matches": true
+    },
+    {
+      "shop": "QuGifts",
+      "listing_id": "1859116379",
+      "category": "Wall Decor",
+      "source_url": "https://www.etsy.com/listing/1859116379/natural-jute-macrame-wall-hanging-wooden",
+      "image_url": "https://i.etsystatic.com/38006525/r/il/668521/8302651130/il_794xN.8302651130_f2nl.jpg",
+      "new_title": "Fringed Macrame Wall Hanging",
+      "handle": "cindyzhang62",
+      "board_id": "675399344056772225",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-06T17:22:24Z",
+      "body": "Fringed Macrame Wall Hanging from QuGifts. See the Etsy listing for available options.",
+      "facebook_draft": "Fringed Macrame Wall Hanging https://www.etsy.com/listing/1859116379/natural-jute-macrame-wall-hanging-wooden",
+      "evidence": "Discovered on current registered storefront, excluded all known listing IDs. Actual CDP listing seller links matched QuGifts. 25 × 35 cm, stick 40 cm; quantity 1 and primary Add to cart enabled after option selection settled. Visually inspected rendered first gallery image: Tan knotted chevron textile with long fringe suspended from a wooden stick. Image source taken from rendered primary image. Existing exact category and Board mapping retained. Timestamp records completion of the verification round.",
+      "account": "P4",
+      "board_name": "Decor",
+      "queue_id": "c7bbea40-6bd9-438b-a69b-674c9645090a",
+      "queue_status": "ready",
+      "attempt_state": null,
+      "pin_id": null,
+      "error": null,
+      "history_pin_id": null,
+      "history_url": null,
+      "published_at": null,
+      "snapshot_matches": true
+    }
+  ],
+  "discovery": {
+    "Chtte": {
+      "observed": 13,
+      "known": 13
+    },
+    "HibiChStudio": {
+      "observed": 21,
+      "matching_known": 8,
+      "other_outside_route": 13
+    }
+  }
+}
