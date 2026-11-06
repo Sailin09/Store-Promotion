@@ -42,7 +42,7 @@ function sql(query) {
 function runCoverage() {
  const r=spawnSync(process.execPath,['scripts/simulate-pinterest-coverage.mjs'],{encoding:'utf8',timeout:90000});
  if(r.status!==0)return {status:'unavailable'};
- for(const line of r.stdout.split('\\n').reverse()) if(line.startsWith('{')) { try{return JSON.parse(line)} catch {} }
+ for(const line of r.stdout.split(String.fromCharCode(10)).reverse()) if(line.startsWith('{')) { try{return JSON.parse(line)} catch {} }
  return {status:'unavailable'};
 }
 async function main() {
