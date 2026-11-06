@@ -7,6 +7,8 @@ function sql(query) {
 }
 const handles="'icyndizhang','sailing_981','mydecorshop','cindyzhang62','ivy5205'";
 const query=`
+begin read only;
+set local statement_timeout='20s';
 select extract(epoch from now())*1000;
 select json_build_object(
  'queue_id',q.id::text,'shop_id',q.shop_id::text,'account_id',a.id::text,'product_id',q.product_id::text,'shop',s.shop_name,'account',a.account_name,'handle',a.handle,
@@ -45,6 +47,7 @@ and rev.snapshot=public.pinterest_publish_snapshot(q.id) and rev.source_url=p.et
 and rev.listing_checked_at between now()-interval '30 days' and now()
 and rev.reviewed_at between now()-interval '30 days' and now()
 order by q.priority,q.created_at;
+commit;
 `;
 const raw=sql(query).split('\n').filter(Boolean);
 const now=Number(raw.shift());
