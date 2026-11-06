@@ -9,7 +9,7 @@ const handles="'icyndizhang','sailing_981','mydecorshop','cindyzhang62','ivy5205
 const query=`
 select extract(epoch from now())*1000;
 select json_build_object(
- 'queue_id',q.id::text,'shop',s.shop_name,'account',a.account_name,'handle',a.handle,
+ 'queue_id',q.id::text,'shop_id',q.shop_id::text,'account_id',a.id::text,'product_id',q.product_id::text,'shop',s.shop_name,'account',a.account_name,'handle',a.handle,
  'status',q.status,'due_at',coalesce(q.scheduled_at,now()),'priority',q.priority,'created_at',q.created_at,
  'listing_checked_at',rev.listing_checked_at,'reviewed_at',rev.reviewed_at,
  'snapshot_matches',rev.snapshot=public.pinterest_publish_snapshot(q.id),
@@ -50,6 +50,15 @@ const now=Number(raw.shift());
 const items=raw.map(x=>JSON.parse(x)).filter(x=>x.eligible_configuration && x.snapshot_matches && x.source_matches);
 const ms=v=>v==null?null:Date.parse(v);
 for(const x of items){x.due=ms(x.due_at);x.created=ms(x.created_at);x.checked=ms(x.listing_checked_at);x.reviewed=ms(x.reviewed_at);x.shopLast=ms(x.latest_shop_publish);x.accountLast=ms(x.latest_account_publish);x.productLast=ms(x.latest_product_publish);x.shopHistory=(x.shop_history_24h||[]).map(ms).filter(Number.isFinite);x.done=false;}
+const latestShop=new Map(), latestAccount=new Map(), latestProduct=new Map(), shopHistory=new Map();
+for(const x of items){
+ const sk=x.shop_id,ak=x.account_id,pk=x.product_id;
+ if(!latestShop.has(sk)||x.shopLast>latestShop.get(sk))latestShop.set(sk,x.shopLast);
+ if(!latestAccount.has(ak)||x.accountLast>latestAccount.get(ak))latestAccount.set(ak,x.accountLast);
+ if(!latestProduct.has(pk)||x.productLast>latestProduct.get(pk))latestProduct.set(pk,x.productLast);
+ if(!shopHistory.has(sk))shopHistory.set(sk,new Set());
+ for(const h of x.shopHistory)shopHistory.get(sk).add(h);
+}
 const dayString=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(now));
 const first=Date.parse(dayString+'T00:00:00+08:00');
 const horizon=first+7*86400000;
@@ -63,17 +72,19 @@ for(let t=Math.ceil(now/300000)*300000;t<horizon;t+=300000){
  if(!((bjtHour>=8&&bjtHour<11)||(bjtHour>=21&&bjtHour<23)))continue;
  const eligible=items.filter(x=>{
   if(x.done||x.due>t||t-x.checked>=30*86400000||t-x.reviewed>=30*86400000)return false;
-  if(x.shopLast!=null&&t-x.shopLast<Math.max(24,Number(x.min_gap_hours))*3600000)return false;
-  if(x.accountLast!=null&&t-x.accountLast<2*3600000)return false;
-  if(x.shopHistory.filter(h=>t-h<24*3600000).length>=Number(x.max_posts_per_day))return false;
-  if(x.productLast!=null&&t-x.productLast<Number(x.evergreen_reuse_days)*86400000)return false;
+  const shopLast=latestShop.get(x.shop_id),accountLast=latestAccount.get(x.account_id),productLast=latestProduct.get(x.product_id);
+  if(shopLast!=null&&t-shopLast<Math.max(24,Number(x.min_gap_hours))*3600000)return false;
+  if(accountLast!=null&&t-accountLast<2*3600000)return false;
+  const history=[...(shopHistory.get(x.shop_id)||[])];
+  if(history.filter(h=>t-h<24*3600000).length>=Number(x.max_posts_per_day))return false;
+  if(productLast!=null&&t-productLast<Number(x.evergreen_reuse_days)*86400000)return false;
   return true;
  }).sort((a,b)=>Number(a.priority)-Number(b.priority)||a.created-b.created||String(a.shop).localeCompare(String(b.shop))||String(a.queue_id).localeCompare(String(b.queue_id)));
  if(!eligible.length)continue;
- const x=eligible[0];x.done=true;x.shopLast=t;x.accountLast=t;x.productLast=t;x.shopHistory.push(t);published.push({account:x.account,shop:x.shop,queue_id:x.queue_id,at:new Date(t).toISOString()});
+ const x=eligible[0];x.done=true;latestShop.set(x.shop_id,t);latestAccount.set(x.account_id,t);latestProduct.set(x.product_id,t);shopHistory.get(x.shop_id).add(t);published.push({account:x.account,shop:x.shop,queue_id:x.queue_id,at:new Date(t).toISOString()});
 }
 const days=new Map();
-for(let i=0;i<7;i++)days.set(new Date(first+i*86400000).toISOString().slice(0,10),{});
+for(let i=0;i<7;i++)days.set(new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai'}).format(new Date(first+i*86400000)),{});
 const accountNames=['P1','P2','P3','P4','P5'];
 const accounts=Object.fromEntries(accountNames.map(a=>[a,{publish_slots:0,covered_days:0,days:[]}]));
 const shops={};
