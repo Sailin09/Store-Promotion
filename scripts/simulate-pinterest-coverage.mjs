@@ -21,6 +21,7 @@ select json_build_object(
    and a.account_status in ('authorized_trial','authorized_standard')
    and a.credential_reference='pinterest_oauth_credentials:'||a.id::text
    and exists(select 1 from public.pinterest_oauth_credentials c where c.social_account_id=a.id and lower(c.pinterest_username)=lower(a.handle))
+   and rev.board_id is not null
    and exists(select 1 from public.shop_social_accounts m where m.shop_id=q.shop_id and m.social_account_id=a.id and m.platform=q.platform and m.active)
    and not exists(select 1 from public.pinterest_publish_attempts pa where pa.queue_id=q.id)
    and not exists(select 1 from public.publish_history h where h.content_variant_id=cv.id)
