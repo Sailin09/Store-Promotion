@@ -1,0 +1,157 @@
+{
+  "status": "no_eligible_new_listing",
+  "recorded_at": "2026-11-07T23:11:15.124Z",
+  "verify_run_id": 42395995571,
+  "verify_job_id": 128558382087,
+  "database_audit_time": "2026-11-07T23:10:58.836083+00:00",
+  "authorized_target": 3,
+  "sql_report_target": 7,
+  "usable": 90,
+  "remaining_deficit": 6,
+  "remaining_routes": [
+    {
+      "shop": "HibiChStudio",
+      "handle": "sailing_981",
+      "target": 3,
+      "usable": 0,
+      "account": "P2",
+      "deficit": 3,
+      "previous_routes": [
+        {
+          "board_id": "863494997243989843",
+          "category": "Wall & Door Organizers"
+        }
+      ],
+      "known_listing_ids": [
+        "4374362269",
+        "4374349912",
+        "4391652370",
+        "4454342176",
+        "4473098237",
+        "4391650576",
+        "4391681449",
+        "4559711054"
+      ]
+    },
+    {
+      "shop": "Chtte",
+      "handle": "mydecorshop",
+      "target": 3,
+      "usable": 1,
+      "account": "P3",
+      "deficit": 2,
+      "previous_routes": [
+        {
+          "board_id": "499618221101215211",
+          "category": "Chair Cushions & Seat Pads"
+        }
+      ],
+      "known_listing_ids": [
+        "4325858718",
+        "4440783510",
+        "4440831933",
+        "4514553651",
+        "4535436683",
+        "4514589653",
+        "4535424416",
+        "4535407129",
+        "4577591162",
+        "4577556837",
+        "4535422573",
+        "4577582372",
+        "4577559034",
+        "4586894685"
+      ]
+    },
+    {
+      "shop": "Chtte",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 2,
+      "account": "P1",
+      "deficit": 1,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Chair Cushions & Seat Pads"
+        }
+      ],
+      "known_listing_ids": [
+        "4325858718",
+        "4440783510",
+        "4440831933",
+        "4514553651",
+        "4535436683",
+        "4514589653",
+        "4535424416",
+        "4535407129",
+        "4577591162",
+        "4577556837",
+        "4535422573",
+        "4577582372",
+        "4577559034",
+        "4586894685"
+      ]
+    }
+  ],
+  "storefronts": [
+    {
+      "shop": "HibiChStudio",
+      "source": "https://www.etsy.com/shop/HibiChStudio",
+      "observed": 21,
+      "matching_known_ids": [
+        "4374362269",
+        "4374349912",
+        "4391652370",
+        "4454342176",
+        "4473098237",
+        "4391650576",
+        "4391681449",
+        "4559711054"
+      ],
+      "outside_existing_wall_door_organizers_route": [
+        "4454344966",
+        "4559057618",
+        "4559038359",
+        "4559062406",
+        "4559684799",
+        "4420844641",
+        "4473116090",
+        "4473114318",
+        "4420839477",
+        "4420842205",
+        "4517906376",
+        "4517885823",
+        "4454347860"
+      ],
+      "note": "Fresh CDP storefront observation this run. Eight hanging-organizer listings known; remaining 13 bins and bags outside existing exact category. No detail or visual verification claimed."
+    },
+    {
+      "shop": "Chtte",
+      "source": "https://www.etsy.com/shop/Chtte",
+      "observed": 13,
+      "known_ids": [
+        "4586894685",
+        "4577582372",
+        "4577559034",
+        "4577591162",
+        "4577556837",
+        "4535422573",
+        "4440783510",
+        "4535407129",
+        "4514553651",
+        "4440831933",
+        "4535436683",
+        "4514589653",
+        "4535424416"
+      ],
+      "note": "Fresh CDP storefront observation this run; all 13 current IDs known. No detail or visual verification claimed."
+    }
+  ],
+  "batch_created": false,
+  "ingestion_executed": false,
+  "idempotent_retry_executed": false,
+  "first_deficit_followup": "completed unchanged",
+  "publisher_or_schedule_changes": false,
+  "issue_comment_created": false
+}
