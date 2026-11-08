@@ -6,7 +6,7 @@
   "comment_url": "https://github.com/Sailin09/Store-Promotion/issues/2#issuecomment-6715985353",
   "report_path": "operations/replenishment/daily-report-2026-11-08.md",
   "evidence_path": "operations/replenishment/daily-report-2026-11-08.json",
-  "report_commit": "1d5a6afe62932561da70ac35258bdcc09f5e2a2a",
+  "report_commit": "4aa08d16f758a12fc74ed62f904653cf2efe8794",
   "report_saved": true,
   "issue_body_verified": true,
   "report_readback_exact": true,
@@ -227,5 +227,9 @@
         }
       }
     }
-  }
+  },
+  "last_read_only_verify_run_id": 42395995571,
+  "last_read_only_verify_job_id": 128599337210,
+  "last_database_audit_time": "2026-11-08T02:11:58.268018+00:00",
+  "same_day_rerun": true
 }
