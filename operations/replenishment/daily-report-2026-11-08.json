@@ -3,15 +3,15 @@
   "interval_start": "2026-11-07T02:00:00Z",
   "cutoff": "2026-11-08T02:00:00Z",
   "timezone": "Asia/Shanghai",
-  "actual_repository_check_at": "2026-11-08T02:03:43Z",
-  "main_sha": "1d93aae10e65c3a2c94020b52629622c4bb4a73b",
+  "actual_repository_check_at": "2026-11-08T02:11:20Z",
+  "main_sha": "91bdbd8ccb46ea787b9aace2e65ba9612a2c6eaf",
   "verify": {
     "run_id": 42395995571,
-    "job_id": 128597663504,
+    "job_id": 128599337210,
     "status": "completed",
     "conclusion": "success",
-    "job_started_at": "2026-11-08T02:04:20.0336956Z",
-    "audit_time": "2026-11-08T02:04:29.051611+00:00",
+    "job_started_at": "2026-11-08T02:11:50.3012272Z",
+    "audit_time": "2026-11-08T02:11:58.268018+00:00",
     "read_only_definition_sha": "b991df23e68c54eb29d9b01671268f3e3417e20c"
   },
   "published": [
@@ -2836,6 +2836,52 @@
       "sql_deficit": 5
     },
     {
+      "shop": "KoltCraftStudio",
+      "handle": "sailing_981",
+      "target": 3,
+      "usable": 2,
+      "account": "P2",
+      "deficit": 1,
+      "previous_routes": [
+        {
+          "board_id": "863494997243989843",
+          "category": "Home Storage"
+        },
+        {
+          "board_id": "863494997243989843",
+          "category": "Wooden Hangers"
+        }
+      ],
+      "known_listing_ids": [
+        "1883704823",
+        "1836722296",
+        "1826811576",
+        "1795885573",
+        "4434399589",
+        "4385747137",
+        "4451574935",
+        "1841132315",
+        "1826865120",
+        "4528223141",
+        "4511503152",
+        "4451568739",
+        "4434422856",
+        "4497139834",
+        "4497091383",
+        "1776683908",
+        "1762833875",
+        "1753876451",
+        "1883990072",
+        "1841151987",
+        "1841054169",
+        "1762601419",
+        "1753487209",
+        "1754831599"
+      ],
+      "sql_target": 7,
+      "sql_deficit": 5
+    },
+    {
       "shop": "MiraKiuStudio",
       "handle": "icyndizhang",
       "target": 3,
@@ -2897,6 +2943,42 @@
         "4571807242",
         "4538043388",
         "4538050408"
+      ],
+      "sql_target": 7,
+      "sql_deficit": 5
+    },
+    {
+      "shop": "Parkermo",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 2,
+      "account": "P1",
+      "deficit": 1,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Cafe Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Farmhouse Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Linen Curtains"
+        }
+      ],
+      "known_listing_ids": [
+        "4449345616",
+        "1905317635",
+        "1702252202",
+        "1842796344",
+        "1845789821",
+        "1856975829",
+        "4388009902",
+        "1857030803",
+        "1555653880",
+        "4548333454"
       ],
       "sql_target": 7,
       "sql_deficit": 5
@@ -3195,52 +3277,6 @@
       "sql_deficit": 4
     },
     {
-      "shop": "KoltCraftStudio",
-      "handle": "sailing_981",
-      "target": 3,
-      "usable": 3,
-      "account": "P2",
-      "deficit": 0,
-      "previous_routes": [
-        {
-          "board_id": "863494997243989843",
-          "category": "Home Storage"
-        },
-        {
-          "board_id": "863494997243989843",
-          "category": "Wooden Hangers"
-        }
-      ],
-      "known_listing_ids": [
-        "1883704823",
-        "1836722296",
-        "1826811576",
-        "1795885573",
-        "4434399589",
-        "4385747137",
-        "4451574935",
-        "1841132315",
-        "1826865120",
-        "4528223141",
-        "4511503152",
-        "4451568739",
-        "4434422856",
-        "4497139834",
-        "4497091383",
-        "1776683908",
-        "1762833875",
-        "1753876451",
-        "1883990072",
-        "1841151987",
-        "1841054169",
-        "1762601419",
-        "1753487209",
-        "1754831599"
-      ],
-      "sql_target": 7,
-      "sql_deficit": 4
-    },
-    {
       "shop": "KorusStore",
       "handle": "icyndizhang",
       "target": 3,
@@ -3482,42 +3518,6 @@
         "4415234134",
         "4415221724",
         "4415229681"
-      ],
-      "sql_target": 7,
-      "sql_deficit": 4
-    },
-    {
-      "shop": "Parkermo",
-      "handle": "icyndizhang",
-      "target": 3,
-      "usable": 3,
-      "account": "P1",
-      "deficit": 0,
-      "previous_routes": [
-        {
-          "board_id": "801218658646993070",
-          "category": "Cafe Curtains"
-        },
-        {
-          "board_id": "801218658646993070",
-          "category": "Farmhouse Curtains"
-        },
-        {
-          "board_id": "801218658646993070",
-          "category": "Linen Curtains"
-        }
-      ],
-      "known_listing_ids": [
-        "4449345616",
-        "1905317635",
-        "1702252202",
-        "1842796344",
-        "1845789821",
-        "1856975829",
-        "4388009902",
-        "1857030803",
-        "1555653880",
-        "4548333454"
       ],
       "sql_target": 7,
       "sql_deficit": 4
@@ -3809,8 +3809,8 @@
       "sql_deficit": 4
     }
   ],
-  "usable": 85,
-  "deficit": 11,
+  "usable": 83,
+  "deficit": 13,
   "reserve": [
     {
       "account": "P1",
@@ -4393,23 +4393,6 @@
     {
       "account": "P1",
       "shop": "Parkermo",
-      "queue_id": "4409e84d-3e34-4106-9765-076899020ce6",
-      "scheduled_at": null,
-      "priority": 100,
-      "created_at": "2026-10-23T06:42:06.350965+00:00",
-      "source_matches": true,
-      "listing_checked_at": "2026-10-23T06:38:23.26+00:00",
-      "reviewed_at": "2026-10-23T06:42:06.350965+00:00",
-      "snapshot_matches": true,
-      "board_id": "801218658646993070",
-      "max_posts_per_day": 1,
-      "min_gap_hours": 24,
-      "latest_shop_publish": "2026-11-07T00:00:03.416772+00:00",
-      "eligible_configuration": true
-    },
-    {
-      "account": "P1",
-      "shop": "Parkermo",
       "queue_id": "4aa304bf-e8a9-4331-8891-ef55e7bb0afb",
       "scheduled_at": null,
       "priority": 100,
@@ -4421,7 +4404,7 @@
       "board_id": "801218658646993070",
       "max_posts_per_day": 1,
       "min_gap_hours": 24,
-      "latest_shop_publish": "2026-11-07T00:00:03.416772+00:00",
+      "latest_shop_publish": "2026-11-08T02:05:01.925967+00:00",
       "eligible_configuration": true
     },
     {
@@ -4438,7 +4421,7 @@
       "board_id": "801218658646993070",
       "max_posts_per_day": 1,
       "min_gap_hours": 24,
-      "latest_shop_publish": "2026-11-07T00:00:03.416772+00:00",
+      "latest_shop_publish": "2026-11-08T02:05:01.925967+00:00",
       "eligible_configuration": true
     },
     {
@@ -4733,23 +4716,6 @@
     {
       "account": "P2",
       "shop": "KoltCraftStudio",
-      "queue_id": "7f8f2adb-a854-46c9-a053-fe73125c9806",
-      "scheduled_at": null,
-      "priority": 100,
-      "created_at": "2026-11-03T05:24:50.923154+00:00",
-      "source_matches": true,
-      "listing_checked_at": "2026-11-03T05:21:43+00:00",
-      "reviewed_at": "2026-11-03T05:24:50.923154+00:00",
-      "snapshot_matches": true,
-      "board_id": "863494997243989843",
-      "max_posts_per_day": 1,
-      "min_gap_hours": 24,
-      "latest_shop_publish": "2026-11-06T13:05:02.681889+00:00",
-      "eligible_configuration": true
-    },
-    {
-      "account": "P2",
-      "shop": "KoltCraftStudio",
       "queue_id": "4227e52e-ae27-408e-9c74-0dcb67bb6028",
       "scheduled_at": null,
       "priority": 100,
@@ -4761,7 +4727,7 @@
       "board_id": "863494997243989843",
       "max_posts_per_day": 1,
       "min_gap_hours": 24,
-      "latest_shop_publish": "2026-11-06T13:05:02.681889+00:00",
+      "latest_shop_publish": "2026-11-08T02:10:02.578714+00:00",
       "eligible_configuration": true
     },
     {
@@ -4778,7 +4744,7 @@
       "board_id": "863494997243989843",
       "max_posts_per_day": 1,
       "min_gap_hours": 24,
-      "latest_shop_publish": "2026-11-06T13:05:02.681889+00:00",
+      "latest_shop_publish": "2026-11-08T02:10:02.578714+00:00",
       "eligible_configuration": true
     },
     {
@@ -5619,8 +5585,10 @@
   },
   "issue": {
     "number": 2,
-    "comments_read": 91,
-    "same_date_markers_before_write": 0
+    "comments_read": 92,
+    "same_date_markers_before_write": 1,
+    "comment_id": 6715985353,
+    "operation": "update_existing"
   },
   "publication_review_issue": {
     "number": 3,
@@ -5630,7 +5598,7 @@
   },
   "coverage": {
     "publication_history_unlimited": true,
-    "database_history_rows": 19,
+    "database_history_rows": 21,
     "interval_unique_pins": 14,
     "raw_recent_cron_limit": 10,
     "raw_recent_http_limit": 20,
@@ -7116,6 +7084,18 @@
       "active": true
     },
     {
+      "cron_run": 4585,
+      "status": "succeeded",
+      "started_at": "2026-11-08T02:10:00.087116+00:00",
+      "ended_at": "2026-11-08T02:10:00.122576+00:00"
+    },
+    {
+      "cron_run": 4584,
+      "status": "succeeded",
+      "started_at": "2026-11-08T02:05:00.074815+00:00",
+      "ended_at": "2026-11-08T02:05:00.095494+00:00"
+    },
+    {
       "cron_run": 4583,
       "status": "succeeded",
       "started_at": "2026-11-08T02:00:00.140903+00:00",
@@ -7164,23 +7144,27 @@
       "ended_at": "2026-11-08T01:25:00.152588+00:00"
     },
     {
-      "cron_run": 4575,
-      "status": "succeeded",
-      "started_at": "2026-11-08T01:20:00.081431+00:00",
-      "ended_at": "2026-11-08T01:20:00.119199+00:00"
+      "http_request": 954,
+      "requested_at": "2026-11-08T02:10:00.087139+00:00",
+      "completed_at": null,
+      "http_status": null,
+      "outcome": null,
+      "reason": null
     },
     {
-      "cron_run": 4574,
-      "status": "succeeded",
-      "started_at": "2026-11-08T01:15:00.176298+00:00",
-      "ended_at": "2026-11-08T01:15:00.237847+00:00"
+      "http_request": 953,
+      "requested_at": "2026-11-08T02:05:00.07485+00:00",
+      "completed_at": "2026-11-08T02:10:00.087139+00:00",
+      "http_status": 200,
+      "outcome": "published",
+      "reason": null
     },
     {
       "http_request": 952,
       "requested_at": "2026-11-08T02:00:00.140944+00:00",
-      "completed_at": null,
-      "http_status": null,
-      "outcome": null,
+      "completed_at": "2026-11-08T02:05:00.07485+00:00",
+      "http_status": 200,
+      "outcome": "idle",
       "reason": null
     },
     {
@@ -7318,22 +7302,6 @@
       "http_status": 200,
       "outcome": "idle",
       "reason": null
-    },
-    {
-      "http_request": 934,
-      "requested_at": "2026-11-08T00:30:00.097019+00:00",
-      "completed_at": "2026-11-08T00:35:00.079107+00:00",
-      "http_status": 200,
-      "outcome": "idle",
-      "reason": null
-    },
-    {
-      "http_request": 933,
-      "requested_at": "2026-11-08T00:25:00.083999+00:00",
-      "completed_at": "2026-11-08T00:30:00.097019+00:00",
-      "http_status": 200,
-      "outcome": "published",
-      "reason": null
     }
   ],
   "evening_report_failure": {
@@ -7468,5 +7436,56 @@
       ]
     }
   ],
-  "business_mutations_performed": false
+  "business_mutations_performed": false,
+  "previous_verification": {
+    "run_id": 42395995571,
+    "job_id": 128597663504,
+    "status": "completed",
+    "conclusion": "success",
+    "job_started_at": "2026-11-08T02:04:20.0336956Z",
+    "audit_time": "2026-11-08T02:04:29.051611+00:00",
+    "read_only_definition_sha": "b991df23e68c54eb29d9b01671268f3e3417e20c",
+    "report_commit": "1d5a6afe62932561da70ac35258bdcc09f5e2a2a"
+  },
+  "after_cutoff_published": [
+    {
+      "account": "P1",
+      "pin_id": "801218590009713903",
+      "url": "https://www.pinterest.com/pin/801218590009713903/",
+      "published_at": "2026-11-08T02:05:01.925967+00:00",
+      "status": "published",
+      "queue_id": "4409e84d-3e34-4106-9765-076899020ce6",
+      "listing_id": "1857030803",
+      "queue_status": "published",
+      "attempt_state": "published",
+      "error": null,
+      "history_pin_id": "801218590009713903",
+      "history_url": "https://www.pinterest.com/pin/801218590009713903/",
+      "snapshot_matches": true,
+      "shop": "Parkermo"
+    },
+    {
+      "account": "P2",
+      "pin_id": "863494928599502157",
+      "url": "https://www.pinterest.com/pin/863494928599502157/",
+      "published_at": "2026-11-08T02:10:02.578714+00:00",
+      "status": "published",
+      "queue_id": "7f8f2adb-a854-46c9-a053-fe73125c9806",
+      "listing_id": "1762601419",
+      "queue_status": "published",
+      "attempt_state": "published",
+      "error": null,
+      "history_pin_id": "863494928599502157",
+      "history_url": "https://www.pinterest.com/pin/863494928599502157/",
+      "snapshot_matches": true,
+      "shop": "KoltCraftStudio"
+    }
+  ],
+  "reconciliation": {
+    "previous_usable": 87,
+    "interval_inserted": 12,
+    "interval_published": 14,
+    "after_cutoff_published": 2,
+    "current_usable": 83
+  }
 }

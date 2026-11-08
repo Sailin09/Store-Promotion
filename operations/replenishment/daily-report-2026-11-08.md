@@ -2,20 +2,20 @@
 
 <!-- store-promotion-daily:2026-11-08 -->
 
-北京时间 **11月7日10:00（含）至11月8日10:00（不含）**：实际新增 **14条 Pin**，实际补货入库 **12条**。核验时点可用 **85条**；32条有效店铺/账号路线按目标 **3条**计算，合计缺 **11条**。与上次日报库存对账：**87 + 12 − 14 = 85**。
+北京时间 **11月7日10:00（含）至11月8日10:00（不含）**：实际新增 **14条 Pin**，实际补货入库 **12条**。核验时点可用 **83条**；32条有效店铺/账号路线按目标 **3条**计算，合计缺 **13条**。区间对账：**87 + 12 − 14 = 85**；截止后另发布2条，核验时库存为 **85 − 2 = 83**。
 
-逻辑截止为 **2026-11-08 10:00 Asia/Shanghai（02:00 UTC）**，起点续接已成功日报截止。实际 GitHub 核查于 **10:03:43** 开始；[只读 Verify job](https://github.com/Sailin09/Store-Promotion/actions/runs/42395995571/job/128597663504)于 **10:04:20** 启动，数据库审计时间 **10:04:29.051611**，分别较截止晚3分43秒、4分20秒及4分29秒。下列时间均为北京时间；毫秒以下精度及原始 UTC 时间保存在配套 JSON。当前库存是核验时点值，区间事件按真实时间过滤。
+逻辑截止为 **2026-11-08 10:00 Asia/Shanghai（02:00 UTC）**，起点续接已成功日报截止。本次同日重核 GitHub 于 **10:11:20** 开始；[只读 Verify job](https://github.com/Sailin09/Store-Promotion/actions/runs/42395995571/job/128599337210)于 **10:11:50** 启动，数据库审计时间 **10:11:58.268018**，分别较截止晚11分20秒、11分50秒及11分58秒。同日重跑复用原区间与原评论，不以本次已成功截止重新生成空区间。下列时间均为北京时间；毫秒以下精度及原始 UTC 时间保存在配套 JSON。当前库存是核验时点值，区间事件按真实时间过滤。
 
 **逐账号实际发布**
 
 |账号 / handle|区间唯一 Pin 数|核验时可用待发布|草稿（其中有图）|
 |---|---:|---:|---:|
-|P1 @icyndizhang|3|52|55（0）|
-|P2 @sailing_981|3|14|26（0）|
+|P1 @icyndizhang|3|51|55（0）|
+|P2 @sailing_981|3|13|26（0）|
 |P3 @mydecorshop|3|6|4（3）|
 |P4 @cindyzhang62|3|8|0（0）|
 |P5 @ivy5205|2|5|0（0）|
-|合计|14|85|85（3）|
+|合计|14|83|85（3）|
 
 |账号|真实发布时间|店铺 / Etsy 商品|实际 Pin|
 |---|---|---|---|
@@ -91,33 +91,40 @@ HibiChStudio被排除的13个非原分类候选：4454344966、4559057618、4559
 
 |账号 / handle|可用 / 缺口合计|未达标路线（可用/缺口）|达标路线（各3/0）|
 |---|---|---|---|
-|P1 @icyndizhang|52 / 2|Chtte 2/1、MiraKiuStudio 2/1|AmyHomeCrafts、beou、ChicDecorHK、CustomCurtainsStudio、DanyHomeDesign、FrenchStyleDecor、GavinHome、HeyDream、KorusStore、NiceCraftStudioHK、Parkermo、ShirieHomeShow、SobiaStudio、StellaGoodsGifts、TunaMunStudio、WOGOL|
-|P2 @sailing_981|14 / 4|HibiChStudio 0/3、Adamideal 2/1|KoltCraftStudio、LambertHouse、MiawoodStudio、WoodHomeLiang|
+|P1 @icyndizhang|51 / 3|Chtte 2/1、MiraKiuStudio 2/1、Parkermo 2/1|AmyHomeCrafts、beou、ChicDecorHK、CustomCurtainsStudio、DanyHomeDesign、FrenchStyleDecor、GavinHome、HeyDream、KorusStore、NiceCraftStudioHK、ShirieHomeShow、SobiaStudio、StellaGoodsGifts、TunaMunStudio、WOGOL|
+|P2 @sailing_981|13 / 5|HibiChStudio 0/3、Adamideal 2/1、KoltCraftStudio 2/1|LambertHouse、MiawoodStudio、WoodHomeLiang|
 |P3 @mydecorshop|6 / 3|Chtte 1/2、CellaHo 2/1|LoomGoStudio|
 |P4 @cindyzhang62|8 / 1|ChicDecorHK 2/1|PearlsTreasuresArt、QuGifts|
 |P5 @ivy5205|5 / 1|NngGoods 2/1|NinaJiaStudio|
-|合计|85 / 11|8条路线未达标，其中1条为零库存|24条路线达标|
+|合计|83 / 13|10条路线未达标，其中1条为零库存|22条路线达标|
 
-可用计数要求队列ready/scheduled、商品active、文案ready、审核快照匹配，且商品核验与审核时间均在29天内；85条当前储备还均通过配置资格检查。85条草稿不计可用。当前 SQL 和既有GitHub库存报告采用目标7（此次SQL缺口139）；本日报按用户指定目标3报告11条缺口，未修改映射、门槛或库存目标配置。Chtte P3仍对应 Kitchen & Dining / 499618221101215211，分类 Chair Cushions & Seat Pads；历史不可用商品4325858718未作为新增补货。
+可用计数要求队列ready/scheduled、商品active、文案ready、审核快照匹配，且商品核验与审核时间均在29天内；83条当前储备还均通过配置资格检查。85条草稿不计可用。当前 SQL 和既有GitHub库存报告采用目标7（此次SQL缺口141）；本日报按用户指定目标3报告13条缺口，未修改映射、门槛或库存目标配置。Chtte P3仍对应 Kitchen & Dining / 499618221101215211，分类 Chair Cushions & Seat Pads；历史不可用商品4325858718未作为新增补货。
 
 **未发布、失败、已解决与待处理**
 
-- 五账号均active、OAuth已连接，账号状态为authorized_trial；发布设置enabled、access_tier=standard，Supabase五分钟调度 `*/5 * * * *`启用。85条可用素材待既有调度处理；窗口为08:00–11:00、21:00–23:00，账号最小间隔2小时，另保留店铺限频。尚未发布本身不等同失败，逐条未来发布时间未确认。
+- 五账号均active、OAuth已连接，账号状态为authorized_trial；发布设置enabled、access_tier=standard，Supabase五分钟调度 `*/5 * * * *`启用。83条可用素材待既有调度处理；窗口为08:00–11:00、21:00–23:00，账号最小间隔2小时，另保留店铺限频。尚未发布本身不等同失败，逐条未来发布时间未确认。
 - 本次数据库未见未完成/不确定发布尝试；五账号审核队列未见failed/paused，店铺覆盖查询的paused_or_failed均为0。区间14条发布均成功。调度查询仅返回最近10条cron与20条HTTP记录，**全区间瞬时错误覆盖不完整**，不能据此断言全天零错误。
 - [区间最新GitHub发布job](https://github.com/Sailin09/Store-Promotion/actions/runs/42430683894/job/128578676719)返回 `idle`、published=0；区间另4个发布job也为空闲，其中3个明确outside_publish_window。这些结果均未计作发布成功，14条数量以数据库历史为准。
 - [晚间报告run 42400239930 / job 128486323384](https://github.com/Sailin09/Store-Promotion/actions/runs/42400239930/job/128486323384)于11-08 02:14:37在报告步骤退出码1失败，仅提示“Cloud report failed; inspect workflow steps.”，日志未说明根因，artifact列表为空。[后续库存报告job](https://github.com/Sailin09/Store-Promotion/actions/runs/42413148374/job/128525473145)于11-08 04:53更新Issue #2，但这不能证明晚间报告已修复；**晚间报告恢复未确认**。
-- 区间补货入库失败0；当前缺口11条仍未解决，其中HibiChStudio P2可用0、缺3。两次店面检查未发现符合原路线的新ID；其余缺口按上述库存表保留。本次没有执行修复；区间main提交仅含日报、批次及运行证据，未发现新增脚本/工作流修复提交。
+- 区间补货入库失败0；当前缺口13条仍未解决，其中HibiChStudio P2可用0、缺3。两次店面检查未发现符合原路线的新ID；其余缺口按上述库存表保留。本次没有执行修复；区间main提交仅含日报、批次及运行证据，未发现新增脚本/工作流修复提交。
 - [首次缺口跟进状态](https://github.com/Sailin09/Store-Promotion/blob/main/operations/replenishment/first-deficit-followup.json)仍为 `completed`（2026-10-23原闭环：首次inserted=2、实际retry=0、剩余缺口0）。这是历史已完成状态，长期补货继续；本次未重开或更改跟进状态。
 - 本次仅重跑只读Verify并写日报证据、评论及日报续接状态；没有触发发布、补货、入队、修复或重置历史，没有更改现有发布、每6小时补货、跟进或其他任务，也没有创建本地任务。
 
 **截止后事件（不计入区间）**
 
-11-08 10:00:00.140944发起的调度请求952，在10:04:29核验时尚无完成时间、HTTP状态或业务结果，标为待完成，未计作成功或失败。此次查询未见截止后新增Pin或入库；本次Verify重跑及日报投递发生在截止后，仅作核验/投递证据。后续新事件留待下份日报。
+截至本次数据库核验，截止后实际新增2条Pin，均有published历史及匹配队列，**不计入本日报14条区间发布**：
+
+|账号 / handle|真实发布时间|店铺 / Etsy商品|实际Pin|
+|---|---|---|---|
+|P1 @icyndizhang|11-08 10:05:01|Parkermo [1857030803](https://www.etsy.com/listing/1857030803)|[801218590009713903](https://www.pinterest.com/pin/801218590009713903/)|
+|P2 @sailing_981|11-08 10:10:02|KoltCraftStudio [1762601419](https://www.etsy.com/listing/1762601419)|[863494928599502157](https://www.pinterest.com/pin/863494928599502157/)|
+
+请求952（10:00发起）已于10:05完成，HTTP200、idle，未计作发布。最新请求954于10:10:00.087139发起，核验时尚无完成时间、HTTP状态或结果，保留待完成。未见截止后新增补货入库；本次Verify及日报更新仅作核验/投递证据。截止后两条Pin留待下份日报区间计数。
 
 **覆盖与投递证据**
 
-本次通过GitHub连接器确认仓库访问，读取main `1d93aae10e65c3a2c94020b52629622c4bb4a73b`、完整证据目录、区间2个batch与4个cloud-run、历史verification、首次跟进状态、cloud-operations文档、工作流及实际job日志。Issue #2已读取全部91条既有评论，与Issue评论计数一致，当日标记为0条；发布复核按标题搜索定位到[历史复核Issue](https://github.com/Sailin09/Store-Promotion/issues/3)，并读取正文及全部评论（0条）。历史113/116库存与累计62条均未作为本日报基线。
+本次通过GitHub连接器确认仓库访问，读取main `91bdbd8ccb46ea787b9aace2e65ba9612a2c6eaf`、完整证据目录、区间2个batch与4个cloud-run、历史verification、首次跟进状态、cloud-operations文档、工作流及实际job日志。Issue #2已读取全部92条既有评论，与Issue评论计数一致，当日标记为1条（comment_id 6715985353），本次更新同一条评论；发布复核按标题搜索定位到[历史复核Issue](https://github.com/Sailin09/Store-Promotion/issues/3)，并读取正文及全部评论（0条）。历史113/116库存与累计62条均未作为本日报基线。
 
 数据库无上限发布历史覆盖完整区间；两批实际inserted日志、12条数据库created_at与queue_id逐项对应，当前新增储备集合一致。调度瞬时错误覆盖限制及晚间报告根因缺证已如上列明。
 
-[完整Markdown日报](https://github.com/Sailin09/Store-Promotion/blob/main/operations/replenishment/daily-report-2026-11-08.md) · [配套JSON证据](https://github.com/Sailin09/Store-Promotion/blob/main/operations/replenishment/daily-report-2026-11-08.json)。同一正文用于Issue #2当日唯一评论及本云端任务聊天；归档与评论读回成功后才推进成功截止。设备通知送达及聊天独立读回未确认。
+[完整Markdown日报](https://github.com/Sailin09/Store-Promotion/blob/main/operations/replenishment/daily-report-2026-11-08.md) · [配套JSON证据](https://github.com/Sailin09/Store-Promotion/blob/main/operations/replenishment/daily-report-2026-11-08.json)。同一正文用于[Issue #2当日唯一评论](https://github.com/Sailin09/Store-Promotion/issues/2#issuecomment-6715985353)及本云端任务聊天；归档与评论读回成功后才记录成功截止。同日截止维持11月8日10:00，原区间不变。设备通知送达及聊天独立读回未确认。
