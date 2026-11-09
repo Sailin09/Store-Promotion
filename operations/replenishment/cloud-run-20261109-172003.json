@@ -1,0 +1,237 @@
+{
+  "status": "verified",
+  "target": 3,
+  "batch": "operations/replenishment/batch-20261109-172157.json",
+  "batch_commit": "2add32711005afc517f2a77149def6ead86ee888",
+  "pre_verify": {
+    "run_id": 42567301595,
+    "job_id": 129321003115,
+    "audit_time": "2026-11-09T17:20:03.149119+00:00",
+    "usable": 84,
+    "deficit": 12
+  },
+  "storefronts": [
+    {
+      "shop": "Chtte",
+      "observed_at": "2026-11-09T17:20:37.100Z",
+      "visible_cards": 13
+    },
+    {
+      "shop": "HibiChStudio",
+      "observed_at": "2026-11-09T17:20:38.581Z",
+      "visible_cards": 21
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "observed_at": "2026-11-09T17:20:40.019Z",
+      "visible_cards": 24
+    },
+    {
+      "shop": "KoltCraftStudio",
+      "observed_at": "2026-11-09T17:20:41.641Z",
+      "visible_cards": 38
+    },
+    {
+      "shop": "QuGifts",
+      "observed_at": "2026-11-09T17:20:43.278Z",
+      "visible_cards": 36
+    },
+    {
+      "shop": "TunaMunStudio",
+      "observed_at": "2026-11-09T17:20:44.749Z",
+      "visible_cards": 36
+    }
+  ],
+  "excluded": {
+    "Chtte": "13 storefront IDs already known, old fabric excluded.",
+    "HibiChStudio": "8 known organizer IDs; other visible listings not in approved Wall & Door Organizers category.",
+    "NinaJiaStudio": "24 visible IDs already known."
+  },
+  "ingestion": {
+    "run_id": 42663907298,
+    "job_id": 129322566009,
+    "first_inserted": 3,
+    "retry_inserted": 0,
+    "events": [
+      {
+        "batch": "batch-20261109-172157",
+        "shop": "KoltCraftStudio",
+        "listing_id": "1836691662",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0
+      },
+      {
+        "batch": "batch-20261109-172157",
+        "shop": "QuGifts",
+        "listing_id": "4348895208",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0
+      },
+      {
+        "batch": "batch-20261109-172157",
+        "shop": "TunaMunStudio",
+        "listing_id": "4605390280",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0
+      },
+      {
+        "inserted": 3,
+        "failed": 0,
+        "pending": 3
+      },
+      {
+        "status": "no_new_verified_material",
+        "inserted": 0
+      }
+    ]
+  },
+  "post_verify": {
+    "run_id": 42664076437,
+    "job_id": 129322936579,
+    "audit_time": "2026-11-09T17:23:18.442899+00:00",
+    "usable": 87,
+    "deficit": 9,
+    "routes": 32
+  },
+  "new_items": [
+    {
+      "shop": "KoltCraftStudio",
+      "listing_id": "1836691662",
+      "category": "Wooden Hangers",
+      "source_url": "https://www.etsy.com/listing/1836691662/camphor-wood-suit-hanger-wide-shoulder",
+      "image_url": "https://i.etsystatic.com/43671795/r/il/79db09/6580157037/il_794xN.6580157037_ewvs.jpg",
+      "new_title": "Wide-Shoulder Camphor Wood Suit Hanger",
+      "handle": "sailing_981",
+      "board_id": "863494997243989843",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-09T17:21:14.450Z",
+      "body": "The first photo shows pale wooden suit hangers with broad shoulders, gold-tone hooks and trouser bars on a dark surface.",
+      "facebook_draft": "The first photo shows pale wooden suit hangers with broad shoulders, gold-tone hooks and trouser bars on a dark surface. See the Etsy listing from KoltCraftStudio: https://www.etsy.com/listing/1836691662/camphor-wood-suit-hanger-wide-shoulder",
+      "evidence": "Found on the current KoltCraftStudio storefront and excluded all known IDs from the fresh database plan. Detail page seller matched KoltCraftStudio; selected 1 PCS; Add to cart visible and enabled. Inspected the displayed product image in a remote CDP screenshot. The first photo shows pale wooden suit hangers with broad shoulders, gold-tone hooks and trouser bars on a dark surface.",
+      "account": "P2",
+      "board_name": "storage",
+      "queue_id": "88cc08b2-fd48-43bb-8532-cb60a703900b",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-09T17:22:48.141224+00:00",
+      "db_board_id": "863494997243989843"
+    },
+    {
+      "shop": "QuGifts",
+      "listing_id": "4348895208",
+      "category": "Coastal Home Decor",
+      "source_url": "https://www.etsy.com/listing/4348895208/wabi-sabi-cowrie-shell-hanging-boho",
+      "image_url": "https://i.etsystatic.com/38006525/r/il/1bb1a0/7093405382/il_794xN.7093405382_h7ji.jpg",
+      "new_title": "Cowrie Shell Hanging with a Natural Tassel",
+      "handle": "cindyzhang62",
+      "board_id": "675399344056772225",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-09T17:21:19.684Z",
+      "body": "The displayed product photo shows cream cowrie shells gathered on a cord with round beads and a natural-colored tassel.",
+      "facebook_draft": "The displayed product photo shows cream cowrie shells gathered on a cord with round beads and a natural-colored tassel. See the Etsy listing from QuGifts: https://www.etsy.com/listing/4348895208/wabi-sabi-cowrie-shell-hanging-boho",
+      "evidence": "Found on the current QuGifts storefront and excluded all known IDs from the fresh database plan. Detail page seller matched QuGifts; selected A - 2x14.6 inch; Add to cart visible and enabled. Inspected the displayed product image in a remote CDP screenshot. The displayed product photo shows cream cowrie shells gathered on a cord with round beads and a natural-colored tassel.",
+      "account": "P4",
+      "board_name": "Decor",
+      "queue_id": "8a2a9dd8-75b1-4cb5-8081-0f86ff2852ca",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-09T17:22:50.533101+00:00",
+      "db_board_id": "675399344056772225"
+    },
+    {
+      "shop": "TunaMunStudio",
+      "listing_id": "4605390280",
+      "category": "Cafe Curtains",
+      "source_url": "https://www.etsy.com/listing/4605390280/linen-cotton-cafe-curtain-red-deer-short",
+      "image_url": "https://i.etsystatic.com/60242016/r/il/e24937/8808639443/il_794xN.8808639443_6f79.jpg",
+      "new_title": "Red Deer Linen-Cotton Cafe Curtain",
+      "handle": "icyndizhang",
+      "board_id": "801218658646993070",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-09T17:21:32.370Z",
+      "body": "A light cafe curtain with small red deer and tree motifs and red scalloped edging hangs across the lower half of a window.",
+      "facebook_draft": "A light cafe curtain with small red deer and tree motifs and red scalloped edging hangs across the lower half of a window. See the Etsy listing from TunaMunStudio: https://www.etsy.com/listing/4605390280/linen-cotton-cafe-curtain-red-deer-short",
+      "evidence": "Found on the current TunaMunStudio storefront and excluded all known IDs from the fresh database plan. Detail page seller matched TunaMunStudio; selected width 55 Inches; length 17 Inches; Add to cart visible and enabled. Inspected the displayed product image in a remote CDP screenshot. A light cafe curtain with small red deer and tree motifs and red scalloped edging hangs across the lower half of a window.",
+      "account": "P1",
+      "board_name": "CyndiZhangStudio",
+      "queue_id": "ffa42c40-01c0-4542-ae29-a5466fccecda",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-09T17:22:52.549639+00:00",
+      "db_board_id": "801218658646993070"
+    }
+  ],
+  "remaining_routes": [
+    {
+      "shop": "Chtte",
+      "handle": "mydecorshop",
+      "target": 3,
+      "usable": 0,
+      "account": "P3",
+      "deficit": 3,
+      "previous_routes": [
+        {
+          "board_id": "499618221101215211",
+          "category": "Chair Cushions & Seat Pads"
+        }
+      ]
+    },
+    {
+      "shop": "HibiChStudio",
+      "handle": "sailing_981",
+      "target": 3,
+      "usable": 0,
+      "account": "P2",
+      "deficit": 3,
+      "previous_routes": [
+        {
+          "board_id": "863494997243989843",
+          "category": "Wall & Door Organizers"
+        }
+      ]
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "handle": "ivy5205",
+      "target": 3,
+      "usable": 1,
+      "account": "P5",
+      "deficit": 2,
+      "previous_routes": [
+        {
+          "board_id": "713820678377803445",
+          "category": "Cosmetic Bags"
+        },
+        {
+          "board_id": "713820678377803445",
+          "category": "Shoulder Bags"
+        },
+        {
+          "board_id": "713820678377803445",
+          "category": "Textile Bags"
+        }
+      ]
+    },
+    {
+      "shop": "Chtte",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 2,
+      "account": "P1",
+      "deficit": 1,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Chair Cushions & Seat Pads"
+        }
+      ]
+    }
+  ],
+  "first_deficit_followup": "completed; unchanged"
+}
