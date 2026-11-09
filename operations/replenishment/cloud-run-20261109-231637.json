@@ -1,0 +1,181 @@
+{
+  "status": "no_eligible_new_candidate",
+  "target": 3,
+  "verify": {
+    "run_id": 42664076437,
+    "job_id": 129506910094,
+    "audit_time": "2026-11-09T23:14:04.408034+00:00"
+  },
+  "usable": 87,
+  "remaining_deficit": 9,
+  "remaining_routes": [
+    {
+      "shop": "Chtte",
+      "handle": "mydecorshop",
+      "target": 3,
+      "usable": 0,
+      "account": "P3",
+      "deficit": 3,
+      "previous_routes": [
+        {
+          "board_id": "499618221101215211",
+          "category": "Chair Cushions & Seat Pads"
+        }
+      ]
+    },
+    {
+      "shop": "HibiChStudio",
+      "handle": "sailing_981",
+      "target": 3,
+      "usable": 0,
+      "account": "P2",
+      "deficit": 3,
+      "previous_routes": [
+        {
+          "board_id": "863494997243989843",
+          "category": "Wall & Door Organizers"
+        }
+      ]
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "handle": "ivy5205",
+      "target": 3,
+      "usable": 1,
+      "account": "P5",
+      "deficit": 2,
+      "previous_routes": [
+        {
+          "board_id": "713820678377803445",
+          "category": "Cosmetic Bags"
+        },
+        {
+          "board_id": "713820678377803445",
+          "category": "Shoulder Bags"
+        },
+        {
+          "board_id": "713820678377803445",
+          "category": "Textile Bags"
+        }
+      ]
+    },
+    {
+      "shop": "Chtte",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 2,
+      "account": "P1",
+      "deficit": 1,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Chair Cushions & Seat Pads"
+        }
+      ]
+    }
+  ],
+  "storefronts": [
+    {
+      "shop": "Chtte",
+      "observed_at": "2026-11-09T23:16:30.836Z",
+      "listing_ids": [
+        "4586894685",
+        "4577582372",
+        "4577559034",
+        "4577591162",
+        "4577556837",
+        "4535422573",
+        "4440783510",
+        "4535407129",
+        "4514553651",
+        "4440831933",
+        "4535436683",
+        "4514589653",
+        "4535424416"
+      ],
+      "unknown_ids": []
+    },
+    {
+      "shop": "HibiChStudio",
+      "observed_at": "2026-11-09T23:16:36.484Z",
+      "listing_ids": [
+        "4454342176",
+        "4454344966",
+        "4473098237",
+        "4559711054",
+        "4391652370",
+        "4374349912",
+        "4559057618",
+        "4559038359",
+        "4559062406",
+        "4559684799",
+        "4420844641",
+        "4391681449",
+        "4391650576",
+        "4374362269",
+        "4473116090",
+        "4473114318",
+        "4420839477",
+        "4420842205",
+        "4517906376",
+        "4517885823",
+        "4454347860"
+      ],
+      "unknown_ids": [
+        "4454344966",
+        "4559057618",
+        "4559038359",
+        "4559062406",
+        "4559684799",
+        "4420844641",
+        "4473116090",
+        "4473114318",
+        "4420839477",
+        "4420842205",
+        "4517906376",
+        "4517885823",
+        "4454347860"
+      ]
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "observed_at": "2026-11-09T23:16:37.920Z",
+      "listing_ids": [
+        "4435963114",
+        "4585567382",
+        "4585556630",
+        "4585549341",
+        "4585524379",
+        "4477926256",
+        "4435968040",
+        "4435907497",
+        "4435912349",
+        "4435955425",
+        "4569933203",
+        "4558515139",
+        "4568703716",
+        "4477929531",
+        "4558513279",
+        "4415232975",
+        "4486251915",
+        "4477915577",
+        "4477918490",
+        "4477906166",
+        "4415243185",
+        "4415234134",
+        "4415221724",
+        "4415229681"
+      ],
+      "unknown_ids": []
+    }
+  ],
+  "exclusions": {
+    "Chtte": "All 13 IDs known; unavailable fabric not reused.",
+    "HibiChStudio": "Eight existing wall/door organizers; thirteen unknown listings are bins, baskets, closet dividers, bedding bags or garment covers outside the approved route.",
+    "NinaJiaStudio": "All 24 IDs known."
+  },
+  "browser": "Remote CDP; startup/navigation timed out but the existing Chtte tab loaded, and all three storefront reads then completed.",
+  "batch": null,
+  "ingestion_triggered": false,
+  "first_deficit_followup": "completed; unchanged"
+}
