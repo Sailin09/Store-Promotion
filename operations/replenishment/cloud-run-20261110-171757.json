@@ -1,0 +1,210 @@
+{
+  "status": "verified",
+  "target": 3,
+  "raw_verify_log_target": 7,
+  "deficit_calculation": "sum(max(0, 3 - usable)) on the latest Verify Supabase Data route rows; no database or reporting configuration changed",
+  "batch": "operations/replenishment/batch-20261110-172138.json",
+  "batch_commit": "4232506b871f83fb5332d922f8dc9989bef7f176",
+  "pre_verify": {
+    "run_id": 42761339269,
+    "job_id": 129995377989,
+    "audit_time": "2026-11-10T17:17:57.389571+00:00",
+    "usable": 83,
+    "deficit": 13
+  },
+  "storefront_checks": [
+    {
+      "shop": "Chtte",
+      "checked_at": "2026-11-10T17:18:52.388Z",
+      "visible": 13,
+      "disposition": "All visible listing IDs known; excluded unavailable legacy fabric 4325858718."
+    },
+    {
+      "shop": "HibiChStudio",
+      "checked_at": "2026-11-10T17:18:55.740Z",
+      "visible": 21,
+      "disposition": "Eight visible wall or door organizers already known; 13 other products outside the approved route."
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "checked_at": "2026-11-10T17:18:58.119Z",
+      "visible": 24,
+      "disposition": "All visible listing IDs known."
+    },
+    {
+      "shop": "MiawoodStudio",
+      "checked_at": "2026-11-10T17:19:01.690Z",
+      "visible": 36
+    },
+    {
+      "shop": "QuGifts",
+      "checked_at": "2026-11-10T17:19:05.576Z",
+      "visible": 36
+    },
+    {
+      "shop": "StellaGoodsGifts",
+      "checked_at": "2026-11-10T17:19:08.252Z",
+      "visible": 12
+    }
+  ],
+  "ingestion": {
+    "run_id": 42864163473,
+    "job_id": 129998144591,
+    "first_inserted": 3,
+    "retry_inserted": 0,
+    "events": [
+      {
+        "batch": "batch-20261110-172138",
+        "shop": "MiawoodStudio",
+        "listing_id": "1784400328",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0
+      },
+      {
+        "batch": "batch-20261110-172138",
+        "shop": "QuGifts",
+        "listing_id": "1906061961",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0
+      },
+      {
+        "batch": "batch-20261110-172138",
+        "shop": "StellaGoodsGifts",
+        "listing_id": "4557913906",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0
+      },
+      {
+        "inserted": 3,
+        "failed": 0,
+        "pending": 3
+      },
+      {
+        "status": "no_new_verified_material",
+        "inserted": 0
+      }
+    ]
+  },
+  "post_verify": {
+    "run_id": 42864359464,
+    "job_id": 129998595079,
+    "audit_time": "2026-11-10T17:23:06.814901+00:00",
+    "usable": 86,
+    "deficit": 10,
+    "routes": 32
+  },
+  "new_items": [
+    {
+      "shop": "MiawoodStudio",
+      "listing_id": "1784400328",
+      "category": "Wooden Hangers",
+      "source_url": "https://www.etsy.com/listing/1784400328/engraved-walnut-wedding-hanger-with",
+      "image_url": "https://i.etsystatic.com/32100253/r/il/c0236c/6292468112/il_794xN.6292468112_lvb9.jpg",
+      "new_title": "Walnut Hanger with a Brass Hook",
+      "handle": "sailing_981",
+      "board_id": "863494997243989843",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-10T17:20:48.962Z",
+      "body": "Dark wooden hangers and curved brass hooks give this MiawoodStudio listing a simple, warm look. See the Etsy listing for current styles and ordering details.",
+      "facebook_draft": "Dark wooden hangers and curved brass hooks give this MiawoodStudio listing a simple, warm look. See the Etsy listing for current styles and ordering details. https://www.etsy.com/listing/1784400328/engraved-walnut-wedding-hanger-with",
+      "evidence": "Found on the current MiawoodStudio Etsy storefront. Cloud CDP detail showed seller MiawoodStudio. Selected For Women and 1 pc; Add to cart was visible and enabled. First photo screenshot shows two dark wooden hangers with curved brass hooks on a rail. Used the displayed primary Etsy image URL; no cart action taken.",
+      "account": "P2",
+      "board_name": "storage",
+      "queue_id": "e1c6845e-f544-4c93-8866-28b9e3ae75a7",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "db_board_id": "863494997243989843",
+      "created_at": "2026-11-10T17:22:36.460337+00:00",
+      "db_listing_checked_at": "2026-11-10T17:20:48.962+00:00",
+      "source_matches": true,
+      "reserve_snapshot_matches": true
+    },
+    {
+      "shop": "QuGifts",
+      "listing_id": "1906061961",
+      "category": "Coastal Home Decor",
+      "source_url": "https://www.etsy.com/listing/1906061961/handmade-seashell-flower-ball-coastal",
+      "image_url": "https://i.etsystatic.com/38006525/r/il/2d049f/6806429166/il_794xN.6806429166_pokm.jpg",
+      "new_title": "Seashell Ball for Coastal Decorating",
+      "handle": "cindyzhang62",
+      "board_id": "675399344056772225",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-10T17:20:35.128Z",
+      "body": "A textured seashell ball from QuGifts for a coastal shelf or tabletop. Check the Etsy listing for current styles and sizes.",
+      "facebook_draft": "A textured seashell ball from QuGifts for a coastal shelf or tabletop. Check the Etsy listing for current styles and sizes. https://www.etsy.com/listing/1906061961/handmade-seashell-flower-ball-coastal",
+      "evidence": "Found on the current QuGifts Etsy storefront. Cloud CDP detail showed seller QuGifts. Selected Shell Ball, 3.9 inch; Add to cart was visible and enabled. First photo screenshot shows two pale, textured shell spheres arranged on a tray. Used the displayed primary Etsy image URL; no cart action taken.",
+      "account": "P4",
+      "board_name": "Decor",
+      "queue_id": "81c9bbc6-386b-49f5-83ac-135b874667ca",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "db_board_id": "675399344056772225",
+      "created_at": "2026-11-10T17:22:38.84318+00:00",
+      "db_listing_checked_at": "2026-11-10T17:20:35.128+00:00",
+      "source_matches": true,
+      "reserve_snapshot_matches": true
+    },
+    {
+      "shop": "StellaGoodsGifts",
+      "listing_id": "4557913906",
+      "category": "Decorative Pillow Covers",
+      "source_url": "https://www.etsy.com/listing/4557913906/green-velvet-lumbar-pillow-cover",
+      "image_url": "https://i.etsystatic.com/54217402/r/il/ad303c/8554445426/il_794xN.8554445426_r6dw.jpg",
+      "new_title": "Green Velvet Lumbar Pillow Cover with Pink Tassels",
+      "handle": "icyndizhang",
+      "board_id": "801218658646993070",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-10T17:20:58.826Z",
+      "body": "This green lumbar pillow cover from StellaGoodsGifts pairs a mirrored animal motif with bright pink corner tassels. See the Etsy listing for sizing and ordering details.",
+      "facebook_draft": "This green lumbar pillow cover from StellaGoodsGifts pairs a mirrored animal motif with bright pink corner tassels. See the Etsy listing for sizing and ordering details. https://www.etsy.com/listing/4557913906/green-velvet-lumbar-pillow-cover",
+      "evidence": "Found on the current StellaGoodsGifts Etsy storefront. Cloud CDP detail showed seller StellaGoodsGifts. Quantity 1 available; no product variant selector shown; Add to cart was visible and enabled. First photo screenshot shows a green rectangular cushion with two striped animals and pink corner tassels. Used the displayed primary Etsy image URL; no cart action taken.",
+      "account": "P1",
+      "board_name": "CyndiZhangStudio",
+      "queue_id": "62e6b746-7d69-44b7-b524-39df45a5d501",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "db_board_id": "801218658646993070",
+      "created_at": "2026-11-10T17:22:41.591964+00:00",
+      "db_listing_checked_at": "2026-11-10T17:20:58.826+00:00",
+      "source_matches": true,
+      "reserve_snapshot_matches": true
+    }
+  ],
+  "remaining_deficits": [
+    {
+      "shop": "Chtte",
+      "account": "P3",
+      "handle": "mydecorshop",
+      "usable": 0,
+      "deficit": 3
+    },
+    {
+      "shop": "HibiChStudio",
+      "account": "P2",
+      "handle": "sailing_981",
+      "usable": 0,
+      "deficit": 3
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "account": "P5",
+      "handle": "ivy5205",
+      "usable": 0,
+      "deficit": 3
+    },
+    {
+      "shop": "Chtte",
+      "account": "P1",
+      "handle": "icyndizhang",
+      "usable": 2,
+      "deficit": 1
+    }
+  ],
+  "first_deficit_followup": "completed (unchanged)"
+}
