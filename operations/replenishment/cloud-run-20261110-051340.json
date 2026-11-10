@@ -1,0 +1,405 @@
+{
+  "status": "verified",
+  "target": 3,
+  "batch": "operations/replenishment/batch-20261110-051743.json",
+  "batch_commit": "a881fec0d35b80c7bdc39a149e5eed67c1145940",
+  "pre_verify": {
+    "run_id": 42664076437,
+    "job_id": 129645615852,
+    "audit_time": "2026-11-10T05:13:40.510711+00:00",
+    "usable": 78,
+    "deficit": 18
+  },
+  "storefronts": [
+    "Chtte",
+    "HibiChStudio",
+    "NinaJiaStudio",
+    "Adamideal",
+    "AmyHomeCrafts",
+    "CellaHo",
+    "ChicDecorHK",
+    "GavinHome",
+    "LoomGoStudio",
+    "NngGoods",
+    "PearlsTreasuresArt",
+    "WoodHomeLiang"
+  ],
+  "exclusions": {
+    "Chtte": "All 13 visible IDs already known.",
+    "HibiChStudio": "All eight visible wall/door organizers already known; other 13 visible products are outside approved category.",
+    "NinaJiaStudio": "All 24 visible IDs already known."
+  },
+  "ingestion": {
+    "run_id": 42761237042,
+    "job_id": 129647291953,
+    "first_inserted": 9,
+    "retry_inserted": 0,
+    "events": [
+      {
+        "batch": "batch-20261110-051743",
+        "shop": "Adamideal",
+        "listing_id": "4486320024",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0
+      },
+      {
+        "batch": "batch-20261110-051743",
+        "shop": "AmyHomeCrafts",
+        "listing_id": "1481500391",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0
+      },
+      {
+        "batch": "batch-20261110-051743",
+        "shop": "CellaHo",
+        "listing_id": "1839194772",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0
+      },
+      {
+        "batch": "batch-20261110-051743",
+        "shop": "ChicDecorHK",
+        "listing_id": "4356476861",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0
+      },
+      {
+        "batch": "batch-20261110-051743",
+        "shop": "GavinHome",
+        "listing_id": "1408573323",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0
+      },
+      {
+        "batch": "batch-20261110-051743",
+        "shop": "LoomGoStudio",
+        "listing_id": "4442578680",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0
+      },
+      {
+        "batch": "batch-20261110-051743",
+        "shop": "NngGoods",
+        "listing_id": "4613758846",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0
+      },
+      {
+        "batch": "batch-20261110-051743",
+        "shop": "PearlsTreasuresArt",
+        "listing_id": "4348862803",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0
+      },
+      {
+        "batch": "batch-20261110-051743",
+        "shop": "WoodHomeLiang",
+        "listing_id": "4608807527",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0
+      },
+      {
+        "inserted": 9,
+        "failed": 0,
+        "pending": 9
+      },
+      {
+        "status": "no_new_verified_material",
+        "inserted": 0
+      }
+    ]
+  },
+  "post_verify": {
+    "run_id": 42761339269,
+    "job_id": 129647478801,
+    "audit_time": "2026-11-10T05:18:59.638703+00:00",
+    "usable": 87,
+    "deficit": 9,
+    "routes": 32
+  },
+  "new_items": [
+    {
+      "shop": "Adamideal",
+      "listing_id": "4486320024",
+      "category": "Desk Organization",
+      "source_url": "https://www.etsy.com/listing/4486320024/walnut-wood-ipad-stand-solid-desk-tablet",
+      "image_url": "https://i.etsystatic.com/35172699/r/il/88ff68/7897142426/il_794xN.7897142426_s167.jpg",
+      "new_title": "Tablet Stand with Walnut Base",
+      "handle": "sailing_981",
+      "board_id": "863494997243989843",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-10T05:15:16.399Z",
+      "body": "A tablet rests on a dark tilting stand mounted on a rectangular wooden base.",
+      "facebook_draft": "A tablet rests on a dark tilting stand mounted on a rectangular wooden base. See the Etsy listing from Adamideal: https://www.etsy.com/listing/4486320024/walnut-wood-ipad-stand-solid-desk-tablet",
+      "evidence": "Discovered on the current Adamideal Etsy storefront; excluded all known IDs in the fresh plan. Detail seller matched Adamideal; Walnut Base; Add to cart visible and enabled. Inspected the original product main photo in a remote CDP detail screenshot. A tablet rests on a dark tilting stand mounted on a rectangular wooden base.",
+      "account": "P2",
+      "board_name": "storage",
+      "queue_id": "1a6af81e-84cc-4129-9223-d5bbcb1c8c09",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-10T05:18:32.979151+00:00",
+      "db_board_id": "863494997243989843"
+    },
+    {
+      "shop": "AmyHomeCrafts",
+      "listing_id": "1481500391",
+      "category": "Cafe Curtains",
+      "source_url": "https://www.etsy.com/listing/1481500391/vintage-white-embroidered-curtain-cotton",
+      "image_url": "https://i.etsystatic.com/40547461/r/il/7fe54f/8162462357/il_794xN.8162462357_to3r.jpg",
+      "new_title": "White Embroidered Lace Cafe Curtain",
+      "handle": "icyndizhang",
+      "board_id": "801218658646993070",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-10T05:16:59.494Z",
+      "body": "A short white gathered curtain with floral embroidery and a scalloped lace edge hangs against pale wood cabinetry.",
+      "facebook_draft": "A short white gathered curtain with floral embroidery and a scalloped lace edge hangs against pale wood cabinetry. See the Etsy listing from AmyHomeCrafts: https://www.etsy.com/listing/1481500391/vintage-white-embroidered-curtain-cotton",
+      "evidence": "Discovered on the current AmyHomeCrafts Etsy storefront; excluded all known IDs in the fresh plan. Detail seller matched AmyHomeCrafts; W39XL16 inches; Rod Pocket; Add to cart visible and enabled. Inspected the original product main photo in a remote CDP detail screenshot. A short white gathered curtain with floral embroidery and a scalloped lace edge hangs against pale wood cabinetry.",
+      "account": "P1",
+      "board_name": "CyndiZhangStudio",
+      "queue_id": "b9cae892-9595-4d1e-a861-96066e19ee28",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-10T05:18:34.196066+00:00",
+      "db_board_id": "801218658646993070"
+    },
+    {
+      "shop": "CellaHo",
+      "listing_id": "1839194772",
+      "category": "Embroidered Fabric",
+      "source_url": "https://www.etsy.com/listing/1839194772/embroidered-floral-cotton-linen-fabric",
+      "image_url": "https://i.etsystatic.com/39663062/r/il/9340de/6542933394/il_794xN.6542933394_oy94.jpg",
+      "new_title": "Orange Blossom Embroidered Fabric",
+      "handle": "mydecorshop",
+      "board_id": "499618221101238533",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-10T05:15:44.246Z",
+      "body": "Orange flowers with pale centers and blue accents repeat across folds of light fabric.",
+      "facebook_draft": "Orange flowers with pale centers and blue accents repeat across folds of light fabric. See the Etsy listing from CellaHo: https://www.etsy.com/listing/1839194772/embroidered-floral-cotton-linen-fabric",
+      "evidence": "Discovered on the current CellaHo Etsy storefront; excluded all known IDs in the fresh plan. Detail seller matched CellaHo; quantity 1; no variant selector; Add to cart visible and enabled. Inspected the original product main photo in a remote CDP detail screenshot. Orange flowers with pale centers and blue accents repeat across folds of light fabric.",
+      "account": "P3",
+      "board_name": "Home Decor",
+      "queue_id": "8a1b5ff5-fd51-40ed-ba88-256142be4087",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-10T05:18:35.501257+00:00",
+      "db_board_id": "499618221101238533"
+    },
+    {
+      "shop": "ChicDecorHK",
+      "listing_id": "4356476861",
+      "category": "Seashell Jewelry",
+      "source_url": "https://www.etsy.com/listing/4356476861/seashell-pearl-dangle-earring-boho-beach",
+      "image_url": "https://i.etsystatic.com/32003756/r/il/fd0d68/7187819847/il_794xN.7187819847_dtkt.jpg",
+      "new_title": "Single Seashell and Pearl Drop Earring",
+      "handle": "cindyzhang62",
+      "board_id": "675399344058025061",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-10T05:15:53.942Z",
+      "body": "A model wears one pale shell earring with a long strand of spaced pearl accents.",
+      "facebook_draft": "A model wears one pale shell earring with a long strand of spaced pearl accents. See the Etsy listing from ChicDecorHK: https://www.etsy.com/listing/4356476861/seashell-pearl-dangle-earring-boho-beach",
+      "evidence": "Discovered on the current ChicDecorHK Etsy storefront page 2; excluded all known IDs in the fresh plan. Detail seller matched ChicDecorHK; quantity 1; sold as a single earring; Add to cart visible and enabled. Inspected the original product main photo in a remote CDP detail screenshot. A model wears one pale shell earring with a long strand of spaced pearl accents.",
+      "account": "P4",
+      "board_name": "Jewelry & Accessories",
+      "queue_id": "ee1a4745-c764-4950-bd01-b614664bd3f5",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-10T05:18:36.501443+00:00",
+      "db_board_id": "675399344058025061"
+    },
+    {
+      "shop": "GavinHome",
+      "listing_id": "1408573323",
+      "category": "Sheer Curtains",
+      "source_url": "https://www.etsy.com/listing/1408573323/white-embroidered-sheer-curtain-romantic",
+      "image_url": "https://i.etsystatic.com/36377996/r/il/0380cb/5376705611/il_794xN.5376705611_6014.jpg",
+      "new_title": "White Embroidered Sheer Curtain with Valance",
+      "handle": "icyndizhang",
+      "board_id": "801218658646993070",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-10T05:15:56.278Z",
+      "body": "A gathered white sheer curtain shows a scalloped embroidered layer over a longer plain lower panel.",
+      "facebook_draft": "A gathered white sheer curtain shows a scalloped embroidered layer over a longer plain lower panel. See the Etsy listing from GavinHome: https://www.etsy.com/listing/1408573323/white-embroidered-sheer-curtain-romantic",
+      "evidence": "Discovered on the current GavinHome Etsy storefront; excluded all known IDs in the fresh plan. Detail seller matched GavinHome; W39*L16 (100*40CM); Add to cart visible and enabled. Inspected the original product main photo in a remote CDP detail screenshot. A gathered white sheer curtain shows a scalloped embroidered layer over a longer plain lower panel.",
+      "account": "P1",
+      "board_name": "CyndiZhangStudio",
+      "queue_id": "b6181924-7312-46f0-898d-e215066b8317",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-10T05:18:37.03158+00:00",
+      "db_board_id": "801218658646993070"
+    },
+    {
+      "shop": "LoomGoStudio",
+      "listing_id": "4442578680",
+      "category": "Silk & Organza Fabric",
+      "source_url": "https://www.etsy.com/listing/4442578680/silk-organza-embroidered-fabric-crane",
+      "image_url": "https://i.etsystatic.com/58959935/r/il/59f1ef/7611248380/il_794xN.7611248380_mvxw.jpg",
+      "new_title": "Crane and Pine Embroidered Silk Organza",
+      "handle": "mydecorshop",
+      "board_id": "499618221101238533",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-10T05:16:06.556Z",
+      "body": "Layered sheer fabric shows embroidered cranes and pine branches over light and dark backgrounds.",
+      "facebook_draft": "Layered sheer fabric shows embroidered cranes and pine branches over light and dark backgrounds. See the Etsy listing from LoomGoStudio: https://www.etsy.com/listing/4442578680/silk-organza-embroidered-fabric-crane",
+      "evidence": "Discovered on the current LoomGoStudio Etsy storefront; excluded all known IDs in the fresh plan. Detail seller matched LoomGoStudio; 0.5 Yard; Add to cart visible and enabled. Inspected the original product main photo in a remote CDP detail screenshot. Layered sheer fabric shows embroidered cranes and pine branches over light and dark backgrounds.",
+      "account": "P3",
+      "board_name": "Home Decor",
+      "queue_id": "c3f2376a-0f2d-4044-82c7-2cf2f9cd2dd5",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-10T05:18:38.618378+00:00",
+      "db_board_id": "499618221101238533"
+    },
+    {
+      "shop": "NngGoods",
+      "listing_id": "4613758846",
+      "category": "Cabinet Knobs & Pulls",
+      "source_url": "https://www.etsy.com/listing/4613758846/white-howlite-brass-cabinet-knobs-drawer",
+      "image_url": "https://i.etsystatic.com/57194200/r/il/76836b/8876951261/il_794xN.8876951261_6nnr.jpg",
+      "new_title": "White Howlite Cabinet Hardware with Gold-Tone Details",
+      "handle": "ivy5205",
+      "board_id": "713820678377803412",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-10T05:16:20.035Z",
+      "body": "The first photo shows two gold-tone beaded pulls with white veined ends on white cabinet doors; a knob variant was selectable.",
+      "facebook_draft": "The first photo shows two gold-tone beaded pulls with white veined ends on white cabinet doors; a knob variant was selectable. See the Etsy listing from NngGoods: https://www.etsy.com/listing/4613758846/white-howlite-brass-cabinet-knobs-drawer",
+      "evidence": "Discovered on the current NngGoods Etsy storefront; excluded all known IDs in the fresh plan. Detail seller matched NngGoods; White Howlite Knob; 1 PCS; Add to cart visible and enabled. Inspected the original product main photo in a remote CDP detail screenshot. The first photo shows two gold-tone beaded pulls with white veined ends on white cabinet doors; a knob variant was selectable.",
+      "account": "P5",
+      "board_name": "Furniture",
+      "queue_id": "9a2ced32-6776-424e-9a44-8fa66b757b0b",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-10T05:18:40.77397+00:00",
+      "db_board_id": "713820678377803412"
+    },
+    {
+      "shop": "PearlsTreasuresArt",
+      "listing_id": "4348862803",
+      "category": "Seashell Jewelry",
+      "source_url": "https://www.etsy.com/listing/4348862803/white-seashell-statement-ring-adjustable",
+      "image_url": "https://i.etsystatic.com/46725934/r/il/d32220/7093270766/il_794xN.7093270766_t3ab.jpg",
+      "new_title": "White Seashell Statement Ring",
+      "handle": "cindyzhang62",
+      "board_id": "675399344058025061",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-10T05:17:09.640Z",
+      "body": "The main photo shows a pale spiral shell ring with small clear accents worn on a hand.",
+      "facebook_draft": "The main photo shows a pale spiral shell ring with small clear accents worn on a hand. See the Etsy listing from PearlsTreasuresArt: https://www.etsy.com/listing/4348862803/white-seashell-statement-ring-adjustable",
+      "evidence": "Discovered on the current PearlsTreasuresArt Etsy storefront; excluded all known IDs in the fresh plan. Detail seller matched PearlsTreasuresArt; With Stone; Add to cart visible and enabled. Inspected the original product main photo in a remote CDP detail screenshot. The main photo shows a pale spiral shell ring with small clear accents worn on a hand.",
+      "account": "P4",
+      "board_name": "Jewelry & Accessories",
+      "queue_id": "27d0dad6-a6e1-4e65-a3c7-6ebd0181452c",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-10T05:18:41.182127+00:00",
+      "db_board_id": "675399344058025061"
+    },
+    {
+      "shop": "WoodHomeLiang",
+      "listing_id": "4608807527",
+      "category": "Closet Organization",
+      "source_url": "https://www.etsy.com/listing/4608807527/camphor-wood-drawer-organizer-10-or-15",
+      "image_url": "https://i.etsystatic.com/38928671/r/il/164a9d/8836899559/il_794xN.8836899559_dqcr.jpg",
+      "new_title": "Wooden Drawer Organizer with Compartments",
+      "handle": "sailing_981",
+      "board_id": "863494997243989843",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-10T05:16:38.880Z",
+      "body": "The first photo shows light wood trays with divided compartments for folded clothing.",
+      "facebook_draft": "The first photo shows light wood trays with divided compartments for folded clothing. See the Etsy listing from WoodHomeLiang: https://www.etsy.com/listing/4608807527/camphor-wood-drawer-organizer-10-or-15",
+      "evidence": "Discovered on the current WoodHomeLiang Etsy storefront; excluded all known IDs in the fresh plan. Detail seller matched WoodHomeLiang; 10 Compartment; Add to cart visible and enabled. Inspected the original product main photo in a remote CDP detail screenshot. The first photo shows light wood trays with divided compartments for folded clothing.",
+      "account": "P2",
+      "board_name": "storage",
+      "queue_id": "b2268c82-2e2c-4982-91a0-739d5e62528b",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-10T05:18:41.671126+00:00",
+      "db_board_id": "863494997243989843"
+    }
+  ],
+  "remaining_routes": [
+    {
+      "shop": "Chtte",
+      "handle": "mydecorshop",
+      "target": 3,
+      "usable": 0,
+      "account": "P3",
+      "deficit": 3,
+      "previous_routes": [
+        {
+          "board_id": "499618221101215211",
+          "category": "Chair Cushions & Seat Pads"
+        }
+      ]
+    },
+    {
+      "shop": "HibiChStudio",
+      "handle": "sailing_981",
+      "target": 3,
+      "usable": 0,
+      "account": "P2",
+      "deficit": 3,
+      "previous_routes": [
+        {
+          "board_id": "863494997243989843",
+          "category": "Wall & Door Organizers"
+        }
+      ]
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "handle": "ivy5205",
+      "target": 3,
+      "usable": 1,
+      "account": "P5",
+      "deficit": 2,
+      "previous_routes": [
+        {
+          "board_id": "713820678377803445",
+          "category": "Cosmetic Bags"
+        },
+        {
+          "board_id": "713820678377803445",
+          "category": "Shoulder Bags"
+        },
+        {
+          "board_id": "713820678377803445",
+          "category": "Textile Bags"
+        }
+      ]
+    },
+    {
+      "shop": "Chtte",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 2,
+      "account": "P1",
+      "deficit": 1,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Chair Cushions & Seat Pads"
+        }
+      ]
+    }
+  ],
+  "first_deficit_followup": "completed; unchanged"
+}
