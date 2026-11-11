@@ -1,0 +1,157 @@
+{
+  "status": "no_eligible_new_listings",
+  "target": 3,
+  "github_main_read": "b0bc6ac00af5012705d06022e1b0667db09d059e",
+  "verify": {
+    "run_id": 42964732778,
+    "job_id": 130490309682,
+    "audit_time": "2026-11-11T11:19:49.82537+00:00",
+    "raw_log_target": 7,
+    "deficit_calculation": "sum(max(0,3-usable))",
+    "routes": 32,
+    "usable": 86,
+    "deficit": 10
+  },
+  "remaining_deficits": [
+    {
+      "shop": "Chtte",
+      "account": "P3",
+      "handle": "mydecorshop",
+      "usable": 0,
+      "deficit": 3
+    },
+    {
+      "shop": "HibiChStudio",
+      "account": "P2",
+      "handle": "sailing_981",
+      "usable": 0,
+      "deficit": 3
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "account": "P5",
+      "handle": "ivy5205",
+      "usable": 0,
+      "deficit": 3
+    },
+    {
+      "shop": "Chtte",
+      "account": "P1",
+      "handle": "icyndizhang",
+      "usable": 2,
+      "deficit": 1
+    }
+  ],
+  "storefront_checks": [
+    {
+      "shop": "Chtte",
+      "url": "https://www.etsy.com/shop/Chtte",
+      "checked_at": "2026-11-11T11:20:06.133Z",
+      "visible_listing_ids": [
+        "4586894685",
+        "4577582372",
+        "4577559034",
+        "4577591162",
+        "4577556837",
+        "4535422573",
+        "4440783510",
+        "4535407129",
+        "4514553651",
+        "4440831933",
+        "4535436683",
+        "4514589653",
+        "4535424416"
+      ],
+      "unknown_listing_ids": [],
+      "disposition": "All visible listing IDs already known.",
+      "detail_checks": 0,
+      "visual_verified": false
+    },
+    {
+      "shop": "HibiChStudio",
+      "url": "https://www.etsy.com/shop/HibiChStudio",
+      "checked_at": "2026-11-11T11:20:07.432Z",
+      "visible_listing_ids": [
+        "4473098237",
+        "4454342176",
+        "4454344966",
+        "4559711054",
+        "4391652370",
+        "4374349912",
+        "4559057618",
+        "4559038359",
+        "4559062406",
+        "4559684799",
+        "4420844641",
+        "4391681449",
+        "4391650576",
+        "4374362269",
+        "4473116090",
+        "4473114318",
+        "4420839477",
+        "4420842205",
+        "4517906376",
+        "4517885823",
+        "4454347860"
+      ],
+      "unknown_listing_ids": [
+        "4454344966",
+        "4559057618",
+        "4559038359",
+        "4559062406",
+        "4559684799",
+        "4420844641",
+        "4473116090",
+        "4473114318",
+        "4420839477",
+        "4420842205",
+        "4517906376",
+        "4517885823",
+        "4454347860"
+      ],
+      "disposition": "Eight known wall/door organizers; 13 unknown storage bins, baskets, bags and garment covers outside approved category.",
+      "detail_checks": 0,
+      "visual_verified": false
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "url": "https://www.etsy.com/shop/NinaJiaStudio",
+      "checked_at": "2026-11-11T11:20:08.700Z",
+      "visible_listing_ids": [
+        "4435963114",
+        "4585567382",
+        "4585556630",
+        "4585549341",
+        "4585524379",
+        "4477926256",
+        "4435968040",
+        "4435907497",
+        "4435912349",
+        "4435955425",
+        "4569933203",
+        "4558515139",
+        "4568703716",
+        "4477929531",
+        "4558513279",
+        "4415232975",
+        "4486251915",
+        "4477915577",
+        "4477918490",
+        "4477906166",
+        "4415243185",
+        "4415234134",
+        "4415221724",
+        "4415229681"
+      ],
+      "unknown_listing_ids": [],
+      "disposition": "All visible listing IDs already known.",
+      "detail_checks": 0,
+      "visual_verified": false
+    }
+  ],
+  "first_deficit_followup": "completed (unchanged)",
+  "batch": null,
+  "inserted": 0,
+  "ingestion_run": null,
+  "reason": "No eligible unknown listing within approved routes. Storefront inspection is not product-detail or main-photo verification."
+}
