@@ -1,0 +1,293 @@
+{
+  "status": "verified",
+  "target": 3,
+  "raw_verify_log_target": 7,
+  "deficit_calculation": "sum(max(0, 3 - usable)) on fresh replenishment_plan rows",
+  "batch": "operations/replenishment/batch-20261111-171637.json",
+  "batch_commit": "c914f533785d375fc318a48c1f7e870bf23901f1",
+  "pre_verify": {
+    "run_id": 42964732778,
+    "job_id": 130681555019,
+    "audit_time": "2026-11-11T17:14:33.094254+00:00",
+    "usable": 83,
+    "deficit": 13,
+    "routes": 32
+  },
+  "storefront_checks": [
+    {
+      "shop": "Chtte",
+      "checked_at": "2026-11-11T17:14:43.034Z",
+      "visible_listing_ids": [
+        "4586894685",
+        "4577582372",
+        "4577559034",
+        "4577591162",
+        "4577556837",
+        "4535422573",
+        "4440783510",
+        "4535407129",
+        "4514553651",
+        "4440831933",
+        "4535436683",
+        "4514589653",
+        "4535424416"
+      ],
+      "unknown_listing_ids": [],
+      "disposition": "All storefront IDs already known."
+    },
+    {
+      "shop": "HibiChStudio",
+      "checked_at": "2026-11-11T17:14:46.821Z",
+      "visible_listing_ids": [
+        "4473098237",
+        "4454342176",
+        "4454344966",
+        "4559711054",
+        "4391652370",
+        "4374349912",
+        "4559057618",
+        "4559038359",
+        "4559062406",
+        "4559684799",
+        "4420844641",
+        "4391681449",
+        "4391650576",
+        "4374362269",
+        "4473116090",
+        "4473114318",
+        "4420839477",
+        "4420842205",
+        "4517906376",
+        "4517885823",
+        "4454347860"
+      ],
+      "unknown_listing_ids": [
+        "4454344966",
+        "4559057618",
+        "4559038359",
+        "4559062406",
+        "4559684799",
+        "4420844641",
+        "4473116090",
+        "4473114318",
+        "4420839477",
+        "4420842205",
+        "4517906376",
+        "4517885823",
+        "4454347860"
+      ],
+      "disposition": "Eight known wall/door organizers; remaining storage bins, baskets, bags or garment covers are outside the approved category."
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "checked_at": "2026-11-11T17:14:48.374Z",
+      "visible_listing_ids": [
+        "4435963114",
+        "4585567382",
+        "4585556630",
+        "4585549341",
+        "4585524379",
+        "4477926256",
+        "4435968040",
+        "4435907497",
+        "4435912349",
+        "4435955425",
+        "4569933203",
+        "4558515139",
+        "4568703716",
+        "4477929531",
+        "4558513279",
+        "4415232975",
+        "4486251915",
+        "4477915577",
+        "4477918490",
+        "4477906166",
+        "4415243185",
+        "4415234134",
+        "4415221724",
+        "4415229681"
+      ],
+      "unknown_listing_ids": [],
+      "disposition": "All storefront IDs already known."
+    },
+    {
+      "shop": "Adamideal",
+      "checked_at": "2026-11-11T17:15:02.211Z",
+      "visible": 36
+    },
+    {
+      "shop": "HeyDream",
+      "checked_at": "2026-11-11T17:15:03.955Z",
+      "visible": 39
+    },
+    {
+      "shop": "QuGifts",
+      "checked_at": "2026-11-11T17:15:05.772Z",
+      "visible": 36,
+      "page_2": {
+        "checked_at": "2026-11-11T17:15:24.656Z",
+        "visible": 4
+      }
+    }
+  ],
+  "ingestion": {
+    "run_id": 43066582234,
+    "job_id": 130683226560,
+    "first_inserted": 3,
+    "retry_inserted": 0,
+    "events": [
+      {
+        "batch": "batch-20261111-171637",
+        "shop": "Adamideal",
+        "listing_id": "4423854894",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0
+      },
+      {
+        "batch": "batch-20261111-171637",
+        "shop": "HeyDream",
+        "listing_id": "1812173937",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0
+      },
+      {
+        "batch": "batch-20261111-171637",
+        "shop": "QuGifts",
+        "listing_id": "4363646198",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0
+      },
+      {
+        "inserted": 3,
+        "failed": 0,
+        "pending": 3
+      },
+      {
+        "status": "no_new_verified_material",
+        "inserted": 0
+      }
+    ]
+  },
+  "post_verify": {
+    "run_id": 43066710870,
+    "job_id": 130683490643,
+    "audit_time": "2026-11-11T17:17:45.638921+00:00",
+    "usable": 86,
+    "deficit": 10,
+    "routes": 32
+  },
+  "new_items": [
+    {
+      "shop": "Adamideal",
+      "listing_id": "4423854894",
+      "category": "Wooden Home Organization",
+      "source_url": "https://www.etsy.com/listing/4423854894/wood-wine-rack-curved-wooden-bottle",
+      "image_url": "https://i.etsystatic.com/35172699/r/il/7e0579/8883861113/il_794xN.8883861113_lf2k.jpg",
+      "new_title": "Curved Wooden Bottle Rack",
+      "handle": "sailing_981",
+      "board_id": "863494997243989843",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-11T17:15:53.719Z",
+      "body": "The main photo shows a wooden countertop rack with curved bottle rests. See the listing for tier options.",
+      "facebook_draft": "The main photo shows a wooden countertop rack with curved bottle rests. See the listing for tier options. View the original Etsy listing from Adamideal: https://www.etsy.com/listing/4423854894/wood-wine-rack-curved-wooden-bottle",
+      "evidence": "Found on the current Adamideal storefront and checked against all known listing IDs. Detail seller matched Adamideal; 2-Tier, quantity 1; the lead photo shows a different tier count. Add to cart was visible and enabled. Visually inspected the first product photo in a cloud CDP detail screenshot. The main photo shows a wooden countertop rack with curved bottle rests. See the listing for tier options.",
+      "account": "P2",
+      "board_name": "storage",
+      "queue_id": "bf6fcef8-99a3-4ba6-9c36-e05adca4085c",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-11T17:17:20.56456+00:00",
+      "db_board_id": "863494997243989843",
+      "source_matches": true,
+      "reserve_snapshot_matches": true,
+      "db_listing_checked_at": "2026-11-11T17:15:53.719+00:00"
+    },
+    {
+      "shop": "HeyDream",
+      "listing_id": "1812173937",
+      "category": "Sheer Curtains",
+      "source_url": "https://www.etsy.com/listing/1812173937/mixed-pattern-sheer-curtain-geometric",
+      "image_url": "https://i.etsystatic.com/35422134/r/il/7293a1/8190625176/il_794xN.8190625176_dmd6.jpg",
+      "new_title": "Sheer Lace Curtain with Scalloped Edges",
+      "handle": "icyndizhang",
+      "board_id": "801218658646993070",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-11T17:15:59.693Z",
+      "body": "The main photo shows pale sheer lace with vertical geometric stripes and scalloped floral edges.",
+      "facebook_draft": "The main photo shows pale sheer lace with vertical geometric stripes and scalloped floral edges. View the original Etsy listing from HeyDream: https://www.etsy.com/listing/1812173937/mixed-pattern-sheer-curtain-geometric",
+      "evidence": "Found on the current HeyDream storefront and checked against all known listing IDs. Detail seller matched HeyDream; Hook and W39xL59 (100x150 cm). Add to cart was visible and enabled. Visually inspected the first product photo in a cloud CDP detail screenshot. The main photo shows pale sheer lace with vertical geometric stripes and scalloped floral edges.",
+      "account": "P1",
+      "board_name": "CyndiZhangStudio",
+      "queue_id": "f6ad0640-0803-440a-a129-2eb4c581b070",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-11T17:17:22.030944+00:00",
+      "db_board_id": "801218658646993070",
+      "source_matches": true,
+      "reserve_snapshot_matches": true,
+      "db_listing_checked_at": "2026-11-11T17:15:59.693+00:00"
+    },
+    {
+      "shop": "QuGifts",
+      "listing_id": "4363646198",
+      "category": "Wall Decor",
+      "source_url": "https://www.etsy.com/listing/4363646198/handmade-shell-wall-hanging-boho-coastal",
+      "image_url": "https://i.etsystatic.com/38006525/r/il/cb1c39/7169825970/il_794xN.7169825970_j6w7.jpg",
+      "new_title": "Woven Shell Wall Hanging",
+      "handle": "cindyzhang62",
+      "board_id": "675399344056772225",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-11T17:16:04.949Z",
+      "body": "The main photo shows an ivory knotted wall hanging with shells and fringe on wooden rods.",
+      "facebook_draft": "The main photo shows an ivory knotted wall hanging with shells and fringe on wooden rods. View the original Etsy listing from QuGifts: https://www.etsy.com/listing/4363646198/handmade-shell-wall-hanging-boho-coastal",
+      "evidence": "Found on the current QuGifts storefront page 2 and checked against all known listing IDs. Detail seller matched QuGifts; quantity 1, no product variant selector. Add to cart was visible and enabled. Visually inspected the first product photo in a cloud CDP detail screenshot. The main photo shows an ivory knotted wall hanging with shells and fringe on wooden rods.",
+      "account": "P4",
+      "board_name": "Decor",
+      "queue_id": "13ffd87b-8eee-462d-95a7-242284ef0e1f",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-11T17:17:23.290678+00:00",
+      "db_board_id": "675399344056772225",
+      "source_matches": true,
+      "reserve_snapshot_matches": true,
+      "db_listing_checked_at": "2026-11-11T17:16:04.949+00:00"
+    }
+  ],
+  "remaining_deficits": [
+    {
+      "shop": "Chtte",
+      "account": "P3",
+      "handle": "mydecorshop",
+      "usable": 0,
+      "deficit": 3
+    },
+    {
+      "shop": "HibiChStudio",
+      "account": "P2",
+      "handle": "sailing_981",
+      "usable": 0,
+      "deficit": 3
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "account": "P5",
+      "handle": "ivy5205",
+      "usable": 0,
+      "deficit": 3
+    },
+    {
+      "shop": "Chtte",
+      "account": "P1",
+      "handle": "icyndizhang",
+      "usable": 2,
+      "deficit": 1
+    }
+  ],
+  "first_deficit_followup": "completed (unchanged)"
+}
