@@ -28,11 +28,15 @@ revoke all on function public.pinterest_cloud_report() from public,anon,authenti
 
 create or replace function public.capture_pinterest_evening_report() returns void
 language plpgsql security definer set search_path='' as $$
+declare
+ beijing_now timestamp without time zone := now() at time zone 'Asia/Shanghai';
+ report_day text := to_char(beijing_now::date, 'YYYY-MM-DD');
 begin
- if now()>='2026-10-23T13:35:00Z'::timestamptz and now()<'2026-10-24T00:00:00Z'::timestamptz then
- insert into public.pinterest_cloud_reports(report_key,report) values('2026-10-23-evening',public.pinterest_cloud_report())
- on conflict(report_key) do nothing;
+ if beijing_now::time >= time '21:35' and beijing_now::time < time '23:00' then
+  insert into public.pinterest_cloud_reports(report_key,report)
+  values(report_day || '-evening',public.pinterest_cloud_report())
+  on conflict(report_key) do nothing;
  end if;
 end $$;
 revoke all on function public.capture_pinterest_evening_report() from public,anon,authenticated,service_role;
-select cron.schedule('store-promotion-evening-report-20261023','35 13 23 10 *','select public.capture_pinterest_evening_report();');
+select cron.schedule('store-promotion-evening-report-20261023','35 13 * * *','select public.capture_pinterest_evening_report();');

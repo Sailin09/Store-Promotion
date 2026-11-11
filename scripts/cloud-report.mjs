@@ -54,25 +54,25 @@ async function main() {
  let reportDay=null;
  let snapshot=null;
  if(evening) {
-  reportDay=sql("select to_char(now() at time zone 'Asia/Shanghai','YYYY-MM-DD');");
+  reportDay=sql("select to_char((now() at time zone 'Asia/Shanghai')::date - case when (now() at time zone 'Asia/Shanghai')::time < time '21:35' then 1 else 0 end, 'YYYY-MM-DD');");
   sql('select public.capture_pinterest_evening_report();');
-  const reportKey=`${reportDay}-evening`;
-  const raw=sql(`select report from public.pinterest_cloud_reports where report_key='${reportKey}';`);
-  if(!raw) throw new Error('Evening snapshot not yet available');
-  snapshot=JSON.parse(raw);
-  if(!report.scheduler.some(s=>s.active && s.schedule==='*/5 * * * *')) {
+  const reportKey=reportDay+'-evening';
+  const raw=sql("select report from public.pinterest_cloud_reports where report_key='"+reportKey+"';");
+  if(raw) snapshot=JSON.parse(raw);
+  else recovery.push('数据库未找到 '+reportKey+' 定时快照；本报告改用 '+report.captured_at+' 的实时读取，不冒充 21:35 快照。');
+  if(snapshot && !report.scheduler.some(s=>s.active && s.schedule==='*/5 * * * *')) {
    const result=spawnSync(process.execPath,['scripts/install-pinterest-scheduler.mjs'],{encoding:'utf8',timeout:120000});
    recovery.push(result.status===0?'已恢复发布调度，原有发布门槛保持不变。':'发布调度恢复失败，需要进一步排查。');
   }
-  if(report.accounts.some(a=>a.pins.length===0 || a.attempts.length>0)) {
+  if(snapshot && report.accounts.some(a=>a.pins.length===0 || a.attempts.length>0)) {
    const result=spawnSync(process.execPath,['scripts/run-pinterest-publisher.mjs'],{encoding:'utf8',timeout:300000});
    const outcomes=result.stdout.split('\n').filter(l=>l.startsWith('{')).flatMap(l=>{try{return [JSON.parse(l)]}catch{return []}});
-   recovery.push(`执行一次受现有门槛保护的补偿检查：${result.status===0?'调用完成':'失败或结果不确定'}。`);
+   recovery.push('执行一次受现有门槛保护的补偿检查：'+(result.status===0?'调用完成':'失败或结果不确定')+'。');
    for(const o of outcomes) recovery.push(JSON.stringify(o));
   }
  }
  const final=evening?JSON.parse(sql('select public.pinterest_cloud_report();')):report;
- if(evening&&recovery.length)coverage=runCoverage();
+ if(evening&&snapshot&&recovery.length)coverage=runCoverage();
  let body=renderReport(snapshot||final,stock,recovery,coverage);
  if(snapshot) body+='\n---\n## 补偿检查后的实时结果\n'+renderReport(final,stock,[],coverage);
  const run=`https://github.com/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID}`;
