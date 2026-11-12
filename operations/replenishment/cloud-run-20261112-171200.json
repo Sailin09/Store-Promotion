@@ -1,0 +1,357 @@
+{
+  "status": "inserted_and_verified",
+  "target": 3,
+  "max_batch": 20,
+  "raw_verify_log_target": 7,
+  "deficit_calculation": "max(0, 3 - usable) per route",
+  "batch": "batch-20261112-171410",
+  "batch_commit": "03665e9ab6c53603b60a37479321ae130392a87e",
+  "pre_verify": {
+    "run_id": 43160998065,
+    "job_id": 131352122143,
+    "audit_time": "2026-11-12T17:11:24.085241+00:00",
+    "routes": 32,
+    "usable": 83,
+    "deficit": 13
+  },
+  "storefront_checks": [
+    {
+      "shop": "Chtte",
+      "source_url": "https://www.etsy.com/shop/Chtte",
+      "observed_at": "2026-11-12T17:12:00.128Z",
+      "visible_listing_ids": [
+        "4535422573",
+        "4586894685",
+        "4577582372",
+        "4577559034",
+        "4577591162",
+        "4577556837",
+        "4440783510",
+        "4535407129",
+        "4514553651",
+        "4440831933",
+        "4535436683",
+        "4514589653",
+        "4535424416"
+      ],
+      "excluded_known": [
+        "4535422573",
+        "4586894685",
+        "4577582372",
+        "4577559034",
+        "4577591162",
+        "4577556837",
+        "4440783510",
+        "4535407129",
+        "4514553651",
+        "4440831933",
+        "4535436683",
+        "4514589653",
+        "4535424416"
+      ],
+      "unknown_listing_ids": [],
+      "eligible_new_listing_ids": [],
+      "reason": "All storefront IDs excluded by fresh known_listing_ids."
+    },
+    {
+      "shop": "HibiChStudio",
+      "source_url": "https://www.etsy.com/shop/HibiChStudio",
+      "observed_at": "2026-11-12T17:12:02.072Z",
+      "visible_listing_ids": [
+        "4374349912",
+        "4473098237",
+        "4454342176",
+        "4454344966",
+        "4559711054",
+        "4391652370",
+        "4559057618",
+        "4559038359",
+        "4559062406",
+        "4559684799",
+        "4420844641",
+        "4391681449",
+        "4391650576",
+        "4374362269",
+        "4473116090",
+        "4473114318",
+        "4420839477",
+        "4420842205",
+        "4517906376",
+        "4517885823",
+        "4454347860"
+      ],
+      "excluded_known": [
+        "4374349912",
+        "4473098237",
+        "4454342176",
+        "4559711054",
+        "4391652370",
+        "4391681449",
+        "4391650576",
+        "4374362269"
+      ],
+      "unknown_listing_ids": [
+        "4454344966",
+        "4559057618",
+        "4559038359",
+        "4559062406",
+        "4559684799",
+        "4420844641",
+        "4473116090",
+        "4473114318",
+        "4420839477",
+        "4420842205",
+        "4517906376",
+        "4517885823",
+        "4454347860"
+      ],
+      "eligible_new_listing_ids": [],
+      "reason": "Storefront titles identify bins, baskets, bedding/closet bags and garment covers, not Wall & Door Organizers. Filtered before detail or visual verification."
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "source_url": "https://www.etsy.com/shop/NinaJiaStudio",
+      "observed_at": "2026-11-12T17:12:04.110Z",
+      "visible_listing_ids": [
+        "4435963114",
+        "4585567382",
+        "4585556630",
+        "4585549341",
+        "4585524379",
+        "4477926256",
+        "4435968040",
+        "4435907497",
+        "4435912349",
+        "4435955425",
+        "4569933203",
+        "4558515139",
+        "4568703716",
+        "4477929531",
+        "4558513279",
+        "4415232975",
+        "4486251915",
+        "4477915577",
+        "4477918490",
+        "4477906166",
+        "4415243185",
+        "4415234134",
+        "4415221724",
+        "4415229681"
+      ],
+      "excluded_known": [
+        "4435963114",
+        "4585567382",
+        "4585556630",
+        "4585549341",
+        "4585524379",
+        "4477926256",
+        "4435968040",
+        "4435907497",
+        "4435912349",
+        "4435955425",
+        "4569933203",
+        "4558515139",
+        "4568703716",
+        "4477929531",
+        "4558513279",
+        "4415232975",
+        "4486251915",
+        "4477915577",
+        "4477918490",
+        "4477906166",
+        "4415243185",
+        "4415234134",
+        "4415221724",
+        "4415229681"
+      ],
+      "unknown_listing_ids": [],
+      "eligible_new_listing_ids": [],
+      "reason": "All storefront IDs excluded by fresh known_listing_ids."
+    },
+    {
+      "shop": "MiawoodStudio",
+      "source_url": "https://www.etsy.com/shop/MiawoodStudio",
+      "observed_at": "2026-11-12T17:12:06.192Z",
+      "eligible_new_listing_ids": [
+        "1877285269"
+      ]
+    },
+    {
+      "shop": "Parkermo",
+      "source_url": "https://www.etsy.com/shop/Parkermo",
+      "observed_at": "2026-11-12T17:12:08.401Z",
+      "eligible_new_listing_ids": [
+        "4501357371"
+      ]
+    },
+    {
+      "shop": "QuGifts",
+      "source_url": "https://www.etsy.com/shop/QuGifts",
+      "observed_at": "2026-11-12T17:12:10.349Z",
+      "eligible_new_listing_ids": [
+        "4398996286"
+      ]
+    }
+  ],
+  "ingestion": {
+    "run_id": 43267266327,
+    "job_id": 131354382763,
+    "first_inserted": 3,
+    "failed": 0,
+    "retry_inserted": 0,
+    "events": [
+      {
+        "batch": "batch-20261112-171410",
+        "shop": "MiawoodStudio",
+        "listing_id": "1877285269",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0
+      },
+      {
+        "batch": "batch-20261112-171410",
+        "shop": "Parkermo",
+        "listing_id": "4501357371",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0
+      },
+      {
+        "batch": "batch-20261112-171410",
+        "shop": "QuGifts",
+        "listing_id": "4398996286",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0
+      },
+      {
+        "inserted": 3,
+        "failed": 0,
+        "pending": 3
+      },
+      {
+        "status": "no_new_verified_material",
+        "inserted": 0
+      }
+    ]
+  },
+  "post_verify": {
+    "run_id": 43267467172,
+    "job_id": 131354792979,
+    "audit_time": "2026-11-12T17:15:36.642703+00:00",
+    "routes": 32,
+    "usable": 86,
+    "deficit": 10
+  },
+  "new_items": [
+    {
+      "shop": "MiawoodStudio",
+      "listing_id": "1877285269",
+      "category": "Wooden Hangers",
+      "source_url": "https://www.etsy.com/listing/1877285269/black-wooden-pants-hanger-with-silver",
+      "image_url": "https://i.etsystatic.com/32100253/r/il/e0f025/6659936416/il_794xN.6659936416_qnxp.jpg",
+      "new_title": "Black Wooden Pants Hanger",
+      "handle": "sailing_981",
+      "board_id": "863494997243989843",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-12T17:13:23.289Z",
+      "body": "The main photo shows black wooden hangers with metal clips and gold-tone hooks.",
+      "facebook_draft": "The main photo shows black wooden hangers with metal clips and gold-tone hooks. See the Etsy listing from MiawoodStudio: https://www.etsy.com/listing/1877285269/black-wooden-pants-hanger-with-silver",
+      "evidence": "Found in the current MiawoodStudio Etsy storefront and checked against all known listing IDs. Detail seller header matched MiawoodStudio; selected in-stock option: 1 pc; quantity 1. Add to cart was visible and enabled; no cart action. Visually inspected the actual primary listing photo in a remote CDP screenshot. The main photo shows black wooden hangers with metal clips and gold-tone hooks.",
+      "account": "P2",
+      "board_name": "storage",
+      "queue_id": "650054be-4e3e-4442-b979-cff055257b18",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-12T17:15:06.804585+00:00",
+      "db_board_id": "863494997243989843",
+      "source_matches": true,
+      "reserve_snapshot_matches": true,
+      "db_listing_checked_at": "2026-11-12T17:13:23.289+00:00"
+    },
+    {
+      "shop": "Parkermo",
+      "listing_id": "4501357371",
+      "category": "Cafe Curtains",
+      "source_url": "https://www.etsy.com/listing/4501357371/plaid-tier-curtain-sheer-cafe-valance",
+      "image_url": "https://i.etsystatic.com/41687571/r/il/74b578/8088569266/il_794xN.8088569266_3yef.jpg",
+      "new_title": "Blue and Yellow Plaid Café Curtain",
+      "handle": "icyndizhang",
+      "board_id": "801218658646993070",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-12T17:13:29.997Z",
+      "body": "The main photo shows a sheer plaid café curtain in blue and yellow, hung by rings in a kitchen window.",
+      "facebook_draft": "The main photo shows a sheer plaid café curtain in blue and yellow, hung by rings in a kitchen window. See the Etsy listing from Parkermo: https://www.etsy.com/listing/4501357371/plaid-tier-curtain-sheer-cafe-valance",
+      "evidence": "Found in the current Parkermo Etsy storefront and checked against all known listing IDs. Detail seller header matched Parkermo; selected in-stock option: W55″xL20″; quantity 1. Add to cart was visible and enabled; no cart action. Visually inspected the actual primary listing photo in a remote CDP screenshot. The main photo shows a sheer plaid café curtain in blue and yellow, hung by rings in a kitchen window.",
+      "account": "P1",
+      "board_name": "CyndiZhangStudio",
+      "queue_id": "829d8385-efba-466b-8f4e-82b57fa4b817",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-12T17:15:08.39941+00:00",
+      "db_board_id": "801218658646993070",
+      "source_matches": true,
+      "reserve_snapshot_matches": true,
+      "db_listing_checked_at": "2026-11-12T17:13:29.997+00:00"
+    },
+    {
+      "shop": "QuGifts",
+      "listing_id": "4398996286",
+      "category": "Coastal Home Decor",
+      "source_url": "https://www.etsy.com/listing/4398996286/coastal-curtain-tiebacks-handmade-shell",
+      "image_url": "https://i.etsystatic.com/38006525/r/il/a94e91/7359081586/il_794xN.7359081586_ijdn.jpg",
+      "new_title": "Shell and Wood Bead Curtain Tieback",
+      "handle": "cindyzhang62",
+      "board_id": "675399344056772225",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-12T17:13:35.937Z",
+      "body": "The main photo shows a shell and wood bead tieback gathered around a curtain.",
+      "facebook_draft": "The main photo shows a shell and wood bead tieback gathered around a curtain. See the Etsy listing from QuGifts: https://www.etsy.com/listing/4398996286/coastal-curtain-tiebacks-handmade-shell",
+      "evidence": "Found in the current QuGifts Etsy storefront and checked against all known listing IDs. Detail seller header matched QuGifts; selected in-stock option: White; quantity 1. Add to cart was visible and enabled; no cart action. Visually inspected the actual primary listing photo in a remote CDP screenshot. The main photo shows a shell and wood bead tieback gathered around a curtain.",
+      "account": "P4",
+      "board_name": "Decor",
+      "queue_id": "e287e1b0-9d21-41d6-85cc-10913e62b359",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-12T17:15:14.033284+00:00",
+      "db_board_id": "675399344056772225",
+      "source_matches": true,
+      "reserve_snapshot_matches": true,
+      "db_listing_checked_at": "2026-11-12T17:13:35.937+00:00"
+    }
+  ],
+  "remaining_deficits": [
+    {
+      "shop": "Chtte",
+      "account": "P3",
+      "handle": "mydecorshop",
+      "usable": 0,
+      "deficit": 3
+    },
+    {
+      "shop": "HibiChStudio",
+      "account": "P2",
+      "handle": "sailing_981",
+      "usable": 0,
+      "deficit": 3
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "account": "P5",
+      "handle": "ivy5205",
+      "usable": 0,
+      "deficit": 3
+    },
+    {
+      "shop": "Chtte",
+      "account": "P1",
+      "handle": "icyndizhang",
+      "usable": 2,
+      "deficit": 1
+    }
+  ],
+  "first_deficit_followup": "completed (previously; unchanged)"
+}
