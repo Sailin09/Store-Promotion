@@ -1,0 +1,684 @@
+{
+  "status": "inserted_and_verified",
+  "browser": "ChatGPT Work remote cdp",
+  "github_connector_verified": true,
+  "target": 3,
+  "max_batch": 20,
+  "raw_verify_log_target": 7,
+  "deficit_calculation": "max(0, 3 - usable) per route",
+  "batch": "batch-20261113-052200",
+  "batch_commit": "e879673b6f957007cfa262c0c3d6f9c5a9aec4c1",
+  "pre_verify": {
+    "run_id": 43267467172,
+    "job_id": 131706127342,
+    "audit_time": "2026-11-13T05:16:15.835719+00:00",
+    "plan_logged_at": "2026-11-13T05:16:18.8276565Z",
+    "routes": 32,
+    "usable": 78,
+    "deficit": 18,
+    "global_known_listing_ids": 501,
+    "deficit_routes": [
+      {
+        "shop": "Chtte",
+        "handle": "mydecorshop",
+        "target": 3,
+        "usable": 0,
+        "account": "P3",
+        "deficit": 3,
+        "previous_routes": [
+          {
+            "board_id": "499618221101215211",
+            "category": "Chair Cushions & Seat Pads"
+          }
+        ]
+      },
+      {
+        "shop": "HibiChStudio",
+        "handle": "sailing_981",
+        "target": 3,
+        "usable": 0,
+        "account": "P2",
+        "deficit": 3,
+        "previous_routes": [
+          {
+            "board_id": "863494997243989843",
+            "category": "Wall & Door Organizers"
+          }
+        ]
+      },
+      {
+        "shop": "NinaJiaStudio",
+        "handle": "ivy5205",
+        "target": 3,
+        "usable": 0,
+        "account": "P5",
+        "deficit": 3,
+        "previous_routes": [
+          {
+            "board_id": "713820678377803445",
+            "category": "Cosmetic Bags"
+          },
+          {
+            "board_id": "713820678377803445",
+            "category": "Shoulder Bags"
+          },
+          {
+            "board_id": "713820678377803445",
+            "category": "Textile Bags"
+          }
+        ]
+      },
+      {
+        "shop": "Adamideal",
+        "handle": "sailing_981",
+        "target": 3,
+        "usable": 2,
+        "account": "P2",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "863494997243989843",
+            "category": "Desk Organization"
+          },
+          {
+            "board_id": "863494997243989843",
+            "category": "Wooden Home Organization"
+          }
+        ]
+      },
+      {
+        "shop": "CellaHo",
+        "handle": "mydecorshop",
+        "target": 3,
+        "usable": 2,
+        "account": "P3",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "499618221101238533",
+            "category": "Embroidered Fabric"
+          },
+          {
+            "board_id": "499618221101238533",
+            "category": "Home Decor Fabric"
+          }
+        ]
+      },
+      {
+        "shop": "ChicDecorHK",
+        "handle": "cindyzhang62",
+        "target": 3,
+        "usable": 2,
+        "account": "P4",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "675399344058025061",
+            "category": "Seashell Jewelry"
+          }
+        ]
+      },
+      {
+        "shop": "Chtte",
+        "handle": "icyndizhang",
+        "target": 3,
+        "usable": 2,
+        "account": "P1",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Chair Cushions & Seat Pads"
+          }
+        ]
+      },
+      {
+        "shop": "KoltCraftStudio",
+        "handle": "sailing_981",
+        "target": 3,
+        "usable": 2,
+        "account": "P2",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "863494997243989843",
+            "category": "Home Storage"
+          },
+          {
+            "board_id": "863494997243989843",
+            "category": "Wooden Hangers"
+          }
+        ]
+      },
+      {
+        "shop": "KorusStore",
+        "handle": "icyndizhang",
+        "target": 3,
+        "usable": 2,
+        "account": "P1",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Blackout Curtains"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Floral Curtains"
+          }
+        ]
+      },
+      {
+        "shop": "LoomGoStudio",
+        "handle": "mydecorshop",
+        "target": 3,
+        "usable": 2,
+        "account": "P3",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "499618221101238533",
+            "category": "Home Decor Fabric"
+          },
+          {
+            "board_id": "499618221101238533",
+            "category": "Jacquard Fabric"
+          },
+          {
+            "board_id": "499618221101238533",
+            "category": "Silk & Organza Fabric"
+          }
+        ]
+      },
+      {
+        "shop": "NngGoods",
+        "handle": "ivy5205",
+        "target": 3,
+        "usable": 2,
+        "account": "P5",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "713820678377803412",
+            "category": "Cabinet Knobs & Pulls"
+          }
+        ]
+      },
+      {
+        "shop": "SobiaStudio",
+        "handle": "icyndizhang",
+        "target": 3,
+        "usable": 2,
+        "account": "P1",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Cafe Curtains"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Floral Curtains"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Tie-Up & Balloon Shades"
+          }
+        ]
+      }
+    ]
+  },
+  "storefront_checks": [
+    {
+      "shop": "Chtte",
+      "source_url": "https://www.etsy.com/shop/Chtte",
+      "visible_listing_count": 14,
+      "unknown_listing_count": 1,
+      "reason": "13 known; new 4616101190 verified and assigned only to P3. No second distinct listing for P1.",
+      "new_listing_ids": [
+        "4616101190"
+      ]
+    },
+    {
+      "shop": "HibiChStudio",
+      "source_url": "https://www.etsy.com/shop/HibiChStudio",
+      "visible_listing_count": 21,
+      "unknown_listing_count": 13,
+      "reason": "Eight known listings; 13 unknown listings are storage bins, baskets, bedding or closet bags and a garment cover, outside Wall & Door Organizers. No detail or visual claim.",
+      "unknown_listing_ids": [
+        "4454344966",
+        "4559057618",
+        "4559038359",
+        "4559062406",
+        "4559684799",
+        "4420844641",
+        "4473116090",
+        "4473114318",
+        "4420839477",
+        "4420842205",
+        "4517906376",
+        "4517885823",
+        "4454347860"
+      ]
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "source_url": "https://www.etsy.com/shop/NinaJiaStudio",
+      "visible_listing_count": 24,
+      "unknown_listing_count": 0,
+      "reason": "All 24 storefront IDs already known."
+    },
+    {
+      "shop": "Adamideal",
+      "source_url": "https://www.etsy.com/shop/Adamideal",
+      "visible_listing_count": 27,
+      "unknown_listing_count": 18,
+      "reason": "Desk Setup & Organizer section checked; one wooden cable box verified."
+    },
+    {
+      "shop": "CellaHo",
+      "source_url": "https://www.etsy.com/shop/CellaHo",
+      "visible_listing_count": 36,
+      "unknown_listing_count": 10,
+      "reason": "First storefront view; one embroidered fabric verified."
+    },
+    {
+      "shop": "ChicDecorHK",
+      "source_url": "https://www.etsy.com/shop/ChicDecorHK",
+      "visible_listing_count": 22,
+      "unknown_listing_count": 0,
+      "reason": "Shell Jewelry section checked; all 22 IDs already known."
+    },
+    {
+      "shop": "KoltCraftStudio",
+      "source_url": "https://www.etsy.com/shop/KoltCraftStudio",
+      "visible_listing_count": 40,
+      "unknown_listing_count": 20,
+      "reason": "First storefront view; one wooden hanger verified."
+    },
+    {
+      "shop": "KorusStore",
+      "source_url": "https://www.etsy.com/shop/KorusStore",
+      "visible_listing_count": 38,
+      "unknown_listing_count": 19,
+      "reason": "First storefront view; one floral curtain verified."
+    },
+    {
+      "shop": "LoomGoStudio",
+      "source_url": "https://www.etsy.com/shop/LoomGoStudio",
+      "visible_listing_count": 36,
+      "unknown_listing_count": 8,
+      "reason": "First storefront view; one organza fabric verified."
+    },
+    {
+      "shop": "NngGoods",
+      "source_url": "https://www.etsy.com/shop/NngGoods",
+      "visible_listing_count": 36,
+      "unknown_listing_count": 8,
+      "reason": "First storefront view; one cabinet knob listing verified."
+    },
+    {
+      "shop": "SobiaStudio",
+      "source_url": "https://www.etsy.com/shop/SobiaStudio",
+      "visible_listing_count": 38,
+      "unknown_listing_count": 32,
+      "reason": "First storefront view; one floral curtain listing verified as full panel, not a straps-only option."
+    }
+  ],
+  "ingestion": {
+    "run_id": 43371571264,
+    "job_id": 131708423666,
+    "first_inserted": 8,
+    "failed": 0,
+    "retry_inserted": 0,
+    "events": [
+      {
+        "batch": "batch-20261113-052200",
+        "shop": "Chtte",
+        "listing_id": "4616101190",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "logged_at": "2026-11-13T05:22:51.6996496Z"
+      },
+      {
+        "batch": "batch-20261113-052200",
+        "shop": "Adamideal",
+        "listing_id": "4449935263",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "logged_at": "2026-11-13T05:22:56.0108709Z"
+      },
+      {
+        "batch": "batch-20261113-052200",
+        "shop": "CellaHo",
+        "listing_id": "4362868081",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "logged_at": "2026-11-13T05:22:56.3568560Z"
+      },
+      {
+        "batch": "batch-20261113-052200",
+        "shop": "KoltCraftStudio",
+        "listing_id": "1769937480",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "logged_at": "2026-11-13T05:22:56.7254761Z"
+      },
+      {
+        "batch": "batch-20261113-052200",
+        "shop": "KorusStore",
+        "listing_id": "1623541470",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "logged_at": "2026-11-13T05:22:58.1802912Z"
+      },
+      {
+        "batch": "batch-20261113-052200",
+        "shop": "LoomGoStudio",
+        "listing_id": "4364584865",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "logged_at": "2026-11-13T05:22:58.5085154Z"
+      },
+      {
+        "batch": "batch-20261113-052200",
+        "shop": "NngGoods",
+        "listing_id": "4585514605",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "logged_at": "2026-11-13T05:22:59.6610410Z"
+      },
+      {
+        "batch": "batch-20261113-052200",
+        "shop": "SobiaStudio",
+        "listing_id": "4425775629",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "logged_at": "2026-11-13T05:22:59.9744772Z"
+      },
+      {
+        "inserted": 8,
+        "failed": 0,
+        "pending": 8,
+        "logged_at": "2026-11-13T05:22:59.9745908Z"
+      },
+      {
+        "status": "no_new_verified_material",
+        "inserted": 0,
+        "logged_at": "2026-11-13T05:23:00.2054062Z"
+      }
+    ]
+  },
+  "post_verify": {
+    "run_id": 43371675082,
+    "job_id": 131708618836,
+    "audit_time": "2026-11-13T05:23:18.650204+00:00",
+    "routes": 32,
+    "usable": 86,
+    "deficit": 10
+  },
+  "new_items": [
+    {
+      "shop": "Chtte",
+      "listing_id": "4616101190",
+      "category": "Chair Cushions & Seat Pads",
+      "source_url": "https://www.etsy.com/listing/4616101190/chair-cushion-set-cotton-linen-seat-pad",
+      "image_url": "https://i.etsystatic.com/58205190/r/il/e42b52/8896131759/il_794xN.8896131759_cn8d.jpg",
+      "new_title": "Tie-On Dining Chair Cushion Set",
+      "handle": "mydecorshop",
+      "board_id": "499618221101215211",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-13T05:21:11.129Z",
+      "body": "The main photo shows brown and light gray seat pads with vertically stitched back cushions and fabric ties on wooden dining chairs.",
+      "facebook_draft": "The main photo shows brown and light gray seat pads with vertically stitched back cushions and fabric ties on wooden dining chairs. See the Etsy listing from Chtte: https://www.etsy.com/listing/4616101190/chair-cushion-set-cotton-linen-seat-pad",
+      "evidence": "Found in the registered Chtte storefront and excluded from all 501 known listing IDs in the fresh database plan. The detail seller header linked to the same shop. Selected in-stock options: Primary color: Ivory; Set: Seat & Back Cushion; quantity 1. The listing's Add to cart button was visible and enabled after selection; no cart action was taken. Visually reviewed the actual primary listing image as a remote CDP screenshot of the exact Etsy image URL. The main photo shows brown and light gray seat pads with vertically stitched back cushions and fabric ties on wooden dining chairs.",
+      "account": "P3",
+      "board_name": "Kitchen & Dining",
+      "options": "Primary color: Ivory; Set: Seat & Back Cushion; quantity 1",
+      "queue_id": "35c31472-0b55-4f6d-bd70-eb336463ee80",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-13T05:22:51.562441+00:00",
+      "db_board_id": "499618221101215211",
+      "source_matches": true,
+      "reserve_snapshot_matches": true,
+      "db_listing_checked_at": "2026-11-13T05:21:11.129+00:00"
+    },
+    {
+      "shop": "Adamideal",
+      "listing_id": "4449935263",
+      "category": "Desk Organization",
+      "source_url": "https://www.etsy.com/listing/4449935263/desktop-wooden-cable-organizer-box-power",
+      "image_url": "https://i.etsystatic.com/35172699/r/il/10ace0/7894327270/il_794xN.7894327270_2uhy.jpg",
+      "new_title": "Wooden Desk Cable Organizer Box",
+      "handle": "sailing_981",
+      "board_id": "863494997243989843",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-13T05:21:01.804Z",
+      "body": "The main photo shows a wooden box with star-shaped cable openings and charging cords passing through the front.",
+      "facebook_draft": "The main photo shows a wooden box with star-shaped cable openings and charging cords passing through the front. See the Etsy listing from Adamideal: https://www.etsy.com/listing/4449935263/desktop-wooden-cable-organizer-box-power",
+      "evidence": "Found in the registered Adamideal storefront and excluded from all 501 known listing IDs in the fresh database plan. The detail seller header linked to the same shop. Selected in-stock options: Material: Walnut Wood; quantity 1. The listing's Add to cart button was visible and enabled after selection; no cart action was taken. Visually reviewed the actual primary listing image as a remote CDP screenshot of the exact Etsy image URL. The main photo shows a wooden box with star-shaped cable openings and charging cords passing through the front.",
+      "account": "P2",
+      "board_name": "storage",
+      "options": "Material: Walnut Wood; quantity 1",
+      "queue_id": "5debfa48-5ab8-4db3-bb7b-1bf38d141dd1",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-13T05:22:55.918085+00:00",
+      "db_board_id": "863494997243989843",
+      "source_matches": true,
+      "reserve_snapshot_matches": true,
+      "db_listing_checked_at": "2026-11-13T05:21:01.804+00:00"
+    },
+    {
+      "shop": "CellaHo",
+      "listing_id": "4362868081",
+      "category": "Embroidered Fabric",
+      "source_url": "https://www.etsy.com/listing/4362868081/embroidered-cotton-fabric-off-white",
+      "image_url": "https://i.etsystatic.com/39663062/r/il/c7ed5d/7213946973/il_794xN.7213946973_dvi8.jpg",
+      "new_title": "Off-White Cotton with Floral Embroidery",
+      "handle": "mydecorshop",
+      "board_id": "499618221101238533",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-13T05:20:51.103Z",
+      "body": "The main photo shows off-white cloth with embroidered purple flower sprigs, green stems, and small yellow-centered flowers.",
+      "facebook_draft": "The main photo shows off-white cloth with embroidered purple flower sprigs, green stems, and small yellow-centered flowers. See the Etsy listing from CellaHo: https://www.etsy.com/listing/4362868081/embroidered-cotton-fabric-off-white",
+      "evidence": "Found in the registered CellaHo storefront and excluded from all 501 known listing IDs in the fresh database plan. The detail seller header linked to the same shop. Selected in-stock options: Length: 0.5 Yards; quantity 1. The listing's Add to cart button was visible and enabled after selection; no cart action was taken. Visually reviewed the actual primary listing image as a remote CDP screenshot of the exact Etsy image URL. The main photo shows off-white cloth with embroidered purple flower sprigs, green stems, and small yellow-centered flowers.",
+      "account": "P3",
+      "board_name": "Home Decor",
+      "options": "Length: 0.5 Yards; quantity 1",
+      "queue_id": "a2db8dd7-8683-4e3d-8f2d-3b966c4d7a6a",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-13T05:22:56.290656+00:00",
+      "db_board_id": "499618221101238533",
+      "source_matches": true,
+      "reserve_snapshot_matches": true,
+      "db_listing_checked_at": "2026-11-13T05:20:51.103+00:00"
+    },
+    {
+      "shop": "KoltCraftStudio",
+      "listing_id": "1769937480",
+      "category": "Wooden Hangers",
+      "source_url": "https://www.etsy.com/listing/1769937480/solid-wood-pants-hangers-with-adjustable",
+      "image_url": "https://i.etsystatic.com/43671795/r/il/789a9a/6271822891/il_794xN.6271822891_htqo.jpg",
+      "new_title": "Wooden Pants Hanger with Metal Clips",
+      "handle": "sailing_981",
+      "board_id": "863494997243989843",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-13T05:20:51.430Z",
+      "body": "The main photo shows wooden hanger bars with brass-tone hooks and metal clips.",
+      "facebook_draft": "The main photo shows wooden hanger bars with brass-tone hooks and metal clips. See the Etsy listing from KoltCraftStudio: https://www.etsy.com/listing/1769937480/solid-wood-pants-hangers-with-adjustable",
+      "evidence": "Found in the registered KoltCraftStudio storefront and excluded from all 501 known listing IDs in the fresh database plan. The detail seller header linked to the same shop. Selected in-stock options: PCS: 1 PCS; quantity 1. The listing's Add to cart button was visible and enabled after selection; no cart action was taken. Visually reviewed the actual primary listing image as a remote CDP screenshot of the exact Etsy image URL. The main photo shows wooden hanger bars with brass-tone hooks and metal clips.",
+      "account": "P2",
+      "board_name": "storage",
+      "options": "PCS: 1 PCS; quantity 1",
+      "queue_id": "33596452-4f2a-4df2-acea-902ef1af99dd",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-13T05:22:56.635828+00:00",
+      "db_board_id": "863494997243989843",
+      "source_matches": true,
+      "reserve_snapshot_matches": true,
+      "db_listing_checked_at": "2026-11-13T05:20:51.43+00:00"
+    },
+    {
+      "shop": "KorusStore",
+      "listing_id": "1623541470",
+      "category": "Floral Curtains",
+      "source_url": "https://www.etsy.com/listing/1623541470/custom-green-floral-curtains-botanical",
+      "image_url": "https://i.etsystatic.com/35854701/r/il/c35e1b/6709610404/il_794xN.6709610404_bcvi.jpg",
+      "new_title": "Green Botanical Floral Curtains",
+      "handle": "icyndizhang",
+      "board_id": "801218658646993070",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-13T05:20:51.751Z",
+      "body": "The main photo shows dark green curtain folds printed with pale leaves and flowers with small orange accents.",
+      "facebook_draft": "The main photo shows dark green curtain folds printed with pale leaves and flowers with small orange accents. See the Etsy listing from KorusStore: https://www.etsy.com/listing/1623541470/custom-green-floral-curtains-botanical",
+      "evidence": "Found in the registered KorusStore storefront and excluded from all 501 known listing IDs in the fresh database plan. The detail seller header linked to the same shop. Selected in-stock options: Heading Option: Grommets (rec); Quantity/Size: 1PC W39 x L47 in; quantity 1. The listing's Add to cart button was visible and enabled after selection; no cart action was taken. Visually reviewed the actual primary listing image as a remote CDP screenshot of the exact Etsy image URL. The main photo shows dark green curtain folds printed with pale leaves and flowers with small orange accents.",
+      "account": "P1",
+      "board_name": "CyndiZhangStudio",
+      "options": "Heading Option: Grommets (rec); Quantity/Size: 1PC W39 x L47 in; quantity 1",
+      "queue_id": "db289c41-d178-4e4a-8fad-1717eeda045a",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-13T05:22:58.116771+00:00",
+      "db_board_id": "801218658646993070",
+      "source_matches": true,
+      "reserve_snapshot_matches": true,
+      "db_listing_checked_at": "2026-11-13T05:20:51.751+00:00"
+    },
+    {
+      "shop": "LoomGoStudio",
+      "listing_id": "4364584865",
+      "category": "Silk & Organza Fabric",
+      "source_url": "https://www.etsy.com/listing/4364584865/embroidered-organza-fabric-oriental",
+      "image_url": "https://i.etsystatic.com/58959935/r/il/118f29/7222537357/il_794xN.7222537357_eglf.jpg",
+      "new_title": "Organza with Embroidered Birds and Pavilions",
+      "handle": "mydecorshop",
+      "board_id": "499618221101238533",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-13T05:20:52.090Z",
+      "body": "The main photo shows sheer fabric embroidered with birds, branches, hills, and gold-colored pavilions.",
+      "facebook_draft": "The main photo shows sheer fabric embroidered with birds, branches, hills, and gold-colored pavilions. See the Etsy listing from LoomGoStudio: https://www.etsy.com/listing/4364584865/embroidered-organza-fabric-oriental",
+      "evidence": "Found in the registered LoomGoStudio storefront and excluded from all 501 known listing IDs in the fresh database plan. The detail seller header linked to the same shop. Selected in-stock options: Length option: 0.5 Yard; quantity 1. The listing's Add to cart button was visible and enabled after selection; no cart action was taken. Visually reviewed the actual primary listing image as a remote CDP screenshot of the exact Etsy image URL. The main photo shows sheer fabric embroidered with birds, branches, hills, and gold-colored pavilions.",
+      "account": "P3",
+      "board_name": "Home Decor",
+      "options": "Length option: 0.5 Yard; quantity 1",
+      "queue_id": "e07d4588-dfa3-4b9a-8c77-e5776d9e1c9a",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-13T05:22:58.445896+00:00",
+      "db_board_id": "499618221101238533",
+      "source_matches": true,
+      "reserve_snapshot_matches": true,
+      "db_listing_checked_at": "2026-11-13T05:20:52.09+00:00"
+    },
+    {
+      "shop": "NngGoods",
+      "listing_id": "4585514605",
+      "category": "Cabinet Knobs & Pulls",
+      "source_url": "https://www.etsy.com/listing/4585514605/natural-stone-brass-cabinet-knobs-white",
+      "image_url": "https://i.etsystatic.com/57194200/r/il/8313c5/8829702236/il_794xN.8829702236_73l5.jpg",
+      "new_title": "Round White Stone Cabinet Knobs",
+      "handle": "ivy5205",
+      "board_id": "713820678377803412",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-13T05:21:01.195Z",
+      "body": "The main photo shows two round white knobs with dark veining and gold-tone mounts on a light cabinet.",
+      "facebook_draft": "The main photo shows two round white knobs with dark veining and gold-tone mounts on a light cabinet. See the Etsy listing from NngGoods: https://www.etsy.com/listing/4585514605/natural-stone-brass-cabinet-knobs-white",
+      "evidence": "Found in the registered NngGoods storefront and excluded from all 501 known listing IDs in the fresh database plan. The detail seller header linked to the same shop. Selected in-stock options: Pack: 1 PCS; Material: White Turquoise; quantity 1. The listing's Add to cart button was visible and enabled after selection; no cart action was taken. Visually reviewed the actual primary listing image as a remote CDP screenshot of the exact Etsy image URL. The main photo shows two round white knobs with dark veining and gold-tone mounts on a light cabinet.",
+      "account": "P5",
+      "board_name": "Furniture",
+      "options": "Pack: 1 PCS; Material: White Turquoise; quantity 1",
+      "queue_id": "5464eef2-5556-418f-88df-807192fbc8e7",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-13T05:22:59.599635+00:00",
+      "db_board_id": "713820678377803412",
+      "source_matches": true,
+      "reserve_snapshot_matches": true,
+      "db_listing_checked_at": "2026-11-13T05:21:01.195+00:00"
+    },
+    {
+      "shop": "SobiaStudio",
+      "listing_id": "4425775629",
+      "category": "Floral Curtains",
+      "source_url": "https://www.etsy.com/listing/4425775629/rose-floral-curtains-semi-blackout",
+      "image_url": "https://i.etsystatic.com/42208273/r/il/70bb6c/7569494181/il_794xN.7569494181_qzl0.jpg",
+      "new_title": "Rose Print Curtains with Green Ruffles",
+      "handle": "icyndizhang",
+      "board_id": "801218658646993070",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-13T05:21:01.545Z",
+      "body": "The main photo shows pale rose-print curtain panels with green ruffled trim around a wooden window.",
+      "facebook_draft": "The main photo shows pale rose-print curtain panels with green ruffled trim around a wooden window. See the Etsy listing from SobiaStudio: https://www.etsy.com/listing/4425775629/rose-floral-curtains-semi-blackout",
+      "evidence": "Found in the registered SobiaStudio storefront and excluded from all 501 known listing IDs in the fresh database plan. The detail seller header linked to the same shop. Selected in-stock options: Size: 1 PCS-W49xL47 inch; Processing: Rod Pocket; quantity 1. The listing's Add to cart button was visible and enabled after selection; no cart action was taken. Visually reviewed the actual primary listing image as a remote CDP screenshot of the exact Etsy image URL. The main photo shows pale rose-print curtain panels with green ruffled trim around a wooden window.",
+      "account": "P1",
+      "board_name": "CyndiZhangStudio",
+      "options": "Size: 1 PCS-W49xL47 inch; Processing: Rod Pocket; quantity 1",
+      "queue_id": "1eddc049-9a60-4135-b697-8db3ba45e57d",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-13T05:22:59.888119+00:00",
+      "db_board_id": "801218658646993070",
+      "source_matches": true,
+      "reserve_snapshot_matches": true,
+      "db_listing_checked_at": "2026-11-13T05:21:01.545+00:00"
+    }
+  ],
+  "remaining_deficits": [
+    {
+      "shop": "HibiChStudio",
+      "account": "P2",
+      "handle": "sailing_981",
+      "usable": 0,
+      "deficit": 3
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "account": "P5",
+      "handle": "ivy5205",
+      "usable": 0,
+      "deficit": 3
+    },
+    {
+      "shop": "Chtte",
+      "account": "P3",
+      "handle": "mydecorshop",
+      "usable": 1,
+      "deficit": 2
+    },
+    {
+      "shop": "ChicDecorHK",
+      "account": "P4",
+      "handle": "cindyzhang62",
+      "usable": 2,
+      "deficit": 1
+    },
+    {
+      "shop": "Chtte",
+      "account": "P1",
+      "handle": "icyndizhang",
+      "usable": 2,
+      "deficit": 1
+    }
+  ],
+  "first_deficit_followup": "completed (previously; unchanged)"
+}
