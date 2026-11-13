@@ -1,0 +1,50 @@
+[
+  {
+    "shop": "MiraKiuStudio",
+    "listing_id": "4535984109",
+    "category": "Vintage Aprons",
+    "source_url": "https://www.etsy.com/listing/4535984109/white-cotton-half-apron-with-pockets",
+    "image_url": "https://i.etsystatic.com/59152881/r/il/8902bc/8847648873/il_794xN.8847648873_db8d.jpg",
+    "new_title": "White Half Apron with Lace Trim",
+    "handle": "icyndizhang",
+    "board_id": "801218658646993070",
+    "available": true,
+    "visual_verified": true,
+    "checked_at": "2026-11-13T17:17:33.370Z",
+    "body": "The main photo shows a white waist apron with a ruffled waistband, two patch pockets and lace near the hem.",
+    "facebook_draft": "The main photo shows a white waist apron with a ruffled waistband, two patch pockets and lace near the hem. See the Etsy listing from MiraKiuStudio: https://www.etsy.com/listing/4535984109/white-cotton-half-apron-with-pockets",
+    "evidence": "Discovered on the registered MiraKiuStudio storefront and checked against all 509 known listing IDs in the fresh Supabase plan. The actual listing seller header matched MiraKiuStudio; in-stock selection: Quantity 1 selectable; no required variant. Add to cart was visible and enabled; no cart action was taken. Visually reviewed the actual primary listing image at the Etsy image URL in a remote CDP screenshot. The main photo shows a white waist apron with a ruffled waistband, two patch pockets and lace near the hem."
+  },
+  {
+    "shop": "PearlsTreasuresArt",
+    "listing_id": "1890266206",
+    "category": "Seashell Jewelry",
+    "source_url": "https://www.etsy.com/listing/1890266206/seashell-earrings-rhinestone-silver",
+    "image_url": "https://i.etsystatic.com/46725934/r/il/571f78/6798293790/il_794xN.6798293790_bjge.jpg",
+    "new_title": "Ivory Shell Drop Earrings with Rhinestones",
+    "handle": "cindyzhang62",
+    "board_id": "675399344058025061",
+    "available": true,
+    "visual_verified": true,
+    "checked_at": "2026-11-13T17:17:33.572Z",
+    "body": "The main photo shows two ivory-colored shell earrings with silver-tone fittings and curved rows of rhinestones.",
+    "facebook_draft": "The main photo shows two ivory-colored shell earrings with silver-tone fittings and curved rows of rhinestones. See the Etsy listing from PearlsTreasuresArt: https://www.etsy.com/listing/1890266206/seashell-earrings-rhinestone-silver",
+    "evidence": "Discovered on the registered PearlsTreasuresArt storefront and checked against all 509 known listing IDs in the fresh Supabase plan. The actual listing seller header matched PearlsTreasuresArt; in-stock selection: Wearing: Studs; quantity 1. Add to cart was visible and enabled; no cart action was taken. Visually reviewed the actual primary listing image at the Etsy image URL in a remote CDP screenshot. The main photo shows two ivory-colored shell earrings with silver-tone fittings and curved rows of rhinestones."
+  },
+  {
+    "shop": "WoodHomeLiang",
+    "listing_id": "1784017080",
+    "category": "Wooden Hangers",
+    "source_url": "https://www.etsy.com/listing/1784017080/beech-wood-hanger-with-pants-bar-closet",
+    "image_url": "https://i.etsystatic.com/38928671/r/il/7e7bb6/6347949914/il_794xN.6347949914_2uot.jpg",
+    "new_title": "Beech Wood Hanger with Pants Bar",
+    "handle": "sailing_981",
+    "board_id": "863494997243989843",
+    "available": true,
+    "visual_verified": true,
+    "checked_at": "2026-11-13T17:17:33.817Z",
+    "body": "The main photo shows light wood hangers with metal hooks and lower bars, with trousers draped over some of the bars.",
+    "facebook_draft": "The main photo shows light wood hangers with metal hooks and lower bars, with trousers draped over some of the bars. See the Etsy listing from WoodHomeLiang: https://www.etsy.com/listing/1784017080/beech-wood-hanger-with-pants-bar-closet",
+    "evidence": "Discovered on the registered WoodHomeLiang storefront and checked against all 509 known listing IDs in the fresh Supabase plan. The actual listing seller header matched WoodHomeLiang; in-stock selection: Pack: 1 PCS; Option: A; quantity 1. Add to cart was visible and enabled; no cart action was taken. Visually reviewed the actual primary listing image at the Etsy image URL in a remote CDP screenshot. The main photo shows light wood hangers with metal hooks and lower bars, with trousers draped over some of the bars."
+  }
+]
