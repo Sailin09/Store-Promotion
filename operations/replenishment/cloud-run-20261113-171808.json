@@ -1,0 +1,755 @@
+{
+  "status": "inserted_and_verified",
+  "browser": "ChatGPT Work remote cdp",
+  "github_connector_verified": true,
+  "target": 3,
+  "max_batch": 20,
+  "raw_verify_log_target": 7,
+  "deficit_calculation": "max(0, 3 - usable) per active route",
+  "batch": "batch-20261113-171808",
+  "batch_commit": "b750a309429e936fe94bbda675006f4f8aaea176",
+  "pre_verify": {
+    "run_id": 43371675082,
+    "job_id": 132042319187,
+    "audit_time": "2026-11-13T17:15:23.036419+00:00",
+    "routes": 32,
+    "usable": 82,
+    "deficit": 14,
+    "known_listing_ids_checked": 509,
+    "deficit_routes": [
+      {
+        "shop": "Chtte",
+        "handle": "mydecorshop",
+        "target": 3,
+        "usable": 0,
+        "account": "P3",
+        "deficit": 3,
+        "previous_routes": [
+          {
+            "board_id": "499618221101215211",
+            "category": "Chair Cushions & Seat Pads"
+          }
+        ]
+      },
+      {
+        "shop": "HibiChStudio",
+        "handle": "sailing_981",
+        "target": 3,
+        "usable": 0,
+        "account": "P2",
+        "deficit": 3,
+        "previous_routes": [
+          {
+            "board_id": "863494997243989843",
+            "category": "Wall & Door Organizers"
+          }
+        ]
+      },
+      {
+        "shop": "NinaJiaStudio",
+        "handle": "ivy5205",
+        "target": 3,
+        "usable": 0,
+        "account": "P5",
+        "deficit": 3,
+        "previous_routes": [
+          {
+            "board_id": "713820678377803445",
+            "category": "Cosmetic Bags"
+          },
+          {
+            "board_id": "713820678377803445",
+            "category": "Shoulder Bags"
+          },
+          {
+            "board_id": "713820678377803445",
+            "category": "Textile Bags"
+          }
+        ]
+      },
+      {
+        "shop": "ChicDecorHK",
+        "handle": "cindyzhang62",
+        "target": 3,
+        "usable": 2,
+        "account": "P4",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "675399344058025061",
+            "category": "Seashell Jewelry"
+          }
+        ]
+      },
+      {
+        "shop": "Chtte",
+        "handle": "icyndizhang",
+        "target": 3,
+        "usable": 2,
+        "account": "P1",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Chair Cushions & Seat Pads"
+          }
+        ]
+      },
+      {
+        "shop": "MiraKiuStudio",
+        "handle": "icyndizhang",
+        "target": 3,
+        "usable": 2,
+        "account": "P1",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Vintage Aprons"
+          }
+        ]
+      },
+      {
+        "shop": "PearlsTreasuresArt",
+        "handle": "cindyzhang62",
+        "target": 3,
+        "usable": 2,
+        "account": "P4",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "675399344058025061",
+            "category": "Seashell Jewelry"
+          }
+        ]
+      },
+      {
+        "shop": "WoodHomeLiang",
+        "handle": "sailing_981",
+        "target": 3,
+        "usable": 2,
+        "account": "P2",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "863494997243989843",
+            "category": "Closet Organization"
+          },
+          {
+            "board_id": "863494997243989843",
+            "category": "Wooden Hangers"
+          }
+        ]
+      }
+    ]
+  },
+  "storefront_checks": [
+    {
+      "shop": "Chtte",
+      "source_url": "https://www.etsy.com/shop/Chtte",
+      "observed_at": "2026-11-13T17:16:15.745Z",
+      "scope": "All 14",
+      "visible_listing_ids": [
+        "4535424416",
+        "4616101190",
+        "4535422573",
+        "4586894685",
+        "4577582372",
+        "4577559034",
+        "4577591162",
+        "4577556837",
+        "4440783510",
+        "4535407129",
+        "4514553651",
+        "4440831933",
+        "4535436683",
+        "4514589653"
+      ],
+      "excluded_known": [
+        "4535424416",
+        "4616101190",
+        "4535422573",
+        "4586894685",
+        "4577582372",
+        "4577559034",
+        "4577591162",
+        "4577556837",
+        "4440783510",
+        "4535407129",
+        "4514553651",
+        "4440831933",
+        "4535436683",
+        "4514589653"
+      ],
+      "unknown_listing_ids": [],
+      "eligible_new_listing_ids": [],
+      "reason": "All storefront IDs are known; no distinct new ID for either P3 or P1."
+    },
+    {
+      "shop": "HibiChStudio",
+      "source_url": "https://www.etsy.com/shop/HibiChStudio",
+      "observed_at": "2026-11-13T17:16:17.643Z",
+      "scope": "All 21",
+      "visible_listing_ids": [
+        "4420842205",
+        "4374349912",
+        "4473098237",
+        "4454342176",
+        "4454344966",
+        "4559711054",
+        "4391652370",
+        "4559057618",
+        "4559038359",
+        "4559062406",
+        "4559684799",
+        "4420844641",
+        "4391681449",
+        "4391650576",
+        "4374362269",
+        "4473116090",
+        "4473114318",
+        "4420839477",
+        "4517906376",
+        "4517885823",
+        "4454347860"
+      ],
+      "excluded_known": [
+        "4374349912",
+        "4473098237",
+        "4454342176",
+        "4559711054",
+        "4391652370",
+        "4391681449",
+        "4391650576",
+        "4374362269"
+      ],
+      "unknown_listing_ids": [
+        "4420842205",
+        "4454344966",
+        "4559057618",
+        "4559038359",
+        "4559062406",
+        "4559684799",
+        "4420844641",
+        "4473116090",
+        "4473114318",
+        "4420839477",
+        "4517906376",
+        "4517885823",
+        "4454347860"
+      ],
+      "eligible_new_listing_ids": [],
+      "reason": "13 unknown listings are bins, baskets, bedding or closet bags, or a garment cover, outside Wall & Door Organizers; the eight applicable IDs are already known."
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "source_url": "https://www.etsy.com/shop/NinaJiaStudio",
+      "observed_at": "2026-11-13T17:16:19.714Z",
+      "scope": "All 24",
+      "visible_listing_ids": [
+        "4435963114",
+        "4585567382",
+        "4585556630",
+        "4585549341",
+        "4585524379",
+        "4477926256",
+        "4435968040",
+        "4435907497",
+        "4435912349",
+        "4435955425",
+        "4569933203",
+        "4558515139",
+        "4568703716",
+        "4477929531",
+        "4558513279",
+        "4415232975",
+        "4486251915",
+        "4477915577",
+        "4477918490",
+        "4477906166",
+        "4415243185",
+        "4415234134",
+        "4415221724",
+        "4415229681"
+      ],
+      "excluded_known": [
+        "4435963114",
+        "4585567382",
+        "4585556630",
+        "4585549341",
+        "4585524379",
+        "4477926256",
+        "4435968040",
+        "4435907497",
+        "4435912349",
+        "4435955425",
+        "4569933203",
+        "4558515139",
+        "4568703716",
+        "4477929531",
+        "4558513279",
+        "4415232975",
+        "4486251915",
+        "4477915577",
+        "4477918490",
+        "4477906166",
+        "4415243185",
+        "4415234134",
+        "4415221724",
+        "4415229681"
+      ],
+      "unknown_listing_ids": [],
+      "eligible_new_listing_ids": [],
+      "reason": "All 24 storefront IDs are already in the global known ID set."
+    },
+    {
+      "shop": "ChicDecorHK",
+      "source_url": "https://www.etsy.com/shop/ChicDecorHK?section_id=36093325",
+      "observed_at": "2026-11-13T17:16:52.800Z",
+      "scope": "Shell Jewelry 22",
+      "visible_listing_ids": [
+        "1664536978",
+        "1869942090",
+        "1103128579",
+        "1664510418",
+        "1170123268",
+        "1678693571",
+        "1640975851",
+        "1606392268",
+        "1506048129",
+        "1170079452",
+        "1721799800",
+        "1599224125",
+        "1618224588",
+        "1735968559",
+        "1125022447",
+        "1864481074",
+        "4358550068",
+        "1736022367",
+        "4356452486",
+        "4356476861",
+        "1267359860",
+        "1585132122"
+      ],
+      "excluded_known": [
+        "1664536978",
+        "1869942090",
+        "1103128579",
+        "1664510418",
+        "1170123268",
+        "1678693571",
+        "1640975851",
+        "1606392268",
+        "1506048129",
+        "1170079452",
+        "1721799800",
+        "1599224125",
+        "1618224588",
+        "1735968559",
+        "1125022447",
+        "1864481074",
+        "4358550068",
+        "1736022367",
+        "4356452486",
+        "4356476861",
+        "1267359860",
+        "1585132122"
+      ],
+      "unknown_listing_ids": [],
+      "eligible_new_listing_ids": [],
+      "reason": "All 22 IDs in the relevant section are known."
+    },
+    {
+      "shop": "MiraKiuStudio",
+      "source_url": "https://www.etsy.com/shop/MiraKiuStudio",
+      "observed_at": "2026-11-13T17:16:23.706Z",
+      "scope": "All 14",
+      "visible_listing_ids": [
+        "4385580248",
+        "4535984109",
+        "4535994580",
+        "4535979555",
+        "4464847134",
+        "4385581970",
+        "4464822987",
+        "4464842770",
+        "4552584659",
+        "4489980889",
+        "4465201641",
+        "4535990462",
+        "4490577165",
+        "4385585851"
+      ],
+      "excluded_known": [
+        "4385580248",
+        "4535979555",
+        "4464847134",
+        "4385581970",
+        "4464822987",
+        "4464842770",
+        "4489980889",
+        "4465201641"
+      ],
+      "unknown_listing_ids": [
+        "4535984109",
+        "4535994580",
+        "4552584659",
+        "4535990462",
+        "4490577165",
+        "4385585851"
+      ],
+      "eligible_new_listing_ids": [
+        "4535984109"
+      ],
+      "reason": "One eligible listing verified for the one-item deficit."
+    },
+    {
+      "shop": "PearlsTreasuresArt",
+      "source_url": "https://www.etsy.com/shop/PearlsTreasuresArt",
+      "observed_at": "2026-11-13T17:16:25.685Z",
+      "scope": "All 31",
+      "visible_listing_ids": [
+        "1895005417",
+        "1899462379",
+        "1867791265",
+        "1904477471",
+        "4360843084",
+        "4397640177",
+        "4397633965",
+        "4320444542",
+        "4320754160",
+        "4320754317",
+        "4320437541",
+        "1853584450",
+        "1837627326",
+        "4339515708",
+        "4348858512",
+        "1885288690",
+        "4320749748",
+        "1836826948",
+        "1851020981",
+        "4348862803",
+        "1836837324",
+        "1885304220",
+        "1890266206",
+        "4338007062",
+        "4397632029",
+        "4436880116",
+        "1898664669",
+        "4339512567",
+        "4339516931",
+        "4338005523",
+        "4515043853"
+      ],
+      "excluded_known": [
+        "1895005417",
+        "1899462379",
+        "1867791265",
+        "1904477471",
+        "4360843084",
+        "4397640177",
+        "4397633965",
+        "4320444542",
+        "4320754160",
+        "4320754317",
+        "4320437541",
+        "1853584450",
+        "1837627326",
+        "4339515708",
+        "4348858512",
+        "1885288690",
+        "4320749748",
+        "1836826948",
+        "1851020981",
+        "4348862803",
+        "1836837324",
+        "1885304220",
+        "4339516931",
+        "4515043853"
+      ],
+      "unknown_listing_ids": [
+        "1890266206",
+        "4338007062",
+        "4397632029",
+        "4436880116",
+        "1898664669",
+        "4339512567",
+        "4338005523"
+      ],
+      "eligible_new_listing_ids": [
+        "1890266206"
+      ],
+      "reason": "One eligible listing verified for the one-item deficit."
+    },
+    {
+      "shop": "WoodHomeLiang",
+      "source_url": "https://www.etsy.com/shop/WoodHomeLiang",
+      "observed_at": "2026-11-13T17:16:27.946Z",
+      "scope": "First storefront page (39 of 118)",
+      "visible_listing_ids": [
+        "1375376543",
+        "1342461246",
+        "1702135608",
+        "1508805169",
+        "1443142853",
+        "1853904591",
+        "1766739011",
+        "1702690078",
+        "1476868692",
+        "1608285528",
+        "1896704249",
+        "1733536588",
+        "1784017080",
+        "1839703296",
+        "1896703667",
+        "1863933464",
+        "4441479669",
+        "1712737233",
+        "1732254777",
+        "1882526938",
+        "1677664863",
+        "1792430225",
+        "1698573862",
+        "1878124075",
+        "4559855131",
+        "1747740369",
+        "1853908989",
+        "1896707133",
+        "4610279542",
+        "1733573446",
+        "4454940692",
+        "4371897142",
+        "4608807527",
+        "4608793147",
+        "4608768911",
+        "1716361045",
+        "4608778340",
+        "4608766974",
+        "1798165485"
+      ],
+      "excluded_known": [
+        "1375376543",
+        "1342461246",
+        "1702135608",
+        "1853904591",
+        "1766739011",
+        "1608285528",
+        "1896704249",
+        "1863933464",
+        "1882526938",
+        "1677664863",
+        "1747740369",
+        "4608807527",
+        "1798165485"
+      ],
+      "unknown_listing_ids": [
+        "1508805169",
+        "1443142853",
+        "1702690078",
+        "1476868692",
+        "1733536588",
+        "1784017080",
+        "1839703296",
+        "1896703667",
+        "4441479669",
+        "1712737233",
+        "1732254777",
+        "1792430225",
+        "1698573862",
+        "1878124075",
+        "4559855131",
+        "1853908989",
+        "1896707133",
+        "4610279542",
+        "1733573446",
+        "4454940692",
+        "4371897142",
+        "4608793147",
+        "4608768911",
+        "1716361045",
+        "4608778340",
+        "4608766974"
+      ],
+      "eligible_new_listing_ids": [
+        "1784017080"
+      ],
+      "reason": "One eligible listing verified for the one-item deficit."
+    }
+  ],
+  "ingestion": {
+    "run_id": 43471442332,
+    "job_id": 132044306168,
+    "first_inserted": 3,
+    "failed": 0,
+    "retry_inserted": 0,
+    "events": [
+      {
+        "batch": "batch-20261113-171808",
+        "shop": "MiraKiuStudio",
+        "listing_id": "4535984109",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "logged_at": "2026-11-13T17:18:53.0709079Z"
+      },
+      {
+        "batch": "batch-20261113-171808",
+        "shop": "PearlsTreasuresArt",
+        "listing_id": "1890266206",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "logged_at": "2026-11-13T17:18:54.3532758Z"
+      },
+      {
+        "batch": "batch-20261113-171808",
+        "shop": "WoodHomeLiang",
+        "listing_id": "1784017080",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "logged_at": "2026-11-13T17:18:57.9659029Z"
+      },
+      {
+        "inserted": 3,
+        "failed": 0,
+        "pending": 3,
+        "logged_at": "2026-11-13T17:18:57.9659810Z"
+      },
+      {
+        "status": "no_new_verified_material",
+        "inserted": 0,
+        "logged_at": "2026-11-13T17:18:58.1704087Z"
+      }
+    ]
+  },
+  "post_verify": {
+    "run_id": 43471588081,
+    "job_id": 132044588249,
+    "audit_time": "2026-11-13T17:19:18.00331+00:00",
+    "routes": 32,
+    "usable": 85,
+    "deficit": 11
+  },
+  "new_items": [
+    {
+      "shop": "MiraKiuStudio",
+      "listing_id": "4535984109",
+      "category": "Vintage Aprons",
+      "source_url": "https://www.etsy.com/listing/4535984109/white-cotton-half-apron-with-pockets",
+      "image_url": "https://i.etsystatic.com/59152881/r/il/8902bc/8847648873/il_794xN.8847648873_db8d.jpg",
+      "new_title": "White Half Apron with Lace Trim",
+      "handle": "icyndizhang",
+      "board_id": "801218658646993070",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-13T17:17:33.370Z",
+      "body": "The main photo shows a white waist apron with a ruffled waistband, two patch pockets and lace near the hem.",
+      "facebook_draft": "The main photo shows a white waist apron with a ruffled waistband, two patch pockets and lace near the hem. See the Etsy listing from MiraKiuStudio: https://www.etsy.com/listing/4535984109/white-cotton-half-apron-with-pockets",
+      "evidence": "Discovered on the registered MiraKiuStudio storefront and checked against all 509 known listing IDs in the fresh Supabase plan. The actual listing seller header matched MiraKiuStudio; in-stock selection: Quantity 1 selectable; no required variant. Add to cart was visible and enabled; no cart action was taken. Visually reviewed the actual primary listing image at the Etsy image URL in a remote CDP screenshot. The main photo shows a white waist apron with a ruffled waistband, two patch pockets and lace near the hem.",
+      "account": "P1",
+      "board_name": "CyndiZhangStudio",
+      "options": "Quantity 1 selectable; no required variant",
+      "queue_id": "f35f473d-097b-423c-b0bb-094fe6a876f6",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-13T17:18:52.933097+00:00",
+      "db_board_id": "801218658646993070",
+      "source_matches": true,
+      "reserve_snapshot_matches": true,
+      "db_listing_checked_at": "2026-11-13T17:17:33.37+00:00"
+    },
+    {
+      "shop": "PearlsTreasuresArt",
+      "listing_id": "1890266206",
+      "category": "Seashell Jewelry",
+      "source_url": "https://www.etsy.com/listing/1890266206/seashell-earrings-rhinestone-silver",
+      "image_url": "https://i.etsystatic.com/46725934/r/il/571f78/6798293790/il_794xN.6798293790_bjge.jpg",
+      "new_title": "Ivory Shell Drop Earrings with Rhinestones",
+      "handle": "cindyzhang62",
+      "board_id": "675399344058025061",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-13T17:17:33.572Z",
+      "body": "The main photo shows two ivory-colored shell earrings with silver-tone fittings and curved rows of rhinestones.",
+      "facebook_draft": "The main photo shows two ivory-colored shell earrings with silver-tone fittings and curved rows of rhinestones. See the Etsy listing from PearlsTreasuresArt: https://www.etsy.com/listing/1890266206/seashell-earrings-rhinestone-silver",
+      "evidence": "Discovered on the registered PearlsTreasuresArt storefront and checked against all 509 known listing IDs in the fresh Supabase plan. The actual listing seller header matched PearlsTreasuresArt; in-stock selection: Wearing: Studs; quantity 1. Add to cart was visible and enabled; no cart action was taken. Visually reviewed the actual primary listing image at the Etsy image URL in a remote CDP screenshot. The main photo shows two ivory-colored shell earrings with silver-tone fittings and curved rows of rhinestones.",
+      "account": "P4",
+      "board_name": "Jewelry & Accessories",
+      "options": "Wearing: Studs; quantity 1",
+      "queue_id": "2dc05e81-7834-42ae-b434-290a4f217754",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-13T17:18:54.286083+00:00",
+      "db_board_id": "675399344058025061",
+      "source_matches": true,
+      "reserve_snapshot_matches": true,
+      "db_listing_checked_at": "2026-11-13T17:17:33.572+00:00"
+    },
+    {
+      "shop": "WoodHomeLiang",
+      "listing_id": "1784017080",
+      "category": "Wooden Hangers",
+      "source_url": "https://www.etsy.com/listing/1784017080/beech-wood-hanger-with-pants-bar-closet",
+      "image_url": "https://i.etsystatic.com/38928671/r/il/7e7bb6/6347949914/il_794xN.6347949914_2uot.jpg",
+      "new_title": "Beech Wood Hanger with Pants Bar",
+      "handle": "sailing_981",
+      "board_id": "863494997243989843",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-13T17:17:33.817Z",
+      "body": "The main photo shows light wood hangers with metal hooks and lower bars, with trousers draped over some of the bars.",
+      "facebook_draft": "The main photo shows light wood hangers with metal hooks and lower bars, with trousers draped over some of the bars. See the Etsy listing from WoodHomeLiang: https://www.etsy.com/listing/1784017080/beech-wood-hanger-with-pants-bar-closet",
+      "evidence": "Discovered on the registered WoodHomeLiang storefront and checked against all 509 known listing IDs in the fresh Supabase plan. The actual listing seller header matched WoodHomeLiang; in-stock selection: Pack: 1 PCS; Option: A; quantity 1. Add to cart was visible and enabled; no cart action was taken. Visually reviewed the actual primary listing image at the Etsy image URL in a remote CDP screenshot. The main photo shows light wood hangers with metal hooks and lower bars, with trousers draped over some of the bars.",
+      "account": "P2",
+      "board_name": "storage",
+      "options": "Pack: 1 PCS; Option: A; quantity 1",
+      "queue_id": "d5f49399-f2b7-4468-b745-5e4d35fb83dd",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-13T17:18:57.893488+00:00",
+      "db_board_id": "863494997243989843",
+      "source_matches": true,
+      "reserve_snapshot_matches": true,
+      "db_listing_checked_at": "2026-11-13T17:17:33.817+00:00"
+    }
+  ],
+  "remaining_deficits": [
+    {
+      "shop": "Chtte",
+      "account": "P3",
+      "handle": "mydecorshop",
+      "usable": 0,
+      "deficit": 3
+    },
+    {
+      "shop": "HibiChStudio",
+      "account": "P2",
+      "handle": "sailing_981",
+      "usable": 0,
+      "deficit": 3
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "account": "P5",
+      "handle": "ivy5205",
+      "usable": 0,
+      "deficit": 3
+    },
+    {
+      "shop": "ChicDecorHK",
+      "account": "P4",
+      "handle": "cindyzhang62",
+      "usable": 2,
+      "deficit": 1
+    },
+    {
+      "shop": "Chtte",
+      "account": "P1",
+      "handle": "icyndizhang",
+      "usable": 2,
+      "deficit": 1
+    }
+  ],
+  "first_deficit_followup": "completed (previously; unchanged)"
+}
