@@ -1,0 +1,772 @@
+{
+  "status": "inserted_and_verified",
+  "browser": "ChatGPT Work remote cdp",
+  "github_connector_verified": true,
+  "target": 3,
+  "max_batch": 20,
+  "raw_verify_log_target": 7,
+  "deficit_calculation": "max(0, 3 - usable) per active route",
+  "batch": "batch-20261114-051525",
+  "batch_commit": "395b632d7e738238fb0087cc3b1b366c69123d6c",
+  "pre_verify": {
+    "run_id": 43471588081,
+    "job_id": 132342559183,
+    "audit_time": "2026-11-14T05:12:47.94742+00:00",
+    "routes": 32,
+    "usable": 79,
+    "deficit": 17,
+    "known_listing_ids_checked": 512,
+    "deficit_routes": [
+      {
+        "shop": "Chtte",
+        "handle": "mydecorshop",
+        "target": 3,
+        "usable": 0,
+        "account": "P3",
+        "deficit": 3,
+        "previous_routes": [
+          {
+            "board_id": "499618221101215211",
+            "category": "Chair Cushions & Seat Pads"
+          }
+        ]
+      },
+      {
+        "shop": "HibiChStudio",
+        "handle": "sailing_981",
+        "target": 3,
+        "usable": 0,
+        "account": "P2",
+        "deficit": 3,
+        "previous_routes": [
+          {
+            "board_id": "863494997243989843",
+            "category": "Wall & Door Organizers"
+          }
+        ]
+      },
+      {
+        "shop": "NinaJiaStudio",
+        "handle": "ivy5205",
+        "target": 3,
+        "usable": 0,
+        "account": "P5",
+        "deficit": 3,
+        "previous_routes": [
+          {
+            "board_id": "713820678377803445",
+            "category": "Cosmetic Bags"
+          },
+          {
+            "board_id": "713820678377803445",
+            "category": "Shoulder Bags"
+          },
+          {
+            "board_id": "713820678377803445",
+            "category": "Textile Bags"
+          }
+        ]
+      },
+      {
+        "shop": "ChicDecorHK",
+        "handle": "icyndizhang",
+        "target": 3,
+        "usable": 2,
+        "account": "P1",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Roman Shades"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Striped Curtains"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Tie-Up & Balloon Shades"
+          }
+        ]
+      },
+      {
+        "shop": "ChicDecorHK",
+        "handle": "cindyzhang62",
+        "target": 3,
+        "usable": 2,
+        "account": "P4",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "675399344058025061",
+            "category": "Seashell Jewelry"
+          }
+        ]
+      },
+      {
+        "shop": "Chtte",
+        "handle": "icyndizhang",
+        "target": 3,
+        "usable": 2,
+        "account": "P1",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Chair Cushions & Seat Pads"
+          }
+        ]
+      },
+      {
+        "shop": "LambertHouse",
+        "handle": "sailing_981",
+        "target": 3,
+        "usable": 2,
+        "account": "P2",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "863494997243989843",
+            "category": "Closet Organization"
+          }
+        ]
+      },
+      {
+        "shop": "MiawoodStudio",
+        "handle": "sailing_981",
+        "target": 3,
+        "usable": 2,
+        "account": "P2",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "863494997243989843",
+            "category": "Wooden Hangers"
+          }
+        ]
+      },
+      {
+        "shop": "NngGoods",
+        "handle": "ivy5205",
+        "target": 3,
+        "usable": 2,
+        "account": "P5",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "713820678377803412",
+            "category": "Cabinet Knobs & Pulls"
+          }
+        ]
+      },
+      {
+        "shop": "QuGifts",
+        "handle": "cindyzhang62",
+        "target": 3,
+        "usable": 2,
+        "account": "P4",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "675399344056772225",
+            "category": "Coastal Home Decor"
+          },
+          {
+            "board_id": "675399344056772225",
+            "category": "Wall Decor"
+          }
+        ]
+      },
+      {
+        "shop": "ShirieHomeShow",
+        "handle": "icyndizhang",
+        "target": 3,
+        "usable": 2,
+        "account": "P1",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Blackout Curtains"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "French Country Curtains"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Sheer Curtains"
+          }
+        ]
+      }
+    ]
+  },
+  "storefront_checks": [
+    {
+      "shop": "Chtte",
+      "source_url": "https://www.etsy.com/shop/Chtte",
+      "observed_at": "2026-11-14T05:13:24.033Z",
+      "scope": "All 14",
+      "visible_listing_ids": [
+        "4535424416",
+        "4616101190",
+        "4535422573",
+        "4586894685",
+        "4577582372",
+        "4577559034",
+        "4577591162",
+        "4577556837",
+        "4440783510",
+        "4535407129",
+        "4514553651",
+        "4440831933",
+        "4535436683",
+        "4514589653"
+      ],
+      "excluded_known": [
+        "4535424416",
+        "4616101190",
+        "4535422573",
+        "4586894685",
+        "4577582372",
+        "4577559034",
+        "4577591162",
+        "4577556837",
+        "4440783510",
+        "4535407129",
+        "4514553651",
+        "4440831933",
+        "4535436683",
+        "4514589653"
+      ],
+      "unknown_listing_ids": [],
+      "eligible_new_listing_ids": [],
+      "reason": "All visible IDs known."
+    },
+    {
+      "shop": "HibiChStudio",
+      "source_url": "https://www.etsy.com/shop/HibiChStudio",
+      "observed_at": "2026-11-14T05:13:25.387Z",
+      "scope": "All 21",
+      "visible_listing_ids": [
+        "4473098237",
+        "4420842205",
+        "4374349912",
+        "4454342176",
+        "4454344966",
+        "4559711054",
+        "4391652370",
+        "4559057618",
+        "4559038359",
+        "4559062406",
+        "4559684799",
+        "4420844641",
+        "4391681449",
+        "4391650576",
+        "4374362269",
+        "4473116090",
+        "4473114318",
+        "4420839477",
+        "4517906376",
+        "4517885823",
+        "4454347860"
+      ],
+      "excluded_known": [
+        "4473098237",
+        "4374349912",
+        "4454342176",
+        "4559711054",
+        "4391652370",
+        "4391681449",
+        "4391650576",
+        "4374362269"
+      ],
+      "unknown_listing_ids": [
+        "4420842205",
+        "4454344966",
+        "4559057618",
+        "4559038359",
+        "4559062406",
+        "4559684799",
+        "4420844641",
+        "4473116090",
+        "4473114318",
+        "4420839477",
+        "4517906376",
+        "4517885823",
+        "4454347860"
+      ],
+      "eligible_new_listing_ids": [],
+      "reason": "Eight matching IDs already known; 13 storage bins, baskets, bags or garment covers do not match Wall & Door Organizers."
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "source_url": "https://www.etsy.com/shop/NinaJiaStudio",
+      "observed_at": "2026-11-14T05:13:26.697Z",
+      "scope": "All 24",
+      "visible_listing_ids": [
+        "4435963114",
+        "4585567382",
+        "4585556630",
+        "4585549341",
+        "4585524379",
+        "4477926256",
+        "4435968040",
+        "4435907497",
+        "4435912349",
+        "4435955425",
+        "4569933203",
+        "4558515139",
+        "4568703716",
+        "4477929531",
+        "4558513279",
+        "4415232975",
+        "4486251915",
+        "4477915577",
+        "4477918490",
+        "4477906166",
+        "4415243185",
+        "4415234134",
+        "4415221724",
+        "4415229681"
+      ],
+      "excluded_known": [
+        "4435963114",
+        "4585567382",
+        "4585556630",
+        "4585549341",
+        "4585524379",
+        "4477926256",
+        "4435968040",
+        "4435907497",
+        "4435912349",
+        "4435955425",
+        "4569933203",
+        "4558515139",
+        "4568703716",
+        "4477929531",
+        "4558513279",
+        "4415232975",
+        "4486251915",
+        "4477915577",
+        "4477918490",
+        "4477906166",
+        "4415243185",
+        "4415234134",
+        "4415221724",
+        "4415229681"
+      ],
+      "unknown_listing_ids": [],
+      "eligible_new_listing_ids": [],
+      "reason": "All visible IDs known."
+    },
+    {
+      "shop": "ChicDecorHK",
+      "account": "P4",
+      "source_url": "https://www.etsy.com/shop/ChicDecorHK?section_id=36093325",
+      "observed_at": "2026-11-14T05:13:44.855Z",
+      "scope": "Shell Jewelry 22",
+      "visible_listing_ids": [
+        "1664536978",
+        "1869942090",
+        "1103128579",
+        "1664510418",
+        "1170123268",
+        "1678693571",
+        "1640975851",
+        "1606392268",
+        "1506048129",
+        "1170079452",
+        "1721799800",
+        "1599224125",
+        "1618224588",
+        "1735968559",
+        "1125022447",
+        "1864481074",
+        "4358550068",
+        "1736022367",
+        "4356452486",
+        "4356476861",
+        "1267359860",
+        "1585132122"
+      ],
+      "excluded_known": [
+        "1664536978",
+        "1869942090",
+        "1103128579",
+        "1664510418",
+        "1170123268",
+        "1678693571",
+        "1640975851",
+        "1606392268",
+        "1506048129",
+        "1170079452",
+        "1721799800",
+        "1599224125",
+        "1618224588",
+        "1735968559",
+        "1125022447",
+        "1864481074",
+        "4358550068",
+        "1736022367",
+        "4356452486",
+        "4356476861",
+        "1267359860",
+        "1585132122"
+      ],
+      "unknown_listing_ids": [],
+      "eligible_new_listing_ids": [],
+      "reason": "All matching section IDs known."
+    },
+    {
+      "shop": "ChicDecorHK",
+      "account": "P1",
+      "scope": "Roman Shade 10",
+      "source_url": "https://www.etsy.com/shop/ChicDecorHK?section_id=36195025",
+      "observed_at": "2026-11-14T05:13:45.726Z",
+      "eligible_new_listing_ids": [
+        "1748514263"
+      ],
+      "reason": "Selected one verified new listing for one available slot; remaining storefront items were not submitted."
+    },
+    {
+      "shop": "LambertHouse",
+      "account": "P2",
+      "scope": "Closet Accessories 2",
+      "source_url": "https://www.etsy.com/shop/LambertHouse?section_id=56319075",
+      "observed_at": "2026-11-14T05:13:47.147Z",
+      "eligible_new_listing_ids": [
+        "4553782826"
+      ],
+      "reason": "Selected one verified new listing for one available slot; remaining storefront items were not submitted."
+    },
+    {
+      "shop": "MiawoodStudio",
+      "account": "P2",
+      "scope": "Wood Hanger 27",
+      "source_url": "https://www.etsy.com/shop/MiawoodStudio?section_id=39971441",
+      "observed_at": "2026-11-14T05:13:48.053Z",
+      "eligible_new_listing_ids": [
+        "1777678184"
+      ],
+      "reason": "Selected one verified new listing for one available slot; remaining storefront items were not submitted."
+    },
+    {
+      "shop": "NngGoods",
+      "account": "P5",
+      "scope": "First storefront page (36 of 38)",
+      "source_url": "https://www.etsy.com/shop/NngGoods",
+      "observed_at": "2026-11-14T05:13:32.424Z",
+      "eligible_new_listing_ids": [
+        "4585504377"
+      ],
+      "reason": "Selected one verified new listing for one available slot; remaining storefront items were not submitted."
+    },
+    {
+      "shop": "QuGifts",
+      "account": "P4",
+      "scope": "First storefront page (37 of 40)",
+      "source_url": "https://www.etsy.com/shop/QuGifts",
+      "observed_at": "2026-11-14T05:13:33.877Z",
+      "eligible_new_listing_ids": [
+        "4359526157"
+      ],
+      "reason": "Selected one verified new listing for one available slot; remaining storefront items were not submitted."
+    },
+    {
+      "shop": "ShirieHomeShow",
+      "account": "P1",
+      "scope": "Sheer Curtains 19",
+      "source_url": "https://www.etsy.com/shop/ShirieHomeShow?section_id=55104649",
+      "observed_at": "2026-11-14T05:13:50.210Z",
+      "eligible_new_listing_ids": [
+        "4438747143"
+      ],
+      "reason": "Selected one verified new listing for one available slot; remaining storefront items were not submitted."
+    }
+  ],
+  "ingestion": {
+    "run_id": 43560653624,
+    "job_id": 132343447074,
+    "first_inserted": 6,
+    "failed": 0,
+    "retry_inserted": 0,
+    "events": [
+      {
+        "batch": "batch-20261114-051525",
+        "shop": "ChicDecorHK",
+        "listing_id": "1748514263",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "logged_at": "2026-11-14T05:16:12.4327726Z"
+      },
+      {
+        "batch": "batch-20261114-051525",
+        "shop": "LambertHouse",
+        "listing_id": "4553782826",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "logged_at": "2026-11-14T05:16:16.6755477Z"
+      },
+      {
+        "batch": "batch-20261114-051525",
+        "shop": "MiawoodStudio",
+        "listing_id": "1777678184",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "logged_at": "2026-11-14T05:16:17.2710210Z"
+      },
+      {
+        "batch": "batch-20261114-051525",
+        "shop": "NngGoods",
+        "listing_id": "4585504377",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "logged_at": "2026-11-14T05:16:18.4138812Z"
+      },
+      {
+        "batch": "batch-20261114-051525",
+        "shop": "QuGifts",
+        "listing_id": "4359526157",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "logged_at": "2026-11-14T05:16:19.6173394Z"
+      },
+      {
+        "batch": "batch-20261114-051525",
+        "shop": "ShirieHomeShow",
+        "listing_id": "4438747143",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "logged_at": "2026-11-14T05:16:20.2294268Z"
+      },
+      {
+        "inserted": 6,
+        "failed": 0,
+        "pending": 6,
+        "logged_at": "2026-11-14T05:16:20.2294846Z"
+      },
+      {
+        "status": "no_new_verified_material",
+        "inserted": 0,
+        "logged_at": "2026-11-14T05:16:20.4597880Z"
+      }
+    ]
+  },
+  "post_verify": {
+    "run_id": 43560729165,
+    "job_id": 132343581850,
+    "audit_time": "2026-11-14T05:16:39.061664+00:00",
+    "routes": 32,
+    "usable": 85,
+    "deficit": 11
+  },
+  "new_items": [
+    {
+      "shop": "ChicDecorHK",
+      "listing_id": "1748514263",
+      "category": "Roman Shades",
+      "source_url": "https://www.etsy.com/listing/1748514263/handmade-ramie-roman-blind-natural-linen",
+      "image_url": "https://i.etsystatic.com/32003756/r/il/4957f8/6405499923/il_794xN.6405499923_ry8f.jpg",
+      "new_title": "Natural-Tone Woven Roman Shade",
+      "handle": "icyndizhang",
+      "board_id": "801218658646993070",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-14T05:14:42.626Z",
+      "body": "The main photo shows a tan woven Roman shade lowered across a bright window.",
+      "facebook_draft": "The main photo shows a tan woven Roman shade lowered across a bright window. See the Etsy listing from ChicDecorHK: https://www.etsy.com/listing/1748514263/handmade-ramie-roman-blind-natural-linen",
+      "evidence": "Found in the registered ChicDecorHK storefront and excluded from all 512 known listing IDs in the fresh Supabase plan. Actual listing seller header matched ChicDecorHK. In-stock selection: W52.5 × L222 cm; quantity 1. Add to cart was visible and enabled after selecting options; no cart action was taken. Visually inspected the actual primary Etsy image in a remote CDP screenshot. The main photo shows a tan woven Roman shade lowered across a bright window.",
+      "account": "P1",
+      "board_name": "CyndiZhangStudio",
+      "options": "W52.5 × L222 cm; quantity 1",
+      "queue_id": "db0f58a4-bf10-4d38-8863-5c8d15db17d5",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-14T05:16:12.295981+00:00",
+      "db_board_id": "801218658646993070",
+      "source_matches": true,
+      "reserve_snapshot_matches": true,
+      "db_listing_checked_at": "2026-11-14T05:14:42.626+00:00"
+    },
+    {
+      "shop": "LambertHouse",
+      "listing_id": "4553782826",
+      "category": "Closet Organization",
+      "source_url": "https://www.etsy.com/listing/4553782826/aluminum-single-clip-hanger-space-saving",
+      "image_url": "https://i.etsystatic.com/46944744/r/il/971631/8415227673/il_794xN.8415227673_szim.jpg",
+      "new_title": "Single-Clip Closet Hangers",
+      "handle": "sailing_981",
+      "board_id": "863494997243989843",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-14T05:14:42.763Z",
+      "body": "The main photo shows single-clip metal hangers in three finishes on a wooden closet rod.",
+      "facebook_draft": "The main photo shows single-clip metal hangers in three finishes on a wooden closet rod. See the Etsy listing from LambertHouse: https://www.etsy.com/listing/4553782826/aluminum-single-clip-hanger-space-saving",
+      "evidence": "Found in the registered LambertHouse storefront and excluded from all 512 known listing IDs in the fresh Supabase plan. Actual listing seller header matched LambertHouse. In-stock selection: 4 PCS, Metallic Silver; quantity 1. Add to cart was visible and enabled after selecting options; no cart action was taken. Visually inspected the actual primary Etsy image in a remote CDP screenshot. The main photo shows single-clip metal hangers in three finishes on a wooden closet rod.",
+      "account": "P2",
+      "board_name": "storage",
+      "options": "4 PCS, Metallic Silver; quantity 1",
+      "queue_id": "a4464e95-01e5-44a7-a95d-de09b513d1b6",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-14T05:16:16.536888+00:00",
+      "db_board_id": "863494997243989843",
+      "source_matches": true,
+      "reserve_snapshot_matches": true,
+      "db_listing_checked_at": "2026-11-14T05:14:42.763+00:00"
+    },
+    {
+      "shop": "MiawoodStudio",
+      "listing_id": "1777678184",
+      "category": "Wooden Hangers",
+      "source_url": "https://www.etsy.com/listing/1777678184/personalized-beechwood-hanger-minimalist",
+      "image_url": "https://i.etsystatic.com/32100253/r/il/1695dc/6262069428/il_794xN.6262069428_aoq3.jpg",
+      "new_title": "Beechwood Clothes Hangers",
+      "handle": "sailing_981",
+      "board_id": "863494997243989843",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-14T05:14:42.884Z",
+      "body": "The main photo shows three light wood hangers with dark hooks and white wraps on the shoulders.",
+      "facebook_draft": "The main photo shows three light wood hangers with dark hooks and white wraps on the shoulders. See the Etsy listing from MiawoodStudio: https://www.etsy.com/listing/1777678184/personalized-beechwood-hanger-minimalist",
+      "evidence": "Found in the registered MiawoodStudio storefront and excluded from all 512 known listing IDs in the fresh Supabase plan. Actual listing seller header matched MiawoodStudio. In-stock selection: 10 pcs; quantity 1. Add to cart was visible and enabled after selecting options; no cart action was taken. Visually inspected the actual primary Etsy image in a remote CDP screenshot. The main photo shows three light wood hangers with dark hooks and white wraps on the shoulders.",
+      "account": "P2",
+      "board_name": "storage",
+      "options": "10 pcs; quantity 1",
+      "queue_id": "2194e87b-b09e-4879-9d08-6d7b01985e52",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-14T05:16:17.123098+00:00",
+      "db_board_id": "863494997243989843",
+      "source_matches": true,
+      "reserve_snapshot_matches": true,
+      "db_listing_checked_at": "2026-11-14T05:14:42.884+00:00"
+    },
+    {
+      "shop": "NngGoods",
+      "listing_id": "4585504377",
+      "category": "Cabinet Knobs & Pulls",
+      "source_url": "https://www.etsy.com/listing/4585504377/french-brass-crystal-cabinet-knob",
+      "image_url": "https://i.etsystatic.com/57194200/r/il/e6bfcc/8877316675/il_794xN.8877316675_i6dg.jpg",
+      "new_title": "Round Cabinet Knobs with Brass-Tone Bases",
+      "handle": "ivy5205",
+      "board_id": "713820678377803412",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-14T05:14:48.113Z",
+      "body": "The main photo shows round knobs in several stone colors, each on a brass-tone base.",
+      "facebook_draft": "The main photo shows round knobs in several stone colors, each on a brass-tone base. See the Etsy listing from NngGoods: https://www.etsy.com/listing/4585504377/french-brass-crystal-cabinet-knob",
+      "evidence": "Found in the registered NngGoods storefront and excluded from all 512 known listing IDs in the fresh Supabase plan. Actual listing seller header matched NngGoods. In-stock selection: 1 PCS, Clear Quartz; quantity 1. Add to cart was visible and enabled after selecting options; no cart action was taken. Visually inspected the actual primary Etsy image in a remote CDP screenshot. The main photo shows round knobs in several stone colors, each on a brass-tone base.",
+      "account": "P5",
+      "board_name": "Furniture",
+      "options": "1 PCS, Clear Quartz; quantity 1",
+      "queue_id": "9abbb54e-0e00-40b3-b922-16f6e719a8e1",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-14T05:16:18.325468+00:00",
+      "db_board_id": "713820678377803412",
+      "source_matches": true,
+      "reserve_snapshot_matches": true,
+      "db_listing_checked_at": "2026-11-14T05:14:48.113+00:00"
+    },
+    {
+      "shop": "QuGifts",
+      "listing_id": "4359526157",
+      "category": "Coastal Home Decor",
+      "source_url": "https://www.etsy.com/listing/4359526157/handmade-bali-shell-hanging-boho-coastal",
+      "image_url": "https://i.etsystatic.com/38006525/r/il/a06157/7148335780/il_794xN.7148335780_dzgr.jpg",
+      "new_title": "Coastal Shell and Bead Hanging",
+      "handle": "cindyzhang62",
+      "board_id": "675399344056772225",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-14T05:14:48.253Z",
+      "body": "The main photo shows strands of white shells and round beads, with a spotted shell detail.",
+      "facebook_draft": "The main photo shows strands of white shells and round beads, with a spotted shell detail. See the Etsy listing from QuGifts: https://www.etsy.com/listing/4359526157/handmade-bali-shell-hanging-boho-coastal",
+      "evidence": "Found in the registered QuGifts storefront and excluded from all 512 known listing IDs in the fresh Supabase plan. Actual listing seller header matched QuGifts. In-stock selection: Black Shell; quantity 1. Add to cart was visible and enabled after selecting options; no cart action was taken. Visually inspected the actual primary Etsy image in a remote CDP screenshot. The main photo shows strands of white shells and round beads, with a spotted shell detail.",
+      "account": "P4",
+      "board_name": "Decor",
+      "options": "Black Shell; quantity 1",
+      "queue_id": "a4d8f1ce-8bab-499c-9469-1f454f7489fc",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-14T05:16:19.497461+00:00",
+      "db_board_id": "675399344056772225",
+      "source_matches": true,
+      "reserve_snapshot_matches": true,
+      "db_listing_checked_at": "2026-11-14T05:14:48.253+00:00"
+    },
+    {
+      "shop": "ShirieHomeShow",
+      "listing_id": "4438747143",
+      "category": "Sheer Curtains",
+      "source_url": "https://www.etsy.com/listing/4438747143/sheer-floral-curtains-lavender-garden",
+      "image_url": "https://i.etsystatic.com/46873252/r/il/054bd0/7586651960/il_794xN.7586651960_mar4.jpg",
+      "new_title": "Sheer Curtain with Lavender Floral Motifs",
+      "handle": "icyndizhang",
+      "board_id": "801218658646993070",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-14T05:14:48.383Z",
+      "body": "The main photo shows sheer white fabric with vertical vine details and small lavender-colored floral clusters.",
+      "facebook_draft": "The main photo shows sheer white fabric with vertical vine details and small lavender-colored floral clusters. See the Etsy listing from ShirieHomeShow: https://www.etsy.com/listing/4438747143/sheer-floral-curtains-lavender-garden",
+      "evidence": "Found in the registered ShirieHomeShow storefront and excluded from all 512 known listing IDs in the fresh Supabase plan. Actual listing seller header matched ShirieHomeShow. In-stock selection: 39 × 51 inches; quantity 1. Add to cart was visible and enabled after selecting options; no cart action was taken. Visually inspected the actual primary Etsy image in a remote CDP screenshot. The main photo shows sheer white fabric with vertical vine details and small lavender-colored floral clusters.",
+      "account": "P1",
+      "board_name": "CyndiZhangStudio",
+      "options": "39 × 51 inches; quantity 1",
+      "queue_id": "e023bf19-ea61-4064-9af8-c4fb6c8fc406",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-14T05:16:20.111225+00:00",
+      "db_board_id": "801218658646993070",
+      "source_matches": true,
+      "reserve_snapshot_matches": true,
+      "db_listing_checked_at": "2026-11-14T05:14:48.383+00:00"
+    }
+  ],
+  "remaining_deficits": [
+    {
+      "shop": "Chtte",
+      "account": "P3",
+      "handle": "mydecorshop",
+      "usable": 0,
+      "deficit": 3
+    },
+    {
+      "shop": "HibiChStudio",
+      "account": "P2",
+      "handle": "sailing_981",
+      "usable": 0,
+      "deficit": 3
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "account": "P5",
+      "handle": "ivy5205",
+      "usable": 0,
+      "deficit": 3
+    },
+    {
+      "shop": "ChicDecorHK",
+      "account": "P4",
+      "handle": "cindyzhang62",
+      "usable": 2,
+      "deficit": 1
+    },
+    {
+      "shop": "Chtte",
+      "account": "P1",
+      "handle": "icyndizhang",
+      "usable": 2,
+      "deficit": 1
+    }
+  ],
+  "first_deficit_followup": "completed (previously; unchanged)"
+}
