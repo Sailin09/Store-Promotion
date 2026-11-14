@@ -1,0 +1,50 @@
+[
+  {
+    "shop": "PearlsTreasuresArt",
+    "listing_id": "4338007062",
+    "category": "Seashell Jewelry",
+    "source_url": "https://www.etsy.com/listing/4338007062/boho-conch-shell-pendant-necklace-pearl",
+    "image_url": "https://i.etsystatic.com/46725934/r/il/22df82/7083638573/il_794xN.7083638573_8phz.jpg",
+    "new_title": "White Conch Shell Pendant Necklace",
+    "handle": "cindyzhang62",
+    "board_id": "675399344058025061",
+    "available": true,
+    "visual_verified": true,
+    "checked_at": "2026-11-14T17:20:52.981Z",
+    "body": "A white spiral shell pendant and a small pearl drop sit on a fine silver-tone chain, shown against a dark top.",
+    "facebook_draft": "A white spiral shell pendant and a small pearl drop sit on a fine silver-tone chain, shown against a dark top. Etsy listing from PearlsTreasuresArt: https://www.etsy.com/listing/4338007062/boho-conch-shell-pendant-necklace-pearl",
+    "evidence": "Discovered in the current registered PearlsTreasuresArt storefront and absent from all 518 known listing IDs in the fresh Supabase plan. The live listing seller header linked to PearlsTreasuresArt. Quantity 1 was available; no separate variant selector was required. The listing's Add to cart button was visible and enabled; it was not clicked. Visually inspected the actual 794×794 Etsy listing main image in a remote CDP screenshot. A white spiral shell pendant and a small pearl drop sit on a fine silver-tone chain, shown against a dark top."
+  },
+  {
+    "shop": "KoltCraftStudio",
+    "listing_id": "1841543541",
+    "category": "Wooden Hangers",
+    "source_url": "https://www.etsy.com/listing/1841543541/walnut-wood-hanger-with-brass-hook",
+    "image_url": "https://i.etsystatic.com/43671795/r/il/32dbc7/8162339897/il_794xN.8162339897_b58b.jpg",
+    "new_title": "Walnut Clothes Hanger with Brass Hook",
+    "handle": "sailing_981",
+    "board_id": "863494997243989843",
+    "available": true,
+    "visual_verified": true,
+    "checked_at": "2026-11-14T17:21:13.423Z",
+    "body": "Dark walnut hangers with brass-tone hooks hang on a white closet rod beside a light shirt.",
+    "facebook_draft": "Dark walnut hangers with brass-tone hooks hang on a white closet rod beside a light shirt. Etsy listing from KoltCraftStudio: https://www.etsy.com/listing/1841543541/walnut-wood-hanger-with-brass-hook",
+    "evidence": "Discovered in the current registered KoltCraftStudio storefront and absent from all 518 known listing IDs in the fresh Supabase plan. The live listing seller header linked to KoltCraftStudio. Selected 1 PCS; quantity 1. The listing's Add to cart button was visible and enabled; it was not clicked. Visually inspected the actual 794×794 Etsy listing main image in a remote CDP screenshot. Dark walnut hangers with brass-tone hooks hang on a white closet rod beside a light shirt."
+  },
+  {
+    "shop": "TunaMunStudio",
+    "listing_id": "4544279952",
+    "category": "Cabinet Curtains",
+    "source_url": "https://www.etsy.com/listing/4544279952/plaid-cabinet-curtain-farmhouse-kitchen",
+    "image_url": "https://i.etsystatic.com/60242016/r/il/108374/8372419224/il_794xN.8372419224_a30a.jpg",
+    "new_title": "Brown Gingham Kitchen Cabinet Curtain",
+    "handle": "icyndizhang",
+    "board_id": "801218658646993070",
+    "available": true,
+    "visual_verified": true,
+    "checked_at": "2026-11-14T17:21:25.640Z",
+    "body": "The photo shows the brown-and-cream gingham panel gathered on a rod across the top of a kitchen window.",
+    "facebook_draft": "The photo shows the brown-and-cream gingham panel gathered on a rod across the top of a kitchen window. Etsy listing from TunaMunStudio: https://www.etsy.com/listing/4544279952/plaid-cabinet-curtain-farmhouse-kitchen",
+    "evidence": "Discovered in the current registered TunaMunStudio storefront and absent from all 518 known listing IDs in the fresh Supabase plan. The live listing seller header linked to TunaMunStudio. Selected W39xL20 inches-1 PC and Style A; quantity 1. The listing's Add to cart button was visible and enabled; it was not clicked. Visually inspected the actual 794×794 Etsy listing main image in a remote CDP screenshot. The photo shows the brown-and-cream gingham panel gathered on a rod across the top of a kitchen window."
+  }
+]
