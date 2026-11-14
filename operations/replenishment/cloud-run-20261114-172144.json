@@ -1,0 +1,414 @@
+{
+  "status": "inserted_and_verified",
+  "browser": "ChatGPT Work remote cdp",
+  "github_connector_verified": true,
+  "target": 3,
+  "max_batch": 20,
+  "raw_verify_log_target": 7,
+  "deficit_calculation": "max(0, 3 - usable) per active route",
+  "batch": "batch-20261114-172144",
+  "batch_commit": "2b2f18235c0684062952c7af3f134f6fb0b07b8c",
+  "pre_verify": {
+    "run_id": 43560729165,
+    "job_id": 132524227216,
+    "audit_time": "2026-11-14T17:17:51.86937+00:00",
+    "routes": 32,
+    "usable": 82,
+    "deficit": 14,
+    "known_listing_ids_checked": 518,
+    "deficit_routes": [
+      {
+        "shop": "Chtte",
+        "handle": "mydecorshop",
+        "target": 3,
+        "usable": 0,
+        "account": "P3",
+        "deficit": 3,
+        "previous_routes": [
+          {
+            "board_id": "499618221101215211",
+            "category": "Chair Cushions & Seat Pads"
+          }
+        ]
+      },
+      {
+        "shop": "HibiChStudio",
+        "handle": "sailing_981",
+        "target": 3,
+        "usable": 0,
+        "account": "P2",
+        "deficit": 3,
+        "previous_routes": [
+          {
+            "board_id": "863494997243989843",
+            "category": "Wall & Door Organizers"
+          }
+        ]
+      },
+      {
+        "shop": "NinaJiaStudio",
+        "handle": "ivy5205",
+        "target": 3,
+        "usable": 0,
+        "account": "P5",
+        "deficit": 3,
+        "previous_routes": [
+          {
+            "board_id": "713820678377803445",
+            "category": "Cosmetic Bags"
+          },
+          {
+            "board_id": "713820678377803445",
+            "category": "Shoulder Bags"
+          },
+          {
+            "board_id": "713820678377803445",
+            "category": "Textile Bags"
+          }
+        ]
+      },
+      {
+        "shop": "ChicDecorHK",
+        "handle": "cindyzhang62",
+        "target": 3,
+        "usable": 2,
+        "account": "P4",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "675399344058025061",
+            "category": "Seashell Jewelry"
+          }
+        ]
+      },
+      {
+        "shop": "Chtte",
+        "handle": "icyndizhang",
+        "target": 3,
+        "usable": 2,
+        "account": "P1",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Chair Cushions & Seat Pads"
+          }
+        ]
+      },
+      {
+        "shop": "KoltCraftStudio",
+        "handle": "sailing_981",
+        "target": 3,
+        "usable": 2,
+        "account": "P2",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "863494997243989843",
+            "category": "Home Storage"
+          },
+          {
+            "board_id": "863494997243989843",
+            "category": "Wooden Hangers"
+          }
+        ]
+      },
+      {
+        "shop": "PearlsTreasuresArt",
+        "handle": "cindyzhang62",
+        "target": 3,
+        "usable": 2,
+        "account": "P4",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "675399344058025061",
+            "category": "Seashell Jewelry"
+          }
+        ]
+      },
+      {
+        "shop": "TunaMunStudio",
+        "handle": "icyndizhang",
+        "target": 3,
+        "usable": 2,
+        "account": "P1",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Cabinet Curtains"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Cafe Curtains"
+          }
+        ]
+      }
+    ]
+  },
+  "storefront_checks": [
+    {
+      "shop": "Chtte",
+      "source_url": "https://www.etsy.com/shop/Chtte",
+      "scope": "All 14",
+      "result": "All 14 visible IDs already known across P3/P1. Old fabric 4325858718 was not used."
+    },
+    {
+      "shop": "HibiChStudio",
+      "source_url": "https://www.etsy.com/shop/HibiChStudio",
+      "scope": "All 21",
+      "result": "The 8 visible Wall & Door Organizer IDs were known. The other 13 were storage bins, closet bags or garment covers; no matching new item."
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "source_url": "https://www.etsy.com/shop/NinaJiaStudio",
+      "scope": "All 24",
+      "result": "All 24 visible IDs already known."
+    },
+    {
+      "shop": "ChicDecorHK",
+      "source_url": "https://www.etsy.com/shop/ChicDecorHK",
+      "scope": "Shell Jewelry 22",
+      "result": "All 22 visible IDs in the relevant section were known."
+    },
+    {
+      "shop": "KoltCraftStudio",
+      "source_url": "https://www.etsy.com/shop/KoltCraftStudio",
+      "scope": "All items, visible first page",
+      "result": "One verified Wooden Hangers item fills the one measured P2 deficit."
+    },
+    {
+      "shop": "PearlsTreasuresArt",
+      "source_url": "https://www.etsy.com/shop/PearlsTreasuresArt",
+      "scope": "All 31",
+      "result": "One verified Seashell Jewelry item fills the one measured P4 deficit."
+    },
+    {
+      "shop": "TunaMunStudio",
+      "source_url": "https://www.etsy.com/shop/TunaMunStudio",
+      "scope": "Tier Curtains 17",
+      "result": "One verified Cabinet Curtains item fills the one measured P1 deficit."
+    }
+  ],
+  "ingestion": {
+    "run_id": 43620737975,
+    "job_id": 132525747070,
+    "first_inserted": 3,
+    "failed": 0,
+    "retry_inserted": 0,
+    "events": [
+      {
+        "batch": "batch-20261114-172144",
+        "shop": "PearlsTreasuresArt",
+        "listing_id": "4338007062",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "logged_at": "2026-11-14T17:23:04.0356276Z"
+      },
+      {
+        "batch": "batch-20261114-172144",
+        "shop": "KoltCraftStudio",
+        "listing_id": "1841543541",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "logged_at": "2026-11-14T17:23:09.9215946Z"
+      },
+      {
+        "batch": "batch-20261114-172144",
+        "shop": "TunaMunStudio",
+        "listing_id": "4544279952",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "logged_at": "2026-11-14T17:23:11.8444780Z"
+      },
+      {
+        "inserted": 3,
+        "failed": 0,
+        "pending": 3,
+        "logged_at": "2026-11-14T17:23:11.8445600Z"
+      },
+      {
+        "status": "no_new_verified_material",
+        "inserted": 0,
+        "logged_at": "2026-11-14T17:23:12.3182765Z"
+      }
+    ]
+  },
+  "post_verify": {
+    "run_id": 43620835957,
+    "job_id": 132525919868,
+    "audit_time": "2026-11-14T17:23:30.678678+00:00",
+    "routes": 32,
+    "usable": 85,
+    "deficit": 11,
+    "known_listing_ids_checked": 521
+  },
+  "new_items": [
+    {
+      "shop": "PearlsTreasuresArt",
+      "listing_id": "4338007062",
+      "category": "Seashell Jewelry",
+      "source_url": "https://www.etsy.com/listing/4338007062/boho-conch-shell-pendant-necklace-pearl",
+      "image_url": "https://i.etsystatic.com/46725934/r/il/22df82/7083638573/il_794xN.7083638573_8phz.jpg",
+      "new_title": "White Conch Shell Pendant Necklace",
+      "handle": "cindyzhang62",
+      "board_id": "675399344058025061",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-14T17:20:52.981Z",
+      "body": "A white spiral shell pendant and a small pearl drop sit on a fine silver-tone chain, shown against a dark top.",
+      "facebook_draft": "A white spiral shell pendant and a small pearl drop sit on a fine silver-tone chain, shown against a dark top. Etsy listing from PearlsTreasuresArt: https://www.etsy.com/listing/4338007062/boho-conch-shell-pendant-necklace-pearl",
+      "evidence": "Discovered in the current registered PearlsTreasuresArt storefront and absent from all 518 known listing IDs in the fresh Supabase plan. The live listing seller header linked to PearlsTreasuresArt. Quantity 1 was available; no separate variant selector was required. The listing's Add to cart button was visible and enabled; it was not clicked. Visually inspected the actual 794×794 Etsy listing main image in a remote CDP screenshot. A white spiral shell pendant and a small pearl drop sit on a fine silver-tone chain, shown against a dark top.",
+      "account": "P4",
+      "board_name": "Jewelry & Accessories",
+      "queue_id": "4a2b61ad-d093-4d90-a4a7-dcce80be1667",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-14T17:23:03.765587+00:00",
+      "db_board_id": "675399344058025061",
+      "source_matches": true,
+      "reserve_snapshot_matches": true,
+      "db_listing_checked_at": "2026-11-14T17:20:52.981+00:00",
+      "eligible_configuration": true
+    },
+    {
+      "shop": "KoltCraftStudio",
+      "listing_id": "1841543541",
+      "category": "Wooden Hangers",
+      "source_url": "https://www.etsy.com/listing/1841543541/walnut-wood-hanger-with-brass-hook",
+      "image_url": "https://i.etsystatic.com/43671795/r/il/32dbc7/8162339897/il_794xN.8162339897_b58b.jpg",
+      "new_title": "Walnut Clothes Hanger with Brass Hook",
+      "handle": "sailing_981",
+      "board_id": "863494997243989843",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-14T17:21:13.423Z",
+      "body": "Dark walnut hangers with brass-tone hooks hang on a white closet rod beside a light shirt.",
+      "facebook_draft": "Dark walnut hangers with brass-tone hooks hang on a white closet rod beside a light shirt. Etsy listing from KoltCraftStudio: https://www.etsy.com/listing/1841543541/walnut-wood-hanger-with-brass-hook",
+      "evidence": "Discovered in the current registered KoltCraftStudio storefront and absent from all 518 known listing IDs in the fresh Supabase plan. The live listing seller header linked to KoltCraftStudio. Selected 1 PCS; quantity 1. The listing's Add to cart button was visible and enabled; it was not clicked. Visually inspected the actual 794×794 Etsy listing main image in a remote CDP screenshot. Dark walnut hangers with brass-tone hooks hang on a white closet rod beside a light shirt.",
+      "account": "P2",
+      "board_name": "storage",
+      "queue_id": "caefd913-a993-4bdb-97ac-55eab7dc383f",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-14T17:23:09.701741+00:00",
+      "db_board_id": "863494997243989843",
+      "source_matches": true,
+      "reserve_snapshot_matches": true,
+      "db_listing_checked_at": "2026-11-14T17:21:13.423+00:00",
+      "eligible_configuration": true
+    },
+    {
+      "shop": "TunaMunStudio",
+      "listing_id": "4544279952",
+      "category": "Cabinet Curtains",
+      "source_url": "https://www.etsy.com/listing/4544279952/plaid-cabinet-curtain-farmhouse-kitchen",
+      "image_url": "https://i.etsystatic.com/60242016/r/il/108374/8372419224/il_794xN.8372419224_a30a.jpg",
+      "new_title": "Brown Gingham Kitchen Cabinet Curtain",
+      "handle": "icyndizhang",
+      "board_id": "801218658646993070",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-14T17:21:25.640Z",
+      "body": "The photo shows the brown-and-cream gingham panel gathered on a rod across the top of a kitchen window.",
+      "facebook_draft": "The photo shows the brown-and-cream gingham panel gathered on a rod across the top of a kitchen window. Etsy listing from TunaMunStudio: https://www.etsy.com/listing/4544279952/plaid-cabinet-curtain-farmhouse-kitchen",
+      "evidence": "Discovered in the current registered TunaMunStudio storefront and absent from all 518 known listing IDs in the fresh Supabase plan. The live listing seller header linked to TunaMunStudio. Selected W39xL20 inches-1 PC and Style A; quantity 1. The listing's Add to cart button was visible and enabled; it was not clicked. Visually inspected the actual 794×794 Etsy listing main image in a remote CDP screenshot. The photo shows the brown-and-cream gingham panel gathered on a rod across the top of a kitchen window.",
+      "account": "P1",
+      "board_name": "CyndiZhangStudio",
+      "queue_id": "e5c0b461-2e43-4f6b-bc77-03355564aa5d",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-14T17:23:11.625831+00:00",
+      "db_board_id": "801218658646993070",
+      "source_matches": true,
+      "reserve_snapshot_matches": true,
+      "db_listing_checked_at": "2026-11-14T17:21:25.64+00:00",
+      "eligible_configuration": true
+    }
+  ],
+  "remaining_deficits": [
+    {
+      "shop": "Chtte",
+      "handle": "mydecorshop",
+      "usable": 0,
+      "account": "P3",
+      "previous_routes": [
+        {
+          "board_id": "499618221101215211",
+          "category": "Chair Cushions & Seat Pads"
+        }
+      ],
+      "target": 3,
+      "deficit": 3
+    },
+    {
+      "shop": "HibiChStudio",
+      "handle": "sailing_981",
+      "usable": 0,
+      "account": "P2",
+      "previous_routes": [
+        {
+          "board_id": "863494997243989843",
+          "category": "Wall & Door Organizers"
+        }
+      ],
+      "target": 3,
+      "deficit": 3
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "handle": "ivy5205",
+      "usable": 0,
+      "account": "P5",
+      "previous_routes": [
+        {
+          "board_id": "713820678377803445",
+          "category": "Cosmetic Bags"
+        },
+        {
+          "board_id": "713820678377803445",
+          "category": "Shoulder Bags"
+        },
+        {
+          "board_id": "713820678377803445",
+          "category": "Textile Bags"
+        }
+      ],
+      "target": 3,
+      "deficit": 3
+    },
+    {
+      "shop": "ChicDecorHK",
+      "handle": "cindyzhang62",
+      "usable": 2,
+      "account": "P4",
+      "previous_routes": [
+        {
+          "board_id": "675399344058025061",
+          "category": "Seashell Jewelry"
+        }
+      ],
+      "target": 3,
+      "deficit": 1
+    },
+    {
+      "shop": "Chtte",
+      "handle": "icyndizhang",
+      "usable": 2,
+      "account": "P1",
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Chair Cushions & Seat Pads"
+        }
+      ],
+      "target": 3,
+      "deficit": 1
+    }
+  ],
+  "first_deficit_followup": "completed previously; unchanged"
+}
