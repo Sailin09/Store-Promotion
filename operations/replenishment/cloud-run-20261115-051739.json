@@ -1,0 +1,604 @@
+{
+  "status": "inserted_and_verified",
+  "browser": "ChatGPT Work remote cdp",
+  "github_connector_verified": true,
+  "target": 3,
+  "max_batch": 20,
+  "raw_verify_log_target": 7,
+  "deficit_calculation": "max(0, 3 - usable) per active route",
+  "batch": "batch-20261115-051739",
+  "batch_commit": "a57d9d4efc29b6de4eaec9ae575d9a4479dda047",
+  "pre_verify": {
+    "run_id": 43620835957,
+    "job_id": 132708379581,
+    "audit_time": "2026-11-15T05:11:52.037352+00:00",
+    "routes": 32,
+    "usable": 78,
+    "deficit": 18,
+    "known_listing_ids_checked": 521,
+    "deficit_routes": [
+      {
+        "shop": "Chtte",
+        "handle": "mydecorshop",
+        "target": 3,
+        "usable": 0,
+        "account": "P3",
+        "deficit": 3,
+        "previous_routes": [
+          {
+            "board_id": "499618221101215211",
+            "category": "Chair Cushions & Seat Pads"
+          }
+        ]
+      },
+      {
+        "shop": "HibiChStudio",
+        "handle": "sailing_981",
+        "target": 3,
+        "usable": 0,
+        "account": "P2",
+        "deficit": 3,
+        "previous_routes": [
+          {
+            "board_id": "863494997243989843",
+            "category": "Wall & Door Organizers"
+          }
+        ]
+      },
+      {
+        "shop": "NinaJiaStudio",
+        "handle": "ivy5205",
+        "target": 3,
+        "usable": 0,
+        "account": "P5",
+        "deficit": 3,
+        "previous_routes": [
+          {
+            "board_id": "713820678377803445",
+            "category": "Cosmetic Bags"
+          },
+          {
+            "board_id": "713820678377803445",
+            "category": "Shoulder Bags"
+          },
+          {
+            "board_id": "713820678377803445",
+            "category": "Textile Bags"
+          }
+        ]
+      },
+      {
+        "shop": "ChicDecorHK",
+        "handle": "cindyzhang62",
+        "target": 3,
+        "usable": 1,
+        "account": "P4",
+        "deficit": 2,
+        "previous_routes": [
+          {
+            "board_id": "675399344058025061",
+            "category": "Seashell Jewelry"
+          }
+        ]
+      },
+      {
+        "shop": "Adamideal",
+        "handle": "sailing_981",
+        "target": 3,
+        "usable": 2,
+        "account": "P2",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "863494997243989843",
+            "category": "Desk Organization"
+          },
+          {
+            "board_id": "863494997243989843",
+            "category": "Wooden Home Organization"
+          }
+        ]
+      },
+      {
+        "shop": "Chtte",
+        "handle": "icyndizhang",
+        "target": 3,
+        "usable": 2,
+        "account": "P1",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Chair Cushions & Seat Pads"
+          }
+        ]
+      },
+      {
+        "shop": "DanyHomeDesign",
+        "handle": "icyndizhang",
+        "target": 3,
+        "usable": 2,
+        "account": "P1",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Blackout Curtains"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Floral Curtains"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Sheer Curtains"
+          }
+        ]
+      },
+      {
+        "shop": "NngGoods",
+        "handle": "ivy5205",
+        "target": 3,
+        "usable": 2,
+        "account": "P5",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "713820678377803412",
+            "category": "Cabinet Knobs & Pulls"
+          }
+        ]
+      },
+      {
+        "shop": "QuGifts",
+        "handle": "cindyzhang62",
+        "target": 3,
+        "usable": 2,
+        "account": "P4",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "675399344056772225",
+            "category": "Coastal Home Decor"
+          },
+          {
+            "board_id": "675399344056772225",
+            "category": "Wall Decor"
+          }
+        ]
+      },
+      {
+        "shop": "StellaGoodsGifts",
+        "handle": "icyndizhang",
+        "target": 3,
+        "usable": 2,
+        "account": "P1",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Decorative Pillow Covers"
+          }
+        ]
+      },
+      {
+        "shop": "WoodHomeLiang",
+        "handle": "sailing_981",
+        "target": 3,
+        "usable": 2,
+        "account": "P2",
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "863494997243989843",
+            "category": "Closet Organization"
+          },
+          {
+            "board_id": "863494997243989843",
+            "category": "Wooden Hangers"
+          }
+        ]
+      }
+    ]
+  },
+  "storefront_checks": [
+    {
+      "shop": "Chtte",
+      "scope": "All 14",
+      "observed_at": "2026-11-15T05:12:47.552Z",
+      "result": "All 14 visible chair cushion IDs were already known across both routes. Old fabric listing 4325858718 was excluded.",
+      "source_url": "https://www.etsy.com/shop/Chtte"
+    },
+    {
+      "shop": "HibiChStudio",
+      "scope": "All 21",
+      "observed_at": "2026-11-15T05:12:49.531Z",
+      "result": "All eight matching hanging organizers were already known. Thirteen unknown items were bedding/closet storage bags, bins, baskets, drawer organizers or garment covers; not Wall & Door Organizers.",
+      "source_url": "https://www.etsy.com/shop/HibiChStudio"
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "scope": "All 24",
+      "observed_at": "2026-11-15T05:12:51.179Z",
+      "result": "All 24 visible IDs were known.",
+      "source_url": "https://www.etsy.com/shop/NinaJiaStudio"
+    },
+    {
+      "shop": "ChicDecorHK",
+      "scope": "Shell Jewelry 22",
+      "observed_at": "2026-11-15T05:12:54.375Z",
+      "result": "All 22 visible IDs in the Shell Jewelry section were known.",
+      "source_url": "https://www.etsy.com/shop/ChicDecorHK"
+    },
+    {
+      "shop": "Adamideal",
+      "scope": "Desktop Storage section",
+      "observed_at": "2026-11-15T05:14:11.381Z",
+      "result": "One new pencil holder verified for Desk Organization. A different holder shown in the section was already known and excluded before the batch.",
+      "source_url": "https://www.etsy.com/shop/Adamideal"
+    },
+    {
+      "shop": "DanyHomeDesign",
+      "scope": "All, visible first page",
+      "observed_at": "2026-11-15T05:12:58.111Z",
+      "result": "One new floral jacquard curtain verified against the existing Floral Curtains route.",
+      "source_url": "https://www.etsy.com/shop/DanyHomeDesign"
+    },
+    {
+      "shop": "NngGoods",
+      "scope": "All, visible first page",
+      "observed_at": "2026-11-15T05:13:00.121Z",
+      "result": "One new stone knob verified against the Cabinet Knobs & Pulls route.",
+      "source_url": "https://www.etsy.com/shop/NngGoods"
+    },
+    {
+      "shop": "QuGifts",
+      "scope": "All, item page 2 after checking Wall Decor and Table Decor subsections",
+      "observed_at": "2026-11-15T05:15:43.945Z",
+      "result": "One new shell-trimmed basket in Etsy Home Decor / Decorative Baskets verified against the Coastal Home Decor route.",
+      "source_url": "https://www.etsy.com/shop/QuGifts"
+    },
+    {
+      "shop": "StellaGoodsGifts",
+      "scope": "All 12",
+      "observed_at": "2026-11-15T05:13:03.427Z",
+      "result": "One wildflower pillow cover verified against Decorative Pillow Covers.",
+      "source_url": "https://www.etsy.com/shop/StellaGoodsGifts"
+    },
+    {
+      "shop": "WoodHomeLiang",
+      "scope": "All, visible first page",
+      "observed_at": "2026-11-15T05:13:05.495Z",
+      "result": "One wooden hanger verified against Wooden Hangers.",
+      "source_url": "https://www.etsy.com/shop/WoodHomeLiang"
+    }
+  ],
+  "ingestion": {
+    "run_id": 43680455282,
+    "job_id": 132709801279,
+    "first_inserted": 6,
+    "failed": 0,
+    "retry_inserted": 0,
+    "events": [
+      {
+        "batch": "batch-20261115-051739",
+        "shop": "Adamideal",
+        "listing_id": "4362890083",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "logged_at": "2026-11-15T05:18:25.4603287Z"
+      },
+      {
+        "batch": "batch-20261115-051739",
+        "shop": "DanyHomeDesign",
+        "listing_id": "4454760813",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "logged_at": "2026-11-15T05:18:26.8600756Z"
+      },
+      {
+        "batch": "batch-20261115-051739",
+        "shop": "NngGoods",
+        "listing_id": "4582967541",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "logged_at": "2026-11-15T05:18:28.1182340Z"
+      },
+      {
+        "batch": "batch-20261115-051739",
+        "shop": "QuGifts",
+        "listing_id": "4353448834",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "logged_at": "2026-11-15T05:18:29.2221510Z"
+      },
+      {
+        "batch": "batch-20261115-051739",
+        "shop": "StellaGoodsGifts",
+        "listing_id": "4316031169",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "logged_at": "2026-11-15T05:18:29.8718212Z"
+      },
+      {
+        "batch": "batch-20261115-051739",
+        "shop": "WoodHomeLiang",
+        "listing_id": "1770022046",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "logged_at": "2026-11-15T05:18:30.4214114Z"
+      },
+      {
+        "inserted": 6,
+        "failed": 0,
+        "pending": 6,
+        "logged_at": "2026-11-15T05:18:30.4214717Z"
+      },
+      {
+        "status": "no_new_verified_material",
+        "inserted": 0,
+        "logged_at": "2026-11-15T05:18:30.7688072Z"
+      }
+    ]
+  },
+  "post_verify": {
+    "run_id": 43680520259,
+    "job_id": 132709921109,
+    "audit_time": "2026-11-15T05:18:48.651005+00:00",
+    "routes": 32,
+    "usable": 84,
+    "deficit": 12,
+    "known_listing_ids_checked": 527
+  },
+  "new_items": [
+    {
+      "shop": "Adamideal",
+      "listing_id": "4362890083",
+      "category": "Desk Organization",
+      "source_url": "https://www.etsy.com/listing/4362890083/handmade-mango-wood-pencil-holder-rustic",
+      "image_url": "https://i.etsystatic.com/35172699/r/il/a5f97f/7166072084/il_794xN.7166072084_3fcq.jpg",
+      "new_title": "Carved Wood Desk Pencil Holder",
+      "handle": "sailing_981",
+      "board_id": "863494997243989843",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-15T05:16:59.693Z",
+      "body": "The main photo shows a light fluted wood cup and a darker spiral cup holding pens and scissors.",
+      "facebook_draft": "The main photo shows a light fluted wood cup and a darker spiral cup holding pens and scissors. Etsy listing from Adamideal: https://www.etsy.com/listing/4362890083/handmade-mango-wood-pencil-holder-rustic",
+      "evidence": "Found in the current registered Adamideal storefront; excluded from all 521 known listing IDs in the fresh database plan. Actual detail seller matched Adamideal. Selected Natural Wood A, quantity 1. The listing's Add to cart was visible and enabled; no cart action was taken. The original rendered 794×794 listing main image was visually inspected in a remote CDP screenshot. The main photo shows a light fluted wood cup and a darker spiral cup holding pens and scissors.",
+      "account": "P2",
+      "board_name": "storage",
+      "queue_id": "7b20b513-c6f9-4af8-aa1a-207314c51dca",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-15T05:18:25.285105+00:00",
+      "db_listing_checked_at": "2026-11-15T05:16:59.693+00:00",
+      "reserve_snapshot_matches": true,
+      "db_board_id": "863494997243989843",
+      "source_matches": true,
+      "eligible_configuration": true
+    },
+    {
+      "shop": "DanyHomeDesign",
+      "listing_id": "4454760813",
+      "category": "Floral Curtains",
+      "source_url": "https://www.etsy.com/listing/4454760813/chenille-jacquard-curtain-vintage-floral",
+      "image_url": "https://i.etsystatic.com/44677612/r/il/53fe06/7778896714/il_794xN.7778896714_rz55.jpg",
+      "new_title": "Dark Floral Jacquard Curtain",
+      "handle": "icyndizhang",
+      "board_id": "801218658646993070",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-15T05:15:20.598Z",
+      "body": "Pale flowers and leaves on a dark curtain are shown beside a textured glass window.",
+      "facebook_draft": "Pale flowers and leaves on a dark curtain are shown beside a textured glass window. Etsy listing from DanyHomeDesign: https://www.etsy.com/listing/4454760813/chenille-jacquard-curtain-vintage-floral",
+      "evidence": "Found in the current registered DanyHomeDesign storefront; excluded from all 521 known listing IDs in the fresh database plan. Actual detail seller matched DanyHomeDesign. Selected 1 PCS-W39XL51 inch and C01, quantity 1. The listing's Add to cart was visible and enabled; no cart action was taken. The original rendered 794×794 listing main image was visually inspected in a remote CDP screenshot. Pale flowers and leaves on a dark curtain are shown beside a textured glass window.",
+      "account": "P1",
+      "board_name": "CyndiZhangStudio",
+      "queue_id": "3de7d24e-61a1-4b93-8b0d-23ac761e0fab",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-15T05:18:26.695125+00:00",
+      "db_listing_checked_at": "2026-11-15T05:15:20.598+00:00",
+      "reserve_snapshot_matches": true,
+      "db_board_id": "801218658646993070",
+      "source_matches": true,
+      "eligible_configuration": true
+    },
+    {
+      "shop": "NngGoods",
+      "listing_id": "4582967541",
+      "category": "Cabinet Knobs & Pulls",
+      "source_url": "https://www.etsy.com/listing/4582967541/natural-gemstone-drawer-pull-brass",
+      "image_url": "https://i.etsystatic.com/57194200/r/il/84b8b7/8877259961/il_794xN.8877259961_lnft.jpg",
+      "new_title": "Round Stone Cabinet Knob with Brass-Tone Base",
+      "handle": "ivy5205",
+      "board_id": "713820678377803412",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-15T05:15:30.033Z",
+      "body": "The main photo shows cylindrical stone cabinet knobs in several colors with brass-tone fittings.",
+      "facebook_draft": "The main photo shows cylindrical stone cabinet knobs in several colors with brass-tone fittings. Etsy listing from NngGoods: https://www.etsy.com/listing/4582967541/natural-gemstone-drawer-pull-brass",
+      "evidence": "Found in the current registered NngGoods storefront; excluded from all 521 known listing IDs in the fresh database plan. Actual detail seller matched NngGoods. Selected 1 PCS and Clear Quartz, quantity 1. The listing's Add to cart was visible and enabled; no cart action was taken. The original rendered 794×794 listing main image was visually inspected in a remote CDP screenshot. The main photo shows cylindrical stone cabinet knobs in several colors with brass-tone fittings.",
+      "account": "P5",
+      "board_name": "Furniture",
+      "queue_id": "e11b1462-4fba-4edd-808c-37eab5211781",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-15T05:18:27.955361+00:00",
+      "db_listing_checked_at": "2026-11-15T05:15:30.033+00:00",
+      "reserve_snapshot_matches": true,
+      "db_board_id": "713820678377803412",
+      "source_matches": true,
+      "eligible_configuration": true
+    },
+    {
+      "shop": "QuGifts",
+      "listing_id": "4353448834",
+      "category": "Coastal Home Decor",
+      "source_url": "https://www.etsy.com/listing/4353448834/handwoven-shell-trim-storage-basket-boho",
+      "image_url": "https://i.etsystatic.com/38006525/r/il/e51a9a/7115438144/il_794xN.7115438144_a2h6.jpg",
+      "new_title": "Woven Basket with White Shell Trim",
+      "handle": "cindyzhang62",
+      "board_id": "675399344056772225",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-15T05:16:05.890Z",
+      "body": "The main photo shows two woven baskets, each edged with a band of white shells.",
+      "facebook_draft": "The main photo shows two woven baskets, each edged with a band of white shells. Etsy listing from QuGifts: https://www.etsy.com/listing/4353448834/handwoven-shell-trim-storage-basket-boho",
+      "evidence": "Found in the current registered QuGifts storefront; excluded from all 521 known listing IDs in the fresh database plan. Actual detail seller matched QuGifts. Selected Short-5.1 inch, quantity 1. Etsy breadcrumbs show Home Decor / Decorative Storage / Decorative Baskets. The listing's Add to cart was visible and enabled; no cart action was taken. The original rendered 794×794 listing main image was visually inspected in a remote CDP screenshot. The main photo shows two woven baskets, each edged with a band of white shells.",
+      "account": "P4",
+      "board_name": "Decor",
+      "queue_id": "cce7be1b-20bc-46fc-911b-bc8dd392d3d3",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-15T05:18:29.08436+00:00",
+      "db_listing_checked_at": "2026-11-15T05:16:05.89+00:00",
+      "reserve_snapshot_matches": true,
+      "db_board_id": "675399344056772225",
+      "source_matches": true,
+      "eligible_configuration": true
+    },
+    {
+      "shop": "StellaGoodsGifts",
+      "listing_id": "4316031169",
+      "category": "Decorative Pillow Covers",
+      "source_url": "https://www.etsy.com/listing/4316031169/floral-jacquard-pillow-cover-french",
+      "image_url": "https://i.etsystatic.com/54217402/r/il/40fbc4/8445154723/il_794xN.8445154723_srn5.jpg",
+      "new_title": "Green Wildflower Pillow Cover",
+      "handle": "icyndizhang",
+      "board_id": "801218658646993070",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-15T05:15:32.259Z",
+      "body": "The main photo shows a square green pillow cover with a multicolored wildflower print.",
+      "facebook_draft": "The main photo shows a square green pillow cover with a multicolored wildflower print. Etsy listing from StellaGoodsGifts: https://www.etsy.com/listing/4316031169/floral-jacquard-pillow-cover-french",
+      "evidence": "Found in the current registered StellaGoodsGifts storefront; excluded from all 521 known listing IDs in the fresh database plan. Actual detail seller matched StellaGoodsGifts. Quantity 1 was available; no separate variant selector was required. The listing's Add to cart was visible and enabled; no cart action was taken. The original rendered 794×794 listing main image was visually inspected in a remote CDP screenshot. The main photo shows a square green pillow cover with a multicolored wildflower print.",
+      "account": "P1",
+      "board_name": "CyndiZhangStudio",
+      "queue_id": "469f23b0-5f19-4aa0-8a5e-73d9f213cdb7",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-15T05:18:29.75098+00:00",
+      "db_listing_checked_at": "2026-11-15T05:15:32.259+00:00",
+      "reserve_snapshot_matches": true,
+      "db_board_id": "801218658646993070",
+      "source_matches": true,
+      "eligible_configuration": true
+    },
+    {
+      "shop": "WoodHomeLiang",
+      "listing_id": "1770022046",
+      "category": "Wooden Hangers",
+      "source_url": "https://www.etsy.com/listing/1770022046/handcrafted-walnut-wood-hangers-with",
+      "image_url": "https://i.etsystatic.com/38928671/r/il/657f49/6272233091/il_794xN.6272233091_49z0.jpg",
+      "new_title": "Curved Walnut Hanger with Brass Hook",
+      "handle": "sailing_981",
+      "board_id": "863494997243989843",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-15T05:15:14.939Z",
+      "body": "Two dark curved wooden hangers with gold-tone hooks are shown on a black closet rod.",
+      "facebook_draft": "Two dark curved wooden hangers with gold-tone hooks are shown on a black closet rod. Etsy listing from WoodHomeLiang: https://www.etsy.com/listing/1770022046/handcrafted-walnut-wood-hangers-with",
+      "evidence": "Found in the current registered WoodHomeLiang storefront; excluded from all 521 known listing IDs in the fresh database plan. Actual detail seller matched WoodHomeLiang. Selected 1 PCS, quantity 1. The listing's Add to cart was visible and enabled; no cart action was taken. The original rendered 794×794 listing main image was visually inspected in a remote CDP screenshot. Two dark curved wooden hangers with gold-tone hooks are shown on a black closet rod.",
+      "account": "P2",
+      "board_name": "storage",
+      "queue_id": "0e47d24a-b6ce-405c-8bc4-294cd51341ba",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "created_at": "2026-11-15T05:18:30.270892+00:00",
+      "db_listing_checked_at": "2026-11-15T05:15:14.939+00:00",
+      "reserve_snapshot_matches": true,
+      "db_board_id": "863494997243989843",
+      "source_matches": true,
+      "eligible_configuration": true
+    }
+  ],
+  "remaining_deficits": [
+    {
+      "shop": "Chtte",
+      "handle": "mydecorshop",
+      "target": 3,
+      "usable": 0,
+      "account": "P3",
+      "deficit": 3,
+      "previous_routes": [
+        {
+          "board_id": "499618221101215211",
+          "category": "Chair Cushions & Seat Pads"
+        }
+      ]
+    },
+    {
+      "shop": "HibiChStudio",
+      "handle": "sailing_981",
+      "target": 3,
+      "usable": 0,
+      "account": "P2",
+      "deficit": 3,
+      "previous_routes": [
+        {
+          "board_id": "863494997243989843",
+          "category": "Wall & Door Organizers"
+        }
+      ]
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "handle": "ivy5205",
+      "target": 3,
+      "usable": 0,
+      "account": "P5",
+      "deficit": 3,
+      "previous_routes": [
+        {
+          "board_id": "713820678377803445",
+          "category": "Cosmetic Bags"
+        },
+        {
+          "board_id": "713820678377803445",
+          "category": "Shoulder Bags"
+        },
+        {
+          "board_id": "713820678377803445",
+          "category": "Textile Bags"
+        }
+      ]
+    },
+    {
+      "shop": "ChicDecorHK",
+      "handle": "cindyzhang62",
+      "target": 3,
+      "usable": 1,
+      "account": "P4",
+      "deficit": 2,
+      "previous_routes": [
+        {
+          "board_id": "675399344058025061",
+          "category": "Seashell Jewelry"
+        }
+      ]
+    },
+    {
+      "shop": "Chtte",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 2,
+      "account": "P1",
+      "deficit": 1,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Chair Cushions & Seat Pads"
+        }
+      ]
+    }
+  ],
+  "first_deficit_followup": "completed previously; unchanged"
+}
