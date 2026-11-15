@@ -1,0 +1,322 @@
+{
+  "status": "no_eligible_new_material",
+  "checked_at": "2026-11-15T23:15:49.633Z",
+  "browser": "ChatGPT Work remote cdp",
+  "github_connector_verified": true,
+  "main_before_evidence": "04638146562d748478c6e23411a05ee2963a400a",
+  "verify": {
+    "run_id": 43740559387,
+    "job_id": 132995202299,
+    "audit_time": "2026-11-15T23:15:05.851191+00:00"
+  },
+  "target": 3,
+  "max_batch": 20,
+  "raw_verify_log_target": 7,
+  "deficit_calculation": "max(0, 3 - usable) per active route",
+  "eligible_routes": 32,
+  "known_listing_ids_checked": 530,
+  "usable": 84,
+  "deficit": 12,
+  "deficit_routes": [
+    {
+      "shop": "Chtte",
+      "handle": "mydecorshop",
+      "target": 3,
+      "usable": 0,
+      "account": "P3",
+      "deficit": 3,
+      "previous_routes": [
+        {
+          "board_id": "499618221101215211",
+          "category": "Chair Cushions & Seat Pads"
+        }
+      ]
+    },
+    {
+      "shop": "HibiChStudio",
+      "handle": "sailing_981",
+      "target": 3,
+      "usable": 0,
+      "account": "P2",
+      "deficit": 3,
+      "previous_routes": [
+        {
+          "board_id": "863494997243989843",
+          "category": "Wall & Door Organizers"
+        }
+      ]
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "handle": "ivy5205",
+      "target": 3,
+      "usable": 0,
+      "account": "P5",
+      "deficit": 3,
+      "previous_routes": [
+        {
+          "board_id": "713820678377803445",
+          "category": "Cosmetic Bags"
+        },
+        {
+          "board_id": "713820678377803445",
+          "category": "Shoulder Bags"
+        },
+        {
+          "board_id": "713820678377803445",
+          "category": "Textile Bags"
+        }
+      ]
+    },
+    {
+      "shop": "ChicDecorHK",
+      "handle": "cindyzhang62",
+      "target": 3,
+      "usable": 1,
+      "account": "P4",
+      "deficit": 2,
+      "previous_routes": [
+        {
+          "board_id": "675399344058025061",
+          "category": "Seashell Jewelry"
+        }
+      ]
+    },
+    {
+      "shop": "Chtte",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 2,
+      "account": "P1",
+      "deficit": 1,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Chair Cushions & Seat Pads"
+        }
+      ]
+    }
+  ],
+  "storefronts": [
+    {
+      "shop": "Chtte",
+      "scope": "All 14",
+      "observed_at": "2026-11-15T23:15:45.187Z",
+      "source_url": "https://www.etsy.com/shop/Chtte",
+      "visible_listing_ids": [
+        "4535424416",
+        "4616101190",
+        "4535422573",
+        "4586894685",
+        "4577582372",
+        "4577559034",
+        "4577591162",
+        "4577556837",
+        "4440783510",
+        "4535407129",
+        "4514553651",
+        "4440831933",
+        "4535436683",
+        "4514589653"
+      ],
+      "excluded_known": [
+        "4535424416",
+        "4616101190",
+        "4535422573",
+        "4586894685",
+        "4577582372",
+        "4577559034",
+        "4577591162",
+        "4577556837",
+        "4440783510",
+        "4535407129",
+        "4514553651",
+        "4440831933",
+        "4535436683",
+        "4514589653"
+      ],
+      "unknown_listing_ids": [],
+      "eligible_new_listing_ids": [],
+      "reason": "All 14 visible IDs already known."
+    },
+    {
+      "shop": "HibiChStudio",
+      "scope": "All 21",
+      "observed_at": "2026-11-15T23:15:46.504Z",
+      "source_url": "https://www.etsy.com/shop/HibiChStudio",
+      "visible_listing_ids": [
+        "4473098237",
+        "4420842205",
+        "4374349912",
+        "4454342176",
+        "4454344966",
+        "4559711054",
+        "4391652370",
+        "4559057618",
+        "4559038359",
+        "4559062406",
+        "4559684799",
+        "4420844641",
+        "4391681449",
+        "4391650576",
+        "4374362269",
+        "4473116090",
+        "4473114318",
+        "4420839477",
+        "4517906376",
+        "4517885823",
+        "4454347860"
+      ],
+      "excluded_known": [
+        "4473098237",
+        "4374349912",
+        "4454342176",
+        "4559711054",
+        "4391652370",
+        "4391681449",
+        "4391650576",
+        "4374362269"
+      ],
+      "unknown_listing_ids": [
+        "4420842205",
+        "4454344966",
+        "4559057618",
+        "4559038359",
+        "4559062406",
+        "4559684799",
+        "4420844641",
+        "4473116090",
+        "4473114318",
+        "4420839477",
+        "4517906376",
+        "4517885823",
+        "4454347860"
+      ],
+      "eligible_new_listing_ids": [],
+      "reason": "Eight matching wall/door-hanging organizers already known; 13 other IDs are bedding/closet bags, bins, baskets, drawer organizers or garment covers outside Wall & Door Organizers."
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "scope": "All 24",
+      "observed_at": "2026-11-15T23:15:47.562Z",
+      "source_url": "https://www.etsy.com/shop/NinaJiaStudio",
+      "visible_listing_ids": [
+        "4435963114",
+        "4585567382",
+        "4585556630",
+        "4585549341",
+        "4585524379",
+        "4477926256",
+        "4435968040",
+        "4435907497",
+        "4435912349",
+        "4435955425",
+        "4569933203",
+        "4558515139",
+        "4568703716",
+        "4477929531",
+        "4558513279",
+        "4415232975",
+        "4486251915",
+        "4477915577",
+        "4477918490",
+        "4477906166",
+        "4415243185",
+        "4415234134",
+        "4415221724",
+        "4415229681"
+      ],
+      "excluded_known": [
+        "4435963114",
+        "4585567382",
+        "4585556630",
+        "4585549341",
+        "4585524379",
+        "4477926256",
+        "4435968040",
+        "4435907497",
+        "4435912349",
+        "4435955425",
+        "4569933203",
+        "4558515139",
+        "4568703716",
+        "4477929531",
+        "4558513279",
+        "4415232975",
+        "4486251915",
+        "4477915577",
+        "4477918490",
+        "4477906166",
+        "4415243185",
+        "4415234134",
+        "4415221724",
+        "4415229681"
+      ],
+      "unknown_listing_ids": [],
+      "eligible_new_listing_ids": [],
+      "reason": "All 24 visible IDs already known."
+    },
+    {
+      "shop": "ChicDecorHK",
+      "scope": "Shell Jewelry 22",
+      "observed_at": "2026-11-15T23:15:49.633Z",
+      "source_url": "https://www.etsy.com/shop/ChicDecorHK?section_id=36093325",
+      "visible_listing_ids": [
+        "1664536978",
+        "1869942090",
+        "1103128579",
+        "1664510418",
+        "1170123268",
+        "1678693571",
+        "1640975851",
+        "1606392268",
+        "1506048129",
+        "1170079452",
+        "1721799800",
+        "1599224125",
+        "1618224588",
+        "1735968559",
+        "1125022447",
+        "1864481074",
+        "4358550068",
+        "1736022367",
+        "4356452486",
+        "4356476861",
+        "1267359860",
+        "1585132122"
+      ],
+      "excluded_known": [
+        "1664536978",
+        "1869942090",
+        "1103128579",
+        "1664510418",
+        "1170123268",
+        "1678693571",
+        "1640975851",
+        "1606392268",
+        "1506048129",
+        "1170079452",
+        "1721799800",
+        "1599224125",
+        "1618224588",
+        "1735968559",
+        "1125022447",
+        "1864481074",
+        "4358550068",
+        "1736022367",
+        "4356452486",
+        "4356476861",
+        "1267359860",
+        "1585132122"
+      ],
+      "unknown_listing_ids": [],
+      "eligible_new_listing_ids": [],
+      "reason": "All 22 visible IDs already known."
+    }
+  ],
+  "batch": null,
+  "inserted": 0,
+  "ingestion_run": null,
+  "listing_visual_verification": "No item passed deduplication and the existing category filter. No listing detail or main image review was performed.",
+  "first_deficit_followup": "completed previously; unchanged"
+}
