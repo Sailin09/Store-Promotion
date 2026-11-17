@@ -1,0 +1,375 @@
+{
+  "status": "inserted_verified",
+  "browser": "cdp",
+  "github_connector_verified": true,
+  "main_read": "3de3d474297d3b80aae2bfa2c01e9e97b47fc59e",
+  "target": 3,
+  "max_batch": 20,
+  "raw_verify_log_target": 7,
+  "deficit_calculation": "max(0,3-usable) per active shop/account",
+  "pre_verify": {
+    "run_id": 44023616120,
+    "job_id": 134444775245,
+    "audit_time": "2026-11-17T23:18:30.15774+00:00",
+    "eligible_routes": 32,
+    "known_listing_ids_checked": 545,
+    "usable": 80,
+    "deficit": 16
+  },
+  "batch": "operations/replenishment/batch-20261117-232046.json",
+  "batch_commit": "008ce654c74433a53149a526309efe513cc4f284",
+  "storefront_checks": [
+    {
+      "scope": "Chtte",
+      "observed_at": "2026-11-17T23:18:32.109Z",
+      "url": "https://www.etsy.com/shop/Chtte",
+      "visible_listing_ids": [
+        "4535422573",
+        "4535424416",
+        "4616101190",
+        "4586894685",
+        "4577582372",
+        "4577559034",
+        "4577591162",
+        "4577556837",
+        "4440783510",
+        "4535407129",
+        "4514553651",
+        "4440831933",
+        "4535436683",
+        "4514589653"
+      ],
+      "not_in_known_listing_ids": [],
+      "note": "All visible IDs already known; no reuse."
+    },
+    {
+      "scope": "ChicDecorHK_shell",
+      "observed_at": "2026-11-17T23:18:47.846Z",
+      "url": "https://www.etsy.com/shop/ChicDecorHK?section_id=36093325",
+      "visible_listing_ids": [
+        "1664536978",
+        "1869942090",
+        "1103128579",
+        "1664510418",
+        "1170123268",
+        "1678693571",
+        "1640975851",
+        "1606392268",
+        "1506048129",
+        "1170079452",
+        "1721799800",
+        "1599224125",
+        "1618224588",
+        "1735968559",
+        "1125022447",
+        "1864481074",
+        "4358550068",
+        "1736022367",
+        "4356452486",
+        "4356476861",
+        "1267359860",
+        "1585132122"
+      ],
+      "not_in_known_listing_ids": [],
+      "note": "All visible IDs already known; no reuse."
+    },
+    {
+      "scope": "NinaJiaStudio",
+      "observed_at": "2026-11-17T23:18:35.504Z",
+      "url": "https://www.etsy.com/shop/NinaJiaStudio",
+      "visible_listing_ids": [
+        "4435963114",
+        "4585567382",
+        "4585556630",
+        "4585549341",
+        "4585524379",
+        "4477926256",
+        "4435968040",
+        "4435907497",
+        "4435912349",
+        "4435955425",
+        "4569933203",
+        "4558515139",
+        "4568703716",
+        "4477929531",
+        "4558513279",
+        "4415232975",
+        "4486251915",
+        "4477915577",
+        "4477918490",
+        "4477906166",
+        "4415243185",
+        "4415234134",
+        "4415221724",
+        "4415229681"
+      ],
+      "not_in_known_listing_ids": [],
+      "note": "All visible IDs already known; no reuse."
+    },
+    {
+      "scope": "HibiChStudio",
+      "observed_at": "2026-11-17T23:18:34.521Z",
+      "url": "https://www.etsy.com/shop/HibiChStudio",
+      "visible_listing_ids": [
+        "4473098237",
+        "4420842205",
+        "4374349912",
+        "4454342176",
+        "4454344966",
+        "4559711054",
+        "4391652370",
+        "4559057618",
+        "4559038359",
+        "4559062406",
+        "4559684799",
+        "4420844641",
+        "4391681449",
+        "4391650576",
+        "4374362269",
+        "4473116090",
+        "4473114318",
+        "4420839477",
+        "4517906376",
+        "4517885823",
+        "4454347860"
+      ],
+      "not_in_known_listing_ids": [
+        "4420842205",
+        "4454344966",
+        "4559057618",
+        "4559038359",
+        "4559062406",
+        "4559684799",
+        "4420844641",
+        "4473116090",
+        "4473114318",
+        "4420839477",
+        "4517906376",
+        "4517885823",
+        "4454347860"
+      ],
+      "note": "Unfamiliar storefront cards describe wardrobe/bedding bags, bins or baskets. None approved for Wall & Door Organizers; no fresh detail or visual verification claimed."
+    }
+  ],
+  "ingestion": {
+    "run_id": 44198561940,
+    "job_id": 134446546294,
+    "first_inserted": 3,
+    "failed": 0,
+    "retry_inserted": 0,
+    "log_rows": [
+      {
+        "batch": "batch-20261117-232046",
+        "shop": "ChicDecorHK",
+        "listing_id": "1748639443",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "_log": "2026-11-17T23:21:32.2031448Z"
+      },
+      {
+        "batch": "batch-20261117-232046",
+        "shop": "MiawoodStudio",
+        "listing_id": "1863104922",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "_log": "2026-11-17T23:21:36.4618653Z"
+      },
+      {
+        "batch": "batch-20261117-232046",
+        "shop": "PearlsTreasuresArt",
+        "listing_id": "1898664669",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "_log": "2026-11-17T23:21:38.7110381Z"
+      },
+      {
+        "inserted": 3,
+        "failed": 0,
+        "pending": 3,
+        "_log": "2026-11-17T23:21:38.7111554Z"
+      },
+      {
+        "status": "no_new_verified_material",
+        "inserted": 0,
+        "_log": "2026-11-17T23:21:39.1000186Z"
+      }
+    ]
+  },
+  "post_verify": {
+    "run_id": 44198700738,
+    "job_id": 134446851270,
+    "audit_time": "2026-11-17T23:22:24.747328+00:00",
+    "eligible_routes": 32,
+    "known_listing_ids_checked": 548,
+    "usable": 83,
+    "deficit": 13
+  },
+  "new_items": [
+    {
+      "shop": "ChicDecorHK",
+      "listing_id": "1748639443",
+      "category": "Roman Shades",
+      "source_url": "https://www.etsy.com/listing/1748639443/linen-roman-shade-adjustable-light",
+      "image_url": "https://i.etsystatic.com/32003756/r/il/f75c7b/6422128689/il_794xN.6422128689_62p2.jpg",
+      "new_title": "Linen Roman Shade at a Sunlit Window",
+      "handle": "icyndizhang",
+      "board_id": "801218658646993070",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-17T23:20:00.583Z",
+      "body": "A pale linen-look Roman shade is shown partly raised, with folds along its lower edge.",
+      "facebook_draft": "A pale linen-look Roman shade is shown partly raised, with folds along its lower edge. Etsy listing from ChicDecorHK: https://www.etsy.com/listing/1748639443/linen-roman-shade-adjustable-light",
+      "evidence": "Discovered in the current registered ChicDecorHK storefront, Roman Shade section; excluded against all 545 known IDs from fresh Verify job 134444775245. The actual detail seller matched ChicDecorHK. Selected 23x64 (58x162cm) inches, Linen color, quantity 1; primary Add to cart was enabled, with no cart action. Inspected the actual 794x794 main image in a remote CDP screenshot, opened from the exact original hero URL after the variant changed the gallery. A pale linen-look Roman shade is shown partly raised, with folds along its lower edge.",
+      "account": "P1",
+      "board_name": "CyndiZhangStudio",
+      "option": "23x64 (58x162cm) inches, Linen color, quantity 1",
+      "queue_id": "359cf871-9d0f-42a9-9080-309a878ba782",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "reserve_snapshot_matches": true,
+      "source_matches": true,
+      "db_board_id": "801218658646993070",
+      "db_checked_at": "2026-11-17T23:20:00.583+00:00",
+      "created_at": "2026-11-17T23:21:32.006872+00:00"
+    },
+    {
+      "shop": "MiawoodStudio",
+      "listing_id": "1863104922",
+      "category": "Wooden Hangers",
+      "source_url": "https://www.etsy.com/listing/1863104922/camphor-wood-suit-hanger-with-pant-bar",
+      "image_url": "https://i.etsystatic.com/32100253/r/il/d69a19/6660013936/il_794xN.6660013936_k1yl.jpg",
+      "new_title": "Wood Suit Hanger with Trouser Bar",
+      "handle": "sailing_981",
+      "board_id": "863494997243989843",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-17T23:20:03.186Z",
+      "body": "Two wooden suit hangers with gold-tone hooks and trouser bars are shown on a pale fabric surface.",
+      "facebook_draft": "Two wooden suit hangers with gold-tone hooks and trouser bars are shown on a pale fabric surface. Etsy listing from MiawoodStudio: https://www.etsy.com/listing/1863104922/camphor-wood-suit-hanger-with-pant-bar",
+      "evidence": "Discovered in the current registered MiawoodStudio storefront, Wood Hanger section; excluded against all 545 known IDs from fresh Verify job 134444775245. The actual detail seller matched MiawoodStudio. Selected 2 pcs, listing quantity 1; primary Add to cart was enabled, with no cart action. Inspected the actual 794x794 main image in a remote CDP screenshot. Two wooden suit hangers with gold-tone hooks and trouser bars are shown on a pale fabric surface.",
+      "account": "P2",
+      "board_name": "storage",
+      "option": "2 pcs, listing quantity 1",
+      "queue_id": "4f11e98b-0490-4667-98d7-7ff22fa2250c",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "reserve_snapshot_matches": true,
+      "source_matches": true,
+      "db_board_id": "863494997243989843",
+      "db_checked_at": "2026-11-17T23:20:03.186+00:00",
+      "created_at": "2026-11-17T23:21:36.321908+00:00"
+    },
+    {
+      "shop": "PearlsTreasuresArt",
+      "listing_id": "1898664669",
+      "category": "Seashell Jewelry",
+      "source_url": "https://www.etsy.com/listing/1898664669/gold-seashell-earrings-pearl-studs-boho",
+      "image_url": "https://i.etsystatic.com/46725934/r/il/8af055/6823556727/il_794xN.6823556727_46f5.jpg",
+      "new_title": "Gold-Trim Shell Drop Earrings",
+      "handle": "cindyzhang62",
+      "board_id": "675399344058025061",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-17T23:20:10.392Z",
+      "body": "A shell drop earring with gold-tone trim and a pale round stud is shown worn.",
+      "facebook_draft": "A shell drop earring with gold-tone trim and a pale round stud is shown worn. Etsy listing from PearlsTreasuresArt: https://www.etsy.com/listing/1898664669/gold-seashell-earrings-pearl-studs-boho",
+      "evidence": "Discovered in the current registered PearlsTreasuresArt storefront, All section; excluded against all 545 known IDs from fresh Verify job 134444775245. The actual detail seller matched PearlsTreasuresArt. Selected quantity 1; no required variant selector; primary Add to cart was enabled, with no cart action. Inspected the actual 794x794 main image in a remote CDP screenshot. A shell drop earring with gold-tone trim and a pale round stud is shown worn.",
+      "account": "P4",
+      "board_name": "Jewelry & Accessories",
+      "option": "quantity 1; no required variant selector",
+      "queue_id": "750f59fc-972f-4a35-b908-b4244149cb75",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "reserve_snapshot_matches": true,
+      "source_matches": true,
+      "db_board_id": "675399344058025061",
+      "db_checked_at": "2026-11-17T23:20:10.392+00:00",
+      "created_at": "2026-11-17T23:21:38.565689+00:00"
+    }
+  ],
+  "remaining_deficits": [
+    {
+      "shop": "ChicDecorHK",
+      "handle": "cindyzhang62",
+      "target": 3,
+      "usable": 0,
+      "account": "P4",
+      "deficit": 3,
+      "previous_routes": [
+        {
+          "board_id": "675399344058025061",
+          "category": "Seashell Jewelry"
+        }
+      ]
+    },
+    {
+      "shop": "Chtte",
+      "handle": "mydecorshop",
+      "target": 3,
+      "usable": 0,
+      "account": "P3",
+      "deficit": 3,
+      "previous_routes": [
+        {
+          "board_id": "499618221101215211",
+          "category": "Chair Cushions & Seat Pads"
+        }
+      ]
+    },
+    {
+      "shop": "HibiChStudio",
+      "handle": "sailing_981",
+      "target": 3,
+      "usable": 0,
+      "account": "P2",
+      "deficit": 3,
+      "previous_routes": [
+        {
+          "board_id": "863494997243989843",
+          "category": "Wall & Door Organizers"
+        }
+      ]
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "handle": "ivy5205",
+      "target": 3,
+      "usable": 0,
+      "account": "P5",
+      "deficit": 3,
+      "previous_routes": [
+        {
+          "board_id": "713820678377803445",
+          "category": "Cosmetic Bags"
+        },
+        {
+          "board_id": "713820678377803445",
+          "category": "Shoulder Bags"
+        },
+        {
+          "board_id": "713820678377803445",
+          "category": "Textile Bags"
+        }
+      ]
+    },
+    {
+      "shop": "Chtte",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 2,
+      "account": "P1",
+      "deficit": 1,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Chair Cushions & Seat Pads"
+        }
+      ]
+    }
+  ],
+  "first_deficit_followup": "completed",
+  "publication_triggered_by_this_run": false
+}
