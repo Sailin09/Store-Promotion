@@ -1,0 +1,164 @@
+{
+  "status": "blocked_cloud_browser_origin_auto_review",
+  "browser": "cdp",
+  "github_connector_verified": true,
+  "main_read": "ac9be742a0355b342bb86a663fa4d3805612b591",
+  "target": 3,
+  "max_batch": 20,
+  "raw_verify_log_target": 7,
+  "pre_verify": {
+    "run_id": 44023616120,
+    "job_id": 134221713452,
+    "audit_time": "2026-11-17T17:15:42.956859+00:00",
+    "eligible_routes": 32,
+    "known_listing_ids_available": 545,
+    "usable": 80,
+    "deficit": 16
+  },
+  "blocker": {
+    "attempted_action": "cua.createBrowserTab('cdp','https://www.etsy.com/shop/Chtte')",
+    "origin": "https://www.etsy.com",
+    "action_executed": false,
+    "reason": "Cloud browser could not acquire authority to trigger network egress. The origin approval gate did not grant access for https://www.etsy.com. Automatic approval review failed while initializing its session: thread-store metadata recovery deadline exhausted.",
+    "etsy_response_observed": false,
+    "transient_review_infrastructure_error": true
+  },
+  "storefront_checks": [],
+  "visual_checks": [],
+  "batch_created": false,
+  "ingestion_triggered": false,
+  "inserted_by_this_run": 0,
+  "post_verify": null,
+  "remaining_deficits": [
+    {
+      "shop": "ChicDecorHK",
+      "handle": "cindyzhang62",
+      "target": 3,
+      "usable": 0,
+      "account": "P4",
+      "deficit": 3,
+      "previous_routes": [
+        {
+          "board_id": "675399344058025061",
+          "category": "Seashell Jewelry"
+        }
+      ]
+    },
+    {
+      "shop": "Chtte",
+      "handle": "mydecorshop",
+      "target": 3,
+      "usable": 0,
+      "account": "P3",
+      "deficit": 3,
+      "previous_routes": [
+        {
+          "board_id": "499618221101215211",
+          "category": "Chair Cushions & Seat Pads"
+        }
+      ]
+    },
+    {
+      "shop": "HibiChStudio",
+      "handle": "sailing_981",
+      "target": 3,
+      "usable": 0,
+      "account": "P2",
+      "deficit": 3,
+      "previous_routes": [
+        {
+          "board_id": "863494997243989843",
+          "category": "Wall & Door Organizers"
+        }
+      ]
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "handle": "ivy5205",
+      "target": 3,
+      "usable": 0,
+      "account": "P5",
+      "deficit": 3,
+      "previous_routes": [
+        {
+          "board_id": "713820678377803445",
+          "category": "Cosmetic Bags"
+        },
+        {
+          "board_id": "713820678377803445",
+          "category": "Shoulder Bags"
+        },
+        {
+          "board_id": "713820678377803445",
+          "category": "Textile Bags"
+        }
+      ]
+    },
+    {
+      "shop": "ChicDecorHK",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 2,
+      "account": "P1",
+      "deficit": 1,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Roman Shades"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Striped Curtains"
+        },
+        {
+          "board_id": "801218658646993070",
+          "category": "Tie-Up & Balloon Shades"
+        }
+      ]
+    },
+    {
+      "shop": "Chtte",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 2,
+      "account": "P1",
+      "deficit": 1,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Chair Cushions & Seat Pads"
+        }
+      ]
+    },
+    {
+      "shop": "MiawoodStudio",
+      "handle": "sailing_981",
+      "target": 3,
+      "usable": 2,
+      "account": "P2",
+      "deficit": 1,
+      "previous_routes": [
+        {
+          "board_id": "863494997243989843",
+          "category": "Wooden Hangers"
+        }
+      ]
+    },
+    {
+      "shop": "PearlsTreasuresArt",
+      "handle": "cindyzhang62",
+      "target": 3,
+      "usable": 2,
+      "account": "P4",
+      "deficit": 1,
+      "previous_routes": [
+        {
+          "board_id": "675399344058025061",
+          "category": "Seashell Jewelry"
+        }
+      ]
+    }
+  ],
+  "first_deficit_followup": "completed",
+  "publication_triggered_by_this_run": false
+}
