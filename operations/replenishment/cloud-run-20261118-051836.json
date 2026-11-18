@@ -1,0 +1,483 @@
+{
+  "status": "inserted_verified",
+  "browser": "cdp",
+  "github_connector_verified": true,
+  "main_read": "8e678382a8e76e44e49600e2cc256d985810e0fd",
+  "target": 3,
+  "max_batch": 20,
+  "raw_verify_log_target": 7,
+  "deficit_calculation": "max(0,3-usable) per active shop/account",
+  "pre_verify": {
+    "run_id": 44198700738,
+    "job_id": 134594849767,
+    "audit_time": "2026-11-18T05:15:35.671272+00:00",
+    "eligible_routes": 32,
+    "known_listing_ids_checked": 548,
+    "usable": 77,
+    "deficit": 19
+  },
+  "batch": "operations/replenishment/batch-20261118-051836.json",
+  "batch_commit": "b2ad3fec3eba2d975e884da6818918b8a78d7c5d",
+  "storefront_checks": [
+    {
+      "shop": "Chtte",
+      "url": "https://www.etsy.com/shop/Chtte",
+      "observed_at": "2026-11-18T05:15:57.255Z",
+      "visible_listing_ids": [
+        "4535422573",
+        "4535424416",
+        "4616101190",
+        "4586894685",
+        "4577582372",
+        "4577559034",
+        "4577591162",
+        "4577556837",
+        "4440783510",
+        "4535407129",
+        "4514553651",
+        "4440831933",
+        "4535436683",
+        "4514589653"
+      ],
+      "unknown_listing_ids": [],
+      "screening_note": "All visible listing IDs already known; none reused."
+    },
+    {
+      "shop": "ChicDecorHK",
+      "url": "https://www.etsy.com/shop/ChicDecorHK?section_id=36093325",
+      "observed_at": "2026-11-18T05:16:10.095Z",
+      "visible_listing_ids": [
+        "1664536978",
+        "1869942090",
+        "1103128579",
+        "1664510418",
+        "1170123268",
+        "1678693571",
+        "1640975851",
+        "1606392268",
+        "1506048129",
+        "1170079452",
+        "1721799800",
+        "1599224125",
+        "1618224588",
+        "1735968559",
+        "1125022447",
+        "1864481074",
+        "4358550068",
+        "1736022367",
+        "4356452486",
+        "4356476861",
+        "1267359860",
+        "1585132122"
+      ],
+      "unknown_listing_ids": [],
+      "screening_note": "All visible listing IDs already known; none reused."
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "url": "https://www.etsy.com/shop/NinaJiaStudio",
+      "observed_at": "2026-11-18T05:16:00.839Z",
+      "visible_listing_ids": [
+        "4435963114",
+        "4585567382",
+        "4585556630",
+        "4585549341",
+        "4585524379",
+        "4477926256",
+        "4435968040",
+        "4435907497",
+        "4435912349",
+        "4435955425",
+        "4569933203",
+        "4558515139",
+        "4568703716",
+        "4477929531",
+        "4558513279",
+        "4415232975",
+        "4486251915",
+        "4477915577",
+        "4477918490",
+        "4477906166",
+        "4415243185",
+        "4415234134",
+        "4415221724",
+        "4415229681"
+      ],
+      "unknown_listing_ids": [],
+      "screening_note": "All visible listing IDs already known; none reused."
+    },
+    {
+      "shop": "HibiChStudio",
+      "url": "https://www.etsy.com/shop/HibiChStudio",
+      "observed_at": "2026-11-18T05:15:59.707Z",
+      "visible_listing_ids": [
+        "4473098237",
+        "4420842205",
+        "4374349912",
+        "4454342176",
+        "4454344966",
+        "4559711054",
+        "4391652370",
+        "4559057618",
+        "4559038359",
+        "4559062406",
+        "4559684799",
+        "4420844641",
+        "4391681449",
+        "4391650576",
+        "4374362269",
+        "4473116090",
+        "4473114318",
+        "4420839477",
+        "4517906376",
+        "4517885823",
+        "4454347860"
+      ],
+      "unknown_listing_ids": [
+        "4420842205",
+        "4454344966",
+        "4559057618",
+        "4559038359",
+        "4559062406",
+        "4559684799",
+        "4420844641",
+        "4473116090",
+        "4473114318",
+        "4420839477",
+        "4517906376",
+        "4517885823",
+        "4454347860"
+      ],
+      "screening_note": "Unfamiliar storefront cards describe closet/bedding bags, bins and baskets; not approved for Wall & Door Organizers. No fresh detail or visual claims made for them."
+    }
+  ],
+  "ingestion": {
+    "run_id": 44243357936,
+    "job_id": 134596496564,
+    "first_inserted": 6,
+    "failed": 0,
+    "retry_inserted": 0,
+    "log_rows": [
+      {
+        "batch": "batch-20261118-051836",
+        "shop": "Adamideal",
+        "listing_id": "4539275479",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "_log": "2026-11-18T05:19:36.1372705Z"
+      },
+      {
+        "batch": "batch-20261118-051836",
+        "shop": "KoltCraftStudio",
+        "listing_id": "1788931324",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "_log": "2026-11-18T05:19:37.0953420Z"
+      },
+      {
+        "batch": "batch-20261118-051836",
+        "shop": "NiceCraftStudioHK",
+        "listing_id": "1790971208",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "_log": "2026-11-18T05:19:39.1455802Z"
+      },
+      {
+        "batch": "batch-20261118-051836",
+        "shop": "NngGoods",
+        "listing_id": "4537642423",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "_log": "2026-11-18T05:19:41.4991192Z"
+      },
+      {
+        "batch": "batch-20261118-051836",
+        "shop": "QuGifts",
+        "listing_id": "4438028232",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "_log": "2026-11-18T05:19:43.4753361Z"
+      },
+      {
+        "batch": "batch-20261118-051836",
+        "shop": "WOGOL",
+        "listing_id": "4370203086",
+        "input": 1,
+        "inserted": 1,
+        "skipped_existing": 0,
+        "_log": "2026-11-18T05:19:44.1776920Z"
+      },
+      {
+        "inserted": 6,
+        "failed": 0,
+        "pending": 6,
+        "_log": "2026-11-18T05:19:44.1777666Z"
+      },
+      {
+        "status": "no_new_verified_material",
+        "inserted": 0,
+        "_log": "2026-11-18T05:19:44.6645069Z"
+      }
+    ]
+  },
+  "post_verify": {
+    "run_id": 44243497366,
+    "job_id": 134596742297,
+    "audit_time": "2026-11-18T05:20:13.324685+00:00",
+    "eligible_routes": 32,
+    "known_listing_ids_checked": 554,
+    "usable": 83,
+    "deficit": 13
+  },
+  "new_items": [
+    {
+      "shop": "Adamideal",
+      "listing_id": "4539275479",
+      "category": "Desk Organization",
+      "source_url": "https://www.etsy.com/listing/4539275479/solid-walnut-wood-memory-card-organizer",
+      "image_url": "https://i.etsystatic.com/35172699/r/il/85adcf/8310770291/il_794xN.8310770291_jn8j.jpg",
+      "new_title": "Wooden Memory Card and USB Organizer",
+      "handle": "sailing_981",
+      "board_id": "863494997243989843",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-18T05:17:33.431Z",
+      "body": "A dark wooden organizer with rows of slots holds USB drives on a pale desk.",
+      "facebook_draft": "A dark wooden organizer with rows of slots holds USB drives on a pale desk. Etsy listing from Adamideal: https://www.etsy.com/listing/4539275479/solid-walnut-wood-memory-card-organizer",
+      "evidence": "Discovered in the current registered Adamideal storefront, Desk Setup & Organizer section; excluded against all 548 known IDs from fresh Verify job 134594849767. The actual listing seller matched Adamideal. Selected Style A; quantity 1; primary Add to cart was enabled and no cart action was taken. Inspected a remote CDP screenshot of the listing's original 794x794 main image, including directly opening the exact hero URL where selecting a variant changed the gallery. A dark wooden organizer with rows of slots holds USB drives on a pale desk.",
+      "account": "P2",
+      "board_name": "storage",
+      "option": "Style A; quantity 1",
+      "queue_id": "341b335a-9844-4188-9621-0ddc44599149",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "reserve_snapshot_matches": true,
+      "source_matches": true,
+      "db_board_id": "863494997243989843",
+      "db_checked_at": "2026-11-18T05:17:33.431+00:00",
+      "created_at": "2026-11-18T05:19:35.87037+00:00"
+    },
+    {
+      "shop": "KoltCraftStudio",
+      "listing_id": "1788931324",
+      "category": "Wooden Hangers",
+      "source_url": "https://www.etsy.com/listing/1788931324/padded-wooden-clothes-hangers-non-slip",
+      "image_url": "https://i.etsystatic.com/43671795/r/il/9e536a/6388135459/il_794xN.6388135459_dyjd.jpg",
+      "new_title": "Padded Wooden Clothes Hanger",
+      "handle": "sailing_981",
+      "board_id": "863494997243989843",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-18T05:17:35.386Z",
+      "body": "Wooden hangers with pale padded arms and silver-tone hooks hang inside a closet.",
+      "facebook_draft": "Wooden hangers with pale padded arms and silver-tone hooks hang inside a closet. Etsy listing from KoltCraftStudio: https://www.etsy.com/listing/1788931324/padded-wooden-clothes-hangers-non-slip",
+      "evidence": "Discovered in the current registered KoltCraftStudio storefront; excluded against all 548 known IDs from fresh Verify job 134594849767. The actual listing seller matched KoltCraftStudio. Selected Natural; 1 PCS; quantity 1; primary Add to cart was enabled and no cart action was taken. Inspected a remote CDP screenshot of the listing's original 794x794 main image, including directly opening the exact hero URL where selecting a variant changed the gallery. Wooden hangers with pale padded arms and silver-tone hooks hang inside a closet.",
+      "account": "P2",
+      "board_name": "storage",
+      "option": "Natural; 1 PCS; quantity 1",
+      "queue_id": "d7f66066-0d48-4a88-947a-d4418074dc2e",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "reserve_snapshot_matches": true,
+      "source_matches": true,
+      "db_board_id": "863494997243989843",
+      "db_checked_at": "2026-11-18T05:17:35.386+00:00",
+      "created_at": "2026-11-18T05:19:36.858652+00:00"
+    },
+    {
+      "shop": "NiceCraftStudioHK",
+      "listing_id": "1790971208",
+      "category": "Sheer Curtains",
+      "source_url": "https://www.etsy.com/listing/1790971208/damask-sheer-curtain-elegant-floral",
+      "image_url": "https://i.etsystatic.com/39068605/r/il/e49730/6805198121/il_794xN.6805198121_mwfo.jpg",
+      "new_title": "Floral Damask Sheer Curtain",
+      "handle": "icyndizhang",
+      "board_id": "801218658646993070",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-18T05:17:42.118Z",
+      "body": "A pale sheer curtain has an ornate floral damask pattern, shown against a window.",
+      "facebook_draft": "A pale sheer curtain has an ornate floral damask pattern, shown against a window. Etsy listing from NiceCraftStudioHK: https://www.etsy.com/listing/1790971208/damask-sheer-curtain-elegant-floral",
+      "evidence": "Discovered in the current registered NiceCraftStudioHK storefront; excluded against all 548 known IDs from fresh Verify job 134594849767. The actual listing seller matched NiceCraftStudioHK. Selected 1PCS-W39xL59 inch; C01; quantity 1; primary Add to cart was enabled and no cart action was taken. Inspected a remote CDP screenshot of the listing's original 794x794 main image, including directly opening the exact hero URL where selecting a variant changed the gallery. A pale sheer curtain has an ornate floral damask pattern, shown against a window.",
+      "account": "P1",
+      "board_name": "CyndiZhangStudio",
+      "option": "1PCS-W39xL59 inch; C01; quantity 1",
+      "queue_id": "33542399-5336-4b9a-8414-8003865de16f",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "reserve_snapshot_matches": true,
+      "source_matches": true,
+      "db_board_id": "801218658646993070",
+      "db_checked_at": "2026-11-18T05:17:42.118+00:00",
+      "created_at": "2026-11-18T05:19:38.916235+00:00"
+    },
+    {
+      "shop": "NngGoods",
+      "listing_id": "4537642423",
+      "category": "Cabinet Knobs & Pulls",
+      "source_url": "https://www.etsy.com/listing/4537642423/raw-crystal-cabinet-knob-stone-drawer",
+      "image_url": "https://i.etsystatic.com/57194200/r/il/462b62/8434265188/il_794xN.8434265188_iz9w.jpg",
+      "new_title": "Raw Crystal Cabinet Knob",
+      "handle": "ivy5205",
+      "board_id": "713820678377803412",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-18T05:17:51.996Z",
+      "body": "Several irregular crystal-style cabinet knobs in different colors have gold-tone bases. The selected option is Rose Quartz.",
+      "facebook_draft": "Several irregular crystal-style cabinet knobs in different colors have gold-tone bases. The selected option is Rose Quartz. Etsy listing from NngGoods: https://www.etsy.com/listing/4537642423/raw-crystal-cabinet-knob-stone-drawer",
+      "evidence": "Discovered in the current registered NngGoods storefront; excluded against all 548 known IDs from fresh Verify job 134594849767. The actual listing seller matched NngGoods. Selected Rose Quartz; 1 PCS; screw length 20 mm; listing quantity 1; primary Add to cart was enabled and no cart action was taken. Inspected a remote CDP screenshot of the listing's original 794x794 main image, including directly opening the exact hero URL where selecting a variant changed the gallery. Several irregular crystal-style cabinet knobs in different colors have gold-tone bases. The selected option is Rose Quartz.",
+      "account": "P5",
+      "board_name": "Furniture",
+      "option": "Rose Quartz; 1 PCS; screw length 20 mm; listing quantity 1",
+      "queue_id": "5acc573a-ac54-43b7-b100-c9efbef679f6",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "reserve_snapshot_matches": true,
+      "source_matches": true,
+      "db_board_id": "713820678377803412",
+      "db_checked_at": "2026-11-18T05:17:51.996+00:00",
+      "created_at": "2026-11-18T05:19:41.276118+00:00"
+    },
+    {
+      "shop": "QuGifts",
+      "listing_id": "4438028232",
+      "category": "Coastal Home Decor",
+      "source_url": "https://www.etsy.com/listing/4438028232/natural-seashell-napkin-ring-handmade",
+      "image_url": "https://i.etsystatic.com/38006525/r/il/055efe/7630328849/il_794xN.7630328849_gxh8.jpg",
+      "new_title": "Seashell Napkin Ring for Coastal Tables",
+      "handle": "cindyzhang62",
+      "board_id": "675399344056772225",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-18T05:17:52.203Z",
+      "body": "Two pale spiral shell napkin rings are pictured holding rolled burlap-textured napkins.",
+      "facebook_draft": "Two pale spiral shell napkin rings are pictured holding rolled burlap-textured napkins. Etsy listing from QuGifts: https://www.etsy.com/listing/4438028232/natural-seashell-napkin-ring-handmade",
+      "evidence": "Discovered in the current registered QuGifts storefront; excluded against all 548 known IDs from fresh Verify job 134594849767. The actual listing seller matched QuGifts. Selected Moon Shell - 1 PC; quantity 1; primary Add to cart was enabled and no cart action was taken. Inspected a remote CDP screenshot of the listing's original 794x794 main image, including directly opening the exact hero URL where selecting a variant changed the gallery. Two pale spiral shell napkin rings are pictured holding rolled burlap-textured napkins.",
+      "account": "P4",
+      "board_name": "Decor",
+      "option": "Moon Shell - 1 PC; quantity 1",
+      "queue_id": "8f196e91-25ae-4052-a06d-c29facb783f8",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "reserve_snapshot_matches": true,
+      "source_matches": true,
+      "db_board_id": "675399344056772225",
+      "db_checked_at": "2026-11-18T05:17:52.203+00:00",
+      "created_at": "2026-11-18T05:19:43.245721+00:00"
+    },
+    {
+      "shop": "WOGOL",
+      "listing_id": "4370203086",
+      "category": "Cafe Curtains",
+      "source_url": "https://www.etsy.com/listing/4370203086/blue-stripe-cabinet-curtain-55-inches",
+      "image_url": "https://i.etsystatic.com/45174159/r/il/b19b42/7271212099/il_794xN.7271212099_l6bf.jpg",
+      "new_title": "Blue Striped Short Cabinet Curtain",
+      "handle": "icyndizhang",
+      "board_id": "801218658646993070",
+      "available": true,
+      "visual_verified": true,
+      "checked_at": "2026-11-18T05:17:54.442Z",
+      "body": "A short blue-and-white striped curtain hangs beneath a wooden kitchen counter.",
+      "facebook_draft": "A short blue-and-white striped curtain hangs beneath a wooden kitchen counter. Etsy listing from WOGOL: https://www.etsy.com/listing/4370203086/blue-stripe-cabinet-curtain-55-inches",
+      "evidence": "Discovered in the current registered WOGOL storefront; excluded against all 548 known IDs from fresh Verify job 134594849767. The actual listing seller matched WOGOL. Selected Length 16 Inches; quantity 1; primary Add to cart was enabled and no cart action was taken. Inspected a remote CDP screenshot of the listing's original 794x794 main image, including directly opening the exact hero URL where selecting a variant changed the gallery. A short blue-and-white striped curtain hangs beneath a wooden kitchen counter.",
+      "account": "P1",
+      "board_name": "CyndiZhangStudio",
+      "option": "Length 16 Inches; quantity 1",
+      "queue_id": "eacc37c7-7604-4d0f-8843-47761c7cab82",
+      "queue_status": "ready",
+      "snapshot_matches": true,
+      "reserve_snapshot_matches": true,
+      "source_matches": true,
+      "db_board_id": "801218658646993070",
+      "db_checked_at": "2026-11-18T05:17:54.442+00:00",
+      "created_at": "2026-11-18T05:19:43.955564+00:00"
+    }
+  ],
+  "remaining_deficits": [
+    {
+      "shop": "ChicDecorHK",
+      "handle": "cindyzhang62",
+      "target": 3,
+      "usable": 0,
+      "account": "P4",
+      "deficit": 3,
+      "previous_routes": [
+        {
+          "board_id": "675399344058025061",
+          "category": "Seashell Jewelry"
+        }
+      ]
+    },
+    {
+      "shop": "Chtte",
+      "handle": "mydecorshop",
+      "target": 3,
+      "usable": 0,
+      "account": "P3",
+      "deficit": 3,
+      "previous_routes": [
+        {
+          "board_id": "499618221101215211",
+          "category": "Chair Cushions & Seat Pads"
+        }
+      ]
+    },
+    {
+      "shop": "HibiChStudio",
+      "handle": "sailing_981",
+      "target": 3,
+      "usable": 0,
+      "account": "P2",
+      "deficit": 3,
+      "previous_routes": [
+        {
+          "board_id": "863494997243989843",
+          "category": "Wall & Door Organizers"
+        }
+      ]
+    },
+    {
+      "shop": "NinaJiaStudio",
+      "handle": "ivy5205",
+      "target": 3,
+      "usable": 0,
+      "account": "P5",
+      "deficit": 3,
+      "previous_routes": [
+        {
+          "board_id": "713820678377803445",
+          "category": "Cosmetic Bags"
+        },
+        {
+          "board_id": "713820678377803445",
+          "category": "Shoulder Bags"
+        },
+        {
+          "board_id": "713820678377803445",
+          "category": "Textile Bags"
+        }
+      ]
+    },
+    {
+      "shop": "Chtte",
+      "handle": "icyndizhang",
+      "target": 3,
+      "usable": 2,
+      "account": "P1",
+      "deficit": 1,
+      "previous_routes": [
+        {
+          "board_id": "801218658646993070",
+          "category": "Chair Cushions & Seat Pads"
+        }
+      ]
+    }
+  ],
+  "first_deficit_followup": "completed",
+  "publication_triggered_by_this_run": false
+}
