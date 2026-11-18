@@ -12,7 +12,8 @@
     "checked_at": "2026-11-18T17:16:56.622Z",
     "body": "A beige curtain features floral cutwork and crochet trim, with sunlight passing through the patterned fabric.",
     "facebook_draft": "A beige curtain features floral cutwork and crochet trim, with sunlight passing through the patterned fabric. Etsy listing from CustomCurtainsStudio: https://www.etsy.com/listing/1636901655/vintage-crochet-bottom-curtain-beige",
-    "evidence": "Discovered in the current registered CustomCurtainsStudio storefront; excluded against all 554 known IDs from fresh Verify job 134985039966 (audit 2026-11-18T17:13:49.756658+00:00). The actual listing seller matched CustomCurtainsStudio. Selected 1PCS-W67XL63 inch; Processing: Rode Pocket; listing quantity 1; primary Add to cart was present and enabled (disabled=false), and no cart action was taken. Actually inspected a remote CDP screenshot of the listing's original 794x794 main image; where a variant changed the gallery the exact original hero URL was opened and screenshotted. A beige curtain features floral cutwork and crochet trim, with sunlight passing through the patterned fabric."
+    "evidence": "Discovered in the current registered CustomCurtainsStudio storefront; excluded against all 554 known IDs from fresh Verify job 134985039966 (audit 2026-11-18T17:13:49.756658+00:00). The actual listing seller matched CustomCurtainsStudio. Selected 1PCS-W67XL63 inch; Processing: Rode Pocket; listing quantity 1; primary Add to cart was present and enabled (disabled=false), and no cart action was taken. Actually inspected a remote CDP screenshot of the listing's original 794x794 main image; where a variant changed the gallery the exact original hero URL was opened and screenshotted. A beige curtain features floral cutwork and crochet trim, with sunlight passing through the patterned fabric.",
+    "board_id": "801218658646993070"
   },
   {
     "shop": "PearlsTreasuresArt",
@@ -27,7 +28,8 @@
     "checked_at": "2026-11-18T17:17:01.412Z",
     "body": "White pearl-like beads and small turquoise-colored accents frame a pale spiral shell pendant.",
     "facebook_draft": "White pearl-like beads and small turquoise-colored accents frame a pale spiral shell pendant. Etsy listing from PearlsTreasuresArt: https://www.etsy.com/listing/4338005523/beachy-pearl-conch-shell-necklace",
-    "evidence": "Discovered in the current registered PearlsTreasuresArt storefront; excluded against all 554 known IDs from fresh Verify job 134985039966 (audit 2026-11-18T17:13:49.756658+00:00). The actual listing seller matched PearlsTreasuresArt. Selected No required variation selectors; listing quantity 1; primary Add to cart was present and enabled (disabled=false), and no cart action was taken. Actually inspected a remote CDP screenshot of the listing's original 794x794 main image; where a variant changed the gallery the exact original hero URL was opened and screenshotted. White pearl-like beads and small turquoise-colored accents frame a pale spiral shell pendant."
+    "evidence": "Discovered in the current registered PearlsTreasuresArt storefront; excluded against all 554 known IDs from fresh Verify job 134985039966 (audit 2026-11-18T17:13:49.756658+00:00). The actual listing seller matched PearlsTreasuresArt. Selected No required variation selectors; listing quantity 1; primary Add to cart was present and enabled (disabled=false), and no cart action was taken. Actually inspected a remote CDP screenshot of the listing's original 794x794 main image; where a variant changed the gallery the exact original hero URL was opened and screenshotted. White pearl-like beads and small turquoise-colored accents frame a pale spiral shell pendant.",
+    "board_id": "675399344058025061"
   },
   {
     "shop": "WoodHomeLiang",
@@ -42,6 +44,7 @@
     "checked_at": "2026-11-18T17:17:08.021Z",
     "body": "Wooden clothes hangers with broad curved shoulders and gold-tone hooks hang on a closet rail.",
     "facebook_draft": "Wooden clothes hangers with broad curved shoulders and gold-tone hooks hang on a closet rail. Etsy listing from WoodHomeLiang: https://www.etsy.com/listing/1677626833/beech-wood-suit-hangers-wide-shoulder",
-    "evidence": "Discovered in the current registered WoodHomeLiang storefront; excluded against all 554 known IDs from fresh Verify job 134985039966 (audit 2026-11-18T17:13:49.756658+00:00). The actual listing seller matched WoodHomeLiang. Selected 1 PCS; 39cm/15.4 inch; listing quantity 1; primary Add to cart was present and enabled (disabled=false), and no cart action was taken. Actually inspected a remote CDP screenshot of the listing's original 794x794 main image; where a variant changed the gallery the exact original hero URL was opened and screenshotted. Wooden clothes hangers with broad curved shoulders and gold-tone hooks hang on a closet rail."
+    "evidence": "Discovered in the current registered WoodHomeLiang storefront; excluded against all 554 known IDs from fresh Verify job 134985039966 (audit 2026-11-18T17:13:49.756658+00:00). The actual listing seller matched WoodHomeLiang. Selected 1 PCS; 39cm/15.4 inch; listing quantity 1; primary Add to cart was present and enabled (disabled=false), and no cart action was taken. Actually inspected a remote CDP screenshot of the listing's original 794x794 main image; where a variant changed the gallery the exact original hero URL was opened and screenshotted. Wooden clothes hangers with broad curved shoulders and gold-tone hooks hang on a closet rail.",
+    "board_id": "863494997243989843"
   }
 ]
