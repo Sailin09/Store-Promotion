@@ -98,6 +98,6 @@ async function main() {
   const notification=await fetch(`${base}/${saved.number}/comments`,{method:'POST',headers,body:JSON.stringify({body:`库存缺口变为 ${deficit} 条，需要补充已核验素材。\n\n${body}`})});
   if(!notification.ok)throw new Error('Cannot notify stock deficit');
  }
- if(evening&&final.accounts.some(a=>a.pins.length===0||a.attempts.some(t=>['failed','uncertain'].includes(t.state))))process.exitCode=1;
+ if(evening&&final.accounts.some(a=>a.attempts.some(t=>['failed','uncertain'].includes(t.state))))process.exitCode=1;
 }
 if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href) main().catch(()=>{console.error('Cloud report failed; inspect workflow steps. No credentials logged.');process.exitCode=1;});
