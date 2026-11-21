@@ -1,0 +1,34 @@
+[
+  {
+    "shop": "HeyDream",
+    "listing_id": "4453137591",
+    "category": "Sheer Curtains",
+    "handle": "icyndizhang",
+    "board_id": "801218658646993070",
+    "source_url": "https://www.etsy.com/listing/4453137591/tie-up-sheer-curtains-with-ruffle-rod",
+    "image_url": "https://i.etsystatic.com/35422134/r/il/dadbec/7820609908/il_794xN.7820609908_n4lo.jpg",
+    "new_title": "Ruffled Tie-Up Sheer Curtain",
+    "body": "A white sheer curtain has a ruffled top and two long ties gathering its lower edge. The selected option measures W59 × L47 inches with a rod pocket.",
+    "checked_at": "2026-11-21T17:17:22.431Z",
+    "available": true,
+    "visual_verified": true,
+    "evidence": "Discovered at current registered storefront https://www.etsy.com/shop/HeyDream at 2026-11-21T17:16:28.649Z. Excluded against all 577 known listing IDs from fresh Verify run 44870680625 job 136921419208, database audit 2026-11-21T17:15:45.814443+00:00. Actual detail seller link matched HeyDream. Selected W59\"xL47\", Rod pocket, quantity 1; primary Add to cart enabled after variants settled, no cart action. Actually viewed exact original main image at image_url as a remote CDP screenshot this run before checked_at: white translucent curtain with ruffled top hanging on a wood rod, two tan ties forming bows and gathering the lower edge against a distressed white window frame. Sheer Curtains and Board reuse the exact verified route.",
+    "facebook_draft": "A white sheer curtain has a ruffled top and two long ties gathering its lower edge. The selected option measures W59 × L47 inches with a rod pocket. Etsy listing from HeyDream: https://www.etsy.com/listing/4453137591/tie-up-sheer-curtains-with-ruffle-rod"
+  },
+  {
+    "shop": "WoodHomeLiang",
+    "listing_id": "4433496103",
+    "category": "Wooden Hangers",
+    "handle": "sailing_981",
+    "board_id": "863494997243989843",
+    "source_url": "https://www.etsy.com/listing/4433496103/wide-shoulder-cedar-wood-hangersuit",
+    "image_url": "https://i.etsystatic.com/38928671/r/il/8d855b/8411353749/il_794xN.8411353749_j5er.jpg",
+    "new_title": "Wide Shoulder Cedar Wood Hangers",
+    "body": "Wide wooden shoulders, curved metal hooks and trouser bars are shown on these hangers. The selected listing option is a set of 2 PCS.",
+    "checked_at": "2026-11-21T17:17:22.577Z",
+    "available": true,
+    "visual_verified": true,
+    "evidence": "Discovered at current registered storefront https://www.etsy.com/shop/WoodHomeLiang at 2026-11-21T17:16:29.982Z. Excluded against all 577 known listing IDs from fresh Verify run 44870680625 job 136921419208, database audit 2026-11-21T17:15:45.814443+00:00. Actual detail seller link matched WoodHomeLiang. Selected 2 PCS, quantity 1; primary Add to cart enabled after variants settled, no cart action. Actually viewed exact original main image at image_url as a remote CDP screenshot this run before checked_at: four wide-shoulder reddish and pale wood hangers overlapping on a light background, each with curved silver-colored hook and wood trouser bar. Wooden Hangers and Board reuse the exact verified route.",
+    "facebook_draft": "Wide wooden shoulders, curved metal hooks and trouser bars are shown on these hangers. The selected listing option is a set of 2 PCS. Etsy listing from WoodHomeLiang: https://www.etsy.com/listing/4433496103/wide-shoulder-cedar-wood-hangersuit"
+  }
+]
