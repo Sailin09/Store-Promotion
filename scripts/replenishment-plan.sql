@@ -1,6 +1,6 @@
 begin read only;
 set local statement_timeout='20s';
--- Seven reviewed items per active shop/account is the material-reserve target,
+-- Three reviewed items per active shop/account is the material-reserve target,
 -- not a promise of seven publications or seven days of account coverage.
 with stock as (
  select m.shop_id,m.social_account_id,s.shop_name,a.account_name,a.handle,
@@ -16,7 +16,7 @@ with stock as (
  group by m.shop_id,m.social_account_id,s.shop_name,a.account_name,a.handle
 )
 select jsonb_build_object('replenishment_plan',jsonb_build_object('shop',shop_name,'account',account_name,
- 'handle',handle,'usable',usable,'target',7,'deficit',greatest(0,7-usable),
+ 'handle',handle,'usable',usable,'target',3,'deficit',greatest(0,3-usable),
  'known_listing_ids',(select coalesce(jsonb_agg(p.etsy_listing_id),'[]'::jsonb) from products p where p.shop_id=stock.shop_id),
  'previous_routes',(select coalesce(jsonb_agg(x),'[]'::jsonb) from (
  select distinct cv.board_or_category as category,r.board_id from publish_queue q
