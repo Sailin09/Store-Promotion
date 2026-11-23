@@ -654,8 +654,11 @@
   "report_delivery": {
     "issue2_comments_before": 175,
     "marker_found": false,
-    "comment_id": null,
+    "comment_id": 7089629308,
     "report_path": "operations/replenishment/daily-report-2026-11-23.md",
-    "evidence_path": "operations/replenishment/daily-report-2026-11-23.json"
+    "evidence_path": "operations/replenishment/daily-report-2026-11-23.json",
+    "comment_url": "https://github.com/Sailin09/Store-Promotion/issues/2#issuecomment-7089629308",
+    "issue_comment_readback_exact": true,
+    "issue_comment_count_after": 176
   }
 }

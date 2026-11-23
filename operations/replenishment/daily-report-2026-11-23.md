@@ -8,7 +8,7 @@
 - 逻辑区间：北京时间 **2026-11-22 10:00（含）—2026-11-23 10:00（不含）**；UTC **2026-11-22T02:00:00Z—2026-11-23T02:00:00Z**。承接上一份成功日报的截止时间 **2026-11-22T02:00:00Z**，没有使用历史累计62条作为每日基线。
 - 实际核验时间：**2026-11-23 10:01:10 +08:00**，比逻辑截止晚 **1分10秒**。
 - 本次 GitHub 连接器已确认可访问仓库；最新 main commit 为 [820d835](https://github.com/Sailin09/Store-Promotion/commit/820d8352336e1eeb747cdf586bf1227cfae6ef7a)。读取了当前证据目录、区间4份 cloud-run、区间 batch、日报状态、首次缺口跟进状态、云端运营文档、店铺注册表、replenishment plan SQL、发布/补货/Verify 工作流与实际 job 日志。
-- Issue #2 全部 **175条评论**已读取；未找到 `store-promotion-daily:2026-11-23` 标记，因此本次应新增当日日报评论。按标题搜索找到[发布复核 Issue #3](https://github.com/Sailin09/Store-Promotion/issues/3)，正文已读取，相关评论 **0条**。
+- Issue #2 全部 **175条评论**已读取；未找到 `store-promotion-daily:2026-11-23` 标记，因此本次已新增当日日报评论 [7089629308](https://github.com/Sailin09/Store-Promotion/issues/2#issuecomment-7089629308)。按标题搜索找到[发布复核 Issue #3](https://github.com/Sailin09/Store-Promotion/issues/3)，正文已读取，相关评论 **0条**。
 - 最新只读 [Verify Supabase Data run 45016861552 / attempt 3 / job 137394250369](https://github.com/Sailin09/Store-Promotion/actions/runs/45016861552/job/137394250369) 成功完成于 **2026-11-22T23:20:36.904Z**（北京时间11月23日07:20:36.904），距逻辑截止 **2小时39分23秒**。它是 push 事件；工作流中的“Inspect Pinterest queue without changing data”和“Inspect database scheduler and actual publication health”两步被条件跳过，只执行了基础数据库检查及 replenishment_plan。最新计划数据因此是库存核验时点值，不是10:00的实时快照。
 - 最新可用发布历史快照来自 [Cloud promotion operations run 45077859592 / job 137379140030](https://github.com/Sailin09/Store-Promotion/actions/runs/45077859592/job/137379140030)，核验时间 **2026-11-22T22:28:28.003911Z**（北京时间11月23日06:28:28.003911），距逻辑截止 **3小时31分31.996秒**。对应 [Issue #2 评论 7086843364](https://github.com/Sailin09/Store-Promotion/issues/2#issuecomment-7086843364)包含各账号自基线以来的完整 Pin 列表；本日报按真实 published_at 过滤本区间，只计唯一 Pin ID。
 - 最新 Verify 没有重新核验发布历史，且本次可用 GitHub 连接器只暴露对失败/取消 job 的重跑能力，没有 workflow_dispatch 操作；成功的 Verify job 无法通过现有动作触发新的只读运行。因此 **22:28:28Z—02:00:00Z 发布历史覆盖不完整**，各账号的最终区间总数均不能确认。后续事件若发生在逻辑截止之后，也不计入本区间。
@@ -126,4 +126,4 @@ ready/scheduled 数量来自22:28:28Z云端快照，是当时队列状态，不�
 
 ## 本次报告文件与投递
 
-本日报完整正文同时保存为 [daily-report-2026-11-23.md](https://github.com/Sailin09/Store-Promotion/blob/main/operations/replenishment/daily-report-2026-11-23.md)，配套机器可读证据为 [daily-report-2026-11-23.json](https://github.com/Sailin09/Store-Promotion/blob/main/operations/replenishment/daily-report-2026-11-23.json)。Issue #2评论使用同一份 Markdown 正文；日报成功投递后才更新 `cloud-daily-report-state.json` 的逻辑截止与 comment_id。
+本日报完整正文同时保存为 [daily-report-2026-11-23.md](https://github.com/Sailin09/Store-Promotion/blob/main/operations/replenishment/daily-report-2026-11-23.md)，配套机器可读证据为 [daily-report-2026-11-23.json](https://github.com/Sailin09/Store-Promotion/blob/main/operations/replenishment/daily-report-2026-11-23.json)。Issue #2评论 [7089629308](https://github.com/Sailin09/Store-Promotion/issues/2#issuecomment-7089629308) 使用同一份 Markdown 正文，已成功回读并逐字核对；在评论成功及日报文件保存后，`cloud-daily-report-state.json` 已记录本次逻辑截止与 comment_id。
