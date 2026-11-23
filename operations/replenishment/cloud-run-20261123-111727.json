@@ -1,0 +1,364 @@
+{
+  "schema_version": 1,
+  "kind": "cloud_replenishment_run",
+  "run_date": "2026-11-23",
+  "evidence_completed_at": "2026-11-23T11:17:27.320Z",
+  "repository": "Sailin09/Store-Promotion",
+  "execution": "ChatGPT cloud GitHub connector only; no user computer, desktop browser session, local path, local Codex process, heartbeat, Etsy API key, or OpenAI API key used",
+  "main_sha_before_write": "5e9188b0ef6bf5f6589754dc1c7d0b18efec8acd",
+  "requested_files_read": [
+    "operations/replenishment/README.md",
+    "operations/cloud-operations.md",
+    "docs/shops.md",
+    "scripts/replenishment-plan.sql",
+    "scripts/replenishment-batch.mjs",
+    "scripts/ingest-replenishment.mjs",
+    "operations/replenishment/verification-20261023-chtte-and-reserve.json",
+    "operations/replenishment/first-deficit-followup.json",
+    "operations/replenishment/chtte-p3-route.json",
+    "operations/replenishment/batch-20261122-051903.json",
+    "operations/replenishment/cloud-run-20261123-051607.json",
+    ".github/workflows/verify-supabase.yml",
+    ".github/workflows/replenish-stock.yml",
+    ".github/workflows/cloud-operations.yml"
+  ],
+  "latest_verify": {
+    "workflow": "Verify Supabase Data",
+    "run_id": 45016861552,
+    "run_attempt": 5,
+    "job_id": 137654383996,
+    "event": "push",
+    "status": "completed",
+    "conclusion": "success",
+    "html_url": "https://github.com/Sailin09/Store-Promotion/actions/runs/45016861552",
+    "log_url": "https://github.com/Sailin09/Store-Promotion/actions/runs/45016861552/job/137654383996",
+    "plan_log_timestamp_first": "2026-11-23T11:15:15.6599791Z",
+    "plan_log_timestamp_last": "2026-11-23T11:15:15.6705430Z",
+    "routes": 32,
+    "usable": 68,
+    "target_per_route": 3,
+    "total_target": 96,
+    "deficit": 28,
+    "known_listing_ids_unique": 584,
+    "zero_stock_routes": [
+      {
+        "shop": "ChicDecorHK",
+        "account": "P4",
+        "handle": "cindyzhang62",
+        "usable": 0,
+        "deficit": 3,
+        "previous_routes": [
+          {
+            "board_id": "675399344058025061",
+            "category": "Seashell Jewelry"
+          }
+        ]
+      },
+      {
+        "shop": "Chtte",
+        "account": "P3",
+        "handle": "mydecorshop",
+        "usable": 0,
+        "deficit": 3,
+        "previous_routes": [
+          {
+            "board_id": "499618221101215211",
+            "category": "Chair Cushions & Seat Pads"
+          }
+        ]
+      },
+      {
+        "shop": "HibiChStudio",
+        "account": "P2",
+        "handle": "sailing_981",
+        "usable": 0,
+        "deficit": 3,
+        "previous_routes": [
+          {
+            "board_id": "863494997243989843",
+            "category": "Wall & Door Organizers"
+          }
+        ]
+      },
+      {
+        "shop": "MiawoodStudio",
+        "account": "P2",
+        "handle": "sailing_981",
+        "usable": 0,
+        "deficit": 3,
+        "previous_routes": [
+          {
+            "board_id": "863494997243989843",
+            "category": "Wooden Hangers"
+          }
+        ]
+      },
+      {
+        "shop": "NinaJiaStudio",
+        "account": "P5",
+        "handle": "ivy5205",
+        "usable": 0,
+        "deficit": 3,
+        "previous_routes": [
+          {
+            "board_id": "713820678377803445",
+            "category": "Cosmetic Bags"
+          },
+          {
+            "board_id": "713820678377803445",
+            "category": "Shoulder Bags"
+          },
+          {
+            "board_id": "713820678377803445",
+            "category": "Textile Bags"
+          }
+        ]
+      },
+      {
+        "shop": "PearlsTreasuresArt",
+        "account": "P4",
+        "handle": "cindyzhang62",
+        "usable": 0,
+        "deficit": 3,
+        "previous_routes": [
+          {
+            "board_id": "675399344058025061",
+            "category": "Seashell Jewelry"
+          }
+        ]
+      },
+      {
+        "shop": "QuGifts",
+        "account": "P4",
+        "handle": "cindyzhang62",
+        "usable": 0,
+        "deficit": 3,
+        "previous_routes": [
+          {
+            "board_id": "675399344056772225",
+            "category": "Coastal Home Decor"
+          },
+          {
+            "board_id": "675399344056772225",
+            "category": "Wall Decor"
+          }
+        ]
+      }
+    ],
+    "low_stock_routes": [
+      {
+        "shop": "Adamideal",
+        "account": "P2",
+        "handle": "sailing_981",
+        "usable": 2,
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "863494997243989843",
+            "category": "Desk Organization"
+          },
+          {
+            "board_id": "863494997243989843",
+            "category": "Wooden Home Organization"
+          }
+        ]
+      },
+      {
+        "shop": "Chtte",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 2,
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Chair Cushions & Seat Pads"
+          }
+        ]
+      },
+      {
+        "shop": "GavinHome",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 2,
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Cafe Curtains"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Sheer Curtains"
+          }
+        ]
+      },
+      {
+        "shop": "HeyDream",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 2,
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Decorative Pillows"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Sheer Curtains"
+          }
+        ]
+      },
+      {
+        "shop": "KoltCraftStudio",
+        "account": "P2",
+        "handle": "sailing_981",
+        "usable": 2,
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "863494997243989843",
+            "category": "Home Storage"
+          },
+          {
+            "board_id": "863494997243989843",
+            "category": "Wooden Hangers"
+          }
+        ]
+      },
+      {
+        "shop": "KorusStore",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 2,
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "801218658646993070",
+            "category": "Blackout Curtains"
+          },
+          {
+            "board_id": "801218658646993070",
+            "category": "Floral Curtains"
+          }
+        ]
+      },
+      {
+        "shop": "NngGoods",
+        "account": "P5",
+        "handle": "ivy5205",
+        "usable": 2,
+        "deficit": 1,
+        "previous_routes": [
+          {
+            "board_id": "713820678377803412",
+            "category": "Cabinet Knobs & Pulls"
+          }
+        ]
+      }
+    ],
+    "checks": {
+      "database_basics": "success",
+      "inspect_replenishment_deficits": "success",
+      "inspect_pinterest_queue": "skipped because original event is push",
+      "inspect_scheduler_and_publication_health": "skipped because original event is push"
+    }
+  },
+  "latest_actual_replenishment": {
+    "workflow": "Replenish verified stock",
+    "run_id": 44988950045,
+    "job_id": 137105705490,
+    "conclusion": "success",
+    "html_url": "https://github.com/Sailin09/Store-Promotion/actions/runs/44988950045/job/137105705490",
+    "batch": "batch-20261122-051903.json",
+    "first_inserted": 5,
+    "failed": 0,
+    "idempotent_retry_status": "no_new_verified_material",
+    "retry_inserted": 0,
+    "items": [
+      {
+        "shop": "FrenchStyleDecor",
+        "listing_id": "1884132251",
+        "queue_id": "a00b7693-de90-4ed9-9965-59db15dd2c0b",
+        "queue_status": "ready",
+        "snapshot_matches": true,
+        "source_matches": true
+      },
+      {
+        "shop": "KoltCraftStudio",
+        "listing_id": "1883988142",
+        "queue_id": "77ed2a8d-5b5a-4e97-9b43-7d0406ff3bca",
+        "queue_status": "ready",
+        "snapshot_matches": true,
+        "source_matches": true
+      },
+      {
+        "shop": "KorusStore",
+        "listing_id": "4405714144",
+        "queue_id": "7da400e0-ef80-4299-ad4c-e5df3b5e9d4c",
+        "queue_status": "ready",
+        "snapshot_matches": true,
+        "source_matches": true
+      },
+      {
+        "shop": "LambertHouse",
+        "listing_id": "4314290016",
+        "queue_id": "1197e897-2e8b-4717-a861-6dd4323fbcb5",
+        "queue_status": "ready",
+        "snapshot_matches": true,
+        "source_matches": true
+      },
+      {
+        "shop": "NngGoods",
+        "listing_id": "4537650021",
+        "queue_id": "9ba68eb6-f9f9-4154-ba9d-ad4dc3f01915",
+        "queue_status": "ready",
+        "snapshot_matches": true,
+        "source_matches": true
+      }
+    ]
+  },
+  "latest_batch_on_main": "batch-20261122-051903.json",
+  "no_later_batch_found": true,
+  "first_deficit_followup": {
+    "status": "completed",
+    "completed_at": "2026-10-23T13:52:56.578Z",
+    "target": 3,
+    "automation_id": "6adb18502ca08191b0b05f436915aee4",
+    "modified": false
+  },
+  "browser_capability": {
+    "current_attempted_at": "2026-11-23T11:17:27.320Z",
+    "tools_exposed": [
+      "mcp__Browser__list_tabs",
+      "mcp__Browser__get_tab_context"
+    ],
+    "list_tabs_error": "Browser access requires the originating browser context. Open ChatGPT in the browser with the connected extension and try again.",
+    "remote_cdp_navigation": false,
+    "remote_cdp_click": false,
+    "actual_screenshot": false,
+    "historical_probe": "operations/replenishment/cloud-capability-20261023.json records a successful Oct 23 ChatGPT Work cloud CDP inspection; historical evidence is not reused as current proof."
+  },
+  "discovery": {
+    "attempted": false,
+    "reason": "This run exposes no remote CDP navigation, click, or screenshot control and list_tabs fails because the originating browser context is unavailable.",
+    "candidates_discovered": null,
+    "candidates_visually_verified": 0,
+    "batch_created": false
+  },
+  "actions": {
+    "replenish_workflow_triggered": false,
+    "ingestion_triggered": false,
+    "publication_triggered": false,
+    "first_deficit_followup_modified": false,
+    "local_tasks_created": false,
+    "schedules_or_mappings_modified": false
+  },
+  "issue_notification": {
+    "issue_number": 2,
+    "new_comment_created": false,
+    "reason": "The identical originating-browser-context/CDP blocker was already reported in comment 7092264192; no duplicate notification was posted because there was no changed outcome."
+  },
+  "stop_reason": "Remote cloud CDP browser context unavailable. No Etsy storefront/detail page was opened; no candidate, seller, availability, Add to cart, or original-image screenshot was verified. No batch or ingestion was triggered."
+}
