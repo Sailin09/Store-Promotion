@@ -1,0 +1,661 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-23",
+  "marker": "<!-- store-promotion-daily:2026-11-23 -->",
+  "repository": "Sailin09/Store-Promotion",
+  "main_sha": "820d8352336e1eeb747cdf586bf1227cfae6ef7a",
+  "interval": {
+    "timezone": "Asia/Shanghai",
+    "start": "2026-11-22T02:00:00Z",
+    "end": "2026-11-23T02:00:00Z",
+    "start_local": "2026-11-22T10:00:00+08:00",
+    "end_local": "2026-11-23T10:00:00+08:00",
+    "previous_successful_cutoff": "2026-11-22T02:00:00Z",
+    "actual_verified_at": "2026-11-23T10:01:10+08:00",
+    "delay_seconds": 70,
+    "coverage_complete": false,
+    "publication_history_unconfirmed_after": "2026-11-22T22:28:28.003911Z"
+  },
+  "sources": {
+    "issue2_comments_read": 175,
+    "issue2_daily_marker_found": false,
+    "publication_review_issue": {
+      "number": 3,
+      "title": "Pinterest 2026-10-23 21:35 发布复核",
+      "comments": 0
+    },
+    "main_commit": "820d8352336e1eeb747cdf586bf1227cfae6ef7a"
+  },
+  "latest_verify": {
+    "run_id": 45016861552,
+    "attempt": 3,
+    "job_id": 137394250369,
+    "job_url": "https://github.com/Sailin09/Store-Promotion/actions/runs/45016861552/job/137394250369",
+    "event": "push",
+    "conclusion": "success",
+    "database_time": "2026-11-22T23:20:36.9041144Z",
+    "local_time": "2026-11-23T07:20:36.9041144+08:00",
+    "skipped_steps": [
+      "Inspect Pinterest queue without changing data",
+      "Inspect database scheduler and actual publication health"
+    ],
+    "rerun_attempted": false,
+    "rerun_limitation": "Connector exposes rerun for failed/cancelled jobs only and no workflow_dispatch action; latest Verify job succeeded."
+  },
+  "publication_snapshot": {
+    "run_id": 45077859592,
+    "job_id": 137379140030,
+    "time": "2026-11-22T22:28:28.003911Z",
+    "comment_id": 7086843364,
+    "comment_url": "https://github.com/Sailin09/Store-Promotion/issues/2#issuecomment-7086843364",
+    "pins_confirmed": 6,
+    "coverage_after_snapshot": "unconfirmed",
+    "account_ready_scheduled": {
+      "P1": 52,
+      "P2": 12,
+      "P3": 6,
+      "P4": 1,
+      "P5": 3
+    },
+    "account_pin_counts_confirmed": {
+      "P1": 2,
+      "P2": 2,
+      "P3": 0,
+      "P4": 1,
+      "P5": 1
+    },
+    "pins": [
+      {
+        "account": "P1",
+        "handle": "icyndizhang",
+        "shop": "FrenchStyleDecor",
+        "listing_id": "1271672587",
+        "etsy_url": "https://www.etsy.com/listing/1271672587",
+        "pin_id": "801218590009956000",
+        "pin_url": "https://www.pinterest.com/pin/801218590009956000/",
+        "published_at": "2026-11-22T02:05:02.494352+00:00"
+      },
+      {
+        "account": "P2",
+        "handle": "sailing_981",
+        "shop": "LambertHouse",
+        "listing_id": "1793865537",
+        "etsy_url": "https://www.etsy.com/listing/1793865537",
+        "pin_id": "863494928599724283",
+        "pin_url": "https://www.pinterest.com/pin/863494928599724283/",
+        "published_at": "2026-11-22T02:10:02.538882+00:00"
+      },
+      {
+        "account": "P5",
+        "handle": "ivy5205",
+        "shop": "NngGoods",
+        "listing_id": "4557856544",
+        "etsy_url": "https://www.etsy.com/listing/4557856544",
+        "pin_id": "713820609738095796",
+        "pin_url": "https://www.pinterest.com/pin/713820609738095796/",
+        "published_at": "2026-11-22T02:45:02.726884+00:00"
+      },
+      {
+        "account": "P1",
+        "handle": "icyndizhang",
+        "shop": "GavinHome",
+        "listing_id": "1603158829",
+        "etsy_url": "https://www.etsy.com/listing/1603158829",
+        "pin_id": "801218590009962507",
+        "pin_url": "https://www.pinterest.com/pin/801218590009962507/",
+        "published_at": "2026-11-22T13:00:04.743568+00:00"
+      },
+      {
+        "account": "P2",
+        "handle": "sailing_981",
+        "shop": "MiawoodStudio",
+        "listing_id": "1863104922",
+        "etsy_url": "https://www.etsy.com/listing/1863104922",
+        "pin_id": "863494928599730508",
+        "pin_url": "https://www.pinterest.com/pin/863494928599730508/",
+        "published_at": "2026-11-22T13:05:02.158958+00:00"
+      },
+      {
+        "account": "P4",
+        "handle": "cindyzhang62",
+        "shop": "PearlsTreasuresArt",
+        "listing_id": "4339512567",
+        "etsy_url": "https://www.etsy.com/listing/4339512567",
+        "pin_id": "675399275415036424",
+        "pin_url": "https://www.pinterest.com/pin/675399275415036424/",
+        "published_at": "2026-11-22T13:55:02.391137+00:00"
+      }
+    ],
+    "unresolved_attempt": {
+      "account": "P3",
+      "shop": "Chtte",
+      "queue_id": "35c31472-0b55-4f6d-bd70-eb336463ee80",
+      "attempt_id": "c6bd08a5-afc4-495c-a309-8482d88efefb",
+      "state": "uncertain",
+      "error": "pin_response_503",
+      "pin_id": null
+    }
+  },
+  "publisher_runs": [
+    {
+      "run_id": 44995591212,
+      "job_id": 137125806134,
+      "status": "idle",
+      "reason": "outside_publish_window",
+      "published": 0
+    },
+    {
+      "run_id": 45037705494,
+      "job_id": 137255023324,
+      "status": "idle",
+      "reason": "outside_publish_window",
+      "published": 0
+    },
+    {
+      "run_id": 45074057118,
+      "job_id": 137367219073,
+      "status": "idle",
+      "reason": "outside_publish_window",
+      "published": 0
+    }
+  ],
+  "cloud_operations_runs": [
+    {
+      "run_id": 44979397302,
+      "job_id": 137076444950,
+      "time": "2026-11-22T03:11:08Z",
+      "mode": "stock",
+      "reported_deficit": 152,
+      "legacy_target_mismatch": true
+    },
+    {
+      "run_id": 45027030884,
+      "job_id": 137222283882,
+      "time": "2026-11-22T13:21:53Z",
+      "mode": "stock",
+      "reported_deficit": 21
+    },
+    {
+      "run_id": 45066486329,
+      "job_id": 137343808931,
+      "time": "2026-11-22T20:27:46Z",
+      "mode": "evening",
+      "conclusion": "failure",
+      "exit_code": 1,
+      "root_cause": "unconfirmed"
+    },
+    {
+      "run_id": 45077859592,
+      "job_id": 137379140030,
+      "time": "2026-11-22T22:28:30Z",
+      "mode": "stock",
+      "conclusion": "success",
+      "reported_deficit": 22
+    }
+  ],
+  "replenishment": {
+    "batch_path": "operations/replenishment/batch-20261122-051903.json",
+    "cloud_run_path": "operations/replenishment/cloud-run-20261122-051903.json",
+    "first_inserted": 5,
+    "failed": 0,
+    "skipped_existing": 0,
+    "retry_inserted": 0,
+    "ingestion_run_id": 44988950045,
+    "ingestion_job_id": 137105705490,
+    "automatic_verify_run_id": 44989031021,
+    "automatic_verify_job_id": 137105817199,
+    "verify_time": "2026-11-22T05:21:31.645833Z",
+    "all_new_ready": true,
+    "all_new_snapshot_matches": true,
+    "all_new_source_matches": true,
+    "items": [
+      {
+        "shop": "FrenchStyleDecor",
+        "listing_id": "1884132251",
+        "etsy_url": "https://www.etsy.com/listing/1884132251/embroidered-white-cotton-apron-with-lace",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "board_name": "CyndiZhangStudio",
+        "board_id": "801218658646993070",
+        "queue_id": "a00b7693-de90-4ed9-9965-59db15dd2c0b",
+        "queue_status": "ready",
+        "snapshot_matches": true,
+        "source_matches": true,
+        "image_url": "https://i.etsystatic.com/33874695/r/il/b2f1d8/6742833257/il_794xN.6742833257_qnfj.jpg",
+        "checked_at": "2026-11-22T05:19:03.666Z",
+        "visual_observation": "White embroidered bib apron, ruffled straps and gathered skirt worn over a light garment outdoors.",
+        "seller_matched": true,
+        "add_to_cart_enabled": true,
+        "first_inserted": 1
+      },
+      {
+        "shop": "KoltCraftStudio",
+        "listing_id": "1883988142",
+        "etsy_url": "https://www.etsy.com/listing/1883988142/camphor-wooden-coat-hangers-natural-wood",
+        "account": "P2",
+        "handle": "sailing_981",
+        "board_name": "storage",
+        "board_id": "863494997243989843",
+        "queue_id": "77ed2a8d-5b5a-4e97-9b43-7d0406ff3bca",
+        "queue_status": "ready",
+        "snapshot_matches": true,
+        "source_matches": true,
+        "image_url": "https://i.etsystatic.com/43671795/r/il/91f13f/6814868481/il_794xN.6814868481_1njb.jpg",
+        "checked_at": "2026-11-22T05:19:03.750Z",
+        "visual_observation": "Two light brown wooden hangers with visible grain, curved shoulders, lower bars and metal hooks.",
+        "seller_matched": true,
+        "add_to_cart_enabled": true,
+        "first_inserted": 1
+      },
+      {
+        "shop": "KorusStore",
+        "listing_id": "4405714144",
+        "etsy_url": "https://www.etsy.com/listing/4405714144/olive-green-chenille-curtains-rustic",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "board_name": "CyndiZhangStudio",
+        "board_id": "801218658646993070",
+        "queue_id": "7da400e0-ef80-4299-ad4c-e5df3b5e9d4c",
+        "queue_status": "ready",
+        "snapshot_matches": true,
+        "source_matches": true,
+        "image_url": "https://i.etsystatic.com/35854701/r/il/3e7db4/7449401039/il_794xN.7449401039_hsmp.jpg",
+        "checked_at": "2026-11-22T05:19:03.808Z",
+        "visual_observation": "Olive green woven fabric with thick vertical folds; selected-color room photo also viewed.",
+        "seller_matched": true,
+        "add_to_cart_enabled": true,
+        "first_inserted": 1
+      },
+      {
+        "shop": "LambertHouse",
+        "listing_id": "4314290016",
+        "etsy_url": "https://www.etsy.com/listing/4314290016/aluminum-alloy-clothes-hangers-heavy",
+        "account": "P2",
+        "handle": "sailing_981",
+        "board_name": "storage",
+        "board_id": "863494997243989843",
+        "queue_id": "1197e897-2e8b-4717-a861-6dd4323fbcb5",
+        "queue_status": "ready",
+        "snapshot_matches": true,
+        "source_matches": true,
+        "image_url": "https://i.etsystatic.com/46944744/r/il/3bb878/6907941064/il_794xN.6907941064_p87f.jpg",
+        "checked_at": "2026-11-22T05:19:03.842Z",
+        "visual_observation": "Gray metal hangers with curved hooks, indented shoulders and horizontal lower bars; selected gold-color variant photo also viewed.",
+        "seller_matched": true,
+        "add_to_cart_enabled": true,
+        "first_inserted": 1
+      },
+      {
+        "shop": "NngGoods",
+        "listing_id": "4537650021",
+        "etsy_url": "https://www.etsy.com/listing/4537650021/clear-quartz-cabinet-knob-crystal-drawer",
+        "account": "P5",
+        "handle": "ivy5205",
+        "board_name": "Furniture",
+        "board_id": "713820678377803412",
+        "queue_id": "9ba68eb6-f9f9-4154-ba9d-ad4dc3f01915",
+        "queue_status": "ready",
+        "snapshot_matches": true,
+        "source_matches": true,
+        "image_url": "https://i.etsystatic.com/57194200/r/il/288b9e/8429768318/il_794xN.8429768318_jxzs.jpg",
+        "checked_at": "2026-11-22T05:19:03.893Z",
+        "visual_observation": "Irregular clear knob tops with visible internal inclusions on short brass-tone cylindrical bases.",
+        "seller_matched": true,
+        "add_to_cart_enabled": true,
+        "first_inserted": 1
+      }
+    ],
+    "later_runs": [
+      {
+        "path": "operations/replenishment/cloud-run-20261122-112106.json",
+        "evidence_completed_at": "2026-11-22T11:21:06Z",
+        "batch_written": false,
+        "reason": "remote CDP control unavailable; no candidate visually verified"
+      },
+      {
+        "path": "operations/replenishment/cloud-run-20261122-171454.json",
+        "evidence_completed_at": "2026-11-22T17:14:54.720Z",
+        "batch_written": false,
+        "reason": "no candidate eligible without live listing and screenshot verification"
+      },
+      {
+        "path": "operations/replenishment/cloud-run-20261122-232039.json",
+        "evidence_completed_at": "2026-11-22T23:20:39Z",
+        "batch_written": false,
+        "reason": "no live listing-detail and screenshot verification"
+      }
+    ],
+    "not_admitted": [
+      {
+        "shop": "HibiChStudio",
+        "listing_ids": [
+          "4420842205",
+          "4454344966",
+          "4559057618",
+          "4559038359",
+          "4559062406",
+          "4559684799",
+          "4420844641",
+          "4473116090",
+          "4473114318",
+          "4420839477",
+          "4517906376",
+          "4517885823",
+          "4454347860"
+        ],
+        "reason": "Exact Wall & Door Organizers fit not established; no detail/visual approval"
+      },
+      {
+        "shop": "MiawoodStudio",
+        "listing_ids": [
+          "1669452239"
+        ],
+        "reason": "Acrylic Bridal Gown Hanger; not Wooden Hangers"
+      },
+      {
+        "shop": "QuGifts",
+        "listing_ids": [
+          "4399009375",
+          "4536203754",
+          "4536206015",
+          "4535556837"
+        ],
+        "reason": "Exact Coastal Home Decor / Wall Decor fit and full detail/visual review not established"
+      }
+    ]
+  },
+  "inventory": {
+    "time": "2026-11-22T23:20:36.9041144Z",
+    "target": 3,
+    "route_count": 32,
+    "usable_total": 74,
+    "deficit_total": 22,
+    "routes": [
+      {
+        "shop": "ChicDecorHK",
+        "account": "P4",
+        "handle": "cindyzhang62",
+        "usable": 0,
+        "target": 3,
+        "deficit": 3
+      },
+      {
+        "shop": "Chtte",
+        "account": "P3",
+        "handle": "mydecorshop",
+        "usable": 0,
+        "target": 3,
+        "deficit": 3
+      },
+      {
+        "shop": "HibiChStudio",
+        "account": "P2",
+        "handle": "sailing_981",
+        "usable": 0,
+        "target": 3,
+        "deficit": 3
+      },
+      {
+        "shop": "MiawoodStudio",
+        "account": "P2",
+        "handle": "sailing_981",
+        "usable": 0,
+        "target": 3,
+        "deficit": 3
+      },
+      {
+        "shop": "NinaJiaStudio",
+        "account": "P5",
+        "handle": "ivy5205",
+        "usable": 0,
+        "target": 3,
+        "deficit": 3
+      },
+      {
+        "shop": "PearlsTreasuresArt",
+        "account": "P4",
+        "handle": "cindyzhang62",
+        "usable": 0,
+        "target": 3,
+        "deficit": 3
+      },
+      {
+        "shop": "QuGifts",
+        "account": "P4",
+        "handle": "cindyzhang62",
+        "usable": 1,
+        "target": 3,
+        "deficit": 2
+      },
+      {
+        "shop": "Chtte",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 2,
+        "target": 3,
+        "deficit": 1
+      },
+      {
+        "shop": "GavinHome",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 2,
+        "target": 3,
+        "deficit": 1
+      },
+      {
+        "shop": "Adamideal",
+        "account": "P2",
+        "handle": "sailing_981",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "AmyHomeCrafts",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "beou",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "CellaHo",
+        "account": "P3",
+        "handle": "mydecorshop",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "ChicDecorHK",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "CustomCurtainsStudio",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "DanyHomeDesign",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "FrenchStyleDecor",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "HeyDream",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "KoltCraftStudio",
+        "account": "P2",
+        "handle": "sailing_981",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "KorusStore",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "LambertHouse",
+        "account": "P2",
+        "handle": "sailing_981",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "LoomGoStudio",
+        "account": "P3",
+        "handle": "mydecorshop",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "MiraKiuStudio",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "NiceCraftStudioHK",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "NngGoods",
+        "account": "P5",
+        "handle": "ivy5205",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "Parkermo",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "ShirieHomeShow",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "SobiaStudio",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "StellaGoodsGifts",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "TunaMunStudio",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "WOGOL",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "WoodHomeLiang",
+        "account": "P2",
+        "handle": "sailing_981",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      }
+    ]
+  },
+  "first_deficit_followup": {
+    "status": "completed",
+    "first_inserted": 2,
+    "retry_inserted": 0,
+    "modified": false,
+    "automation_id": "6adb18502ca08191b0b05f436915aee4"
+  },
+  "repaired": [
+    {
+      "item": "replenishment-plan.sql target/deficit",
+      "status": "corrected to 3",
+      "verified_by_run": 45016861552
+    }
+  ],
+  "unresolved": [
+    "P3 Chtte uncertain pin_response_503 attempt; no pin_id; not retried",
+    "Cloud operations evening report run 45066486329 failed; root cause unconfirmed; later stock-mode success does not prove evening mode repaired",
+    "No current publication-history snapshot after 2026-11-22T22:28:28Z; remaining interval publication count unconfirmed",
+    "Latest Verify event push skipped queue and scheduler inspection steps",
+    "Remote CDP unavailable in later cloud replenishment runs; no new batches"
+  ],
+  "documentation_mismatch": "operations/cloud-operations.md and the 22:28 Issue #2 stock report retain legacy target=7 wording; current SQL and latest Verify target=3. Current inventory uses target=3 only.",
+  "report_delivery": {
+    "issue2_comments_before": 175,
+    "marker_found": false,
+    "comment_id": null,
+    "report_path": "operations/replenishment/daily-report-2026-11-23.md",
+    "evidence_path": "operations/replenishment/daily-report-2026-11-23.json"
+  }
+}
