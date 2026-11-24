@@ -546,9 +546,10 @@
   "issue_comment": {
     "issue_number": 2,
     "marker": "<!-- store-promotion-daily:2026-11-24 -->",
-    "comment_id": null,
-    "comment_url": null,
-    "posted": false
+    "comment_id": 7119811782,
+    "comment_url": "https://github.com/Sailin09/Store-Promotion/issues/2#issuecomment-7119811782",
+    "posted": true,
+    "body_exact": true
   },
-  "state_advanced": false
+  "state_advanced": true
 }
