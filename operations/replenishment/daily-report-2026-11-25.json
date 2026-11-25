@@ -1,0 +1,572 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-25",
+  "timezone": "Asia/Shanghai",
+  "interval": {
+    "start_inclusive": "2026-11-24T02:00:00Z",
+    "end_exclusive": "2026-11-25T02:00:00Z",
+    "previous_successful_cutoff": "2026-11-24T02:00:00Z",
+    "logical_cutoff": "2026-11-25T02:00:00Z"
+  },
+  "verification": {
+    "actual_completed_at": "2026-11-25T02:02:05.382036Z",
+    "delay_seconds": 125,
+    "main_head_before_write": "6b36d4d5e518494dde34ac8e90e0509083226a05",
+    "state_blob_sha_before_write": "b420d1f17d893c9633d52d4df8df5bced17e09e7",
+    "verify_run_id": 45016861552,
+    "verify_run_number": 131,
+    "verify_attempt": 12,
+    "verify_job_id": 138922663459,
+    "verify_event": "push",
+    "verify_conclusion": "success",
+    "database_counts_time": "2026-11-25T02:02:04.457503Z",
+    "plan_emitted_at_range": [
+      "2026-11-25T02:02:05.045669Z",
+      "2026-11-25T02:02:05.060581Z"
+    ],
+    "plan_sql_matches_main": true,
+    "queue_inspection": "skipped",
+    "scheduler_health_inspection": "skipped"
+  },
+  "publication": {
+    "snapshot_comment_id": 7149543055,
+    "snapshot_time": "2026-11-25T01:26:05.565814Z",
+    "coverage_complete": false,
+    "coverage_through": "2026-11-25T01:26:05.565814Z",
+    "uncovered_interval_after": "2026-11-25T01:26:05.565814Z",
+    "uncovered_seconds": 2034.434186,
+    "history_records_scanned": 379,
+    "confirmed_interval_pins": 7,
+    "final_interval_total": "unconfirmed",
+    "pins": [
+      {
+        "account": "P1",
+        "handle": "icyndizhang",
+        "shop": "ShirieHomeShow",
+        "listing_id": "4334557253",
+        "etsy_url": "https://www.etsy.com/listing/4334557253",
+        "pin_id": "801218590009991723",
+        "pin_url": "https://www.pinterest.com/pin/801218590009991723/",
+        "published_at": "2026-11-24T02:05:03.177565Z"
+      },
+      {
+        "account": "P1",
+        "handle": "icyndizhang",
+        "shop": "SobiaStudio",
+        "listing_id": "4335736083",
+        "etsy_url": "https://www.etsy.com/listing/4335736083",
+        "pin_id": "801218590009998640",
+        "pin_url": "https://www.pinterest.com/pin/801218590009998640/",
+        "published_at": "2026-11-24T13:00:03.656264Z"
+      },
+      {
+        "account": "P1",
+        "handle": "icyndizhang",
+        "shop": "MiraKiuStudio",
+        "listing_id": "4385580248",
+        "etsy_url": "https://www.etsy.com/listing/4385580248",
+        "pin_id": "801218590010008158",
+        "pin_url": "https://www.pinterest.com/pin/801218590010008158/",
+        "published_at": "2026-11-25T00:00:03.665438Z"
+      },
+      {
+        "account": "P2",
+        "handle": "sailing_981",
+        "shop": "Adamideal",
+        "listing_id": "4484587271",
+        "etsy_url": "https://www.etsy.com/listing/4484587271",
+        "pin_id": "863494928599755983",
+        "pin_url": "https://www.pinterest.com/pin/863494928599755983/",
+        "published_at": "2026-11-24T02:10:03.123294Z"
+      },
+      {
+        "account": "P2",
+        "handle": "sailing_981",
+        "shop": "KoltCraftStudio",
+        "listing_id": "4576346337",
+        "etsy_url": "https://www.etsy.com/listing/4576346337",
+        "pin_id": "863494928599761863",
+        "pin_url": "https://www.pinterest.com/pin/863494928599761863/",
+        "published_at": "2026-11-24T13:05:03.216351Z"
+      },
+      {
+        "account": "P2",
+        "handle": "sailing_981",
+        "shop": "WoodHomeLiang",
+        "listing_id": "1753118426",
+        "etsy_url": "https://www.etsy.com/listing/1753118426",
+        "pin_id": "863494928599769901",
+        "pin_url": "https://www.pinterest.com/pin/863494928599769901/",
+        "published_at": "2026-11-25T00:05:02.472003Z"
+      },
+      {
+        "account": "P5",
+        "handle": "ivy5205",
+        "shop": "NngGoods",
+        "listing_id": "4392493982",
+        "etsy_url": "https://www.etsy.com/listing/4392493982",
+        "pin_id": "713820609738131872",
+        "pin_url": "https://www.pinterest.com/pin/713820609738131872/",
+        "published_at": "2026-11-24T02:50:03.073655Z"
+      }
+    ],
+    "accounts": [
+      {
+        "account": "P1",
+        "handle": "icyndizhang",
+        "confirmed_lower_bound": 3,
+        "final_interval_total": "unconfirmed",
+        "pending_at_snapshot": 45
+      },
+      {
+        "account": "P2",
+        "handle": "sailing_981",
+        "confirmed_lower_bound": 3,
+        "final_interval_total": "unconfirmed",
+        "pending_at_snapshot": 5
+      },
+      {
+        "account": "P3",
+        "handle": "mydecorshop",
+        "observed_in_snapshot": 0,
+        "final_interval_total": "unconfirmed",
+        "pending_at_snapshot": 6,
+        "unresolved_attempt": {
+          "queue_id": "35c31472-0b55-4f6d-bd70-eb336463ee80",
+          "attempt_id": "c6bd08a5-afc4-495c-a309-8482d88efefb",
+          "state": "uncertain",
+          "error": "pin_response_503"
+        }
+      },
+      {
+        "account": "P4",
+        "handle": "cindyzhang62",
+        "observed_in_snapshot": 0,
+        "final_interval_total": "unconfirmed",
+        "pending_at_snapshot": 0
+      },
+      {
+        "account": "P5",
+        "handle": "ivy5205",
+        "confirmed_lower_bound": 1,
+        "final_interval_total": "unconfirmed",
+        "pending_at_snapshot": 1
+      }
+    ],
+    "publisher_jobs": [
+      {
+        "run_id": 45379602329,
+        "job_id": 138394877251,
+        "created_at": "2026-11-24T10:57:11Z",
+        "result": "idle/outside_publish_window",
+        "published": 0
+      },
+      {
+        "run_id": 45488852347,
+        "job_id": 138781425059,
+        "created_at": "2026-11-24T21:13:15Z",
+        "result": "idle/outside_publish_window",
+        "published": 0
+      }
+    ],
+    "scheduler_snapshot": {
+      "enabled": true,
+      "cron": "*/5 * * * *",
+      "latest_tick": "2026-11-25T01:25:00.316237Z",
+      "latest_tick_status": "pending",
+      "health_rechecked_by_verify": false
+    }
+  },
+  "replenishment": {
+    "new_batch_count": 0,
+    "new_item_count": 0,
+    "new_queue_count": 0,
+    "new_items": [],
+    "first_inserted": "not_run",
+    "failed": "not_run",
+    "retry_inserted": "not_run",
+    "idempotency_check": "not_applicable_no_ingestion",
+    "candidate_count": "not_evaluated",
+    "visually_verified_candidates": 0,
+    "storefronts_visited": 0,
+    "listing_details_opened": 0,
+    "remote_cdp_available": false,
+    "browser_blocker": "Browser access requires the originating browser context",
+    "latest_batch_outside_interval": "operations/replenishment/batch-20261122-051903.json",
+    "cloud_runs": [
+      {
+        "path": "operations/replenishment/cloud-run-20261124-051640.json",
+        "checked_at": "2026-11-24T05:16:40Z",
+        "verify_attempt": 8,
+        "verify_job_id": 138235565110,
+        "usable": 61,
+        "deficit": 35,
+        "browser_status": "blocked_before_navigation"
+      },
+      {
+        "path": "operations/replenishment/cloud-run-20261124-111658.json",
+        "checked_at": "2026-11-24T11:16:58Z",
+        "verify_attempt": 9,
+        "verify_job_id": 138405518500,
+        "usable": 61,
+        "deficit": 35,
+        "browser_status": "blocked_before_navigation"
+      },
+      {
+        "path": "operations/replenishment/cloud-run-20261124-171658.json",
+        "checked_at": "2026-11-24T17:16:58Z",
+        "verify_attempt": 10,
+        "verify_job_id": 138632553961,
+        "usable": 59,
+        "deficit": 37,
+        "browser_status": "blocked_before_navigation"
+      },
+      {
+        "path": "operations/replenishment/cloud-run-20261124-231620.json",
+        "checked_at": "2026-11-24T23:16:20Z",
+        "verify_attempt": 11,
+        "verify_job_id": 138849752768,
+        "usable": 59,
+        "deficit": 37,
+        "browser_status": "blocked_before_navigation"
+      }
+    ]
+  },
+  "inventory": {
+    "as_of": "2026-11-25T02:02:05.060581Z",
+    "routes": [
+      {
+        "shop": "ChicDecorHK",
+        "account": "P4",
+        "handle": "cindyzhang62",
+        "usable": 0,
+        "target": 3,
+        "deficit": 3
+      },
+      {
+        "shop": "Chtte",
+        "account": "P3",
+        "handle": "mydecorshop",
+        "usable": 0,
+        "target": 3,
+        "deficit": 3
+      },
+      {
+        "shop": "HibiChStudio",
+        "account": "P2",
+        "handle": "sailing_981",
+        "usable": 0,
+        "target": 3,
+        "deficit": 3
+      },
+      {
+        "shop": "MiawoodStudio",
+        "account": "P2",
+        "handle": "sailing_981",
+        "usable": 0,
+        "target": 3,
+        "deficit": 3
+      },
+      {
+        "shop": "NinaJiaStudio",
+        "account": "P5",
+        "handle": "ivy5205",
+        "usable": 0,
+        "target": 3,
+        "deficit": 3
+      },
+      {
+        "shop": "PearlsTreasuresArt",
+        "account": "P4",
+        "handle": "cindyzhang62",
+        "usable": 0,
+        "target": 3,
+        "deficit": 3
+      },
+      {
+        "shop": "QuGifts",
+        "account": "P4",
+        "handle": "cindyzhang62",
+        "usable": 0,
+        "target": 3,
+        "deficit": 3
+      },
+      {
+        "shop": "Adamideal",
+        "account": "P2",
+        "handle": "sailing_981",
+        "usable": 1,
+        "target": 3,
+        "deficit": 2
+      },
+      {
+        "shop": "KoltCraftStudio",
+        "account": "P2",
+        "handle": "sailing_981",
+        "usable": 1,
+        "target": 3,
+        "deficit": 2
+      },
+      {
+        "shop": "MiraKiuStudio",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 1,
+        "target": 3,
+        "deficit": 2
+      },
+      {
+        "shop": "NngGoods",
+        "account": "P5",
+        "handle": "ivy5205",
+        "usable": 1,
+        "target": 3,
+        "deficit": 2
+      },
+      {
+        "shop": "WoodHomeLiang",
+        "account": "P2",
+        "handle": "sailing_981",
+        "usable": 1,
+        "target": 3,
+        "deficit": 2
+      },
+      {
+        "shop": "Chtte",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 2,
+        "target": 3,
+        "deficit": 1
+      },
+      {
+        "shop": "GavinHome",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 2,
+        "target": 3,
+        "deficit": 1
+      },
+      {
+        "shop": "HeyDream",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 2,
+        "target": 3,
+        "deficit": 1
+      },
+      {
+        "shop": "KorusStore",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 2,
+        "target": 3,
+        "deficit": 1
+      },
+      {
+        "shop": "LambertHouse",
+        "account": "P2",
+        "handle": "sailing_981",
+        "usable": 2,
+        "target": 3,
+        "deficit": 1
+      },
+      {
+        "shop": "Parkermo",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 2,
+        "target": 3,
+        "deficit": 1
+      },
+      {
+        "shop": "ShirieHomeShow",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 2,
+        "target": 3,
+        "deficit": 1
+      },
+      {
+        "shop": "SobiaStudio",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 2,
+        "target": 3,
+        "deficit": 1
+      },
+      {
+        "shop": "AmyHomeCrafts",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "beou",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "CellaHo",
+        "account": "P3",
+        "handle": "mydecorshop",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "ChicDecorHK",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "CustomCurtainsStudio",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "DanyHomeDesign",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "FrenchStyleDecor",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "LoomGoStudio",
+        "account": "P3",
+        "handle": "mydecorshop",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "NiceCraftStudioHK",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "StellaGoodsGifts",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "TunaMunStudio",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "WOGOL",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      }
+    ],
+    "route_count": 32,
+    "target_per_route": 3,
+    "total_target": 96,
+    "usable_total": 57,
+    "deficit_total": 39,
+    "zero_stock_routes": 7,
+    "one_stock_routes": 5,
+    "two_stock_routes": 8,
+    "full_routes": 12,
+    "database_counts": {
+      "shops": 30,
+      "classified": 30,
+      "products": 584,
+      "pinterest_variants": 584,
+      "draft_queue": 246,
+      "mapped_social_accounts": 32,
+      "pinterest_accounts": 5,
+      "pinterest_routed_queue": 584
+    }
+  },
+  "workflow_findings": {
+    "cloud_operations_failure": {
+      "run_id": 45508062853,
+      "job_id": 138848512122,
+      "started_at": "2026-11-24T23:13:14Z",
+      "failed_step": "Verify cloud stock and publication evidence",
+      "command": "node scripts/cloud-report.mjs",
+      "exit_code": 1,
+      "artifact_id": 14974820775,
+      "root_cause": "unconfirmed; catch suppresses underlying exception"
+    },
+    "subsequent_cloud_operations": {
+      "run_id": 45525621754,
+      "job_id": 138908236264,
+      "started_at": "2026-11-25T01:25:44Z",
+      "completed_at": "2026-11-25T01:26:16Z",
+      "conclusion": "success",
+      "reported_deficit": 39
+    }
+  },
+  "followup": {
+    "path": "operations/replenishment/first-deficit-followup.json",
+    "status": "completed",
+    "recorded_at": "2026-10-23T13:52:56.578Z",
+    "changed": false
+  },
+  "automations": {
+    "replenishment_task_id": "6adb18502ca08191b0b05f436915aee4",
+    "enabled": true,
+    "last_run_completed_at": "2026-11-24T23:19:00.131466Z",
+    "next_run_time": "2026-11-25T05:15:00Z",
+    "changed": false
+  },
+  "issues": {
+    "issue2_comments_read": 185,
+    "daily_marker_comments": 32,
+    "same_day_marker_found": false,
+    "publication_review_issue": {
+      "number": 3,
+      "title": "Pinterest 2026-10-23 21:35 发布复核",
+      "comments": 0
+    }
+  },
+  "preservation": {
+    "publishing_triggered": false,
+    "replenishment_triggered": false,
+    "queue_mutated": false,
+    "repairs_applied": false,
+    "history_reset": false,
+    "publication_or_replenishment_tasks_changed": false,
+    "local_computer_used": false,
+    "desktop_session_used": false,
+    "local_paths_used": false,
+    "codex_or_heartbeat_used": false,
+    "api_keys_requested": false,
+    "local_daily_task_10_touched": false
+  }
+}
