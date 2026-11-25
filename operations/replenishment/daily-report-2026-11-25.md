@@ -17,7 +17,7 @@
 - 开始 **2026-11-25T02:01:50Z**，完成 **02:02:05Z**；事件类型为 push，执行的是只读数据库核验。
 - 数据库计数时间约 **02:02:04.457Z**；replenishment_plan 逐路线输出时间 **02:02:05.045Z—02:02:05.061Z**。SQL SHA 与 main 一致。
 - 数据库计数：30家店铺、30家已分类、584个商品、584条 Pinterest variants、246条 draft queue、32条 active shop/account 映射、5个 Pinterest账号、584条已路由 Pinterest queue。
-- `Verify Store Promotion database` 与 `Inspect replenishment deficits` 成功；`Inspect Pinterest queue without changing data`、`Inspect database scheduler and actual publication health` 因 push 事件被跳过。因此本次 Verify **不构成完整队列或发布调度健康核验**，不能把 workflow success 当作业务成功。
+- `verify-supabase.yml` 的只读队列/调度检查条件为事件类型不是 push；本次 push 重跑因此跳过这两步。`Verify Store Promotion database` 与 `Inspect replenishment deficits` 成功，但本次 Verify **不构成完整队列或发布调度健康核验**，不能把 workflow success 当作业务成功。
 - 区间发布证据覆盖：Issue #2 的最新完整Pin快照只到 **01:26:05.566Z**；01:26:05.566Z至02:00:00Z这 **33分54.434秒**没有可独立验证的完整发布历史。该时段最终是否还有Pin，标记**未确认**。
 - 截止后事件：02:02:05Z 的 Verify 是截止后只读核验，不计入区间。没有从现有证据确认截止后新增Pin或补货；但发布快照缺口也不允许据此断言截止后绝无事件。
 
@@ -71,6 +71,7 @@
   - [2026-11-24 11:16:58Z](https://github.com/Sailin09/Store-Promotion/blob/main/operations/replenishment/cloud-run-20261124-111658.json)：Verify attempt 9 / job 138405518500。
   - [2026-11-24 17:16:58Z](https://github.com/Sailin09/Store-Promotion/blob/main/operations/replenishment/cloud-run-20261124-171658.json)：Verify attempt 10 / job 138632553961。
   - [2026-11-24 23:16:20Z](https://github.com/Sailin09/Store-Promotion/blob/main/operations/replenishment/cloud-run-20261124-231620.json)：Verify attempt 11 / job 138849752768。
+- 区间内没有新增的独立 verification-*.json 文件；Verify 证据由四份 cloud-run 记录及其关联 job 日志提供，历史 verification-20261023 文件不计入本区间。
 - 四次记录的共同阻塞原因：Browser.list_tabs 返回 `Browser access requires the originating browser context`；当前运行没有远程CDP导航、点击和截图能力。没有创建batch，没有触发 Replenish verified stock，没有执行首次inserted或retry，也没有把未核验商品入队。
 - 本区间没有新素材重复或入库失败记录；由于没有入库尝试，不能声称本区间已完成幂等验证。最新Verify显示584条Pinterest routed queue，但队列检查步骤被跳过，这不是新增补货或队列健康证明。
 
@@ -128,10 +129,10 @@
 1. **Cloud promotion operations 报告失败仍未查明根因。** [run 45508062853 / job 138848512122](https://github.com/Sailin09/Store-Promotion/actions/runs/45508062853)，2026-11-24T23:13:14Z开始，23:14Z前结束；步骤 Verify cloud stock and publication evidence 执行 `node scripts/cloud-report.mjs` 退出码1。日志只输出 `Cloud report failed; inspect workflow steps. No credentials logged.`，脚本catch隐藏了底层异常，根因未确认；artifact [14974820775](https://github.com/Sailin09/Store-Promotion/actions/runs/45508062853/artifacts/14974820775) 已上传。后续 [run 45525621754 / job 138908236264](https://github.com/Sailin09/Store-Promotion/actions/runs/45525621754/job/138908236264) 于01:25:44Z—01:26:16Z成功运行并报告 deficit=39，但这不等于前次失败根因已修复。本日报没有重跑该失败工作流或修改脚本。
 2. **Etsy新品发现仍受远程浏览器限制。** 四次cloud-run均未能导航到Etsy，未完成卖家、在售状态、Add to cart和原图视觉核验；阻塞未解决。
 3. **P3发布结果不确定仍保留。** queue_id `35c31472-0b55-4f6d-bd70-eb336463ee80` 的 `pin_response_503` 没有可核实Pin结果；没有重试或清除去重记录。
-4. **target=3修正保持有效。** 最新Verify的32条路线全部target=3；本次没有修改SQL、Board映射或补货规则，也没有执行修复。
+4. **target=3修正保持有效，但运维文档口径过期。** 最新Verify的32条路线全部target=3，当前 `scripts/replenishment-plan.sql` 也明确使用3；`operations/replenishment/README.md` 同样按每路线3条说明。不过 `operations/cloud-operations.md` 的历史段落仍写“material-reserve target seven”，与当前SQL/README不一致。该文档未修改，本次也没有修改SQL、Board映射或补货规则。
 5. **首次缺口跟进保持completed。** [first-deficit-followup.json](https://github.com/Sailin09/Store-Promotion/blob/main/operations/replenishment/first-deficit-followup.json) 记录状态 completed，时间 **2026-10-23T13:52:56.578Z**；首次缺口跟进闭环不再重复执行，长期按缺口补货仍保持独立。
 6. **每6小时Etsy云端补货任务保持启用。** automation ID `6adb18502ca08191b0b05f436915aee4`，状态 enabled；最近运行2026-11-24T23:15Z开始、23:19Z完成，下一次计划2026-11-25T05:15:00Z（北京时间13:15）。本次没有修改其prompt、排程或启停状态。
-7. Supabase云端发布调度、GitHub云端库存报告配置、已有首次缺口跟进状态和既有修复安排均未修改。
+7. 工作流配置保持原样：`cloud-operations.yml` 仍按05:15/11:15/17:15/23:15 UTC及13:35 UTC排程；`run-pinterest-publisher.yml` 仍为每小时第17分钟；`replenish-stock.yml` 仍只由手动dispatch或batch/脚本路径变更触发，本区间没有batch因此没有触发补货工作流。Supabase云端发布调度、GitHub云端库存报告配置、已有首次缺口跟进状态和既有修复安排均未修改。
 
 ## 六、本次执行边界与日报文件
 

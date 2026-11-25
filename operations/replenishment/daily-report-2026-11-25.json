@@ -26,7 +26,13 @@
     ],
     "plan_sql_matches_main": true,
     "queue_inspection": "skipped",
-    "scheduler_health_inspection": "skipped"
+    "scheduler_health_inspection": "skipped",
+    "workflow_files": [
+      ".github/workflows/verify-supabase.yml",
+      ".github/workflows/cloud-operations.yml",
+      ".github/workflows/run-pinterest-publisher.yml",
+      ".github/workflows/replenish-stock.yml"
+    ]
   },
   "publication": {
     "snapshot_comment_id": 7149543055,
@@ -230,7 +236,8 @@
         "deficit": 37,
         "browser_status": "blocked_before_navigation"
       }
-    ]
+    ],
+    "interval_verification_files": []
   },
   "inventory": {
     "as_of": "2026-11-25T02:02:05.060581Z",
@@ -530,6 +537,17 @@
       "completed_at": "2026-11-25T01:26:16Z",
       "conclusion": "success",
       "reported_deficit": 39
+    },
+    "documentation_mismatch": {
+      "path": "operations/cloud-operations.md",
+      "stale_text": "material-reserve target seven",
+      "current_target": 3,
+      "current_sources": [
+        "operations/replenishment/README.md",
+        "scripts/replenishment-plan.sql",
+        "Verify Supabase Data attempt 12"
+      ],
+      "modified": false
     }
   },
   "followup": {
