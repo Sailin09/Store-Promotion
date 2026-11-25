@@ -4,12 +4,12 @@
 ## 一、区间、核验时间与证据覆盖
 
 - 逻辑区间：北京时间 **2026-11-24 10:00（含）—2026-11-25 10:00（不含）**；UTC **2026-11-24T02:00:00Z—2026-11-25T02:00:00Z**。
-- 上一次成功日报截止：**2026-11-24T02:00:00Z**，取自 \`cloud-daily-report-state.json\`。本次按此截止续接，没有用历史累计62条作为每日基线。
+- 上一次成功日报截止：**2026-11-24T02:00:00Z**，取自 `cloud-daily-report-state.json`。本次按此截止续接，没有用历史累计62条作为每日基线。
 - 实际只读核验完成：**2026-11-25T02:02:05.382Z（北京时间10:02:05.382）**，晚于逻辑截止 **125秒**。所有区间计数仍严格排除02:00Z及之后事件。
 - 最新发布历史快照：Issue #2 评论 [7149543055](https://github.com/Sailin09/Store-Promotion/issues/2#issuecomment-7149543055)，快照时间 **2026-11-25T01:26:05.565814Z**（北京时间09:26:05.566）。该快照距逻辑截止尚有 **33分54.434秒**，因此发布历史未覆盖完整区间。下文Pin数量是该快照内按真实 published_at 过滤得到的**已确认下限**；各账号最终区间总数均标记为未确认。
 - 截止后另行读取的只读 Verify 数据时间为 **2026-11-25T02:02:04.457Z—02:02:05.061Z**，只用于当前库存快照，不计入区间Pin或补货新增量。
-- 本次读取了 main 上的 \`operations/replenishment/cloud-daily-report-state.json\`、证据目录、\`operations/cloud-operations.md\`、全部 **185条** Issue #2 评论、发布复核 Issue 及其评论、发布/补货/Verify 工作流和实际 job 日志。Issue #2 中已有32条每日标记评论；未发现 \`store-promotion-daily:2026-11-25\`，因此本日可新增一条。按标题搜索到的发布复核 Issue 为 [#3：Pinterest 2026-10-23 21:35 发布复核](https://github.com/Sailin09/Store-Promotion/issues/3)，其评论数为0；未发现更新日期的独立复核 Issue。
-- 写入前 main HEAD：[\`6b36d4d5e518494dde34ac8e90e0509083226a05\`](https://github.com/Sailin09/Store-Promotion/commit/6b36d4d5e518494dde34ac8e90e0509083226a05)。
+- 本次读取了 main 上的 `operations/replenishment/cloud-daily-report-state.json`、证据目录、`operations/cloud-operations.md`、全部 **185条** Issue #2 评论、发布复核 Issue 及其评论、发布/补货/Verify 工作流和实际 job 日志。Issue #2 中已有32条每日标记评论；未发现 `store-promotion-daily:2026-11-25`，因此本日可新增一条。按标题搜索到的发布复核 Issue 为 [#3：Pinterest 2026-10-23 21:35 发布复核](https://github.com/Sailin09/Store-Promotion/issues/3)，其评论数为0；未发现更新日期的独立复核 Issue。
+- 写入前 main HEAD：[`6b36d4d5e518494dde34ac8e90e0509083226a05`](https://github.com/Sailin09/Store-Promotion/commit/6b36d4d5e518494dde34ac8e90e0509083226a05)。
 
 ### Verify Supabase Data
 
@@ -17,7 +17,7 @@
 - 开始 **2026-11-25T02:01:50Z**，完成 **02:02:05Z**；事件类型为 push，执行的是只读数据库核验。
 - 数据库计数时间约 **02:02:04.457Z**；replenishment_plan 逐路线输出时间 **02:02:05.045Z—02:02:05.061Z**。SQL SHA 与 main 一致。
 - 数据库计数：30家店铺、30家已分类、584个商品、584条 Pinterest variants、246条 draft queue、32条 active shop/account 映射、5个 Pinterest账号、584条已路由 Pinterest queue。
-- \`Verify Store Promotion database\` 与 \`Inspect replenishment deficits\` 成功；\`Inspect Pinterest queue without changing data\`、\`Inspect database scheduler and actual publication health\` 因 push 事件被跳过。因此本次 Verify **不构成完整队列或发布调度健康核验**，不能把 workflow success 当作业务成功。
+- `Verify Store Promotion database` 与 `Inspect replenishment deficits` 成功；`Inspect Pinterest queue without changing data`、`Inspect database scheduler and actual publication health` 因 push 事件被跳过。因此本次 Verify **不构成完整队列或发布调度健康核验**，不能把 workflow success 当作业务成功。
 - 区间发布证据覆盖：Issue #2 的最新完整Pin快照只到 **01:26:05.566Z**；01:26:05.566Z至02:00:00Z这 **33分54.434秒**没有可独立验证的完整发布历史。该时段最终是否还有Pin，标记**未确认**。
 - 截止后事件：02:02:05Z 的 Verify 是截止后只读核验，不计入区间。没有从现有证据确认截止后新增Pin或补货；但发布快照缺口也不允许据此断言截止后绝无事件。
 
@@ -52,15 +52,15 @@
 
 - P1：45条待发布。
 - P2：5条待发布。
-- P3：6条待发布；另有未决尝试 queue_id \`35c31472-0b55-4f6d-bd70-eb336463ee80\`，attempt_id \`c6bd08a5-afc4-495c-a309-8482d88efefb\`，状态 **uncertain**，错误 \`pin_response_503\`，没有可核实的Pin ID / publication history。保留不确定状态，不计作成功，也没有重试或清除历史。
+- P3：6条待发布；另有未决尝试 queue_id `35c31472-0b55-4f6d-bd70-eb336463ee80`，attempt_id `c6bd08a5-afc4-495c-a309-8482d88efefb`，状态 **uncertain**，错误 `pin_response_503`，没有可核实的Pin ID / publication history。保留不确定状态，不计作成功，也没有重试或清除历史。
 - P4：0条待发布；快照内本区间新增为0，最终区间数量仍未确认。
 - P5：1条待发布。
-- 两次区间内 GitHub Publisher job：[run 45379602329 / job 138394877251](https://github.com/Sailin09/Store-Promotion/actions/runs/45379602329/job/138394877251) 与 [run 45488852347 / job 138781425059](https://github.com/Sailin09/Store-Promotion/actions/runs/45488852347/job/138781425059) 均记录 \`idle / outside_publish_window\`、\`published=0\`。这只说明这两次Publisher job没有发布，不替代Supabase真实Pin历史，也不能证明区间没有其他Pin。
-- Issue #2 快照显示 Supabase 发布调度为 enabled、cron \`*/5 * * * *\`；最近一次列出的 **01:25:00.316Z** 调用仍是“HTTP待完成”，01:20及之前若干次为idle。最新Verify跳过了调度健康检查，故截止时的调度最终健康状态未重新确认。
+- 两次区间内 GitHub Publisher job：[run 45379602329 / job 138394877251](https://github.com/Sailin09/Store-Promotion/actions/runs/45379602329/job/138394877251) 与 [run 45488852347 / job 138781425059](https://github.com/Sailin09/Store-Promotion/actions/runs/45488852347/job/138781425059) 均记录 `idle / outside_publish_window`、`published=0`。这只说明这两次Publisher job没有发布，不替代Supabase真实Pin历史，也不能证明区间没有其他Pin。
+- Issue #2 快照显示 Supabase 发布调度为 enabled、cron `*/5 * * * *`；最近一次列出的 **01:25:00.316Z** 调用仍是“HTTP待完成”，01:20及之前若干次为idle。最新Verify跳过了调度健康检查，故截止时的调度最终健康状态未重新确认。
 
 ## 三、区间新增补货素材与入库
 
-<badge color="warning">区间无已确认新增入库</badge>
+**区间无已确认新增入库**
 
 - main 的 replenishment 证据目录没有 **2026-11-24** 区间内新增的 batch 文件；最新批次仍是 [batch-20261122-051903.json](https://github.com/Sailin09/Store-Promotion/blob/main/operations/replenishment/batch-20261122-051903.json)，属于区间外，不计入本日报。
 - 区间内新增 batch **0**、新增入库素材 **0**、新增 queue_id **0**。
@@ -71,7 +71,7 @@
   - [2026-11-24 11:16:58Z](https://github.com/Sailin09/Store-Promotion/blob/main/operations/replenishment/cloud-run-20261124-111658.json)：Verify attempt 9 / job 138405518500。
   - [2026-11-24 17:16:58Z](https://github.com/Sailin09/Store-Promotion/blob/main/operations/replenishment/cloud-run-20261124-171658.json)：Verify attempt 10 / job 138632553961。
   - [2026-11-24 23:16:20Z](https://github.com/Sailin09/Store-Promotion/blob/main/operations/replenishment/cloud-run-20261124-231620.json)：Verify attempt 11 / job 138849752768。
-- 四次记录的共同阻塞原因：Browser.list_tabs 返回 \`Browser access requires the originating browser context\`；当前运行没有远程CDP导航、点击和截图能力。没有创建batch，没有触发 Replenish verified stock，没有执行首次inserted或retry，也没有把未核验商品入队。
+- 四次记录的共同阻塞原因：Browser.list_tabs 返回 `Browser access requires the originating browser context`；当前运行没有远程CDP导航、点击和截图能力。没有创建batch，没有触发 Replenish verified stock，没有执行首次inserted或retry，也没有把未核验商品入队。
 - 本区间没有新素材重复或入库失败记录；由于没有入库尝试，不能声称本区间已完成幂等验证。最新Verify显示584条Pinterest routed queue，但队列检查步骤被跳过，这不是新增补货或队列健康证明。
 
 ## 四、最新库存与各路线缺口
@@ -125,12 +125,12 @@
 
 ## 五、失败、修复与未解决事项
 
-1. **Cloud promotion operations 报告失败仍未查明根因。** [run 45508062853 / job 138848512122](https://github.com/Sailin09/Store-Promotion/actions/runs/45508062853)，2026-11-24T23:13:14Z开始，23:14Z前结束；步骤 Verify cloud stock and publication evidence 执行 \`node scripts/cloud-report.mjs\` 退出码1。日志只输出 \`Cloud report failed; inspect workflow steps. No credentials logged.\`，脚本catch隐藏了底层异常，根因未确认；artifact [14974820775](https://github.com/Sailin09/Store-Promotion/actions/runs/45508062853/artifacts/14974820775) 已上传。后续 [run 45525621754 / job 138908236264](https://github.com/Sailin09/Store-Promotion/actions/runs/45525621754/job/138908236264) 于01:25:44Z—01:26:16Z成功运行并报告 deficit=39，但这不等于前次失败根因已修复。本日报没有重跑该失败工作流或修改脚本。
+1. **Cloud promotion operations 报告失败仍未查明根因。** [run 45508062853 / job 138848512122](https://github.com/Sailin09/Store-Promotion/actions/runs/45508062853)，2026-11-24T23:13:14Z开始，23:14Z前结束；步骤 Verify cloud stock and publication evidence 执行 `node scripts/cloud-report.mjs` 退出码1。日志只输出 `Cloud report failed; inspect workflow steps. No credentials logged.`，脚本catch隐藏了底层异常，根因未确认；artifact [14974820775](https://github.com/Sailin09/Store-Promotion/actions/runs/45508062853/artifacts/14974820775) 已上传。后续 [run 45525621754 / job 138908236264](https://github.com/Sailin09/Store-Promotion/actions/runs/45525621754/job/138908236264) 于01:25:44Z—01:26:16Z成功运行并报告 deficit=39，但这不等于前次失败根因已修复。本日报没有重跑该失败工作流或修改脚本。
 2. **Etsy新品发现仍受远程浏览器限制。** 四次cloud-run均未能导航到Etsy，未完成卖家、在售状态、Add to cart和原图视觉核验；阻塞未解决。
-3. **P3发布结果不确定仍保留。** queue_id \`35c31472-0b55-4f6d-bd70-eb336463ee80\` 的 \`pin_response_503\` 没有可核实Pin结果；没有重试或清除去重记录。
+3. **P3发布结果不确定仍保留。** queue_id `35c31472-0b55-4f6d-bd70-eb336463ee80` 的 `pin_response_503` 没有可核实Pin结果；没有重试或清除去重记录。
 4. **target=3修正保持有效。** 最新Verify的32条路线全部target=3；本次没有修改SQL、Board映射或补货规则，也没有执行修复。
 5. **首次缺口跟进保持completed。** [first-deficit-followup.json](https://github.com/Sailin09/Store-Promotion/blob/main/operations/replenishment/first-deficit-followup.json) 记录状态 completed，时间 **2026-10-23T13:52:56.578Z**；首次缺口跟进闭环不再重复执行，长期按缺口补货仍保持独立。
-6. **每6小时Etsy云端补货任务保持启用。** automation ID \`6adb18502ca08191b0b05f436915aee4\`，状态 enabled；最近运行2026-11-24T23:15Z开始、23:19Z完成，下一次计划2026-11-25T05:15:00Z（北京时间13:15）。本次没有修改其prompt、排程或启停状态。
+6. **每6小时Etsy云端补货任务保持启用。** automation ID `6adb18502ca08191b0b05f436915aee4`，状态 enabled；最近运行2026-11-24T23:15Z开始、23:19Z完成，下一次计划2026-11-25T05:15:00Z（北京时间13:15）。本次没有修改其prompt、排程或启停状态。
 7. Supabase云端发布调度、GitHub云端库存报告配置、已有首次缺口跟进状态和既有修复安排均未修改。
 
 ## 六、本次执行边界与日报文件
