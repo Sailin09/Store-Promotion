@@ -681,9 +681,13 @@
     "api_keys_requested": false
   },
   "delivery": {
-    "comment_id": null,
-    "comment_verified": false,
+    "comment_id": 7180531141,
+    "comment_url": "https://github.com/Sailin09/Store-Promotion/issues/2#issuecomment-7180531141",
+    "comment_verified": true,
     "report_path": "operations/replenishment/daily-report-2026-11-26.md",
-    "evidence_path": "operations/replenishment/daily-report-2026-11-26.json"
+    "evidence_path": "operations/replenishment/daily-report-2026-11-26.json",
+    "report_commit": "9bbdd07f3949084d0114e47c72ea795c0d1f8c2a",
+    "report_markdown_blob_sha": "4e3a56b7410bae794e020c55552fd3607ed1acfd",
+    "issue2_marker": "<!-- store-promotion-daily:2026-11-26 -->"
   }
 }
