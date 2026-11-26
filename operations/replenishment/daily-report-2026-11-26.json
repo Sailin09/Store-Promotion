@@ -1,0 +1,689 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-26",
+  "timezone": "Asia/Shanghai",
+  "interval": {
+    "start_inclusive": "2026-11-25T02:00:00Z",
+    "end_exclusive": "2026-11-26T02:00:00Z",
+    "previous_successful_cutoff": "2026-11-25T02:00:00Z",
+    "logical_cutoff": "2026-11-26T02:00:00Z"
+  },
+  "verification": {
+    "repository": "Sailin09/Store-Promotion",
+    "main_head_before_write": "8d6a88efcaaa62909df005b0011e4cc134a28cf0",
+    "actual_started_at": "2026-11-26T02:00:59Z",
+    "actual_completed_at": "2026-11-26T02:03:33Z",
+    "delay_seconds": 213,
+    "read_only_verify": {
+      "run_id": 45016861552,
+      "attempt": 17,
+      "job_id": 139641833007,
+      "started_at": "2026-11-26T02:03:19Z",
+      "completed_at": "2026-11-26T02:03:33Z",
+      "conclusion": "success",
+      "queue_inspection": "skipped_event_push",
+      "scheduler_publication_health_inspection": "skipped_event_push",
+      "replenishment_plan": "success",
+      "database_audit_time": "2026-11-26T02:03:31.6507856Z",
+      "database_counts": {
+        "shops": 30,
+        "classified": 30,
+        "products": 584,
+        "pinterest_variants": 584,
+        "facebook_variants": 584,
+        "draft_queue": 246,
+        "mapped_social_accounts": 32,
+        "pinterest_accounts": 5,
+        "pinterest_routed_queue": 584
+      }
+    }
+  },
+  "publication": {
+    "source": "Issue #2 cloud publication snapshot comment 7179329080",
+    "snapshot_time": "2026-11-26T01:00:15.248346Z",
+    "coverage_complete": false,
+    "publication_history_unconfirmed_after": "2026-11-26T01:00:15.248346Z",
+    "unobserved_to_logical_cutoff_seconds": 3584.751654,
+    "confirmed_lower_bound_total": 7,
+    "final_interval_total": "unconfirmed",
+    "accounts": [
+      {
+        "account": "P1",
+        "handle": "icyndizhang",
+        "confirmed": 3,
+        "final_interval_total": "unconfirmed"
+      },
+      {
+        "account": "P2",
+        "handle": "sailing_981",
+        "confirmed": 3,
+        "final_interval_total": "unconfirmed"
+      },
+      {
+        "account": "P3",
+        "handle": "mydecorshop",
+        "confirmed": 0,
+        "final_interval_total": "unconfirmed"
+      },
+      {
+        "account": "P4",
+        "handle": "cindyzhang62",
+        "confirmed": 0,
+        "final_interval_total": "unconfirmed"
+      },
+      {
+        "account": "P5",
+        "handle": "ivy5205",
+        "confirmed": 1,
+        "final_interval_total": "unconfirmed"
+      }
+    ],
+    "pins": [
+      {
+        "account": "P1",
+        "handle": "icyndizhang",
+        "shop": "Parkermo",
+        "listing_id": "1856989877",
+        "etsy_url": "https://www.etsy.com/listing/1856989877",
+        "pin_id": "801218590010009430",
+        "pin_url": "https://www.pinterest.com/pin/801218590010009430/",
+        "published_at": "2026-11-25T02:05:02.631448Z"
+      },
+      {
+        "account": "P1",
+        "handle": "icyndizhang",
+        "shop": "ShirieHomeShow",
+        "listing_id": "1887210061",
+        "etsy_url": "https://www.etsy.com/listing/1887210061",
+        "pin_id": "801218590010015996",
+        "pin_url": "https://www.pinterest.com/pin/801218590010015996/",
+        "published_at": "2026-11-25T13:00:03.934811Z"
+      },
+      {
+        "account": "P1",
+        "handle": "icyndizhang",
+        "shop": "SobiaStudio",
+        "listing_id": "4449121553",
+        "etsy_url": "https://www.etsy.com/listing/4449121553",
+        "pin_id": "801218590010025624",
+        "pin_url": "https://www.pinterest.com/pin/801218590010025624/",
+        "published_at": "2026-11-26T00:00:03.956793Z"
+      },
+      {
+        "account": "P2",
+        "handle": "sailing_981",
+        "shop": "LambertHouse",
+        "listing_id": "4359115799",
+        "etsy_url": "https://www.etsy.com/listing/4359115799",
+        "pin_id": "863494928599771107",
+        "pin_url": "https://www.pinterest.com/pin/863494928599771107/",
+        "published_at": "2026-11-25T02:10:02.529511Z"
+      },
+      {
+        "account": "P2",
+        "handle": "sailing_981",
+        "shop": "Adamideal",
+        "listing_id": "4539284822",
+        "etsy_url": "https://www.etsy.com/listing/4539284822",
+        "pin_id": "863494928599777376",
+        "pin_url": "https://www.pinterest.com/pin/863494928599777376/",
+        "published_at": "2026-11-25T13:05:03.014475Z"
+      },
+      {
+        "account": "P2",
+        "handle": "sailing_981",
+        "shop": "KoltCraftStudio",
+        "listing_id": "1883988142",
+        "etsy_url": "https://www.etsy.com/listing/1883988142",
+        "pin_id": "863494928599784874",
+        "pin_url": "https://www.pinterest.com/pin/863494928599784874/",
+        "published_at": "2026-11-26T00:05:02.275220Z"
+      },
+      {
+        "account": "P5",
+        "handle": "ivy5205",
+        "shop": "NngGoods",
+        "listing_id": "4537650021",
+        "etsy_url": "https://www.etsy.com/listing/4537650021",
+        "pin_id": "713820609738149745",
+        "pin_url": "https://www.pinterest.com/pin/713820609738149745/",
+        "published_at": "2026-11-25T02:55:03.152521Z"
+      }
+    ],
+    "pending_queue_snapshot": {
+      "P1": 42,
+      "P2": 2,
+      "P3": 6,
+      "P4": 0,
+      "P5": 0
+    },
+    "unresolved_attempts": [
+      {
+        "account": "P3",
+        "handle": "mydecorshop",
+        "queue_id": "35c31472-0b55-4f6d-bd70-eb336463ee80",
+        "attempt_id": "c6bd08a5-afc4-495c-a309-8482d88efefb",
+        "state": "uncertain",
+        "error": "pin_response_503",
+        "started_at": "2026-11-13T13:15:03.013284Z",
+        "pin_id": null,
+        "history_url": null
+      }
+    ]
+  },
+  "replenishment": {
+    "interval": {
+      "batch_files": 0,
+      "new_items": 0,
+      "inserted": "not_attempted",
+      "failed": "not_attempted",
+      "duplicate_insertions": 0,
+      "new_queue_ids": [],
+      "idempotent_retry": "not_attempted",
+      "candidate_count": "not_assessed",
+      "candidates_discovered_in_accessible_scope": 0,
+      "visually_verified_candidates": 0,
+      "reason": "Remote cloud CDP navigation/click/screenshot unavailable; no storefront visited."
+    },
+    "cloud_run_evidence": [
+      {
+        "path": "operations/replenishment/cloud-run-20261125-051609.json",
+        "recorded_at": "2026-11-25T05:16:09Z",
+        "verify_attempt": 13,
+        "job_id": 138996233861
+      },
+      {
+        "path": "operations/replenishment/cloud-run-20261125-111234.json",
+        "recorded_at": "2026-11-25T11:12:34Z",
+        "verify_attempt": 14,
+        "job_id": 139163820935
+      },
+      {
+        "path": "operations/replenishment/cloud-run-20261125-171953.json",
+        "recorded_at": "2026-11-25T17:19:53Z",
+        "verify_attempt": 15,
+        "job_id": 139379512151
+      },
+      {
+        "path": "operations/replenishment/cloud-run-20261125-232101.json",
+        "recorded_at": "2026-11-25T23:21:01Z",
+        "verify_attempt": 16,
+        "job_id": 139577759283
+      }
+    ],
+    "latest_outside_interval_batch": {
+      "path": "operations/replenishment/batch-20261122-051903.json",
+      "run_id": 44988950045,
+      "job_id": 137105705490,
+      "first_inserted": 5,
+      "failed": 0,
+      "pending": 5,
+      "retry_time": "2026-11-22T05:21:03.2714372Z",
+      "retry_status": "no_new_verified_material",
+      "retry_inserted": 0,
+      "items": [
+        {
+          "shop": "FrenchStyleDecor",
+          "listing_id": "1884132251",
+          "source_url": "https://www.etsy.com/listing/1884132251/embroidered-white-cotton-apron-with-lace",
+          "account": "P1",
+          "handle": "icyndizhang",
+          "board_id": "801218658646993070",
+          "queue_id": "a00b7693-de90-4ed9-9965-59db15dd2c0b",
+          "queue_status": "ready",
+          "snapshot_matches": true,
+          "discovered_at": "2026-11-22T05:16:07.444Z",
+          "visual_verified_at": "2026-11-22T05:16Z-05:19Z",
+          "checked_at": "2026-11-22T05:19:03.666Z",
+          "inserted_at": "2026-11-22T05:20:54.8745939Z"
+        },
+        {
+          "shop": "KoltCraftStudio",
+          "listing_id": "1883988142",
+          "source_url": "https://www.etsy.com/listing/1883988142/camphor-wooden-coat-hangers-natural-wood",
+          "account": "P2",
+          "handle": "sailing_981",
+          "board_id": "863494997243989843",
+          "queue_id": "77ed2a8d-5b5a-4e97-9b43-7d0406ff3bca",
+          "queue_status": "ready",
+          "snapshot_matches": true,
+          "discovered_at": "2026-11-22T05:16:21.746Z",
+          "visual_verified_at": "2026-11-22T05:16Z-05:19Z",
+          "checked_at": "2026-11-22T05:19:03.750Z",
+          "inserted_at": "2026-11-22T05:21:00.5573935Z"
+        },
+        {
+          "shop": "KorusStore",
+          "listing_id": "4405714144",
+          "source_url": "https://www.etsy.com/listing/4405714144/olive-green-chenille-curtains-rustic",
+          "account": "P1",
+          "handle": "icyndizhang",
+          "board_id": "801218658646993070",
+          "queue_id": "7da400e0-ef80-4299-ad4c-e5df3b5e9d4c",
+          "queue_status": "ready",
+          "snapshot_matches": true,
+          "discovered_at": "2026-11-22T05:16:31.400Z",
+          "visual_verified_at": "2026-11-22T05:16Z-05:19Z",
+          "checked_at": "2026-11-22T05:19:03.808Z",
+          "inserted_at": "2026-11-22T05:21:01.0388830Z"
+        },
+        {
+          "shop": "LambertHouse",
+          "listing_id": "4314290016",
+          "source_url": "https://www.etsy.com/listing/4314290016/aluminum-alloy-clothes-hangers-heavy",
+          "account": "P2",
+          "handle": "sailing_981",
+          "board_id": "863494997243989843",
+          "queue_id": "1197e897-2e8b-4717-a861-6dd4323fbcb5",
+          "queue_status": "ready",
+          "snapshot_matches": true,
+          "discovered_at": "2026-11-22T05:16:54.552Z",
+          "visual_verified_at": "2026-11-22T05:16Z-05:19Z",
+          "checked_at": "2026-11-22T05:19:03.842Z",
+          "inserted_at": "2026-11-22T05:21:01.6401701Z"
+        },
+        {
+          "shop": "NngGoods",
+          "listing_id": "4537650021",
+          "source_url": "https://www.etsy.com/listing/4537650021/clear-quartz-cabinet-knob-crystal-drawer",
+          "account": "P5",
+          "handle": "ivy5205",
+          "board_id": "713820678377803412",
+          "queue_id": "9ba68eb6-f9f9-4154-ba9d-ad4dc3f01915",
+          "queue_status": "ready",
+          "snapshot_matches": true,
+          "discovered_at": "2026-11-22T05:18:01.768Z",
+          "visual_verified_at": "2026-11-22T05:16Z-05:19Z",
+          "checked_at": "2026-11-22T05:19:03.893Z",
+          "inserted_at": "2026-11-22T05:21:02.8431367Z"
+        }
+      ]
+    }
+  },
+  "inventory": {
+    "data_time": "2026-11-26T02:03:31.6507856Z",
+    "source_run_id": 45016861552,
+    "source_attempt": 17,
+    "source_job_id": 139641833007,
+    "target_per_route": 3,
+    "active_routes": 32,
+    "target_total": 96,
+    "usable_total": 50,
+    "deficit_total": 46,
+    "distribution": {
+      "zero": 10,
+      "one": 6,
+      "two": 4,
+      "three": 12
+    },
+    "routes": [
+      {
+        "shop": "Adamideal",
+        "account": "P2",
+        "handle": "sailing_981",
+        "board_id": "863494997243989843",
+        "usable": 0,
+        "target": 3,
+        "deficit": 3
+      },
+      {
+        "shop": "ChicDecorHK",
+        "account": "P4",
+        "handle": "cindyzhang62",
+        "board_id": "675399344058025061",
+        "usable": 0,
+        "target": 3,
+        "deficit": 3
+      },
+      {
+        "shop": "Chtte",
+        "account": "P3",
+        "handle": "mydecorshop",
+        "board_id": "499618221101215211",
+        "usable": 0,
+        "target": 3,
+        "deficit": 3
+      },
+      {
+        "shop": "HibiChStudio",
+        "account": "P2",
+        "handle": "sailing_981",
+        "board_id": "863494997243989843",
+        "usable": 0,
+        "target": 3,
+        "deficit": 3
+      },
+      {
+        "shop": "KoltCraftStudio",
+        "account": "P2",
+        "handle": "sailing_981",
+        "board_id": "863494997243989843",
+        "usable": 0,
+        "target": 3,
+        "deficit": 3
+      },
+      {
+        "shop": "MiawoodStudio",
+        "account": "P2",
+        "handle": "sailing_981",
+        "board_id": "863494997243989843",
+        "usable": 0,
+        "target": 3,
+        "deficit": 3
+      },
+      {
+        "shop": "NinaJiaStudio",
+        "account": "P5",
+        "handle": "ivy5205",
+        "board_id": "713820678377803445",
+        "usable": 0,
+        "target": 3,
+        "deficit": 3
+      },
+      {
+        "shop": "NngGoods",
+        "account": "P5",
+        "handle": "ivy5205",
+        "board_id": "713820678377803412",
+        "usable": 0,
+        "target": 3,
+        "deficit": 3
+      },
+      {
+        "shop": "PearlsTreasuresArt",
+        "account": "P4",
+        "handle": "cindyzhang62",
+        "board_id": "675399344058025061",
+        "usable": 0,
+        "target": 3,
+        "deficit": 3
+      },
+      {
+        "shop": "QuGifts",
+        "account": "P4",
+        "handle": "cindyzhang62",
+        "board_id": "675399344056772225",
+        "usable": 0,
+        "target": 3,
+        "deficit": 3
+      },
+      {
+        "shop": "LambertHouse",
+        "account": "P2",
+        "handle": "sailing_981",
+        "board_id": "863494997243989843",
+        "usable": 1,
+        "target": 3,
+        "deficit": 2
+      },
+      {
+        "shop": "MiraKiuStudio",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "board_id": "801218658646993070",
+        "usable": 1,
+        "target": 3,
+        "deficit": 2
+      },
+      {
+        "shop": "Parkermo",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "board_id": "801218658646993070",
+        "usable": 1,
+        "target": 3,
+        "deficit": 2
+      },
+      {
+        "shop": "ShirieHomeShow",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "board_id": "801218658646993070",
+        "usable": 1,
+        "target": 3,
+        "deficit": 2
+      },
+      {
+        "shop": "SobiaStudio",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "board_id": "801218658646993070",
+        "usable": 1,
+        "target": 3,
+        "deficit": 2
+      },
+      {
+        "shop": "WoodHomeLiang",
+        "account": "P2",
+        "handle": "sailing_981",
+        "board_id": "863494997243989843",
+        "usable": 1,
+        "target": 3,
+        "deficit": 2
+      },
+      {
+        "shop": "Chtte",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "board_id": "801218658646993070",
+        "usable": 2,
+        "target": 3,
+        "deficit": 1
+      },
+      {
+        "shop": "GavinHome",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "board_id": "801218658646993070",
+        "usable": 2,
+        "target": 3,
+        "deficit": 1
+      },
+      {
+        "shop": "HeyDream",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "board_id": "801218658646993070",
+        "usable": 2,
+        "target": 3,
+        "deficit": 1
+      },
+      {
+        "shop": "KorusStore",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "board_id": "801218658646993070",
+        "usable": 2,
+        "target": 3,
+        "deficit": 1
+      },
+      {
+        "shop": "AmyHomeCrafts",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "board_id": "801218658646993070",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "beou",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "board_id": "801218658646993070",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "CellaHo",
+        "account": "P3",
+        "handle": "mydecorshop",
+        "board_id": "499618221101238533",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "ChicDecorHK",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "board_id": "801218658646993070",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "CustomCurtainsStudio",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "board_id": "801218658646993070",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "DanyHomeDesign",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "board_id": "801218658646993070",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "FrenchStyleDecor",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "board_id": "801218658646993070",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "LoomGoStudio",
+        "account": "P3",
+        "handle": "mydecorshop",
+        "board_id": "499618221101238533",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "NiceCraftStudioHK",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "board_id": "801218658646993070",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "StellaGoodsGifts",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "board_id": "801218658646993070",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "TunaMunStudio",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "board_id": "801218658646993070",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      },
+      {
+        "shop": "WOGOL",
+        "account": "P1",
+        "handle": "icyndizhang",
+        "board_id": "801218658646993070",
+        "usable": 3,
+        "target": 3,
+        "deficit": 0
+      }
+    ]
+  },
+  "workflow_findings": {
+    "cloud_operations_failure": {
+      "run_id": 45715350096,
+      "job_id": 139560070144,
+      "failed_step": "Verify cloud stock and publication evidence",
+      "cause": "P3 unresolved uncertain pin_response_503",
+      "recovery": "idle/outside_publish_window",
+      "published": 0
+    },
+    "cloud_operations_latest": {
+      "run_id": 45732618983,
+      "job_id": 139618284569,
+      "conclusion": "success",
+      "mode": "stock",
+      "reported_deficit": 46
+    },
+    "publisher_latest": {
+      "run_id": 45722910465,
+      "job_id": 139585399307,
+      "conclusion": "success",
+      "actual_output": {
+        "status": "idle",
+        "reason": "outside_publish_window",
+        "published": 0
+      }
+    },
+    "replenishment_latest": {
+      "run_id": 44988950045,
+      "job_id": 137105705490,
+      "occurred_at": "2026-11-22T05:20:54Z",
+      "in_interval": false
+    }
+  },
+  "followup": {
+    "status": "completed",
+    "completed_at": "2026-10-23T13:52:56.578Z",
+    "first_inserted": 2,
+    "retry_inserted": 0,
+    "remaining_deficit": 0,
+    "note": "One-time first-deficit follow-up completed; long-term replenishment remains separate."
+  },
+  "automations": {
+    "replenishment_automation_id": "6adb18502ca08191b0b05f436915aee4",
+    "title": "Etsy 云端持续补货",
+    "is_enabled": true,
+    "next_run_time": "2026-11-26T05:15:00Z",
+    "last_run_started_at": "2026-11-25T23:19:26.085191Z",
+    "last_run_completed_at": "2026-11-25T23:23:31.786749Z",
+    "schedule_unchanged": true
+  },
+  "issues": {
+    "issue2_comment_count_before": 190,
+    "daily_marker_before": false,
+    "previous_daily_comment_id": 7150314865,
+    "release_review_issue": {
+      "number": 3,
+      "title": "Pinterest 2026-10-23 21:35 发布复核",
+      "comments": 0
+    }
+  },
+  "preservation": {
+    "read_only_business_report": true,
+    "publication_triggered": false,
+    "replenishment_triggered": false,
+    "queue_mutated": false,
+    "history_reset": false,
+    "repair_performed": false,
+    "local_task_created": false,
+    "local_daily_report_id10_touched": false,
+    "user_computer_or_desktop_used": false,
+    "local_paths_or_codex_or_heartbeat_used": false,
+    "api_keys_requested": false
+  },
+  "delivery": {
+    "comment_id": null,
+    "comment_verified": false,
+    "report_path": "operations/replenishment/daily-report-2026-11-26.md",
+    "evidence_path": "operations/replenishment/daily-report-2026-11-26.json"
+  }
+}
