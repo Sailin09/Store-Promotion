@@ -39,7 +39,7 @@
       "conclusion": "success",
       "started_at": "2026-11-27T23:13:05Z",
       "completed_at": "2026-11-27T23:13:26Z",
-      "checkout_sha": "08bd574e693260093ec58cc7ab??",
+      "checkout_sha": "08bd574e693260093ec58af508fbad2ecba2bb03",
       "main_sql_blob_sha": "f2cdd7c4af1661683fe79da2f06617b438d29299",
       "main_verify_workflow_blob_sha": "7f7ab3498aa641784b10bbafa53fa8e8635bbd78",
       "current_main_relevant_files_identical": true,
