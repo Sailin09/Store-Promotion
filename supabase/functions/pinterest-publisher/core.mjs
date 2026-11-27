@@ -54,11 +54,16 @@ export function makePublisher(env, fetcher=fetch, mode='production') {
     let job, dispatched=false, knownPin, apiDiagnostic;
     try {
       // One item per invocation bounds runtime and gives every item its own durable attempt.
+      let attemptId;
       let inspect=false, inspectHandle='sailing_981';
       if(mode==='trial') {
         const input=await req.json();
         if(input.action && input.action!=='inspect')return reply({error:'invalid_action'},400);
         inspect=input.action==='inspect';
+        if (inspect && input.attempt_id) {
+          if (!/^[a-f0-9]{8}-(?:[a-f0-9]{4}-){3}[a-f0-9]{12}$/.test(input.attempt_id)) return reply({error:'invalid_attempt'},400);
+          attemptId=input.attempt_id;
+        }
         if(inspect && input.handle!==undefined) {
           if(!['icyndizhang','sailing_981','mydecorshop','cindyzhang62','ivy5205'].includes(input.handle))return reply({error:'invalid_account'},400);
           inspectHandle=input.handle;
@@ -94,6 +99,31 @@ export function makePublisher(env, fetcher=fetch, mode='production') {
       const profile=await get('/user_account',tokens.access_token);
       if(profile.username?.toLowerCase()!==s.handle.toLowerCase())throw new Error('account_mismatch');
       if(inspect) {
+        if (attemptId) {
+          const [attempt]=await db('pinterest_publish_attempts?attempt_id=eq.'+attemptId+'&select=state,snapshot,board_id,dispatched_at,pin_id');
+          if (!attempt || attempt.snapshot.account_id!==s.account_id || attempt.snapshot.handle!==s.handle) return reply({error:'attempt_mismatch'},409);
+          if (attempt.state!=='uncertain') return reply({status:attempt.state,pin_id:attempt.pin_id});
+          const board=await get('/boards/'+attempt.board_id,tokens.access_token);
+          if (board.id!==attempt.board_id || board.owner?.username?.toLowerCase()!==s.handle.toLowerCase() || board.privacy!=='PUBLIC') throw new Error('board_mismatch_or_private');
+          const expected=payload(attempt.snapshot,board.id);
+          const candidates=new Map();
+          let bookmark;
+          for (let page=0;page<10;page++) {
+            const pins=await get('/boards/'+board.id+'/pins?page_size=100'+(bookmark?'&bookmark='+encodeURIComponent(bookmark):''),tokens.access_token);
+            if (!Array.isArray(pins.items)) throw new Error('pinterest_read_invalid');
+            for (const pin of pins.items) {
+              if (!/^[0-9]+$/.test(pin.id) || typeof pin.link!=='string' || !pin.link.includes('/listing/'+attempt.snapshot.listing_id+'/')) continue;
+              const age=Date.parse(pin.created_at)-Date.parse(attempt.dispatched_at);
+              const exact=pin.link===expected.link && pin.board_id===board.id && pin.board_owner?.username?.toLowerCase()===s.handle.toLowerCase() &&
+                pin.title===expected.title && pin.description===expected.description && age>=-1000 && age<=120000;
+              candidates.set(pin.id,{id:pin.id,created_at:pin.created_at,exact});
+            }
+            bookmark=pins.bookmark;
+            if (!bookmark) break;
+          }
+          return reply({status:'inspected',handle:s.handle,reconciliation:{attempt_id:attemptId,board_id:board.id,listing_id:attempt.snapshot.listing_id,
+            complete:!bookmark,candidates:[...candidates.values()]}});
+        }
         const boards=await get('/boards?page_size=100',tokens.access_token);
         const demos=await db('pinterest_trial_demo?select=snapshot,board_id,started_at');
         let reconciliation=null;
