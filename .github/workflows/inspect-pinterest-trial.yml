@@ -5,6 +5,9 @@ on:
     paths: ['.github/workflows/inspect-pinterest-trial.yml']
   workflow_dispatch:
     inputs:
+      attempt_id:
+        description: Optional production attempt UUID for read-only board inspection
+        type: string
       handle:
         description: Connected Pinterest account
         type: choice
@@ -36,5 +39,6 @@ jobs:
             done
           fi
         env:
+          PINTEREST_ATTEMPT_ID: ${{ inputs.attempt_id }}
           PINTEREST_HANDLE: ${{ inputs.handle }}
           SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
