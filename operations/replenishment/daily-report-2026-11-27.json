@@ -597,9 +597,14 @@
   ],
   "delivery": {
     "issue2_daily_marker": "store-promotion-daily:2026-11-27",
-    "github_comment_id": null,
+    "github_comment_id": 7207882139,
     "report_file": "operations/replenishment/daily-report-2026-11-27.md",
     "evidence_file": "operations/replenishment/daily-report-2026-11-27.json",
-    "chat_delivery_status": "pending_final_response"
+    "chat_delivery_status": "pending_final_response",
+    "github_comment_url": "https://github.com/Sailin09/Store-Promotion/issues/2#issuecomment-7207882139",
+    "comment_readback_exact": true,
+    "report_readback_exact": true,
+    "evidence_readback_exact": true,
+    "report_commit": "26ea7bf00ba4a7578991a5629f18a048a7458c42"
   }
 }
