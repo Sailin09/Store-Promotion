@@ -14,7 +14,7 @@
     "operations/replenishment/batch-20261122-051903.json": "50367beaba42b6a449da31d2eb642d23aa2abaad",
     "operations/replenishment/verification-20261023-chtte-and-reserve.json": "6cf8df789efecefca188c2c8c7b14b04ce60e727",
     "operations/replenishment/first-deficit-followup.json": "0562ad52c5f2dd152bc77e3e515ecc1cd005461d",
-    "operations/replenishment/chtte-p3-route.json": "9e1a8b0a8d4a4c9f0e6d5a8f5f0e8a0b"
+    "operations/replenishment/chtte-p3-route.json": "ebceb43c54ede761faaf8b89bd9f852d31f685d2"
   },
   "verify": {
     "workflow": "Verify Supabase Data",
@@ -1520,5 +1520,6 @@
     "publication_history_or_dedup_reset": false,
     "manual_publish": false,
     "api_keys_requested": false
-  }
+  },
+  "audit_metadata_correction": "Corrected the Chtte route source blob SHA after re-reading the exact main file; no operational data changed."
 }
