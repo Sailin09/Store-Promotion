@@ -9,8 +9,21 @@ async function main() {
   fs.mkdirSync(out,{recursive:true});
   const latest = fs.readdirSync(base).filter(f=>/^cloud-run-\d+-\d+\.json$/.test(f)).sort().pop();
   const record = JSON.parse(fs.readFileSync(path.join(base,latest)));
-  const plan = record.verification?.replenishment_plan;
-  if (!Array.isArray(plan) || Date.now()-Date.parse(record.observed_at)>86400000) throw Error('fresh_plan_required');
+  const plan = record.replenishment_plan ?? record.verification?.replenishment_plan;
+  const capturedAt = Date.parse(record.plan_emitted_at ?? record.observed_at);
+  const age = Date.now() - capturedAt;
+  if (!Array.isArray(plan) || !Number.isFinite(age) || age < 0 || age > 86400000) throw Error('fresh_plan_required');
+  const retryAt = record.etsy_access?.retry_not_before ?? record.retry_not_before;
+  if (retryAt != null) {
+    const cutoff = Date.parse(retryAt);
+    if (!Number.isFinite(cutoff)) throw Error('invalid_retry_not_before');
+    if (Date.now() < cutoff) {
+      const report = [{status:'cooldown',retry_not_before:retryAt}];
+      fs.writeFileSync(path.join(out,'report.json'), JSON.stringify(report,null,2));
+      console.log(JSON.stringify(report));
+      return;
+    }
+  }
   const known = new Set(plan.flatMap(r=>r.known_listing_ids.map(String)));
   const browser = await chromium.launch({channel:'chrome',headless:true});
   const page = await browser.newPage();
